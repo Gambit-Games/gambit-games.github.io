@@ -1,0 +1,49 @@
+\hypertarget{class_d6_engine_1_1_test_component}{}\doxysection{D6\+Engine\+::Test\+Component Class Reference}
+\label{class_d6_engine_1_1_test_component}\index{D6Engine::TestComponent@{D6Engine::TestComponent}}
+Inheritance diagram for D6\+Engine\+::Test\+Component\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_d6_engine_1_1_test_component}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_d6_engine_1_1_test_component_a116017e1abed73004baa066d93548837}\label{class_d6_engine_1_1_test_component_a116017e1abed73004baa066d93548837}} 
+void \mbox{\hyperlink{class_d6_engine_1_1_test_component_a116017e1abed73004baa066d93548837}{Awake}} () override
+\begin{DoxyCompactList}\small\item\em Awake is called when the script instance is being loaded. Awake is called either when an active \mbox{\hyperlink{class_d6_engine_1_1_game_object}{Game\+Object}} that contains the script is initialized when a Scene loads, or when a previously inactive \mbox{\hyperlink{class_d6_engine_1_1_game_object}{Game\+Object}} is set to active, or after a \mbox{\hyperlink{class_d6_engine_1_1_game_object}{Game\+Object}} created with Instantiate() is initialized. Use Awake to initialize variables or states before the application starts. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_d6_engine_1_1_test_component_a4b798252d6fab555b70d0e688323498b}{Start}} () override
+\begin{DoxyCompactList}\small\item\em Start is called on the frame when a script is enabled just before any of the Update methods are called the first time. Like the Awake function, Start is called exactly once in the lifetime of the script. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_d6_engine_1_1_test_component_a035c807dc2f004d6afea7f217d9cfb2d}\label{class_d6_engine_1_1_test_component_a035c807dc2f004d6afea7f217d9cfb2d}} 
+void \mbox{\hyperlink{class_d6_engine_1_1_test_component_a035c807dc2f004d6afea7f217d9cfb2d}{Update}} () override
+\begin{DoxyCompactList}\small\item\em Update is called every frame, if the \mbox{\hyperlink{class_d6_engine_1_1_mono_behaviour}{Mono\+Behaviour}} is enabled. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_d6_engine_1_1_test_component_a20ec80d1edb8790a4fd6bf19679b2715}\label{class_d6_engine_1_1_test_component_a20ec80d1edb8790a4fd6bf19679b2715}} 
+void \mbox{\hyperlink{class_d6_engine_1_1_test_component_a20ec80d1edb8790a4fd6bf19679b2715}{Fixed\+Update}} () override
+\begin{DoxyCompactList}\small\item\em Frame-\/rate independent message for physics calculations. CURRENTLY UNIMPLEMENTED. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_d6_engine_1_1_test_component_abef3d49588afd3bd520804ad76bfef4c}\label{class_d6_engine_1_1_test_component_abef3d49588afd3bd520804ad76bfef4c}} 
+void \mbox{\hyperlink{class_d6_engine_1_1_test_component_abef3d49588afd3bd520804ad76bfef4c}{Late\+Update}} () override
+\begin{DoxyCompactList}\small\item\em Late\+Update is called every frame, if the Behaviour is enabled. Late\+Update is called after all Update functions have. This is useful to order script execution. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_d6_engine_1_1_test_component_a4b798252d6fab555b70d0e688323498b}\label{class_d6_engine_1_1_test_component_a4b798252d6fab555b70d0e688323498b}} 
+\index{D6Engine::TestComponent@{D6Engine::TestComponent}!Start@{Start}}
+\index{Start@{Start}!D6Engine::TestComponent@{D6Engine::TestComponent}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void D6\+Engine\+::\+Test\+Component\+::\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Start is called on the frame when a script is enabled just before any of the Update methods are called the first time. Like the Awake function, Start is called exactly once in the lifetime of the script. 
+
+Start may not be called on the same frame as Awake if the script is not enabled at initialisation time. 
+
+Reimplemented from \mbox{\hyperlink{class_d6_engine_1_1_component_a0e5e5d28c5449ba17985deb2cff7ab14}{D6\+Engine\+::\+Component}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/gameobject/components/Test\+Component.\+h\item 
+src/gameobject/components/Test\+Component.\+cpp\end{DoxyCompactItemize}

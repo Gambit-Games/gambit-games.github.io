@@ -1,0 +1,53 @@
+\hypertarget{class_d6_engine_1_1_time}{}\doxysection{D6\+Engine\+::Time Class Reference}
+\label{class_d6_engine_1_1_time}\index{D6Engine::Time@{D6Engine::Time}}
+
+
+Provides an interface to get time information from SDL\textquotesingle{}s high performance counter.  
+
+
+
+
+{\ttfamily \#include $<$Time.\+h$>$}
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_d6_engine_1_1_time_a591dbbb3ca0ae7e648e4d580b5ff21e1}\label{class_d6_engine_1_1_time_a591dbbb3ca0ae7e648e4d580b5ff21e1}} 
+static void \mbox{\hyperlink{class_d6_engine_1_1_time_a591dbbb3ca0ae7e648e4d580b5ff21e1}{Compute\+Time}} ()
+\begin{DoxyCompactList}\small\item\em Internal engine function to compute frame timing. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_d6_engine_1_1_time_abc0c9c68b0e36f32a0f8f6baaab2aed0}\label{class_d6_engine_1_1_time_abc0c9c68b0e36f32a0f8f6baaab2aed0}} 
+static const float \& \mbox{\hyperlink{class_d6_engine_1_1_time_abc0c9c68b0e36f32a0f8f6baaab2aed0}{time}} = m\+\_\+time
+\begin{DoxyCompactList}\small\item\em Elapsed time in seconds since the initialisation of the first scene. (Read-\/\+Only) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_d6_engine_1_1_time_a0974aedbc30ab6ad84635f3a418c1398}\label{class_d6_engine_1_1_time_a0974aedbc30ab6ad84635f3a418c1398}} 
+static const float \& \mbox{\hyperlink{class_d6_engine_1_1_time_a0974aedbc30ab6ad84635f3a418c1398}{delta\+Time}} = m\+\_\+delta\+Time
+\begin{DoxyCompactList}\small\item\em Elapsed time in seconds since the last frame update. (Read-\/\+Only) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_d6_engine_1_1_time_a11085b3ee2d67b749e4924d7976ba2cb}\label{class_d6_engine_1_1_time_a11085b3ee2d67b749e4924d7976ba2cb}} 
+static const float \& \mbox{\hyperlink{class_d6_engine_1_1_time_a11085b3ee2d67b749e4924d7976ba2cb}{fixed\+Time}} = m\+\_\+fixed\+Time
+\begin{DoxyCompactList}\small\item\em Elapsed time incremented based on Fixed\+Update. (Read-\/\+Only) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_d6_engine_1_1_time_a272fe304a10714f6174dc7ab847c3cf9}\label{class_d6_engine_1_1_time_a272fe304a10714f6174dc7ab847c3cf9}} 
+static float \mbox{\hyperlink{class_d6_engine_1_1_time_a272fe304a10714f6174dc7ab847c3cf9}{maximum\+Delta\+Time}} = 0
+\begin{DoxyCompactList}\small\item\em The maximum value of \mbox{\hyperlink{class_d6_engine_1_1_time_a0974aedbc30ab6ad84635f3a418c1398}{Time.\+delta\+Time}} in any given frame. This is a time in seconds that limits the increase of \mbox{\hyperlink{class_d6_engine_1_1_time_abc0c9c68b0e36f32a0f8f6baaab2aed0}{Time\+::time}} between two frames. Defaults to \textquotesingle{}0\textquotesingle{} for uncapped delta\+Time values. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_d6_engine_1_1_time_a25dec88d57edd6537a21d87eb61e3bc1}\label{class_d6_engine_1_1_time_a25dec88d57edd6537a21d87eb61e3bc1}} 
+static float \mbox{\hyperlink{class_d6_engine_1_1_time_a25dec88d57edd6537a21d87eb61e3bc1}{fixed\+Delta\+Time}} = 1.\+0f / 50
+\begin{DoxyCompactList}\small\item\em The interval in seconds at which physics and other fixed frame rate updates such as Fixed\+Update() are performed. Defaults to 0.\+02s (50hz). \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_d6_engine_1_1_time_a34b4e63756af87bd78c8eb8198c64cac}\label{class_d6_engine_1_1_time_a34b4e63756af87bd78c8eb8198c64cac}} 
+static int \mbox{\hyperlink{class_d6_engine_1_1_time_a34b4e63756af87bd78c8eb8198c64cac}{fixed\+Step\+Count}} = 0
+\begin{DoxyCompactList}\small\item\em Internal engine value used to queue multiple fixed steps depending on actual delta time. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_d6_engine_1_1_time_a3e1914489e4bed4f9f23cdeab34a43dc}\label{class_d6_engine_1_1_time_a3e1914489e4bed4f9f23cdeab34a43dc}} 
+class {\bfseries Engine}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Provides an interface to get time information from SDL\textquotesingle{}s high performance counter. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/time/Time.\+h\item 
+src/time/Time.\+cpp\end{DoxyCompactItemize}

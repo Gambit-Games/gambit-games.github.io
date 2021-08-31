@@ -1,0 +1,78 @@
+\hypertarget{class_d6_engine_1_1_component}{}\doxysection{D6\+Engine\+::Component Class Reference}
+\label{class_d6_engine_1_1_component}\index{D6Engine::Component@{D6Engine::Component}}
+Inheritance diagram for D6\+Engine\+::Component\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_d6_engine_1_1_component}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_d6_engine_1_1_component_aba40581033e66b211b4a9f6261be653f}\label{class_d6_engine_1_1_component_aba40581033e66b211b4a9f6261be653f}} 
+virtual void \mbox{\hyperlink{class_d6_engine_1_1_component_aba40581033e66b211b4a9f6261be653f}{Awake}} ()
+\begin{DoxyCompactList}\small\item\em Awake is called when the script instance is being loaded. Awake is called either when an active \mbox{\hyperlink{class_d6_engine_1_1_game_object}{Game\+Object}} that contains the script is initialized when a Scene loads, or when a previously inactive \mbox{\hyperlink{class_d6_engine_1_1_game_object}{Game\+Object}} is set to active, or after a \mbox{\hyperlink{class_d6_engine_1_1_game_object}{Game\+Object}} created with Instantiate() is initialized. Use Awake to initialize variables or states before the application starts. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_d6_engine_1_1_component_a0e5e5d28c5449ba17985deb2cff7ab14}{Start}} ()
+\begin{DoxyCompactList}\small\item\em Start is called on the frame when a script is enabled just before any of the Update methods are called the first time. Like the Awake function, Start is called exactly once in the lifetime of the script. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_d6_engine_1_1_component_ab8b4c2120859513fead0c5357fb4cb75}\label{class_d6_engine_1_1_component_ab8b4c2120859513fead0c5357fb4cb75}} 
+virtual void \mbox{\hyperlink{class_d6_engine_1_1_component_ab8b4c2120859513fead0c5357fb4cb75}{Update}} ()
+\begin{DoxyCompactList}\small\item\em Update is called every frame, if the \mbox{\hyperlink{class_d6_engine_1_1_mono_behaviour}{Mono\+Behaviour}} is enabled. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_d6_engine_1_1_component_aae168445f7cbe9a8169afcb9e2611786}\label{class_d6_engine_1_1_component_aae168445f7cbe9a8169afcb9e2611786}} 
+virtual void \mbox{\hyperlink{class_d6_engine_1_1_component_aae168445f7cbe9a8169afcb9e2611786}{Fixed\+Update}} ()
+\begin{DoxyCompactList}\small\item\em Frame-\/rate independent message for physics calculations. CURRENTLY UNIMPLEMENTED. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_d6_engine_1_1_component_a8f8c61c2424be8d2bf857f9b21646c72}\label{class_d6_engine_1_1_component_a8f8c61c2424be8d2bf857f9b21646c72}} 
+virtual void \mbox{\hyperlink{class_d6_engine_1_1_component_a8f8c61c2424be8d2bf857f9b21646c72}{Late\+Update}} ()
+\begin{DoxyCompactList}\small\item\em Late\+Update is called every frame, if the Behaviour is enabled. Late\+Update is called after all Update functions have. This is useful to order script execution. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_d6_engine_1_1_game_object}{Game\+Object}} \& \mbox{\hyperlink{class_d6_engine_1_1_component_aa714123e795c31a8476384549c8031c9}{Get\+Game\+Object}} () const
+\begin{DoxyCompactList}\small\item\em Gets the \mbox{\hyperlink{class_d6_engine_1_1_game_object}{Game\+Object}} this component is attached to. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_d6_engine_1_1_component_a8ba93d270ad608aef5e45ac527db2a69}\label{class_d6_engine_1_1_component_a8ba93d270ad608aef5e45ac527db2a69}} 
+void \mbox{\hyperlink{class_d6_engine_1_1_component_a8ba93d270ad608aef5e45ac527db2a69}{Set\+Game\+Object}} (\mbox{\hyperlink{class_d6_engine_1_1_game_object}{Game\+Object}} $\ast$target)
+\begin{DoxyCompactList}\small\item\em Used by the \mbox{\hyperlink{class_d6_engine_1_1_game_object}{Game\+Object}} to bind the result of Get\+Game\+Object. Do not use this for other use cases as it can screw with object behavior. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_d6_engine_1_1_component_a74823ac16d4a6b44a0677f37a152698a}\label{class_d6_engine_1_1_component_a74823ac16d4a6b44a0677f37a152698a}} 
+{\bfseries Component} (const \mbox{\hyperlink{class_d6_engine_1_1_component}{Component}} \&other)=default
+\item 
+\mbox{\Hypertarget{class_d6_engine_1_1_component_ab2da461a21c10e60a482ca711d677726}\label{class_d6_engine_1_1_component_ab2da461a21c10e60a482ca711d677726}} 
+{\bfseries Component} (\mbox{\hyperlink{class_d6_engine_1_1_component}{Component}} \&\&other) noexcept=delete
+\item 
+\mbox{\Hypertarget{class_d6_engine_1_1_component_a246c08a97dbeab773ce28f718272302b}\label{class_d6_engine_1_1_component_a246c08a97dbeab773ce28f718272302b}} 
+\mbox{\hyperlink{class_d6_engine_1_1_component}{Component}} \& {\bfseries operator=} (const \mbox{\hyperlink{class_d6_engine_1_1_component}{Component}} \&other)=default
+\item 
+\mbox{\Hypertarget{class_d6_engine_1_1_component_a167c5d5c30f7b93707355daa38f6241b}\label{class_d6_engine_1_1_component_a167c5d5c30f7b93707355daa38f6241b}} 
+\mbox{\hyperlink{class_d6_engine_1_1_component}{Component}} \& {\bfseries operator=} (\mbox{\hyperlink{class_d6_engine_1_1_component}{Component}} \&\&other) noexcept=delete
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_d6_engine_1_1_component_aa714123e795c31a8476384549c8031c9}\label{class_d6_engine_1_1_component_aa714123e795c31a8476384549c8031c9}} 
+\index{D6Engine::Component@{D6Engine::Component}!GetGameObject@{GetGameObject}}
+\index{GetGameObject@{GetGameObject}!D6Engine::Component@{D6Engine::Component}}
+\doxysubsubsection{\texorpdfstring{GetGameObject()}{GetGameObject()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_d6_engine_1_1_game_object}{Game\+Object}} \& D6\+Engine\+::\+Component\+::\+Get\+Game\+Object (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the \mbox{\hyperlink{class_d6_engine_1_1_game_object}{Game\+Object}} this component is attached to. 
+
+\begin{DoxyReturn}{Returns}
+Reference to the \mbox{\hyperlink{class_d6_engine_1_1_game_object}{Game\+Object}} hosting this component. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_d6_engine_1_1_component_a0e5e5d28c5449ba17985deb2cff7ab14}\label{class_d6_engine_1_1_component_a0e5e5d28c5449ba17985deb2cff7ab14}} 
+\index{D6Engine::Component@{D6Engine::Component}!Start@{Start}}
+\index{Start@{Start}!D6Engine::Component@{D6Engine::Component}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily virtual void D6\+Engine\+::\+Component\+::\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Start is called on the frame when a script is enabled just before any of the Update methods are called the first time. Like the Awake function, Start is called exactly once in the lifetime of the script. 
+
+Start may not be called on the same frame as Awake if the script is not enabled at initialisation time. 
+
+Reimplemented in \mbox{\hyperlink{class_d6_engine_1_1_test_component_a4b798252d6fab555b70d0e688323498b}{D6\+Engine\+::\+Test\+Component}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/gameobject/Component.\+h\item 
+src/gameobject/Component.\+cpp\end{DoxyCompactItemize}

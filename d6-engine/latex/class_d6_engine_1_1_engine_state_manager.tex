@@ -1,0 +1,73 @@
+\hypertarget{class_d6_engine_1_1_engine_state_manager}{}\doxysection{D6\+Engine\+::Engine\+State\+Manager Class Reference}
+\label{class_d6_engine_1_1_engine_state_manager}\index{D6Engine::EngineStateManager@{D6Engine::EngineStateManager}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_d6_engine_1_1_engine_state_manager_a32ff685a3d821be3c27bebc798f9fa23}{Init}} (\mbox{\hyperlink{class_d6_engine_1_1_i_state}{IState}} $\ast$state)
+\begin{DoxyCompactList}\small\item\em Initialises the state manager with a default state. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_d6_engine_1_1_engine_state_manager_a700245c5992d717063ccce6ade6cf194}{Cycle}} ()
+\begin{DoxyCompactList}\small\item\em Checks at the end of a loop if a state change or restart is queued and performs a state change if required. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_d6_engine_1_1_engine_state_manager_ad8190765615cceba40408fc44835ff70}\label{class_d6_engine_1_1_engine_state_manager_ad8190765615cceba40408fc44835ff70}} 
+void {\bfseries Change\+State} (\mbox{\hyperlink{class_d6_engine_1_1_i_state}{IState}} $\ast$state)
+\item 
+\mbox{\Hypertarget{class_d6_engine_1_1_engine_state_manager_a8fd49e4c0b7100e41bab12e8cd681f7f}\label{class_d6_engine_1_1_engine_state_manager_a8fd49e4c0b7100e41bab12e8cd681f7f}} 
+void {\bfseries Restart\+State} ()
+\item 
+\mbox{\Hypertarget{class_d6_engine_1_1_engine_state_manager_a7a81e548434bbc4fdd939fc26dc296ac}\label{class_d6_engine_1_1_engine_state_manager_a7a81e548434bbc4fdd939fc26dc296ac}} 
+void {\bfseries Cleanup} () const
+\item 
+\mbox{\Hypertarget{class_d6_engine_1_1_engine_state_manager_a0ced653e9812e77138b4cd3eda5beecf}\label{class_d6_engine_1_1_engine_state_manager_a0ced653e9812e77138b4cd3eda5beecf}} 
+{\bfseries Engine\+State\+Manager} (const \mbox{\hyperlink{class_d6_engine_1_1_engine_state_manager}{Engine\+State\+Manager}} \&other)=delete
+\item 
+\mbox{\Hypertarget{class_d6_engine_1_1_engine_state_manager_afe3c98a2aee03dd4672bbc1835a0eb57}\label{class_d6_engine_1_1_engine_state_manager_afe3c98a2aee03dd4672bbc1835a0eb57}} 
+{\bfseries Engine\+State\+Manager} (\mbox{\hyperlink{class_d6_engine_1_1_engine_state_manager}{Engine\+State\+Manager}} \&\&other)=delete
+\item 
+\mbox{\Hypertarget{class_d6_engine_1_1_engine_state_manager_abb8414f5371e294790d104189539fced}\label{class_d6_engine_1_1_engine_state_manager_abb8414f5371e294790d104189539fced}} 
+\mbox{\hyperlink{class_d6_engine_1_1_engine_state_manager}{Engine\+State\+Manager}} \& {\bfseries operator=} (const \mbox{\hyperlink{class_d6_engine_1_1_engine_state_manager}{Engine\+State\+Manager}} \&other)=delete
+\item 
+\mbox{\Hypertarget{class_d6_engine_1_1_engine_state_manager_a8d33f223cb4f1ca070b310a6627729d2}\label{class_d6_engine_1_1_engine_state_manager_a8d33f223cb4f1ca070b310a6627729d2}} 
+\mbox{\hyperlink{class_d6_engine_1_1_engine_state_manager}{Engine\+State\+Manager}} \& {\bfseries operator=} (\mbox{\hyperlink{class_d6_engine_1_1_engine_state_manager}{Engine\+State\+Manager}} \&\&other)=delete
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_d6_engine_1_1_engine_state_manager_aa86f5f68231c160a5cf2139332c57a36}\label{class_d6_engine_1_1_engine_state_manager_aa86f5f68231c160a5cf2139332c57a36}} 
+static \mbox{\hyperlink{class_d6_engine_1_1_i_state}{IState}} $\ast$ {\bfseries Get\+Current\+State} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_d6_engine_1_1_engine_state_manager_a700245c5992d717063ccce6ade6cf194}\label{class_d6_engine_1_1_engine_state_manager_a700245c5992d717063ccce6ade6cf194}} 
+\index{D6Engine::EngineStateManager@{D6Engine::EngineStateManager}!Cycle@{Cycle}}
+\index{Cycle@{Cycle}!D6Engine::EngineStateManager@{D6Engine::EngineStateManager}}
+\doxysubsubsection{\texorpdfstring{Cycle()}{Cycle()}}
+{\footnotesize\ttfamily bool D6\+Engine\+::\+Engine\+State\+Manager\+::\+Cycle (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Checks at the end of a loop if a state change or restart is queued and performs a state change if required. 
+
+\begin{DoxyReturn}{Returns}
+true if the game should continue running, false otherwise. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_d6_engine_1_1_engine_state_manager_a32ff685a3d821be3c27bebc798f9fa23}\label{class_d6_engine_1_1_engine_state_manager_a32ff685a3d821be3c27bebc798f9fa23}} 
+\index{D6Engine::EngineStateManager@{D6Engine::EngineStateManager}!Init@{Init}}
+\index{Init@{Init}!D6Engine::EngineStateManager@{D6Engine::EngineStateManager}}
+\doxysubsubsection{\texorpdfstring{Init()}{Init()}}
+{\footnotesize\ttfamily void D6\+Engine\+::\+Engine\+State\+Manager\+::\+Init (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_d6_engine_1_1_i_state}{IState}} $\ast$}]{state }\end{DoxyParamCaption})}
+
+
+
+Initialises the state manager with a default state. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em state} & -\/ Pointer to the initial state. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/state/Engine\+State\+Manager.\+h\item 
+src/state/Engine\+State\+Manager.\+cpp\end{DoxyCompactItemize}
