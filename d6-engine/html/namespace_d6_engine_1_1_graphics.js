@@ -6,6 +6,7 @@ var namespace_d6_engine_1_1_graphics =
     [ "OGLIndexBuffer", "class_d6_engine_1_1_graphics_1_1_o_g_l_index_buffer.html", null ],
     [ "OGLVertexArray", "class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html", "class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array" ],
     [ "OGLVertexBuffer", "class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_buffer.html", null ],
+    [ "Renderer", "class_d6_engine_1_1_graphics_1_1_renderer.html", null ],
     [ "Shader", "class_d6_engine_1_1_graphics_1_1_shader.html", null ],
     [ "VertexShader", "struct_d6_engine_1_1_graphics_1_1_vertex_shader.html", null ]
 ];

@@ -3,6 +3,7 @@ var namespace_d6_engine =
     [ "ECS", "namespace_d6_engine_1_1_e_c_s.html", "namespace_d6_engine_1_1_e_c_s" ],
     [ "Graphics", "namespace_d6_engine_1_1_graphics.html", "namespace_d6_engine_1_1_graphics" ],
     [ "Input", "namespace_d6_engine_1_1_input.html", "namespace_d6_engine_1_1_input" ],
+    [ "SceneManagement", "namespace_d6_engine_1_1_scene_management.html", "namespace_d6_engine_1_1_scene_management" ],
     [ "Component", "class_d6_engine_1_1_component.html", "class_d6_engine_1_1_component" ],
     [ "Engine", "class_d6_engine_1_1_engine.html", null ],
     [ "EngineStateManager", "class_d6_engine_1_1_engine_state_manager.html", "class_d6_engine_1_1_engine_state_manager" ],

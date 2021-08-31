@@ -27,12 +27,14 @@ var hierarchy =
     ] ],
     [ "D6Engine::Graphics::OGLContext", "class_d6_engine_1_1_graphics_1_1_o_g_l_context.html", null ],
     [ "D6Engine::Graphics::OGLVertexArray", "class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html", null ],
-    [ "Renderer", "class_renderer.html", null ],
+    [ "D6Engine::Graphics::Renderer", "class_d6_engine_1_1_graphics_1_1_renderer.html", null ],
+    [ "D6Engine::SceneManagement::Scene", "class_d6_engine_1_1_scene_management_1_1_scene.html", null ],
+    [ "D6Engine::SceneManagement::SceneManager", "class_d6_engine_1_1_scene_management_1_1_scene_manager.html", null ],
     [ "D6Engine::Graphics::Shader", "class_d6_engine_1_1_graphics_1_1_shader.html", null ],
     [ "D6Engine::ECS::System", "class_d6_engine_1_1_e_c_s_1_1_system.html", [
       [ "D6Engine::ECS::ExampleSystem", "class_d6_engine_1_1_e_c_s_1_1_example_system.html", null ]
     ] ],
-    [ "SystemManager", "class_system_manager.html", null ],
+    [ "D6Engine::ECS::SystemManager", "class_d6_engine_1_1_e_c_s_1_1_system_manager.html", null ],
     [ "D6Engine::Time", "class_d6_engine_1_1_time.html", null ],
     [ "D6Engine::Graphics::VertexShader", "struct_d6_engine_1_1_graphics_1_1_vertex_shader.html", null ]
 ];

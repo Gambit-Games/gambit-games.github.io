@@ -92,17 +92,19 @@ $(document).ready(function(){initNavTree('class_d6_engine_1_1_time.html',''); in
   <div class="summary">
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="class_d6_engine_1_1_time-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">D6Engine::Time Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Provides an interface to get time information from SDL's high performance counter.  
+ <a href="class_d6_engine_1_1_time.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_time_8h_source.html">Time.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a4f327425c83dc2513934e526ecb6e10d"><td class="memItemLeft" align="right" valign="top"><a id="a4f327425c83dc2513934e526ecb6e10d" name="a4f327425c83dc2513934e526ecb6e10d"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>Reset</b> ()</td></tr>
-<tr class="memdesc:a4f327425c83dc2513934e526ecb6e10d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal engine function to reset the application timer to 0. <br /></td></tr>
-<tr class="separator:a4f327425c83dc2513934e526ecb6e10d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a591dbbb3ca0ae7e648e4d580b5ff21e1"><td class="memItemLeft" align="right" valign="top"><a id="a591dbbb3ca0ae7e648e4d580b5ff21e1" name="a591dbbb3ca0ae7e648e4d580b5ff21e1"></a>
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>ComputeTime</b> ()</td></tr>
 <tr class="memdesc:a591dbbb3ca0ae7e648e4d580b5ff21e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal engine function to compute frame timing. <br /></td></tr>
@@ -124,7 +126,7 @@ static const float &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>f
 <tr class="separator:a11085b3ee2d67b749e4924d7976ba2cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a272fe304a10714f6174dc7ab847c3cf9"><td class="memItemLeft" align="right" valign="top"><a id="a272fe304a10714f6174dc7ab847c3cf9" name="a272fe304a10714f6174dc7ab847c3cf9"></a>
 static float&#160;</td><td class="memItemRight" valign="bottom"><b>maximumDeltaTime</b> = 0</td></tr>
-<tr class="memdesc:a272fe304a10714f6174dc7ab847c3cf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">The maximum value of <a class="el" href="class_d6_engine_1_1_time.html#a0974aedbc30ab6ad84635f3a418c1398" title="Elapsed time in seconds since the last frame update. (Read-Only)">Time.deltaTime</a> in any given frame. This is a time in seconds that limits the increase of <a class="el" href="class_d6_engine_1_1_time.html#abc0c9c68b0e36f32a0f8f6baaab2aed0" title="Elapsed time in seconds since the initialisation of the first scene. (Read-Only)">Time::time</a> between two frames. Defaults to '0' for uncapped deltaTime values. <br /></td></tr>
+<tr class="memdesc:a272fe304a10714f6174dc7ab847c3cf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">The maximum value of <a class="el" href="class_d6_engine_1_1_time.html#a0974aedbc30ab6ad84635f3a418c1398" title="Elapsed time in seconds since the last frame update. (Read-Only)">Time::deltaTime</a> in any given frame. This is a time in seconds that limits the increase of <a class="el" href="class_d6_engine_1_1_time.html#abc0c9c68b0e36f32a0f8f6baaab2aed0" title="Elapsed time in seconds since the initialisation of the first scene. (Read-Only)">Time::time</a> between two frames. Defaults to '0' for uncapped deltaTime values. <br /></td></tr>
 <tr class="separator:a272fe304a10714f6174dc7ab847c3cf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25dec88d57edd6537a21d87eb61e3bc1"><td class="memItemLeft" align="right" valign="top"><a id="a25dec88d57edd6537a21d87eb61e3bc1" name="a25dec88d57edd6537a21d87eb61e3bc1"></a>
 static float&#160;</td><td class="memItemRight" valign="bottom"><b>fixedDeltaTime</b> = 1.0f / 50</td></tr>
@@ -134,8 +136,16 @@ static float&#160;</td><td class="memItemRight" valign="bottom"><b>fixedDeltaTim
 static int&#160;</td><td class="memItemRight" valign="bottom"><b>fixedStepCount</b> = 0</td></tr>
 <tr class="memdesc:a34b4e63756af87bd78c8eb8198c64cac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal engine value used to queue multiple fixed steps depending on actual delta time. <br /></td></tr>
 <tr class="separator:a34b4e63756af87bd78c8eb8198c64cac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a3e1914489e4bed4f9f23cdeab34a43dc"><td class="memItemLeft" align="right" valign="top"><a id="a3e1914489e4bed4f9f23cdeab34a43dc" name="a3e1914489e4bed4f9f23cdeab34a43dc"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>Engine</b></td></tr>
+<tr class="separator:a3e1914489e4bed4f9f23cdeab34a43dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<hr/>The documentation for this class was generated from the following files:<ul>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >Provides an interface to get time information from SDL's high performance counter. </p>
+</div><hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/time/<a class="el" href="_time_8h_source.html">Time.h</a></li>
 <li>src/time/Time.cpp</li>
 </ul>
