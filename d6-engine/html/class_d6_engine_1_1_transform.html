@@ -102,15 +102,39 @@ Inheritance diagram for D6Engine::Transform:</div>
  <div class="center">
   <img src="class_d6_engine_1_1_transform.png" usemap="#D6Engine::Transform_map" alt=""/>
   <map id="D6Engine::Transform_map" name="D6Engine::Transform_map">
-<area href="class_d6_engine_1_1_component.html" alt="D6Engine::Component" shape="rect" coords="0,0,136,24"/>
+<area href="class_d6_engine_1_1_component.html" title="Base component class for all GameObject components." alt="D6Engine::Component" shape="rect" coords="0,0,136,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7ee8fea9a50e9c0c3932fe50da6dcad4"><td class="memItemLeft" align="right" valign="top"><a id="a7ee8fea9a50e9c0c3932fe50da6dcad4" name="a7ee8fea9a50e9c0c3932fe50da6dcad4"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Transform</b> (glm::vec2 position={0, 0})</td></tr>
-<tr class="separator:a7ee8fea9a50e9c0c3932fe50da6dcad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78335b215d40ddeacad2c691c44e29f5"><td class="memItemLeft" align="right" valign="top"><a id="a78335b215d40ddeacad2c691c44e29f5" name="a78335b215d40ddeacad2c691c44e29f5"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Transform</b> (glm::vec2 pos={ 0, 0 })</td></tr>
+<tr class="separator:a78335b215d40ddeacad2c691c44e29f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bd6288c10cbb76e9aefeb856089a545"><td class="memItemLeft" align="right" valign="top"><a id="a1bd6288c10cbb76e9aefeb856089a545" name="a1bd6288c10cbb76e9aefeb856089a545"></a>
+glm::mat3&#160;</td><td class="memItemRight" valign="bottom"><b>getScaleMatrix</b> ()</td></tr>
+<tr class="memdesc:a1bd6288c10cbb76e9aefeb856089a545"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function returns a 3x3 Scale matrix. <br /></td></tr>
+<tr class="separator:a1bd6288c10cbb76e9aefeb856089a545"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a526f8647b670a673e7b635d8677a210a"><td class="memItemLeft" align="right" valign="top"><a id="a526f8647b670a673e7b635d8677a210a" name="a526f8647b670a673e7b635d8677a210a"></a>
+glm::mat3&#160;</td><td class="memItemRight" valign="bottom"><b>getTranslateMatrix</b> ()</td></tr>
+<tr class="memdesc:a526f8647b670a673e7b635d8677a210a"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function returns a 3x3 Translation matrix. <br /></td></tr>
+<tr class="separator:a526f8647b670a673e7b635d8677a210a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a548fdc64a28d73ca8393a4499c437b7c"><td class="memItemLeft" align="right" valign="top"><a id="a548fdc64a28d73ca8393a4499c437b7c" name="a548fdc64a28d73ca8393a4499c437b7c"></a>
+glm::mat3&#160;</td><td class="memItemRight" valign="bottom"><b>getRotationMatrix</b> ()</td></tr>
+<tr class="memdesc:a548fdc64a28d73ca8393a4499c437b7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function returns a 3x3 Rotation matrix. <br /></td></tr>
+<tr class="separator:a548fdc64a28d73ca8393a4499c437b7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84738bba72d8f7d961258b34050e442a"><td class="memItemLeft" align="right" valign="top"><a id="a84738bba72d8f7d961258b34050e442a" name="a84738bba72d8f7d961258b34050e442a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>updateScaleMtx</b> ()</td></tr>
+<tr class="memdesc:a84738bba72d8f7d961258b34050e442a"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function must be called whenever there is an update to Objects Scale. <br /></td></tr>
+<tr class="separator:a84738bba72d8f7d961258b34050e442a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d7495ef241aa5cef73717ac629101f8"><td class="memItemLeft" align="right" valign="top"><a id="a3d7495ef241aa5cef73717ac629101f8" name="a3d7495ef241aa5cef73717ac629101f8"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>updateTranslationMtx</b> ()</td></tr>
+<tr class="memdesc:a3d7495ef241aa5cef73717ac629101f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function must be called whenever there is an update to Objects Position. <br /></td></tr>
+<tr class="separator:a3d7495ef241aa5cef73717ac629101f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35e8c112c1c507d4ae70a32a8f339d7b"><td class="memItemLeft" align="right" valign="top"><a id="a35e8c112c1c507d4ae70a32a8f339d7b" name="a35e8c112c1c507d4ae70a32a8f339d7b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>updateRotationMtx</b> ()</td></tr>
+<tr class="memdesc:a35e8c112c1c507d4ae70a32a8f339d7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function must be called whenever there is an update to Objects Rotation/ Angle. <br /></td></tr>
+<tr class="separator:a35e8c112c1c507d4ae70a32a8f339d7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_d6_engine_1_1_component"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_d6_engine_1_1_component')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_d6_engine_1_1_component.html">D6Engine::Component</a></td></tr>
 <tr class="memitem:aba40581033e66b211b4a9f6261be653f inherit pub_methods_class_d6_engine_1_1_component"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_component.html#aba40581033e66b211b4a9f6261be653f">Awake</a> ()</td></tr>
 <tr class="memdesc:aba40581033e66b211b4a9f6261be653f inherit pub_methods_class_d6_engine_1_1_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Awake is called when the script instance is being loaded. Awake is called either when an active <a class="el" href="class_d6_engine_1_1_game_object.html">GameObject</a> that contains the script is initialized when a Scene loads, or when a previously inactive <a class="el" href="class_d6_engine_1_1_game_object.html">GameObject</a> is set to active, or after a <a class="el" href="class_d6_engine_1_1_game_object.html">GameObject</a> created with Instantiate() is initialized. Use Awake to initialize variables or states before the application starts.  <a href="class_d6_engine_1_1_component.html#aba40581033e66b211b4a9f6261be653f">More...</a><br /></td></tr>
@@ -119,7 +143,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a0e5e5d28c5449ba17985deb2cff7ab14 inherit pub_methods_class_d6_engine_1_1_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start is called on the frame when a script is enabled just before any of the Update methods are called the first time. Like the Awake function, Start is called exactly once in the lifetime of the script.  <a href="class_d6_engine_1_1_component.html#a0e5e5d28c5449ba17985deb2cff7ab14">More...</a><br /></td></tr>
 <tr class="separator:a0e5e5d28c5449ba17985deb2cff7ab14 inherit pub_methods_class_d6_engine_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8b4c2120859513fead0c5357fb4cb75 inherit pub_methods_class_d6_engine_1_1_component"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_component.html#ab8b4c2120859513fead0c5357fb4cb75">Update</a> ()</td></tr>
-<tr class="memdesc:ab8b4c2120859513fead0c5357fb4cb75 inherit pub_methods_class_d6_engine_1_1_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update is called every frame, if the <a class="el" href="class_d6_engine_1_1_mono_behaviour.html">MonoBehaviour</a> is enabled.  <a href="class_d6_engine_1_1_component.html#ab8b4c2120859513fead0c5357fb4cb75">More...</a><br /></td></tr>
+<tr class="memdesc:ab8b4c2120859513fead0c5357fb4cb75 inherit pub_methods_class_d6_engine_1_1_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update is called every frame, if the <a class="el" href="class_d6_engine_1_1_mono_behaviour.html" title="MonoBehaviour is the base class for components which can be enabled and disabled. Every high-level sc...">MonoBehaviour</a> is enabled.  <a href="class_d6_engine_1_1_component.html#ab8b4c2120859513fead0c5357fb4cb75">More...</a><br /></td></tr>
 <tr class="separator:ab8b4c2120859513fead0c5357fb4cb75 inherit pub_methods_class_d6_engine_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae168445f7cbe9a8169afcb9e2611786 inherit pub_methods_class_d6_engine_1_1_component"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_component.html#aae168445f7cbe9a8169afcb9e2611786">FixedUpdate</a> ()</td></tr>
 <tr class="memdesc:aae168445f7cbe9a8169afcb9e2611786 inherit pub_methods_class_d6_engine_1_1_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frame-rate independent message for physics calculations. CURRENTLY UNIMPLEMENTED.  <a href="class_d6_engine_1_1_component.html#aae168445f7cbe9a8169afcb9e2611786">More...</a><br /></td></tr>
@@ -137,24 +161,27 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>SetGameObject</b> (<a
 <tr class="memitem:a74823ac16d4a6b44a0677f37a152698a inherit pub_methods_class_d6_engine_1_1_component"><td class="memItemLeft" align="right" valign="top"><a id="a74823ac16d4a6b44a0677f37a152698a" name="a74823ac16d4a6b44a0677f37a152698a"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Component</b> (const <a class="el" href="class_d6_engine_1_1_component.html">Component</a> &amp;other)=default</td></tr>
 <tr class="separator:a74823ac16d4a6b44a0677f37a152698a inherit pub_methods_class_d6_engine_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2da461a21c10e60a482ca711d677726 inherit pub_methods_class_d6_engine_1_1_component"><td class="memItemLeft" align="right" valign="top"><a id="ab2da461a21c10e60a482ca711d677726" name="ab2da461a21c10e60a482ca711d677726"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Component</b> (<a class="el" href="class_d6_engine_1_1_component.html">Component</a> &amp;&amp;other) noexcept=delete</td></tr>
-<tr class="separator:ab2da461a21c10e60a482ca711d677726 inherit pub_methods_class_d6_engine_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd72bf30f94536e0e89f2c6a34fc85e6 inherit pub_methods_class_d6_engine_1_1_component"><td class="memItemLeft" align="right" valign="top"><a id="abd72bf30f94536e0e89f2c6a34fc85e6" name="abd72bf30f94536e0e89f2c6a34fc85e6"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Component</b> (<a class="el" href="class_d6_engine_1_1_component.html">Component</a> &amp;&amp;other) noexcept=default</td></tr>
+<tr class="separator:abd72bf30f94536e0e89f2c6a34fc85e6 inherit pub_methods_class_d6_engine_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59183a2b211287d614abed79db7c891e inherit pub_methods_class_d6_engine_1_1_component"><td class="memItemLeft" align="right" valign="top"><a id="a59183a2b211287d614abed79db7c891e" name="a59183a2b211287d614abed79db7c891e"></a>
 <a class="el" href="class_d6_engine_1_1_component.html">Component</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="class_d6_engine_1_1_component.html">Component</a> &amp;other)=default</td></tr>
 <tr class="separator:a59183a2b211287d614abed79db7c891e inherit pub_methods_class_d6_engine_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa24a7596d24024d94967af07ccb25cb inherit pub_methods_class_d6_engine_1_1_component"><td class="memItemLeft" align="right" valign="top"><a id="aaa24a7596d24024d94967af07ccb25cb" name="aaa24a7596d24024d94967af07ccb25cb"></a>
-<a class="el" href="class_d6_engine_1_1_component.html">Component</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (<a class="el" href="class_d6_engine_1_1_component.html">Component</a> &amp;&amp;other) noexcept=delete</td></tr>
-<tr class="separator:aaa24a7596d24024d94967af07ccb25cb inherit pub_methods_class_d6_engine_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14ed5564b9605629729e4bce49c61def inherit pub_methods_class_d6_engine_1_1_component"><td class="memItemLeft" align="right" valign="top"><a id="a14ed5564b9605629729e4bce49c61def" name="a14ed5564b9605629729e4bce49c61def"></a>
+<a class="el" href="class_d6_engine_1_1_component.html">Component</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (<a class="el" href="class_d6_engine_1_1_component.html">Component</a> &amp;&amp;other) noexcept=default</td></tr>
+<tr class="separator:a14ed5564b9605629729e4bce49c61def inherit pub_methods_class_d6_engine_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a6c20c1799cbfd304d06adf58d7a16d5f"><td class="memItemLeft" align="right" valign="top"><a id="a6c20c1799cbfd304d06adf58d7a16d5f" name="a6c20c1799cbfd304d06adf58d7a16d5f"></a>
-glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><b>position</b> = {0, 0}</td></tr>
+glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><b>position</b> = { 0,0 }</td></tr>
 <tr class="separator:a6c20c1799cbfd304d06adf58d7a16d5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4eaaf34d22043c906d73b443e78c4237"><td class="memItemLeft" align="right" valign="top"><a id="a4eaaf34d22043c906d73b443e78c4237" name="a4eaaf34d22043c906d73b443e78c4237"></a>
-glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><b>localPosition</b> = {0, 0}</td></tr>
+glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><b>localPosition</b> = { 0, 0 }</td></tr>
 <tr class="separator:a4eaaf34d22043c906d73b443e78c4237"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e8b7851ae19889cd9a4a014ed05bfea"><td class="memItemLeft" align="right" valign="top"><a id="a0e8b7851ae19889cd9a4a014ed05bfea" name="a0e8b7851ae19889cd9a4a014ed05bfea"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>sortingOrder</b> = 0</td></tr>
+<tr class="separator:a0e8b7851ae19889cd9a4a014ed05bfea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a14ec2558b897b536caaf0519a8a112"><td class="memItemLeft" align="right" valign="top"><a id="a0a14ec2558b897b536caaf0519a8a112" name="a0a14ec2558b897b536caaf0519a8a112"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>rotation</b> = 0</td></tr>
 <tr class="separator:a0a14ec2558b897b536caaf0519a8a112"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -162,11 +189,20 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>rotation</b> = 0</td
 float&#160;</td><td class="memItemRight" valign="bottom"><b>localRotation</b> = 0</td></tr>
 <tr class="separator:a095cb434edfae05a3bdb9a3d9056fa41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53662686a7e135ac1444617bb37a753f"><td class="memItemLeft" align="right" valign="top"><a id="a53662686a7e135ac1444617bb37a753f" name="a53662686a7e135ac1444617bb37a753f"></a>
-glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><b>scale</b> = {1, 1}</td></tr>
+glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><b>scale</b> = { 1, 1 }</td></tr>
 <tr class="separator:a53662686a7e135ac1444617bb37a753f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b343676ab41b240fcb9a34465783bfa"><td class="memItemLeft" align="right" valign="top"><a id="a3b343676ab41b240fcb9a34465783bfa" name="a3b343676ab41b240fcb9a34465783bfa"></a>
-glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><b>localScale</b> = {1, 1}</td></tr>
+glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><b>localScale</b> = { 1, 1 }</td></tr>
 <tr class="separator:a3b343676ab41b240fcb9a34465783bfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1de01fbdd64e37dc09106acafac42df"><td class="memItemLeft" align="right" valign="top"><a id="ac1de01fbdd64e37dc09106acafac42df" name="ac1de01fbdd64e37dc09106acafac42df"></a>
+glm::mat3&#160;</td><td class="memItemRight" valign="bottom"><b>scaleMtx</b> = glm::mat3(1.0f)</td></tr>
+<tr class="separator:ac1de01fbdd64e37dc09106acafac42df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2f1862d82ee2b2073ac843bc06ae953"><td class="memItemLeft" align="right" valign="top"><a id="ac2f1862d82ee2b2073ac843bc06ae953" name="ac2f1862d82ee2b2073ac843bc06ae953"></a>
+glm::mat3&#160;</td><td class="memItemRight" valign="bottom"><b>rotationMtx</b> = glm::mat3(1.0f)</td></tr>
+<tr class="separator:ac2f1862d82ee2b2073ac843bc06ae953"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac79be42783ec8593f57a6a3191d72d4f"><td class="memItemLeft" align="right" valign="top"><a id="ac79be42783ec8593f57a6a3191d72d4f" name="ac79be42783ec8593f57a6a3191d72d4f"></a>
+glm::mat3&#160;</td><td class="memItemRight" valign="bottom"><b>translateMtx</b> = glm::mat3(1.0f)</td></tr>
+<tr class="separator:ac79be42783ec8593f57a6a3191d72d4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62026b7346a417698bab2271cf3774bd"><td class="memItemLeft" align="right" valign="top"><a id="a62026b7346a417698bab2271cf3774bd" name="a62026b7346a417698bab2271cf3774bd"></a>
 std::shared_ptr&lt; <a class="el" href="class_d6_engine_1_1_transform.html">Transform</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>parent</b></td></tr>
 <tr class="separator:a62026b7346a417698bab2271cf3774bd"><td class="memSeparator" colspan="2">&#160;</td></tr>

@@ -14,5 +14,5 @@ var namespace_d6_engine =
     [ "MonoBehaviour", "class_d6_engine_1_1_mono_behaviour.html", null ],
     [ "TestComponent", "class_d6_engine_1_1_test_component.html", "class_d6_engine_1_1_test_component" ],
     [ "Time", "class_d6_engine_1_1_time.html", null ],
-    [ "Transform", "class_d6_engine_1_1_transform.html", null ]
+    [ "Transform", "class_d6_engine_1_1_transform.html", "class_d6_engine_1_1_transform" ]
 ];

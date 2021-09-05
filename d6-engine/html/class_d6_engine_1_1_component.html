@@ -95,13 +95,18 @@ $(document).ready(function(){initNavTree('class_d6_engine_1_1_component.html',''
   <div class="headertitle"><div class="title">D6Engine::Component Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Base component class for all <a class="el" href="class_d6_engine_1_1_game_object.html">GameObject</a> components.  
+ <a href="class_d6_engine_1_1_component.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="gameobject_2_component_8h_source.html">Component.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for D6Engine::Component:</div>
 <div class="dyncontent">
  <div class="center">
   <img src="class_d6_engine_1_1_component.png" usemap="#D6Engine::Component_map" alt=""/>
   <map id="D6Engine::Component_map" name="D6Engine::Component_map">
-<area href="class_d6_engine_1_1_mono_behaviour.html" alt="D6Engine::MonoBehaviour" shape="rect" coords="0,56,163,80"/>
+<area href="class_d6_engine_1_1_mono_behaviour.html" title="MonoBehaviour is the base class for components which can be enabled and disabled. Every high-level sc..." alt="D6Engine::MonoBehaviour" shape="rect" coords="0,56,163,80"/>
 <area href="class_d6_engine_1_1_transform.html" alt="D6Engine::Transform" shape="rect" coords="173,56,336,80"/>
 <area href="class_d6_engine_1_1_test_component.html" alt="D6Engine::TestComponent" shape="rect" coords="0,112,163,136"/>
   </map>
@@ -116,7 +121,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a0e5e5d28c5449ba17985deb2cff7ab14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start is called on the frame when a script is enabled just before any of the Update methods are called the first time. Like the Awake function, Start is called exactly once in the lifetime of the script.  <a href="class_d6_engine_1_1_component.html#a0e5e5d28c5449ba17985deb2cff7ab14">More...</a><br /></td></tr>
 <tr class="separator:a0e5e5d28c5449ba17985deb2cff7ab14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8b4c2120859513fead0c5357fb4cb75"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_component.html#ab8b4c2120859513fead0c5357fb4cb75">Update</a> ()</td></tr>
-<tr class="memdesc:ab8b4c2120859513fead0c5357fb4cb75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update is called every frame, if the <a class="el" href="class_d6_engine_1_1_mono_behaviour.html">MonoBehaviour</a> is enabled.  <a href="class_d6_engine_1_1_component.html#ab8b4c2120859513fead0c5357fb4cb75">More...</a><br /></td></tr>
+<tr class="memdesc:ab8b4c2120859513fead0c5357fb4cb75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update is called every frame, if the <a class="el" href="class_d6_engine_1_1_mono_behaviour.html" title="MonoBehaviour is the base class for components which can be enabled and disabled. Every high-level sc...">MonoBehaviour</a> is enabled.  <a href="class_d6_engine_1_1_component.html#ab8b4c2120859513fead0c5357fb4cb75">More...</a><br /></td></tr>
 <tr class="separator:ab8b4c2120859513fead0c5357fb4cb75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae168445f7cbe9a8169afcb9e2611786"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_component.html#aae168445f7cbe9a8169afcb9e2611786">FixedUpdate</a> ()</td></tr>
 <tr class="memdesc:aae168445f7cbe9a8169afcb9e2611786"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frame-rate independent message for physics calculations. CURRENTLY UNIMPLEMENTED.  <a href="class_d6_engine_1_1_component.html#aae168445f7cbe9a8169afcb9e2611786">More...</a><br /></td></tr>
@@ -134,17 +139,19 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>SetGameObject</b> (<a
 <tr class="memitem:a74823ac16d4a6b44a0677f37a152698a"><td class="memItemLeft" align="right" valign="top"><a id="a74823ac16d4a6b44a0677f37a152698a" name="a74823ac16d4a6b44a0677f37a152698a"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Component</b> (const <a class="el" href="class_d6_engine_1_1_component.html">Component</a> &amp;other)=default</td></tr>
 <tr class="separator:a74823ac16d4a6b44a0677f37a152698a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2da461a21c10e60a482ca711d677726"><td class="memItemLeft" align="right" valign="top"><a id="ab2da461a21c10e60a482ca711d677726" name="ab2da461a21c10e60a482ca711d677726"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Component</b> (<a class="el" href="class_d6_engine_1_1_component.html">Component</a> &amp;&amp;other) noexcept=delete</td></tr>
-<tr class="separator:ab2da461a21c10e60a482ca711d677726"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd72bf30f94536e0e89f2c6a34fc85e6"><td class="memItemLeft" align="right" valign="top"><a id="abd72bf30f94536e0e89f2c6a34fc85e6" name="abd72bf30f94536e0e89f2c6a34fc85e6"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Component</b> (<a class="el" href="class_d6_engine_1_1_component.html">Component</a> &amp;&amp;other) noexcept=default</td></tr>
+<tr class="separator:abd72bf30f94536e0e89f2c6a34fc85e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59183a2b211287d614abed79db7c891e"><td class="memItemLeft" align="right" valign="top"><a id="a59183a2b211287d614abed79db7c891e" name="a59183a2b211287d614abed79db7c891e"></a>
 <a class="el" href="class_d6_engine_1_1_component.html">Component</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="class_d6_engine_1_1_component.html">Component</a> &amp;other)=default</td></tr>
 <tr class="separator:a59183a2b211287d614abed79db7c891e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa24a7596d24024d94967af07ccb25cb"><td class="memItemLeft" align="right" valign="top"><a id="aaa24a7596d24024d94967af07ccb25cb" name="aaa24a7596d24024d94967af07ccb25cb"></a>
-<a class="el" href="class_d6_engine_1_1_component.html">Component</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (<a class="el" href="class_d6_engine_1_1_component.html">Component</a> &amp;&amp;other) noexcept=delete</td></tr>
-<tr class="separator:aaa24a7596d24024d94967af07ccb25cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14ed5564b9605629729e4bce49c61def"><td class="memItemLeft" align="right" valign="top"><a id="a14ed5564b9605629729e4bce49c61def" name="a14ed5564b9605629729e4bce49c61def"></a>
+<a class="el" href="class_d6_engine_1_1_component.html">Component</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (<a class="el" href="class_d6_engine_1_1_component.html">Component</a> &amp;&amp;other) noexcept=default</td></tr>
+<tr class="separator:a14ed5564b9605629729e4bce49c61def"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >Base component class for all <a class="el" href="class_d6_engine_1_1_game_object.html">GameObject</a> components. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="aba40581033e66b211b4a9f6261be653f" name="aba40581033e66b211b4a9f6261be653f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aba40581033e66b211b4a9f6261be653f">&#9670;&nbsp;</a></span>Awake()</h2>
 
@@ -305,7 +312,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>SetGameObject</b> (<a
 </table>
 </div><div class="memdoc">
 
-<p>Update is called every frame, if the <a class="el" href="class_d6_engine_1_1_mono_behaviour.html">MonoBehaviour</a> is enabled. </p>
+<p>Update is called every frame, if the <a class="el" href="class_d6_engine_1_1_mono_behaviour.html" title="MonoBehaviour is the base class for components which can be enabled and disabled. Every high-level sc...">MonoBehaviour</a> is enabled. </p>
 
 <p>Reimplemented in <a class="el" href="class_d6_engine_1_1_test_component.html#a035c807dc2f004d6afea7f217d9cfb2d">D6Engine::TestComponent</a>.</p>
 

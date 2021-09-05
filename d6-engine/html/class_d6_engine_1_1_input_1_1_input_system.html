@@ -104,6 +104,34 @@ static <a class="el" href="struct_d6_engine_1_1_input_1_1_mouse_input.html">Mous
 <tr class="memitem:a3cf9fb1b52239f37a7359b22a82d7744"><td class="memItemLeft" align="right" valign="top"><a id="a3cf9fb1b52239f37a7359b22a82d7744" name="a3cf9fb1b52239f37a7359b22a82d7744"></a>
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>SetMouseInput</b> (const <a class="el" href="struct_d6_engine_1_1_input_1_1_mouse_input.html">MouseInput</a> &amp;input)</td></tr>
 <tr class="separator:a3cf9fb1b52239f37a7359b22a82d7744"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a358b48476c7bb283f522039d2231392a"><td class="memItemLeft" align="right" valign="top"><a id="a358b48476c7bb283f522039d2231392a" name="a358b48476c7bb283f522039d2231392a"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>KeyPress</b> (const SDL_Keycode &amp;key)</td></tr>
+<tr class="memdesc:a358b48476c7bb283f522039d2231392a"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is called upon revieving a KEY_DOWN event in SDL's event polling. It is used to change the state of the Keys. <br /></td></tr>
+<tr class="separator:a358b48476c7bb283f522039d2231392a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f6ccda539327edda420e43a083934da"><td class="memItemLeft" align="right" valign="top"><a id="a9f6ccda539327edda420e43a083934da" name="a9f6ccda539327edda420e43a083934da"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>KeyRelease</b> (const SDL_Keycode &amp;key)</td></tr>
+<tr class="memdesc:a9f6ccda539327edda420e43a083934da"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is called upon revieving a KEY_UP event in SDL's event polling. It is used to change the state of the Keys. <br /></td></tr>
+<tr class="separator:a9f6ccda539327edda420e43a083934da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41c78b0a6399f3a6c3422d016dff0544"><td class="memItemLeft" align="right" valign="top"><a id="a41c78b0a6399f3a6c3422d016dff0544" name="a41c78b0a6399f3a6c3422d016dff0544"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>isTriggered</b> (const SDL_Keycode &amp;key)</td></tr>
+<tr class="memdesc:a41c78b0a6399f3a6c3422d016dff0544"><td class="mdescLeft">&#160;</td><td class="mdescRight">This Function returns True if the Key is triggered during this frame. <br /></td></tr>
+<tr class="separator:a41c78b0a6399f3a6c3422d016dff0544"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7271819ed32afe09c922550b05c3c24"><td class="memItemLeft" align="right" valign="top"><a id="ad7271819ed32afe09c922550b05c3c24" name="ad7271819ed32afe09c922550b05c3c24"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>isReleased</b> (const SDL_Keycode &amp;key)</td></tr>
+<tr class="memdesc:ad7271819ed32afe09c922550b05c3c24"><td class="mdescLeft">&#160;</td><td class="mdescRight">This Function returns True if the Key is released during this frame. <br /></td></tr>
+<tr class="separator:ad7271819ed32afe09c922550b05c3c24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ffc86f5c99ce3b015b775f2d942133f"><td class="memItemLeft" align="right" valign="top"><a id="a7ffc86f5c99ce3b015b775f2d942133f" name="a7ffc86f5c99ce3b015b775f2d942133f"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>isHold</b> (const SDL_Keycode &amp;key)</td></tr>
+<tr class="memdesc:a7ffc86f5c99ce3b015b775f2d942133f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This Function returns True if the Key is being held down during this frame. <br /></td></tr>
+<tr class="separator:a7ffc86f5c99ce3b015b775f2d942133f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f4c753517937eaa6b1052e4f2fce958"><td class="memItemLeft" align="right" valign="top"><a id="a9f4c753517937eaa6b1052e4f2fce958" name="a9f4c753517937eaa6b1052e4f2fce958"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>isDown</b> (const SDL_Keycode &amp;key)</td></tr>
+<tr class="memdesc:a9f4c753517937eaa6b1052e4f2fce958"><td class="mdescLeft">&#160;</td><td class="mdescRight">This Function returns True if the Key is either triggered or held down in this frame. <br /></td></tr>
+<tr class="separator:a9f4c753517937eaa6b1052e4f2fce958"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fda60a42728273850cd5e0872ea1507"><td class="memItemLeft" align="right" valign="top"><a id="a5fda60a42728273850cd5e0872ea1507" name="a5fda60a42728273850cd5e0872ea1507"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateKeyStates</b> ()</td></tr>
+<tr class="memdesc:a5fda60a42728273850cd5e0872ea1507"><td class="mdescLeft">&#160;</td><td class="mdescRight">This Function Update all existing Key states. If KEYSTATE is KEY_UP previous frame, update to KEY_HELD for current frame. This should be called at the end of every frame to update the state of the released keys in the current frame. <br /></td></tr>
+<tr class="separator:a5fda60a42728273850cd5e0872ea1507"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/input/<a class="el" href="_input_system_8h_source.html">InputSystem.h</a></li>

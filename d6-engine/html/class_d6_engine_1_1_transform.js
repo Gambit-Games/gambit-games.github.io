@@ -1,11 +1,9 @@
 var class_d6_engine_1_1_transform =
 [
-    [ "Transform", "class_d6_engine_1_1_transform.html#a7ee8fea9a50e9c0c3932fe50da6dcad4", null ],
-    [ "localPosition", "class_d6_engine_1_1_transform.html#a4eaaf34d22043c906d73b443e78c4237", null ],
-    [ "localRotation", "class_d6_engine_1_1_transform.html#a095cb434edfae05a3bdb9a3d9056fa41", null ],
-    [ "localScale", "class_d6_engine_1_1_transform.html#a3b343676ab41b240fcb9a34465783bfa", null ],
-    [ "parent", "class_d6_engine_1_1_transform.html#a62026b7346a417698bab2271cf3774bd", null ],
-    [ "position", "class_d6_engine_1_1_transform.html#a6c20c1799cbfd304d06adf58d7a16d5f", null ],
-    [ "rotation", "class_d6_engine_1_1_transform.html#a0a14ec2558b897b536caaf0519a8a112", null ],
-    [ "scale", "class_d6_engine_1_1_transform.html#a53662686a7e135ac1444617bb37a753f", null ]
+    [ "getRotationMatrix", "class_d6_engine_1_1_transform.html#a548fdc64a28d73ca8393a4499c437b7c", null ],
+    [ "getScaleMatrix", "class_d6_engine_1_1_transform.html#a1bd6288c10cbb76e9aefeb856089a545", null ],
+    [ "getTranslateMatrix", "class_d6_engine_1_1_transform.html#a526f8647b670a673e7b635d8677a210a", null ],
+    [ "updateRotationMtx", "class_d6_engine_1_1_transform.html#a35e8c112c1c507d4ae70a32a8f339d7b", null ],
+    [ "updateScaleMtx", "class_d6_engine_1_1_transform.html#a84738bba72d8f7d961258b34050e442a", null ],
+    [ "updateTranslationMtx", "class_d6_engine_1_1_transform.html#a3d7495ef241aa5cef73717ac629101f8", null ]
 ];
