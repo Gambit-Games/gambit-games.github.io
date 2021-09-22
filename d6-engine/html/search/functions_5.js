@@ -1,8 +1,10 @@
 var searchData=
 [
-  ['init_0',['Init',['../class_d6_engine_1_1_engine_state_manager.html#a32ff685a3d821be3c27bebc798f9fa23',1,'D6Engine::EngineStateManager']]],
-  ['isdown_1',['isDown',['../class_d6_engine_1_1_input_1_1_input_system.html#a9f4c753517937eaa6b1052e4f2fce958',1,'D6Engine::Input::InputSystem']]],
-  ['ishold_2',['isHold',['../class_d6_engine_1_1_input_1_1_input_system.html#a7ffc86f5c99ce3b015b775f2d942133f',1,'D6Engine::Input::InputSystem']]],
-  ['isreleased_3',['isReleased',['../class_d6_engine_1_1_input_1_1_input_system.html#ad7271819ed32afe09c922550b05c3c24',1,'D6Engine::Input::InputSystem']]],
-  ['istriggered_4',['isTriggered',['../class_d6_engine_1_1_input_1_1_input_system.html#a41c78b0a6399f3a6c3422d016dff0544',1,'D6Engine::Input::InputSystem']]]
+  ['getcomponent_0',['GetComponent',['../class_d6_engine_1_1_game_object.html#a90d381ab10f5281501aa73306b08a952',1,'D6Engine::GameObject']]],
+  ['getcurrentscene_1',['GetCurrentScene',['../class_d6_engine_1_1_scene_management_1_1_scene_manager.html#a4f810f1328cb1edbb5bf9c1c41ac4e03',1,'D6Engine::SceneManagement::SceneManager']]],
+  ['getgameobject_2',['GetGameObject',['../class_d6_engine_1_1_component.html#aa714123e795c31a8476384549c8031c9',1,'D6Engine::Component']]],
+  ['getrotationmatrix_3',['GetRotationMatrix',['../class_d6_engine_1_1_transform.html#a1e7e42e584870dac236fed7c82756035',1,'D6Engine::Transform']]],
+  ['getscalematrix_4',['GetScaleMatrix',['../class_d6_engine_1_1_transform.html#a5c14b4ae87c7faefb5c9e5ee73142299',1,'D6Engine::Transform']]],
+  ['gettransform_5',['GetTransform',['../class_d6_engine_1_1_game_object.html#aa2eae28c67b0b7d3f0c8371bceb90b7d',1,'D6Engine::GameObject']]],
+  ['gettranslatematrix_6',['GetTranslateMatrix',['../class_d6_engine_1_1_transform.html#a597f06eafc62b15a75bfefdcabd6021e',1,'D6Engine::Transform']]]
 ];

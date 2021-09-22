@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['getgameobject_0',['GetGameObject',['../class_d6_engine_1_1_component.html#aa714123e795c31a8476384549c8031c9',1,'D6Engine::Component']]],
-  ['getrotationmatrix_1',['getRotationMatrix',['../class_d6_engine_1_1_transform.html#a548fdc64a28d73ca8393a4499c437b7c',1,'D6Engine::Transform']]],
-  ['getscalematrix_2',['getScaleMatrix',['../class_d6_engine_1_1_transform.html#a1bd6288c10cbb76e9aefeb856089a545',1,'D6Engine::Transform']]],
-  ['gettranslatematrix_3',['getTranslateMatrix',['../class_d6_engine_1_1_transform.html#a526f8647b670a673e7b635d8677a210a',1,'D6Engine::Transform']]]
+  ['fixedupdate_0',['FixedUpdate',['../class_d6_engine_1_1_component.html#aae168445f7cbe9a8169afcb9e2611786',1,'D6Engine::Component::FixedUpdate()'],['../class_d6_engine_1_1_test_component.html#a20ec80d1edb8790a4fd6bf19679b2715',1,'D6Engine::TestComponent::FixedUpdate()'],['../class_d6_engine_1_1_game_object_manager.html#a319ad5a80106675dde16ae6a3ee01930',1,'D6Engine::GameObjectManager::FixedUpdate()']]],
+  ['free_1',['Free',['../class_d6_engine_1_1_game_object_manager.html#ad58a1d329b48bfdea11c20432ba24a98',1,'D6Engine::GameObjectManager']]]
 ];

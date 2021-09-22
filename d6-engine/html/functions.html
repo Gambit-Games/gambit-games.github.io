@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1</span>
+                                &#160;<span id="projectnumber">v0.1/1</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -92,12 +92,21 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 <div class="textblock">Here is a list of all documented class members with links to the class documentation for each member:</div>
 
 <h3><a id="index_a" name="index_a"></a>- a -</h3><ul>
+<li>AddComponent()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_game_object.html#a94e222e94a9654c10382beab5fdc1fec">D6Engine::GameObject</a></li>
 <li>Awake()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_component.html#aba40581033e66b211b4a9f6261be653f">D6Engine::Component</a>, <a class="el" href="class_d6_engine_1_1_test_component.html#a116017e1abed73004baa066d93548837">D6Engine::TestComponent</a></li>
 </ul>
 
 
+<h3><a id="index_b" name="index_b"></a>- b -</h3><ul>
+<li>BindGameObjectManager()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_scene_management_1_1_scene_manager.html#a9bfb587bf6ce87acf013b265f5bc539e">D6Engine::SceneManagement::SceneManager</a></li>
+<li>BindScene()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_scene_management_1_1_scene_j_s_o_n_handler.html#a159834650bfc169d0a1ca2d9fa46f6c4">D6Engine::SceneManagement::SceneJSONHandler</a></li>
+</ul>
+
+
 <h3><a id="index_c" name="index_c"></a>- c -</h3><ul>
+<li>components&#160;:&#160;<a class="el" href="struct_d6_engine_1_1_scene_management_1_1_scene_object.html#a3c94f6e74628894260ef9b8b50a8476c">D6Engine::SceneManagement::SceneObject</a></li>
 <li>ComputeTime()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_time.html#a591dbbb3ca0ae7e648e4d580b5ff21e1">D6Engine::Time</a></li>
+<li>CreateScene()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_scene_management_1_1_scene_manager.html#a2d7837954f25dadc0fced0ef1f55e523">D6Engine::SceneManagement::SceneManager</a></li>
 <li>Cycle()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_engine_state_manager.html#a700245c5992d717063ccce6ade6cf194">D6Engine::EngineStateManager</a></li>
 </ul>
 
@@ -105,6 +114,7 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 <h3><a id="index_d" name="index_d"></a>- d -</h3><ul>
 <li>deltaTime&#160;:&#160;<a class="el" href="class_d6_engine_1_1_time.html#a0974aedbc30ab6ad84635f3a418c1398">D6Engine::Time</a></li>
 <li>Destroy()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_game_object.html#ab8634ada828de19b0f0e92c61779166a">D6Engine::GameObject</a></li>
+<li>dirty&#160;:&#160;<a class="el" href="struct_d6_engine_1_1_scene_management_1_1_scene.html#acb54f95289a3f05434d39c09cb1b9d3e">D6Engine::SceneManagement::Scene</a></li>
 </ul>
 
 
@@ -112,20 +122,25 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 <li>fixedDeltaTime&#160;:&#160;<a class="el" href="class_d6_engine_1_1_time.html#a25dec88d57edd6537a21d87eb61e3bc1">D6Engine::Time</a></li>
 <li>fixedStepCount&#160;:&#160;<a class="el" href="class_d6_engine_1_1_time.html#a34b4e63756af87bd78c8eb8198c64cac">D6Engine::Time</a></li>
 <li>fixedTime&#160;:&#160;<a class="el" href="class_d6_engine_1_1_time.html#a11085b3ee2d67b749e4924d7976ba2cb">D6Engine::Time</a></li>
-<li>FixedUpdate()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_component.html#aae168445f7cbe9a8169afcb9e2611786">D6Engine::Component</a>, <a class="el" href="class_d6_engine_1_1_test_component.html#a20ec80d1edb8790a4fd6bf19679b2715">D6Engine::TestComponent</a></li>
+<li>FixedUpdate()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_component.html#aae168445f7cbe9a8169afcb9e2611786">D6Engine::Component</a>, <a class="el" href="class_d6_engine_1_1_game_object_manager.html#a319ad5a80106675dde16ae6a3ee01930">D6Engine::GameObjectManager</a>, <a class="el" href="class_d6_engine_1_1_test_component.html#a20ec80d1edb8790a4fd6bf19679b2715">D6Engine::TestComponent</a></li>
+<li>Free()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_game_object_manager.html#ad58a1d329b48bfdea11c20432ba24a98">D6Engine::GameObjectManager</a></li>
 </ul>
 
 
 <h3><a id="index_g" name="index_g"></a>- g -</h3><ul>
+<li>GetComponent()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_game_object.html#a90d381ab10f5281501aa73306b08a952">D6Engine::GameObject</a></li>
+<li>GetCurrentScene()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_scene_management_1_1_scene_manager.html#a4f810f1328cb1edbb5bf9c1c41ac4e03">D6Engine::SceneManagement::SceneManager</a></li>
 <li>GetGameObject()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_component.html#aa714123e795c31a8476384549c8031c9">D6Engine::Component</a></li>
-<li>getRotationMatrix()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_transform.html#a548fdc64a28d73ca8393a4499c437b7c">D6Engine::Transform</a></li>
-<li>getScaleMatrix()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_transform.html#a1bd6288c10cbb76e9aefeb856089a545">D6Engine::Transform</a></li>
-<li>getTranslateMatrix()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_transform.html#a526f8647b670a673e7b635d8677a210a">D6Engine::Transform</a></li>
+<li>GetRotationMatrix()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_transform.html#a1e7e42e584870dac236fed7c82756035">D6Engine::Transform</a></li>
+<li>GetScaleMatrix()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_transform.html#a5c14b4ae87c7faefb5c9e5ee73142299">D6Engine::Transform</a></li>
+<li>GetTransform()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_game_object.html#aa2eae28c67b0b7d3f0c8371bceb90b7d">D6Engine::GameObject</a></li>
+<li>GetTranslateMatrix()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_transform.html#a597f06eafc62b15a75bfefdcabd6021e">D6Engine::Transform</a></li>
 </ul>
 
 
 <h3><a id="index_i" name="index_i"></a>- i -</h3><ul>
 <li>Init()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_engine_state_manager.html#a32ff685a3d821be3c27bebc798f9fa23">D6Engine::EngineStateManager</a></li>
+<li>Instantiate()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_game_object_manager.html#a7e096ec4e1fa8999907a5718d978a2b6">D6Engine::GameObjectManager</a></li>
 <li>isDown()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_input_1_1_input_system.html#a9f4c753517937eaa6b1052e4f2fce958">D6Engine::Input::InputSystem</a></li>
 <li>isHold()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_input_1_1_input_system.html#a7ffc86f5c99ce3b015b775f2d942133f">D6Engine::Input::InputSystem</a></li>
 <li>isReleased()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_input_1_1_input_system.html#ad7271819ed32afe09c922550b05c3c24">D6Engine::Input::InputSystem</a></li>
@@ -141,6 +156,7 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 
 <h3><a id="index_l" name="index_l"></a>- l -</h3><ul>
 <li>LateUpdate()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_component.html#a8f8c61c2424be8d2bf857f9b21646c72">D6Engine::Component</a>, <a class="el" href="class_d6_engine_1_1_test_component.html#abef3d49588afd3bd520804ad76bfef4c">D6Engine::TestComponent</a></li>
+<li>LoadScene()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_scene_management_1_1_scene_manager.html#a41313f0886b1e902f3a6c58d147cab00">D6Engine::SceneManagement::SceneManager</a></li>
 </ul>
 
 
@@ -149,13 +165,30 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 </ul>
 
 
+<h3><a id="index_n" name="index_n"></a>- n -</h3><ul>
+<li>name&#160;:&#160;<a class="el" href="struct_d6_engine_1_1_scene_management_1_1_scene.html#a078ff1c9dc123c63300748133cb5f5d0">D6Engine::SceneManagement::Scene</a></li>
+</ul>
+
+
 <h3><a id="index_o" name="index_o"></a>- o -</h3><ul>
 <li>OGLVertexArray()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html#a4c4f0c83fc02ba442ca5d5399d4cd3cf">D6Engine::Graphics::OGLVertexArray</a></li>
 </ul>
 
 
+<h3><a id="index_p" name="index_p"></a>- p -</h3><ul>
+<li>path&#160;:&#160;<a class="el" href="struct_d6_engine_1_1_scene_management_1_1_scene.html#a3da5d62a40ea94d7267bd3c2d7c8d7af">D6Engine::SceneManagement::Scene</a></li>
+<li>PostInit()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_game_object_manager.html#a6f3c992fba6b6f3dd028d53d351b489b">D6Engine::GameObjectManager</a></li>
+<li>PreInit()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_game_object_manager.html#a56be033f91caf251b9144685712fd4f8">D6Engine::GameObjectManager</a></li>
+</ul>
+
+
+<h3><a id="index_r" name="index_r"></a>- r -</h3><ul>
+<li>RemoveComponent()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_game_object.html#a79e62faa86f527d2f759482d654122bf">D6Engine::GameObject</a></li>
+</ul>
+
+
 <h3><a id="index_s" name="index_s"></a>- s -</h3><ul>
-<li>SetGameObject()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_component.html#a8ba93d270ad608aef5e45ac527db2a69">D6Engine::Component</a></li>
+<li>SaveScene()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_scene_management_1_1_scene_manager.html#a5bd8cf1012d36e99086cc54f48560d66">D6Engine::SceneManagement::SceneManager</a></li>
 <li>Start()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_component.html#a0e5e5d28c5449ba17985deb2cff7ab14">D6Engine::Component</a>, <a class="el" href="class_d6_engine_1_1_test_component.html#a4b798252d6fab555b70d0e688323498b">D6Engine::TestComponent</a></li>
 </ul>
 
@@ -166,11 +199,11 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 
 
 <h3><a id="index_u" name="index_u"></a>- u -</h3><ul>
-<li>Update()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_component.html#ab8b4c2120859513fead0c5357fb4cb75">D6Engine::Component</a>, <a class="el" href="class_d6_engine_1_1_test_component.html#a035c807dc2f004d6afea7f217d9cfb2d">D6Engine::TestComponent</a></li>
+<li>Update()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_component.html#ab8b4c2120859513fead0c5357fb4cb75">D6Engine::Component</a>, <a class="el" href="class_d6_engine_1_1_game_object_manager.html#af76f1e394ed9a2b2678550380e7f6c14">D6Engine::GameObjectManager</a>, <a class="el" href="class_d6_engine_1_1_test_component.html#a035c807dc2f004d6afea7f217d9cfb2d">D6Engine::TestComponent</a></li>
 <li>UpdateKeyStates()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_input_1_1_input_system.html#a5fda60a42728273850cd5e0872ea1507">D6Engine::Input::InputSystem</a></li>
-<li>updateRotationMtx()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_transform.html#a35e8c112c1c507d4ae70a32a8f339d7b">D6Engine::Transform</a></li>
-<li>updateScaleMtx()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_transform.html#a84738bba72d8f7d961258b34050e442a">D6Engine::Transform</a></li>
-<li>updateTranslationMtx()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_transform.html#a3d7495ef241aa5cef73717ac629101f8">D6Engine::Transform</a></li>
+<li>UpdateRotationMtx()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_transform.html#a5257d7682131e321bbb9c5526a01bcaa">D6Engine::Transform</a></li>
+<li>UpdateScaleMtx()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_transform.html#a21b46f3775f684e94ce660604a7e19c6">D6Engine::Transform</a></li>
+<li>UpdateTranslationMtx()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_transform.html#aa78a37c7029b7cc263f39a8c39efd5bf">D6Engine::Transform</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1</span>
+                                &#160;<span id="projectnumber">v0.1/1</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -97,6 +97,11 @@ $(document).ready(function(){initNavTree('class_d6_engine_1_1_game_object.html',
   <div class="headertitle"><div class="title">D6Engine::GameObject Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>The base class for all entities in scenes in D6-Engine.  
+ <a href="class_d6_engine_1_1_game_object.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_game_object_8hpp_source.html">GameObject.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -120,22 +125,22 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>LateUpdate</b> ()</td
 <tr class="separator:af6ed4c1119b074cc3bea85a0e12a9ae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8634ada828de19b0f0e92c61779166a"><td class="memItemLeft" align="right" valign="top"><a id="ab8634ada828de19b0f0e92c61779166a" name="ab8634ada828de19b0f0e92c61779166a"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Destroy</b> ()</td></tr>
-<tr class="memdesc:ab8634ada828de19b0f0e92c61779166a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks the <a class="el" href="class_d6_engine_1_1_game_object.html">GameObject</a> for deletion at the end of the frame. <br /></td></tr>
+<tr class="memdesc:ab8634ada828de19b0f0e92c61779166a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks the <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> for deletion at the end of the frame. <br /></td></tr>
 <tr class="separator:ab8634ada828de19b0f0e92c61779166a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4a83c8bfea47bc8a9b06a79419edabd"><td class="memTemplParams" colspan="2"><a id="ae4a83c8bfea47bc8a9b06a79419edabd" name="ae4a83c8bfea47bc8a9b06a79419edabd"></a>
-template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ae4a83c8bfea47bc8a9b06a79419edabd"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><b>AddComponent</b> ()</td></tr>
-<tr class="separator:ae4a83c8bfea47bc8a9b06a79419edabd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90d381ab10f5281501aa73306b08a952"><td class="memTemplParams" colspan="2"><a id="a90d381ab10f5281501aa73306b08a952" name="a90d381ab10f5281501aa73306b08a952"></a>
-template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a90d381ab10f5281501aa73306b08a952"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><b>GetComponent</b> ()</td></tr>
+<tr class="memitem:a94e222e94a9654c10382beab5fdc1fec"><td class="memTemplParams" colspan="2">template&lt;typename T , typename... Args&gt; </td></tr>
+<tr class="memitem:a94e222e94a9654c10382beab5fdc1fec"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_game_object.html#a94e222e94a9654c10382beab5fdc1fec">AddComponent</a> (Args &amp;&amp;... args)</td></tr>
+<tr class="memdesc:a94e222e94a9654c10382beab5fdc1fec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a component of type T with parameters args and adds it to the <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a>.  <a href="class_d6_engine_1_1_game_object.html#a94e222e94a9654c10382beab5fdc1fec">More...</a><br /></td></tr>
+<tr class="separator:a94e222e94a9654c10382beab5fdc1fec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90d381ab10f5281501aa73306b08a952"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a90d381ab10f5281501aa73306b08a952"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_game_object.html#a90d381ab10f5281501aa73306b08a952">GetComponent</a> ()</td></tr>
+<tr class="memdesc:a90d381ab10f5281501aa73306b08a952"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the first instance of the specified component, if it exists.  <a href="class_d6_engine_1_1_game_object.html#a90d381ab10f5281501aa73306b08a952">More...</a><br /></td></tr>
 <tr class="separator:a90d381ab10f5281501aa73306b08a952"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79e62faa86f527d2f759482d654122bf"><td class="memTemplParams" colspan="2"><a id="a79e62faa86f527d2f759482d654122bf" name="a79e62faa86f527d2f759482d654122bf"></a>
-template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a79e62faa86f527d2f759482d654122bf"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>RemoveComponent</b> ()</td></tr>
+<tr class="memitem:a79e62faa86f527d2f759482d654122bf"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a79e62faa86f527d2f759482d654122bf"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_game_object.html#a79e62faa86f527d2f759482d654122bf">RemoveComponent</a> ()</td></tr>
+<tr class="memdesc:a79e62faa86f527d2f759482d654122bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erases the first instance of the specified component.  <a href="class_d6_engine_1_1_game_object.html#a79e62faa86f527d2f759482d654122bf">More...</a><br /></td></tr>
 <tr class="separator:a79e62faa86f527d2f759482d654122bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2eae28c67b0b7d3f0c8371bceb90b7d"><td class="memItemLeft" align="right" valign="top"><a id="aa2eae28c67b0b7d3f0c8371bceb90b7d" name="aa2eae28c67b0b7d3f0c8371bceb90b7d"></a>
-<a class="el" href="class_d6_engine_1_1_transform.html">Transform</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetTransform</b> ()</td></tr>
+<tr class="memitem:aa2eae28c67b0b7d3f0c8371bceb90b7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_d6_engine_1_1_transform.html">Transform</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_game_object.html#aa2eae28c67b0b7d3f0c8371bceb90b7d">GetTransform</a> ()</td></tr>
+<tr class="memdesc:aa2eae28c67b0b7d3f0c8371bceb90b7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut for <a class="el" href="class_d6_engine_1_1_game_object.html#a90d381ab10f5281501aa73306b08a952" title="Returns a pointer to the first instance of the specified component, if it exists.">GetComponent&lt;Transform&gt;()</a>.  <a href="class_d6_engine_1_1_game_object.html#aa2eae28c67b0b7d3f0c8371bceb90b7d">More...</a><br /></td></tr>
 <tr class="separator:aa2eae28c67b0b7d3f0c8371bceb90b7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c7737e5dc194f427462760b41a20855"><td class="memItemLeft" align="right" valign="top"><a id="a1c7737e5dc194f427462760b41a20855" name="a1c7737e5dc194f427462760b41a20855"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>GameObject</b> (const <a class="el" href="class_d6_engine_1_1_game_object.html">GameObject</a> &amp;other)=delete</td></tr>
@@ -164,10 +169,162 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>markedForDeletion</b>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
+<tr class="memitem:a1792bd89cabd9de04209188147625921"><td class="memItemLeft" align="right" valign="top"><a id="a1792bd89cabd9de04209188147625921" name="a1792bd89cabd9de04209188147625921"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>GameObjectManager</b></td></tr>
+<tr class="separator:a1792bd89cabd9de04209188147625921"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a505b9efa875bd0b7ecb49d8a07b76abd"><td class="memItemLeft" align="right" valign="top"><a id="a505b9efa875bd0b7ecb49d8a07b76abd" name="a505b9efa875bd0b7ecb49d8a07b76abd"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>GameObjectFactory</b></td></tr>
+<tr class="separator:a505b9efa875bd0b7ecb49d8a07b76abd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13320c645e6f6d55e7a5cfe512262628"><td class="memItemLeft" align="right" valign="top"><a id="a13320c645e6f6d55e7a5cfe512262628" name="a13320c645e6f6d55e7a5cfe512262628"></a>
 class&#160;</td><td class="memItemRight" valign="bottom"><b>SceneManagement::SceneManager</b></td></tr>
 <tr class="separator:a13320c645e6f6d55e7a5cfe512262628"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >The base class for all entities in scenes in D6-Engine. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a94e222e94a9654c10382beab5fdc1fec" name="a94e222e94a9654c10382beab5fdc1fec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94e222e94a9654c10382beab5fdc1fec">&#9670;&nbsp;</a></span>AddComponent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename... Args&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T * D6Engine::GameObject::AddComponent </td>
+          <td>(</td>
+          <td class="paramtype">Args &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructs a component of type T with parameters args and adds it to the <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a>. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>A valid component type. </td></tr>
+    <tr><td class="paramname">Args</td><td>Additional type specification arguments to provide for the constructor of T. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">args</td><td>Additional constructor arguments to provide for the constructor of T. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Pointer to the component in the <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a>. </dd></dl>
+
+</div>
+</div>
+<a id="a90d381ab10f5281501aa73306b08a952" name="a90d381ab10f5281501aa73306b08a952"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90d381ab10f5281501aa73306b08a952">&#9670;&nbsp;</a></span>GetComponent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T * D6Engine::GameObject::GetComponent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a pointer to the first instance of the specified component, if it exists. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>The type of component to search for. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A pointer to the first instance of type T in the <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a>. </dd></dl>
+
+</div>
+</div>
+<a id="aa2eae28c67b0b7d3f0c8371bceb90b7d" name="aa2eae28c67b0b7d3f0c8371bceb90b7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2eae28c67b0b7d3f0c8371bceb90b7d">&#9670;&nbsp;</a></span>GetTransform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_d6_engine_1_1_transform.html">Transform</a> &amp; D6Engine::GameObject::GetTransform </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Shortcut for <a class="el" href="class_d6_engine_1_1_game_object.html#a90d381ab10f5281501aa73306b08a952" title="Returns a pointer to the first instance of the specified component, if it exists.">GetComponent&lt;Transform&gt;()</a>. </p>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a>'s <a class="el" href="class_d6_engine_1_1_transform.html" title="Position, rotation and scale of an object.">Transform</a> component. </dd></dl>
+
+</div>
+</div>
+<a id="a79e62faa86f527d2f759482d654122bf" name="a79e62faa86f527d2f759482d654122bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79e62faa86f527d2f759482d654122bf">&#9670;&nbsp;</a></span>RemoveComponent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void D6Engine::GameObject::RemoveComponent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Erases the first instance of the specified component. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>The type of component to search for and erase. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/gameobject/<a class="el" href="_game_object_8hpp_source.html">GameObject.hpp</a></li>
 <li>src/gameobject/GameObject.cpp</li>

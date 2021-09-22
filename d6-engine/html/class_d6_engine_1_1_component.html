@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1</span>
+                                &#160;<span id="projectnumber">v0.1/1</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -91,12 +91,13 @@ $(document).ready(function(){initNavTree('class_d6_engine_1_1_component.html',''
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="class_d6_engine_1_1_component-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">D6Engine::Component Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Base component class for all <a class="el" href="class_d6_engine_1_1_game_object.html">GameObject</a> components.  
+<p>Base component class for all <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> components.  
  <a href="class_d6_engine_1_1_component.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="gameobject_2_component_8h_source.html">Component.h</a>&gt;</code></p>
@@ -106,8 +107,8 @@ Inheritance diagram for D6Engine::Component:</div>
  <div class="center">
   <img src="class_d6_engine_1_1_component.png" usemap="#D6Engine::Component_map" alt=""/>
   <map id="D6Engine::Component_map" name="D6Engine::Component_map">
-<area href="class_d6_engine_1_1_mono_behaviour.html" title="MonoBehaviour is the base class for components which can be enabled and disabled. Every high-level sc..." alt="D6Engine::MonoBehaviour" shape="rect" coords="0,56,163,80"/>
-<area href="class_d6_engine_1_1_transform.html" alt="D6Engine::Transform" shape="rect" coords="173,56,336,80"/>
+<area href="class_d6_engine_1_1_mono_behaviour.html" title="MonoBehaviour is the base class for components which can be enabled and disabled." alt="D6Engine::MonoBehaviour" shape="rect" coords="0,56,163,80"/>
+<area href="class_d6_engine_1_1_transform.html" title="Position, rotation and scale of an object." alt="D6Engine::Transform" shape="rect" coords="173,56,336,80"/>
 <area href="class_d6_engine_1_1_test_component.html" alt="D6Engine::TestComponent" shape="rect" coords="0,112,163,136"/>
   </map>
 </div></div>
@@ -115,13 +116,13 @@ Inheritance diagram for D6Engine::Component:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aba40581033e66b211b4a9f6261be653f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_component.html#aba40581033e66b211b4a9f6261be653f">Awake</a> ()</td></tr>
-<tr class="memdesc:aba40581033e66b211b4a9f6261be653f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Awake is called when the script instance is being loaded. Awake is called either when an active <a class="el" href="class_d6_engine_1_1_game_object.html">GameObject</a> that contains the script is initialized when a Scene loads, or when a previously inactive <a class="el" href="class_d6_engine_1_1_game_object.html">GameObject</a> is set to active, or after a <a class="el" href="class_d6_engine_1_1_game_object.html">GameObject</a> created with Instantiate() is initialized. Use Awake to initialize variables or states before the application starts.  <a href="class_d6_engine_1_1_component.html#aba40581033e66b211b4a9f6261be653f">More...</a><br /></td></tr>
+<tr class="memdesc:aba40581033e66b211b4a9f6261be653f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Awake is called when the script instance is being loaded. Awake is called either when an active <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> that contains the script is initialized when a Scene loads, or when a previously inactive <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> is set to active, or after a <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> created with Instantiate() is initialized. Use Awake to initialize variables or states before the application starts.  <a href="class_d6_engine_1_1_component.html#aba40581033e66b211b4a9f6261be653f">More...</a><br /></td></tr>
 <tr class="separator:aba40581033e66b211b4a9f6261be653f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e5e5d28c5449ba17985deb2cff7ab14"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_component.html#a0e5e5d28c5449ba17985deb2cff7ab14">Start</a> ()</td></tr>
 <tr class="memdesc:a0e5e5d28c5449ba17985deb2cff7ab14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start is called on the frame when a script is enabled just before any of the Update methods are called the first time. Like the Awake function, Start is called exactly once in the lifetime of the script.  <a href="class_d6_engine_1_1_component.html#a0e5e5d28c5449ba17985deb2cff7ab14">More...</a><br /></td></tr>
 <tr class="separator:a0e5e5d28c5449ba17985deb2cff7ab14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8b4c2120859513fead0c5357fb4cb75"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_component.html#ab8b4c2120859513fead0c5357fb4cb75">Update</a> ()</td></tr>
-<tr class="memdesc:ab8b4c2120859513fead0c5357fb4cb75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update is called every frame, if the <a class="el" href="class_d6_engine_1_1_mono_behaviour.html" title="MonoBehaviour is the base class for components which can be enabled and disabled. Every high-level sc...">MonoBehaviour</a> is enabled.  <a href="class_d6_engine_1_1_component.html#ab8b4c2120859513fead0c5357fb4cb75">More...</a><br /></td></tr>
+<tr class="memdesc:ab8b4c2120859513fead0c5357fb4cb75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update is called every frame, if the <a class="el" href="class_d6_engine_1_1_mono_behaviour.html" title="MonoBehaviour is the base class for components which can be enabled and disabled.">MonoBehaviour</a> is enabled.  <a href="class_d6_engine_1_1_component.html#ab8b4c2120859513fead0c5357fb4cb75">More...</a><br /></td></tr>
 <tr class="separator:ab8b4c2120859513fead0c5357fb4cb75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae168445f7cbe9a8169afcb9e2611786"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_component.html#aae168445f7cbe9a8169afcb9e2611786">FixedUpdate</a> ()</td></tr>
 <tr class="memdesc:aae168445f7cbe9a8169afcb9e2611786"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frame-rate independent message for physics calculations. CURRENTLY UNIMPLEMENTED.  <a href="class_d6_engine_1_1_component.html#aae168445f7cbe9a8169afcb9e2611786">More...</a><br /></td></tr>
@@ -130,12 +131,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a8f8c61c2424be8d2bf857f9b21646c72"><td class="mdescLeft">&#160;</td><td class="mdescRight">LateUpdate is called every frame, if the Behaviour is enabled. LateUpdate is called after all Update functions have. This is useful to order script execution.  <a href="class_d6_engine_1_1_component.html#a8f8c61c2424be8d2bf857f9b21646c72">More...</a><br /></td></tr>
 <tr class="separator:a8f8c61c2424be8d2bf857f9b21646c72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa714123e795c31a8476384549c8031c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_d6_engine_1_1_game_object.html">GameObject</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_component.html#aa714123e795c31a8476384549c8031c9">GetGameObject</a> () const</td></tr>
-<tr class="memdesc:aa714123e795c31a8476384549c8031c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the <a class="el" href="class_d6_engine_1_1_game_object.html">GameObject</a> this component is attached to.  <a href="class_d6_engine_1_1_component.html#aa714123e795c31a8476384549c8031c9">More...</a><br /></td></tr>
+<tr class="memdesc:aa714123e795c31a8476384549c8031c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> this component is attached to.  <a href="class_d6_engine_1_1_component.html#aa714123e795c31a8476384549c8031c9">More...</a><br /></td></tr>
 <tr class="separator:aa714123e795c31a8476384549c8031c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ba93d270ad608aef5e45ac527db2a69"><td class="memItemLeft" align="right" valign="top"><a id="a8ba93d270ad608aef5e45ac527db2a69" name="a8ba93d270ad608aef5e45ac527db2a69"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetGameObject</b> (<a class="el" href="class_d6_engine_1_1_game_object.html">GameObject</a> *target)</td></tr>
-<tr class="memdesc:a8ba93d270ad608aef5e45ac527db2a69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used by the <a class="el" href="class_d6_engine_1_1_game_object.html">GameObject</a> to bind the result of GetGameObject. Do not use this for other use cases as it can screw with object behavior. <br /></td></tr>
-<tr class="separator:a8ba93d270ad608aef5e45ac527db2a69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74823ac16d4a6b44a0677f37a152698a"><td class="memItemLeft" align="right" valign="top"><a id="a74823ac16d4a6b44a0677f37a152698a" name="a74823ac16d4a6b44a0677f37a152698a"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Component</b> (const <a class="el" href="class_d6_engine_1_1_component.html">Component</a> &amp;other)=default</td></tr>
 <tr class="separator:a74823ac16d4a6b44a0677f37a152698a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,9 +145,18 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>SetGameObject</b> (<a
 <tr class="memitem:a14ed5564b9605629729e4bce49c61def"><td class="memItemLeft" align="right" valign="top"><a id="a14ed5564b9605629729e4bce49c61def" name="a14ed5564b9605629729e4bce49c61def"></a>
 <a class="el" href="class_d6_engine_1_1_component.html">Component</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (<a class="el" href="class_d6_engine_1_1_component.html">Component</a> &amp;&amp;other) noexcept=default</td></tr>
 <tr class="separator:a14ed5564b9605629729e4bce49c61def"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a00df87c957d8f7ee0fc51f07a0542f4a"><td class="memItemLeft" align="right" valign="top"><a id="a00df87c957d8f7ee0fc51f07a0542f4a" name="a00df87c957d8f7ee0fc51f07a0542f4a"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>GameObject</b></td></tr>
+<tr class="separator:a00df87c957d8f7ee0fc51f07a0542f4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a505b9efa875bd0b7ecb49d8a07b76abd"><td class="memItemLeft" align="right" valign="top"><a id="a505b9efa875bd0b7ecb49d8a07b76abd" name="a505b9efa875bd0b7ecb49d8a07b76abd"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>GameObjectFactory</b></td></tr>
+<tr class="separator:a505b9efa875bd0b7ecb49d8a07b76abd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >Base component class for all <a class="el" href="class_d6_engine_1_1_game_object.html">GameObject</a> components. </p>
+<div class="textblock"><p >Base component class for all <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> components. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="aba40581033e66b211b4a9f6261be653f" name="aba40581033e66b211b4a9f6261be653f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aba40581033e66b211b4a9f6261be653f">&#9670;&nbsp;</a></span>Awake()</h2>
@@ -175,7 +181,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>SetGameObject</b> (<a
 </table>
 </div><div class="memdoc">
 
-<p>Awake is called when the script instance is being loaded. Awake is called either when an active <a class="el" href="class_d6_engine_1_1_game_object.html">GameObject</a> that contains the script is initialized when a Scene loads, or when a previously inactive <a class="el" href="class_d6_engine_1_1_game_object.html">GameObject</a> is set to active, or after a <a class="el" href="class_d6_engine_1_1_game_object.html">GameObject</a> created with Instantiate() is initialized. Use Awake to initialize variables or states before the application starts. </p>
+<p>Awake is called when the script instance is being loaded. Awake is called either when an active <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> that contains the script is initialized when a Scene loads, or when a previously inactive <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> is set to active, or after a <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> created with Instantiate() is initialized. Use Awake to initialize variables or states before the application starts. </p>
 
 <p>Reimplemented in <a class="el" href="class_d6_engine_1_1_test_component.html#a116017e1abed73004baa066d93548837">D6Engine::TestComponent</a>.</p>
 
@@ -225,8 +231,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>SetGameObject</b> (<a
       </table>
 </div><div class="memdoc">
 
-<p>Gets the <a class="el" href="class_d6_engine_1_1_game_object.html">GameObject</a> this component is attached to. </p>
-<dl class="section return"><dt>Returns</dt><dd>Reference to the <a class="el" href="class_d6_engine_1_1_game_object.html">GameObject</a> hosting this component. </dd></dl>
+<p>Gets the <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> this component is attached to. </p>
+<dl class="section return"><dt>Returns</dt><dd>Reference to the <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> hosting this component. </dd></dl>
 
 </div>
 </div>
@@ -312,7 +318,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>SetGameObject</b> (<a
 </table>
 </div><div class="memdoc">
 
-<p>Update is called every frame, if the <a class="el" href="class_d6_engine_1_1_mono_behaviour.html" title="MonoBehaviour is the base class for components which can be enabled and disabled. Every high-level sc...">MonoBehaviour</a> is enabled. </p>
+<p>Update is called every frame, if the <a class="el" href="class_d6_engine_1_1_mono_behaviour.html" title="MonoBehaviour is the base class for components which can be enabled and disabled.">MonoBehaviour</a> is enabled. </p>
 
 <p>Reimplemented in <a class="el" href="class_d6_engine_1_1_test_component.html#a035c807dc2f004d6afea7f217d9cfb2d">D6Engine::TestComponent</a>.</p>
 

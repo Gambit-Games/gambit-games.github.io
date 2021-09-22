@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['testcomponent_0',['TestComponent',['../class_d6_engine_1_1_test_component.html',1,'D6Engine']]],
-  ['time_1',['Time',['../class_d6_engine_1_1_time.html',1,'D6Engine']]],
-  ['time_2',['time',['../class_d6_engine_1_1_time.html#abc0c9c68b0e36f32a0f8f6baaab2aed0',1,'D6Engine::Time']]],
-  ['transform_3',['Transform',['../class_d6_engine_1_1_transform.html',1,'D6Engine']]]
+  ['path_0',['path',['../struct_d6_engine_1_1_scene_management_1_1_scene.html#a3da5d62a40ea94d7267bd3c2d7c8d7af',1,'D6Engine::SceneManagement::Scene']]],
+  ['postinit_1',['PostInit',['../class_d6_engine_1_1_game_object_manager.html#a6f3c992fba6b6f3dd028d53d351b489b',1,'D6Engine::GameObjectManager']]],
+  ['preinit_2',['PreInit',['../class_d6_engine_1_1_game_object_manager.html#a56be033f91caf251b9144685712fd4f8',1,'D6Engine::GameObjectManager']]]
 ];

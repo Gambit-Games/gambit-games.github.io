@@ -28,15 +28,18 @@ var annotated_dup =
         [ "MouseInput", "struct_d6_engine_1_1_input_1_1_mouse_input.html", null ]
       ] ],
       [ "SceneManagement", "namespace_d6_engine_1_1_scene_management.html", [
-        [ "Scene", "class_d6_engine_1_1_scene_management_1_1_scene.html", null ],
-        [ "SceneManager", "class_d6_engine_1_1_scene_management_1_1_scene_manager.html", null ]
+        [ "Scene", "struct_d6_engine_1_1_scene_management_1_1_scene.html", "struct_d6_engine_1_1_scene_management_1_1_scene" ],
+        [ "SceneJSONHandler", "class_d6_engine_1_1_scene_management_1_1_scene_j_s_o_n_handler.html", "class_d6_engine_1_1_scene_management_1_1_scene_j_s_o_n_handler" ],
+        [ "SceneManager", "class_d6_engine_1_1_scene_management_1_1_scene_manager.html", null ],
+        [ "SceneObject", "struct_d6_engine_1_1_scene_management_1_1_scene_object.html", "struct_d6_engine_1_1_scene_management_1_1_scene_object" ]
       ] ],
       [ "Component", "class_d6_engine_1_1_component.html", "class_d6_engine_1_1_component" ],
       [ "Engine", "class_d6_engine_1_1_engine.html", null ],
       [ "EngineStateManager", "class_d6_engine_1_1_engine_state_manager.html", "class_d6_engine_1_1_engine_state_manager" ],
       [ "EventHandler", "class_d6_engine_1_1_event_handler.html", null ],
       [ "GameObject", "class_d6_engine_1_1_game_object.html", "class_d6_engine_1_1_game_object" ],
-      [ "GameObjectManager", "class_d6_engine_1_1_game_object_manager.html", null ],
+      [ "GameObjectFactory", "class_d6_engine_1_1_game_object_factory.html", null ],
+      [ "GameObjectManager", "class_d6_engine_1_1_game_object_manager.html", "class_d6_engine_1_1_game_object_manager" ],
       [ "IState", "class_d6_engine_1_1_i_state.html", null ],
       [ "MonoBehaviour", "class_d6_engine_1_1_mono_behaviour.html", null ],
       [ "TestComponent", "class_d6_engine_1_1_test_component.html", "class_d6_engine_1_1_test_component" ],

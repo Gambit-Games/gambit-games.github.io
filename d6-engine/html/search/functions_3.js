@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['fixedupdate_0',['FixedUpdate',['../class_d6_engine_1_1_component.html#aae168445f7cbe9a8169afcb9e2611786',1,'D6Engine::Component::FixedUpdate()'],['../class_d6_engine_1_1_test_component.html#a20ec80d1edb8790a4fd6bf19679b2715',1,'D6Engine::TestComponent::FixedUpdate()']]]
+  ['destroy_0',['Destroy',['../class_d6_engine_1_1_game_object.html#ab8634ada828de19b0f0e92c61779166a',1,'D6Engine::GameObject']]]
 ];
