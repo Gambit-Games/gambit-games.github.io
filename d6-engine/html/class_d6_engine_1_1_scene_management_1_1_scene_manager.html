@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/1</span>
+                                &#160;<span id="projectnumber">v0.1/2</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -109,9 +109,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a2d7837954f25dadc0fced0ef1f55e523"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_scene_management_1_1_scene_manager.html#a2d7837954f25dadc0fced0ef1f55e523">CreateScene</a> (const std::string &amp;name=&quot;New <a class="el" href="struct_d6_engine_1_1_scene_management_1_1_scene.html">Scene</a>&quot;, const std::string &amp;path=&quot;/&quot;)</td></tr>
 <tr class="memdesc:a2d7837954f25dadc0fced0ef1f55e523"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates and loads an empty scene file.  <a href="class_d6_engine_1_1_scene_management_1_1_scene_manager.html#a2d7837954f25dadc0fced0ef1f55e523">More...</a><br /></td></tr>
 <tr class="separator:a2d7837954f25dadc0fced0ef1f55e523"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41313f0886b1e902f3a6c58d147cab00"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_scene_management_1_1_scene_manager.html#a41313f0886b1e902f3a6c58d147cab00">LoadScene</a> (const std::string &amp;nameOrPath, bool restartState=false)</td></tr>
-<tr class="memdesc:a41313f0886b1e902f3a6c58d147cab00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads an existing scene by name, or loads a new one from a file.  <a href="class_d6_engine_1_1_scene_management_1_1_scene_manager.html#a41313f0886b1e902f3a6c58d147cab00">More...</a><br /></td></tr>
-<tr class="separator:a41313f0886b1e902f3a6c58d147cab00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3390924fc0149cbcd516dc53af7afc3b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_scene_management_1_1_scene_manager.html#a3390924fc0149cbcd516dc53af7afc3b">LoadScene</a> (const std::string &amp;nameOrPath, bool restartState=false, bool forceReload=false)</td></tr>
+<tr class="memdesc:a3390924fc0149cbcd516dc53af7afc3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads an existing scene by name, or loads a new one from a file.  <a href="class_d6_engine_1_1_scene_management_1_1_scene_manager.html#a3390924fc0149cbcd516dc53af7afc3b">More...</a><br /></td></tr>
+<tr class="separator:a3390924fc0149cbcd516dc53af7afc3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f810f1328cb1edbb5bf9c1c41ac4e03"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_d6_engine_1_1_scene_management_1_1_scene.html">Scene</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_scene_management_1_1_scene_manager.html#a4f810f1328cb1edbb5bf9c1c41ac4e03">GetCurrentScene</a> ()</td></tr>
 <tr class="memdesc:a4f810f1328cb1edbb5bf9c1c41ac4e03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the currently loaded <a class="el" href="struct_d6_engine_1_1_scene_management_1_1_scene.html" title="Scenes store GameObject data in a serialisable format.">Scene</a> definition.  <a href="class_d6_engine_1_1_scene_management_1_1_scene_manager.html#a4f810f1328cb1edbb5bf9c1c41ac4e03">More...</a><br /></td></tr>
 <tr class="separator:a4f810f1328cb1edbb5bf9c1c41ac4e03"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -230,8 +230,8 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveScene</b> 
 
 </div>
 </div>
-<a id="a41313f0886b1e902f3a6c58d147cab00" name="a41313f0886b1e902f3a6c58d147cab00"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41313f0886b1e902f3a6c58d147cab00">&#9670;&nbsp;</a></span>LoadScene()</h2>
+<a id="a3390924fc0149cbcd516dc53af7afc3b" name="a3390924fc0149cbcd516dc53af7afc3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3390924fc0149cbcd516dc53af7afc3b">&#9670;&nbsp;</a></span>LoadScene()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -249,7 +249,13 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveScene</b> 
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>restartState</em> = <code>false</code>&#160;</td>
+          <td class="paramname"><em>restartState</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>forceReload</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -269,6 +275,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveScene</b> 
   <table class="params">
     <tr><td class="paramname">nameOrPath</td><td>The human-readable name or directory file path of the scene. </td></tr>
     <tr><td class="paramname">restartState</td><td>Whether the state will restart itself after the load process. </td></tr>
+    <tr><td class="paramname">forceReload</td><td>Causes the <a class="el" href="class_d6_engine_1_1_scene_management_1_1_scene_manager.html" title="Handles scene management, such as saving and loading.">SceneManager</a> to load the scene from file, overriding scenes with the same name. </td></tr>
   </table>
   </dd>
 </dl>

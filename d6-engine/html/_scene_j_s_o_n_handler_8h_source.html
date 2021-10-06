@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/1</span>
+                                &#160;<span id="projectnumber">v0.1/2</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -133,12 +133,12 @@ $(document).ready(function(){initNavTree('_scene_j_s_o_n_handler_8h_source.html'
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>        <a class="code hl_struct" href="struct_d6_engine_1_1_scene_management_1_1_scene.html">Scene</a>* scenePtr = <span class="keyword">nullptr</span>;</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        std::string currentKey;</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>        std::stack&lt;std::string&gt; parentKeys;</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>        <span class="keywordtype">bool</span> inArray = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>        <span class="keywordtype">bool</span> inValueArray = <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        <span class="keywordtype">bool</span> AddComponentValue(<span class="keyword">const</span> variant&amp; value);</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        <span class="keywordtype">void</span> WalkUp(<span class="keywordtype">bool</span> isArray = <span class="keyword">false</span>);</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>        <span class="keywordtype">void</span> WalkDown(<span class="keywordtype">bool</span> isArray = <span class="keyword">false</span>);</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>        <span class="keywordtype">void</span> WalkDown(<span class="keywordtype">bool</span> isValueArray = <span class="keyword">false</span>);</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        <span class="comment">//Holding point for array values such as vectors.</span></div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>        std::queue&lt;variant&gt; cache;</div>
@@ -146,8 +146,8 @@ $(document).ready(function(){initNavTree('_scene_j_s_o_n_handler_8h_source.html'
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>}</div>
 <div class="ttc" id="aclass_d6_engine_1_1_scene_management_1_1_scene_j_s_o_n_handler_html"><div class="ttname"><a href="class_d6_engine_1_1_scene_management_1_1_scene_j_s_o_n_handler.html">D6Engine::SceneManagement::SceneJSONHandler</a></div><div class="ttdoc">RapidJSON handler class for scene files.</div><div class="ttdef"><b>Definition:</b> SceneJSONHandler.h:33</div></div>
 <div class="ttc" id="aclass_d6_engine_1_1_scene_management_1_1_scene_j_s_o_n_handler_html_a159834650bfc169d0a1ca2d9fa46f6c4"><div class="ttname"><a href="class_d6_engine_1_1_scene_management_1_1_scene_j_s_o_n_handler.html#a159834650bfc169d0a1ca2d9fa46f6c4">D6Engine::SceneManagement::SceneJSONHandler::BindScene</a></div><div class="ttdeci">void BindScene(Scene *scene)</div><div class="ttdoc">Sets the scene object for the handler to write data to.</div><div class="ttdef"><b>Definition:</b> SceneJSONHandler.cpp:20</div></div>
-<div class="ttc" id="anamespace_d6_engine_1_1_scene_management_html"><div class="ttname"><a href="namespace_d6_engine_1_1_scene_management.html">D6Engine::SceneManagement</a></div><div class="ttdef"><b>Definition:</b> GameObject.hpp:22</div></div>
-<div class="ttc" id="astruct_d6_engine_1_1_scene_management_1_1_scene_html"><div class="ttname"><a href="struct_d6_engine_1_1_scene_management_1_1_scene.html">D6Engine::SceneManagement::Scene</a></div><div class="ttdoc">Scenes store GameObject data in a serialisable format.</div><div class="ttdef"><b>Definition:</b> Scene.h:37</div></div>
+<div class="ttc" id="anamespace_d6_engine_1_1_scene_management_html"><div class="ttname"><a href="namespace_d6_engine_1_1_scene_management.html">D6Engine::SceneManagement</a></div><div class="ttdef"><b>Definition:</b> GameObject.hpp:21</div></div>
+<div class="ttc" id="astruct_d6_engine_1_1_scene_management_1_1_scene_html"><div class="ttname"><a href="struct_d6_engine_1_1_scene_management_1_1_scene.html">D6Engine::SceneManagement::Scene</a></div><div class="ttdoc">Scenes store GameObject data in a serialisable format.</div><div class="ttdef"><b>Definition:</b> Scene.h:40</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.9.1-->

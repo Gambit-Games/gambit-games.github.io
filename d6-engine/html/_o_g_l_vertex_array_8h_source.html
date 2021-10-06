@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/1</span>
+                                &#160;<span id="projectnumber">v0.1/2</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -109,25 +109,26 @@ $(document).ready(function(){initNavTree('_o_g_l_vertex_array_8h_source.html',''
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <span class="keywordtype">void</span> Bind() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        GLuint GetIndexCount() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        <span class="comment">//TODO: Proper Copy/Move Ctor/Opr for buffers</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        <a class="code hl_class" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html">~OGLVertexArray</a>();</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        <a class="code hl_function" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html#a4c4f0c83fc02ba442ca5d5399d4cd3cf">OGLVertexArray</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html">OGLVertexArray</a>&amp; other) = <span class="keywordflow">default</span>;</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        <a class="code hl_function" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html#a4c4f0c83fc02ba442ca5d5399d4cd3cf">OGLVertexArray</a>(<a class="code hl_class" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html">OGLVertexArray</a>&amp;&amp; other) <span class="keyword">noexcept</span> = <span class="keyword">delete</span>;</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        <a class="code hl_class" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html">OGLVertexArray</a>&amp; operator=(<span class="keyword">const</span> <a class="code hl_class" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html">OGLVertexArray</a>&amp; other) = <span class="keywordflow">default</span>;</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <a class="code hl_class" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html">OGLVertexArray</a>&amp; operator=(<a class="code hl_class" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html">OGLVertexArray</a>&amp;&amp; other) <span class="keyword">noexcept</span> = <span class="keyword">delete</span>;</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>        std::shared_ptr&lt;OGLVertexBuffer&gt; vertexBuffer;</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        std::shared_ptr&lt;OGLIndexBuffer&gt; indexBuffer;</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        <span class="keywordtype">void</span> Init();</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        GLuint rendererId {};</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        GLint vertexSize = 2;</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    };</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>}</div>
-<div class="ttc" id="aclass_d6_engine_1_1_graphics_1_1_o_g_l_index_buffer_html"><div class="ttname"><a href="class_d6_engine_1_1_graphics_1_1_o_g_l_index_buffer.html">D6Engine::Graphics::OGLIndexBuffer</a></div><div class="ttdef"><b>Definition:</b> OGLBuffers.h:49</div></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        <span class="comment">//TODO: Proper Copy/Move Ctor/Opr for buffers</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        <a class="code hl_class" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html">~OGLVertexArray</a>();</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        <a class="code hl_function" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html#a4c4f0c83fc02ba442ca5d5399d4cd3cf">OGLVertexArray</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html">OGLVertexArray</a>&amp; other) = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        <a class="code hl_function" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html#a4c4f0c83fc02ba442ca5d5399d4cd3cf">OGLVertexArray</a>(<a class="code hl_class" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html">OGLVertexArray</a>&amp;&amp; other) <span class="keyword">noexcept</span> = <span class="keyword">delete</span>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <a class="code hl_class" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html">OGLVertexArray</a>&amp; operator=(<span class="keyword">const</span> <a class="code hl_class" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html">OGLVertexArray</a>&amp; other) = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        <a class="code hl_class" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html">OGLVertexArray</a>&amp; operator=(<a class="code hl_class" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html">OGLVertexArray</a>&amp;&amp; other) <span class="keyword">noexcept</span> = <span class="keyword">delete</span>;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        std::shared_ptr&lt;OGLVertexBuffer&gt; vertexBuffer;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        std::shared_ptr&lt;OGLIndexBuffer&gt; indexBuffer;</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <span class="keywordtype">void</span> Init();</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        GLuint rendererId {};</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        GLint vertexSize = 2;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    };</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>}</div>
+<div class="ttc" id="aclass_d6_engine_1_1_graphics_1_1_o_g_l_index_buffer_html"><div class="ttname"><a href="class_d6_engine_1_1_graphics_1_1_o_g_l_index_buffer.html">D6Engine::Graphics::OGLIndexBuffer</a></div><div class="ttdef"><b>Definition:</b> OGLBuffers.h:51</div></div>
 <div class="ttc" id="aclass_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array_html"><div class="ttname"><a href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html">D6Engine::Graphics::OGLVertexArray</a></div><div class="ttdef"><b>Definition:</b> OGLVertexArray.h:18</div></div>
-<div class="ttc" id="aclass_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array_html_a4c4f0c83fc02ba442ca5d5399d4cd3cf"><div class="ttname"><a href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html#a4c4f0c83fc02ba442ca5d5399d4cd3cf">D6Engine::Graphics::OGLVertexArray::OGLVertexArray</a></div><div class="ttdeci">OGLVertexArray()</div><div class="ttdoc">Creates an empty vertex array object and binds it.</div><div class="ttdef"><b>Definition:</b> OGLVertexArray.cpp:15</div></div>
+<div class="ttc" id="aclass_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array_html_a4c4f0c83fc02ba442ca5d5399d4cd3cf"><div class="ttname"><a href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html#a4c4f0c83fc02ba442ca5d5399d4cd3cf">D6Engine::Graphics::OGLVertexArray::OGLVertexArray</a></div><div class="ttdeci">OGLVertexArray()</div><div class="ttdoc">Creates an empty vertex array object and binds it.</div><div class="ttdef"><b>Definition:</b> OGLVertexArray.cpp:16</div></div>
 <div class="ttc" id="aclass_d6_engine_1_1_graphics_1_1_o_g_l_vertex_buffer_html"><div class="ttname"><a href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_buffer.html">D6Engine::Graphics::OGLVertexBuffer</a></div><div class="ttdef"><b>Definition:</b> OGLBuffers.h:31</div></div>
 <div class="ttc" id="anamespace_d6_engine_1_1_graphics_html"><div class="ttname"><a href="namespace_d6_engine_1_1_graphics.html">D6Engine::Graphics</a></div><div class="ttdef"><b>Definition:</b> OGLBuffers.cpp:14</div></div>
 </div><!-- fragment --></div><!-- contents -->

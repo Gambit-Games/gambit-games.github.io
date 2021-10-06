@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/1</span>
+                                &#160;<span id="projectnumber">v0.1/2</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -98,7 +98,11 @@ $(document).ready(function(){initNavTree('namespace_d6_engine_1_1_input.html',''
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_input_1_1_input_system.html">InputSystem</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_input_1_1_keyboard.html">Keyboard</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides an interface to retreive the inputs from the <a class="el" href="class_d6_engine_1_1_input_1_1_keyboard.html" title="Provides an interface to retreive the inputs from the Keyboard.">Keyboard</a>.  <a href="class_d6_engine_1_1_input_1_1_keyboard.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_input_1_1_mouse.html">Mouse</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides an interface to retreive the inputs from the <a class="el" href="class_d6_engine_1_1_input_1_1_mouse.html" title="Provides an interface to retreive the inputs from the Mouse.">Mouse</a>.  <a href="class_d6_engine_1_1_input_1_1_mouse.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d6_engine_1_1_input_1_1_mouse_input.html">MouseInput</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -111,10 +115,22 @@ Enumerations</h2></td></tr>
 , <b>KEY_FREE</b>
  }</td></tr>
 <tr class="separator:a1e96c25d806d0a62ec99931bdebde74b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3498ccbec41f9bb5704e0f1ef439a383"><td class="memItemLeft" align="right" valign="top"><a id="a3498ccbec41f9bb5704e0f1ef439a383" name="a3498ccbec41f9bb5704e0f1ef439a383"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><b>MOUSESTATE</b> { <b>MOUSE_RELEASE</b>
+, <b>MOUSE_TRIGGER</b>
+, <b>MOUSE_HOLD</b>
+, <b>MOUSE_FREE</b>
+ }</td></tr>
+<tr class="separator:a3498ccbec41f9bb5704e0f1ef439a383"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >file: <a class="el" href="_input_system_8h_source.html">InputSystem.h</a> author: Neo Ting Wei Terrence, Ryan-Cecil Lim Xuan Xian email: <a href="#" onclick="location.href='mai'+'lto:'+'neo'+'.w'+'@di'+'gi'+'pen'+'.e'+'du'; return false;">neo.w<span style="display: none;">.nosp@m.</span>@dig<span style="display: none;">.nosp@m.</span>ipen.<span style="display: none;">.nosp@m.</span>edu</a> project: D6_Engine brief: This function contains the declarations for the <a class="el" href="namespace_d6_engine_1_1_input.html">Input</a> System. It is used to get the state of the Keyboard/ Mouse inputs</p>
-<p >Copyright Â© 2021 DigiPen, All rights reserved. </p>
+<div class="textblock"><p >file: Keyboard.cpp author: Neo Ting Wei Terrence, Ryan-Cecil Lim Xuan Xian email: <a href="#" onclick="location.href='mai'+'lto:'+'neo'+'.w'+'@di'+'gi'+'pen'+'.e'+'du'; return false;">neo.w<span style="display: none;">.nosp@m.</span>@dig<span style="display: none;">.nosp@m.</span>ipen.<span style="display: none;">.nosp@m.</span>edu</a>, <a href="#" onclick="location.href='mai'+'lto:'+'rya'+'nc'+'eci'+'ll'+'im.'+'x@'+'dig'+'ip'+'en.'+'ed'+'u'; return false;">ryanc<span style="display: none;">.nosp@m.</span>ecil<span style="display: none;">.nosp@m.</span>lim.x<span style="display: none;">.nosp@m.</span>@dig<span style="display: none;">.nosp@m.</span>ipen.<span style="display: none;">.nosp@m.</span>edu</a> project: D6_Engine brief: This file contains the definitions for the <a class="el" href="class_d6_engine_1_1_input_1_1_keyboard.html" title="Provides an interface to retreive the inputs from the Keyboard.">Keyboard</a> System. It is used to receive and process <a class="el" href="class_d6_engine_1_1_input_1_1_keyboard.html" title="Provides an interface to retreive the inputs from the Keyboard.">Keyboard</a> inputs</p>
+<p >Copyright Â© 2021 DigiPen, All rights reserved.</p>
+<p >file: <a class="el" href="_keyboard_8h_source.html">Keyboard.h</a> author: Neo Ting Wei Terrence, Ryan-Cecil Lim Xuan Xian email: <a href="#" onclick="location.href='mai'+'lto:'+'neo'+'.w'+'@di'+'gi'+'pen'+'.e'+'du'; return false;">neo.w<span style="display: none;">.nosp@m.</span>@dig<span style="display: none;">.nosp@m.</span>ipen.<span style="display: none;">.nosp@m.</span>edu</a>, <a href="#" onclick="location.href='mai'+'lto:'+'rya'+'nc'+'eci'+'ll'+'im.'+'x@'+'dig'+'ip'+'en.'+'ed'+'u'; return false;">ryanc<span style="display: none;">.nosp@m.</span>ecil<span style="display: none;">.nosp@m.</span>lim.x<span style="display: none;">.nosp@m.</span>@dig<span style="display: none;">.nosp@m.</span>ipen.<span style="display: none;">.nosp@m.</span>edu</a> project: D6_Engine brief: This file contains the declarations for the <a class="el" href="class_d6_engine_1_1_input_1_1_keyboard.html" title="Provides an interface to retreive the inputs from the Keyboard.">Keyboard</a> System. It is used to receive and process <a class="el" href="class_d6_engine_1_1_input_1_1_keyboard.html" title="Provides an interface to retreive the inputs from the Keyboard.">Keyboard</a> inputs</p>
+<p >Copyright Â© 2021 DigiPen, All rights reserved.</p>
+<p >file: Mouse.cpp author: Neo Ting Wei Terrence, Ryan-Cecil Lim Xuan Xian email: <a href="#" onclick="location.href='mai'+'lto:'+'neo'+'.w'+'@di'+'gi'+'pen'+'.e'+'du'; return false;">neo.w<span style="display: none;">.nosp@m.</span>@dig<span style="display: none;">.nosp@m.</span>ipen.<span style="display: none;">.nosp@m.</span>edu</a>, <a href="#" onclick="location.href='mai'+'lto:'+'rya'+'nc'+'eci'+'ll'+'im.'+'x@'+'dig'+'ip'+'en.'+'ed'+'u'; return false;">ryanc<span style="display: none;">.nosp@m.</span>ecil<span style="display: none;">.nosp@m.</span>lim.x<span style="display: none;">.nosp@m.</span>@dig<span style="display: none;">.nosp@m.</span>ipen.<span style="display: none;">.nosp@m.</span>edu</a> project: D6_Engine brief: This file contains the definitions for the <a class="el" href="class_d6_engine_1_1_input_1_1_mouse.html" title="Provides an interface to retreive the inputs from the Mouse.">Mouse</a> System. It is used to receive and process <a class="el" href="class_d6_engine_1_1_input_1_1_mouse.html" title="Provides an interface to retreive the inputs from the Mouse.">Mouse</a> inputs</p>
+<p >Copyright © 2021 DigiPen, All rights reserved.</p>
+<p >file: <a class="el" href="_mouse_8h_source.html">Mouse.h</a> author: Neo Ting Wei Terrence, Ryan-Cecil Lim Xuan Xian email: <a href="#" onclick="location.href='mai'+'lto:'+'neo'+'.w'+'@di'+'gi'+'pen'+'.e'+'du'; return false;">neo.w<span style="display: none;">.nosp@m.</span>@dig<span style="display: none;">.nosp@m.</span>ipen.<span style="display: none;">.nosp@m.</span>edu</a>, <a href="#" onclick="location.href='mai'+'lto:'+'rya'+'nc'+'eci'+'ll'+'im.'+'x@'+'dig'+'ip'+'en.'+'ed'+'u'; return false;">ryanc<span style="display: none;">.nosp@m.</span>ecil<span style="display: none;">.nosp@m.</span>lim.x<span style="display: none;">.nosp@m.</span>@dig<span style="display: none;">.nosp@m.</span>ipen.<span style="display: none;">.nosp@m.</span>edu</a> project: D6_Engine brief: This file contains the declarations for the <a class="el" href="class_d6_engine_1_1_input_1_1_mouse.html" title="Provides an interface to retreive the inputs from the Mouse.">Mouse</a> System. It is used to receive and process <a class="el" href="class_d6_engine_1_1_input_1_1_mouse.html" title="Provides an interface to retreive the inputs from the Mouse.">Mouse</a> inputs.</p>
+<p >Copyright © 2021 DigiPen, All rights reserved. </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.9.1-->

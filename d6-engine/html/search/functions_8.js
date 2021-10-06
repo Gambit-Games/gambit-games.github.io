@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['lateupdate_0',['LateUpdate',['../class_d6_engine_1_1_component.html#a8f8c61c2424be8d2bf857f9b21646c72',1,'D6Engine::Component::LateUpdate()'],['../class_d6_engine_1_1_test_component.html#abef3d49588afd3bd520804ad76bfef4c',1,'D6Engine::TestComponent::LateUpdate()']]],
-  ['loadscene_1',['LoadScene',['../class_d6_engine_1_1_scene_management_1_1_scene_manager.html#a41313f0886b1e902f3a6c58d147cab00',1,'D6Engine::SceneManagement::SceneManager']]]
+  ['keypress_0',['KeyPress',['../class_d6_engine_1_1_input_1_1_keyboard.html#a8e97d2bf225b72dee0f470b883ae5511',1,'D6Engine::Input::Keyboard']]],
+  ['keyrelease_1',['KeyRelease',['../class_d6_engine_1_1_input_1_1_keyboard.html#a85753ccf47e2a424fa81c380f90525ad',1,'D6Engine::Input::Keyboard']]]
 ];
