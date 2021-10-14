@@ -1,10 +1,21 @@
 var searchData=
 [
-  ['testcomponent_0',['TestComponent',['../class_d6_engine_1_1_test_component.html',1,'D6Engine']]],
-  ['texture_1',['Texture',['../class_d6_engine_1_1_graphics_1_1_texture.html',1,'D6Engine::Graphics::Texture'],['../class_d6_engine_1_1_graphics_1_1_texture.html#af6a0c9bf346b307e2678dec1f9bf57fe',1,'D6Engine::Graphics::Texture::Texture()']]],
-  ['time_2',['Time',['../class_d6_engine_1_1_time.html',1,'D6Engine']]],
-  ['time_3',['time',['../class_d6_engine_1_1_time.html#abc0c9c68b0e36f32a0f8f6baaab2aed0',1,'D6Engine::Time']]],
-  ['trace_4',['Trace',['../class_d6_engine_1_1_engine_log.html#a00f3d0411ec53f1564c0af72b506e1d8',1,'D6Engine::EngineLog']]],
-  ['transform_5',['Transform',['../class_d6_engine_1_1_transform.html',1,'D6Engine']]],
-  ['translate_6',['Translate',['../union_d6_engine_1_1_math_1_1_matrix3x3.html#a83a3fa9799e9a7ec6885868fde15c4df',1,'D6Engine::Math::Matrix3x3']]]
+  ['savescene_0',['SaveScene',['../class_d6_engine_1_1_scene_management_1_1_scene_manager.html#a5bd8cf1012d36e99086cc54f48560d66',1,'D6Engine::SceneManagement::SceneManager']]],
+  ['scale_1',['Scale',['../union_d6_engine_1_1_math_1_1_matrix3x3.html#a213d447abc949967b56ca78cc9e5ddc3',1,'D6Engine::Math::Matrix3x3']]],
+  ['scene_2',['Scene',['../struct_d6_engine_1_1_scene_management_1_1_scene.html',1,'D6Engine::SceneManagement']]],
+  ['scenejsonhandler_3',['SceneJSONHandler',['../class_d6_engine_1_1_scene_management_1_1_scene_j_s_o_n_handler.html',1,'D6Engine::SceneManagement']]],
+  ['scenemanager_4',['SceneManager',['../class_d6_engine_1_1_scene_management_1_1_scene_manager.html',1,'D6Engine::SceneManagement']]],
+  ['sceneobject_5',['SceneObject',['../struct_d6_engine_1_1_scene_management_1_1_scene_object.html',1,'D6Engine::SceneManagement']]],
+  ['sceneobjects_6',['sceneObjects',['../struct_d6_engine_1_1_scene_management_1_1_scene.html#a2e3893ee447af7438e6f3d6a25b188e4',1,'D6Engine::SceneManagement::Scene']]],
+  ['setbackgroundcolor_7',['SetBackgroundColor',['../class_d6_engine_1_1_graphics_1_1_renderer.html#a13f40cfb90604b60cb554a5ae40be31a',1,'D6Engine::Graphics::Renderer']]],
+  ['setcolour_8',['SetColour',['../class_d6_engine_1_1_sprite_renderer.html#a9983ec4ee6d8578f40183a527263a4b4',1,'D6Engine::SpriteRenderer::SetColour()'],['../class_d6_engine_1_1_graphics_1_1_debug_draw.html#a684e0db730bbb8f3967cd31853b06fcc',1,'D6Engine::Graphics::DebugDraw::SetColour()']]],
+  ['setgameobject_9',['SetGameObject',['../class_d6_engine_1_1_component.html#a8ba93d270ad608aef5e45ac527db2a69',1,'D6Engine::Component::SetGameObject()'],['../class_d6_engine_1_1_sprite_renderer.html#a826646ee5484b1a0f9a4246dd7b40088',1,'D6Engine::SpriteRenderer::SetGameObject()'],['../class_d6_engine_1_1_transform.html#a1a1e266b45c1ff0fb1ca6ccb46718a21',1,'D6Engine::Transform::SetGameObject()']]],
+  ['shader_10',['Shader',['../class_d6_engine_1_1_graphics_1_1_shader.html',1,'D6Engine::Graphics']]],
+  ['shaderref_11',['shaderRef',['../struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#ae5a38b12d755360d1094a047b94fe4e6',1,'D6Engine::Graphics::Renderer::GLObject']]],
+  ['sortorder_12',['sortOrder',['../class_d6_engine_1_1_sprite_renderer.html#a0d9738f52e0f3177137feb9eaff63ae8',1,'D6Engine::SpriteRenderer']]],
+  ['sprite_13',['sprite',['../class_d6_engine_1_1_sprite_renderer.html#aa74686f8ba4332d4ad63c96153993930',1,'D6Engine::SpriteRenderer']]],
+  ['spriterenderer_14',['SpriteRenderer',['../class_d6_engine_1_1_sprite_renderer.html',1,'D6Engine']]],
+  ['start_15',['Start',['../class_d6_engine_1_1_test_component.html#a4b798252d6fab555b70d0e688323498b',1,'D6Engine::TestComponent::Start()'],['../class_d6_engine_1_1_mono_behaviour.html#a5ca44b57645a1ac91de79f3ebb4d9bd9',1,'D6Engine::MonoBehaviour::Start()']]],
+  ['system_16',['System',['../class_d6_engine_1_1_e_c_s_1_1_system.html',1,'D6Engine::ECS']]],
+  ['systemmanager_17',['SystemManager',['../class_d6_engine_1_1_e_c_s_1_1_system_manager.html',1,'D6Engine::ECS']]]
 ];

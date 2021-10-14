@@ -38,7 +38,7 @@ var NAVTREE =
       [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
-        [ "All", "functions.html", null ],
+        [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", null ],
         [ "Enumerations", "functions_enum.html", null ]
@@ -53,7 +53,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_audio_system_8h_source.html",
-"functions_enum.html"
+"class_d6_engine_1_1_scene_management_1_1_scene_j_s_o_n_handler.html#a159834650bfc169d0a1ca2d9fa46f6c4",
+"union_d6_engine_1_1_math_1_1_matrix3x3.html#a8bac3d28d547a5a52f818c3d3bfaeba5"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

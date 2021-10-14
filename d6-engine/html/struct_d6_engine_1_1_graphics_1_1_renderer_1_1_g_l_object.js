@@ -1,10 +1,12 @@
 var struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object =
 [
-    [ "draw", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a4c21350ad32feaf541271a55b8c0fff9", null ],
-    [ "getXform", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a01389522098750a6df959e12af3c90b4", null ],
-    [ "init", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a8f56750f7bc0d7a3cad44e8df69e5bc6", null ],
-    [ "init", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a0f21788dfc44e0c0ea613fb51173cc59", null ],
-    [ "insertXform", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a845f7389da840022dbe7a62fbabd32df", null ],
-    [ "Update", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a3345864685ee84f235bcce66505a2c92", null ],
-    [ "Update", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#aaff34a18c39ddd3370ce7039fa586d45", null ]
+    [ "Draw", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#aa2a49554708a47fa5edffef300a2f656", null ],
+    [ "Init", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a0ef78f30c231cb1ea8aaf766506e3b40", null ],
+    [ "Init", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a4c75cdcc2107fc423db1eee04652fa88", null ],
+    [ "colour", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a98e16ba66e4f06e6a5cadd257a4be0bb", null ],
+    [ "enabled", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#ab78394db0e9f1b7abd728288b0feeabe", null ],
+    [ "meshRef", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#aa8b6428e544ffaeac88c9b316fe7d04b", null ],
+    [ "modelToNDCTransformMatrix", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#ab73e01e4f5719887930c89408606c289", null ],
+    [ "shaderRef", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#ae5a38b12d755360d1094a047b94fe4e6", null ],
+    [ "transform", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#ac0f76261a028a531a9e7018651ca90b9", null ]
 ];

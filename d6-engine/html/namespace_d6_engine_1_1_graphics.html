@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/2</span>
+                                &#160;<span id="projectnumber">v0.1/3</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -90,18 +90,33 @@ $(document).ready(function(){initNavTree('namespace_d6_engine_1_1_graphics.html'
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">D6Engine::Graphics Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>The implementation the shader class.  
+<a href="namespace_d6_engine_1_1_graphics.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d6_engine_1_1_graphics_1_1_colour.html">Colour</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representation of an RGBA colour. This is used to pass around colour values in D6 <a class="el" href="class_d6_engine_1_1_engine.html">Engine</a>.  <a href="struct_d6_engine_1_1_graphics_1_1_colour.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_debug_draw.html">DebugDraw</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides a way to load texture, bind and unbind texture.  <a href="class_d6_engine_1_1_graphics_1_1_debug_draw.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d6_engine_1_1_graphics_1_1_fragment_shader.html">FragmentShader</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fragment <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a> struct storing the Fragment shader source.  <a href="struct_d6_engine_1_1_graphics_1_1_fragment_shader.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_buffer.html">OGLBuffer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_context.html">OGLContext</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_framebuffer.html">OGLFramebuffer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides a way to load texture, bind and unbind texture.  <a href="class_d6_engine_1_1_graphics_1_1_o_g_l_framebuffer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_index_buffer.html">OGLIndexBuffer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -113,27 +128,51 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Render Class for drawing.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html">Shader</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a> Class which handles the shader parsing and generation of the shader code.  <a href="class_d6_engine_1_1_graphics_1_1_shader.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html">Texture</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides a way to load texture, bind and unbind texture.  <a href="class_d6_engine_1_1_graphics_1_1_texture.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d6_engine_1_1_graphics_1_1_vertex_shader.html">VertexShader</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vertex <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a> struct storing the Vertex shader source.  <a href="struct_d6_engine_1_1_graphics_1_1_vertex_shader.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a73faa174186ea6913200857fefe672c9"><td class="memItemLeft" align="right" valign="top"><a id="a73faa174186ea6913200857fefe672c9" name="a73faa174186ea6913200857fefe672c9"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Color</b> = <a class="el" href="struct_d6_engine_1_1_graphics_1_1_colour.html">Colour</a></td></tr>
+<tr class="separator:a73faa174186ea6913200857fefe672c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a3bc9c6a5ea0a94fe51e1666cf8753d8a"><td class="memItemLeft" align="right" valign="top"><a id="a3bc9c6a5ea0a94fe51e1666cf8753d8a" name="a3bc9c6a5ea0a94fe51e1666cf8753d8a"></a>
+<a class="el" href="class_d6_engine_1_1_graphics_1_1_debug_draw.html">DebugDraw</a>&#160;</td><td class="memItemRight" valign="bottom"><b>debugDraw</b></td></tr>
+<tr class="separator:a3bc9c6a5ea0a94fe51e1666cf8753d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >file: <a class="el" href="_o_g_l_buffers_8h_source.html">OGLBuffers.h</a> author: Neo Ting Wei Terrence email: <a href="#" onclick="location.href='mai'+'lto:'+'neo'+'.w'+'@di'+'gi'+'pen'+'.e'+'du'; return false;">neo.w<span style="display: none;">.nosp@m.</span>@dig<span style="display: none;">.nosp@m.</span>ipen.<span style="display: none;">.nosp@m.</span>edu</a> project: D6_Engine brief: //TODO</p>
+<div class="textblock"><p >The implementation the shader class. </p>
+<p >The declarations of the shader class.</p>
+<p >file: <a class="el" href="_colour_8h_source.html">Colour.h</a> author: Neo Ting Wei Terrence email: <a href="#" onclick="location.href='mai'+'lto:'+'neo'+'.w'+'@di'+'gi'+'pen'+'.e'+'du'; return false;">neo.w<span style="display: none;">.nosp@m.</span>@dig<span style="display: none;">.nosp@m.</span>ipen.<span style="display: none;">.nosp@m.</span>edu</a> project: D6_Engine brief: //TODO</p>
+<p >Copyright Â© 2021 DigiPen, All rights reserved.</p>
+<p >file: <a class="el" href="_texture_8h_source.html">Texture.h</a> author: Jeremiah Lim Eng Keng email: <a href="#" onclick="location.href='mai'+'lto:'+'eng'+'ke'+'ngj'+'er'+'emi'+'ah'+'.li'+'m@'+'dig'+'ip'+'en.'+'ed'+'u'; return false;">engke<span style="display: none;">.nosp@m.</span>ngje<span style="display: none;">.nosp@m.</span>remia<span style="display: none;">.nosp@m.</span>h.li<span style="display: none;">.nosp@m.</span>m@dig<span style="display: none;">.nosp@m.</span>ipen<span style="display: none;">.nosp@m.</span>.edu</a> project: D6_Engine brief: This file contains definitions for the <a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html" title="Provides a way to load texture, bind and unbind texture.">Texture</a> class. Class creates Textures for objects.</p>
+<p >Copyright © 2021 DigiPen, All rights reserved.</p>
+<p >/*! file: <a class="el" href="_texture_8h_source.html">Texture.h</a> author: Jeremiah Lim Eng Keng email: <a href="#" onclick="location.href='mai'+'lto:'+'eng'+'ke'+'ngj'+'er'+'emi'+'ah'+'.li'+'m@'+'dig'+'ip'+'en.'+'ed'+'u'; return false;">engke<span style="display: none;">.nosp@m.</span>ngje<span style="display: none;">.nosp@m.</span>remia<span style="display: none;">.nosp@m.</span>h.li<span style="display: none;">.nosp@m.</span>m@dig<span style="display: none;">.nosp@m.</span>ipen<span style="display: none;">.nosp@m.</span>.edu</a> project: D6_Engine brief: This file contains declarations for the <a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html" title="Provides a way to load texture, bind and unbind texture.">Texture</a> class. Class creates Textures for objects.</p>
+<p >Copyright © 2021 DigiPen, All rights reserved.</p>
+<p >file: <a class="el" href="_o_g_l_buffers_8h_source.html">OGLBuffers.h</a> author: Neo Ting Wei Terrence email: <a href="#" onclick="location.href='mai'+'lto:'+'neo'+'.w'+'@di'+'gi'+'pen'+'.e'+'du'; return false;">neo.w<span style="display: none;">.nosp@m.</span>@dig<span style="display: none;">.nosp@m.</span>ipen.<span style="display: none;">.nosp@m.</span>edu</a> project: D6_Engine brief: //TODO</p>
 <p >Copyright Â© 2021 DigiPen, All rights reserved.</p>
 <p >file: <a class="el" href="_o_g_l_context_8h_source.html">OGLContext.h</a> author: Neo Ting Wei Terrence email: <a href="#" onclick="location.href='mai'+'lto:'+'neo'+'.w'+'@di'+'gi'+'pen'+'.e'+'du'; return false;">neo.w<span style="display: none;">.nosp@m.</span>@dig<span style="display: none;">.nosp@m.</span>ipen.<span style="display: none;">.nosp@m.</span>edu</a> project: D6_Engine brief: //TODO</p>
 <p >Copyright Â© 2021 DigiPen, All rights reserved.</p>
-<p >file: Mesh.h author: Neo Ting Wei Terrence email: <a href="#" onclick="location.href='mai'+'lto:'+'neo'+'.w'+'@di'+'gi'+'pen'+'.e'+'du'; return false;">neo.w<span style="display: none;">.nosp@m.</span>@dig<span style="display: none;">.nosp@m.</span>ipen.<span style="display: none;">.nosp@m.</span>edu</a> project: D6_Engine brief: //TODO</p>
+<p >file: Mesh.cpp author: Jeremiah Lim Eng Keng, Neo Ting Wei Terrence email: <a href="#" onclick="location.href='mai'+'lto:'+'eng'+'ke'+'ngj'+'er'+'emi'+'ah'+'.li'+'m@'+'dig'+'ip'+'en.'+'ed'+'u'; return false;">engke<span style="display: none;">.nosp@m.</span>ngje<span style="display: none;">.nosp@m.</span>remia<span style="display: none;">.nosp@m.</span>h.li<span style="display: none;">.nosp@m.</span>m@dig<span style="display: none;">.nosp@m.</span>ipen<span style="display: none;">.nosp@m.</span>.edu</a>, <a href="#" onclick="location.href='mai'+'lto:'+'neo'+'.w'+'@di'+'gi'+'pen'+'.e'+'du'; return false;">neo.w<span style="display: none;">.nosp@m.</span>@dig<span style="display: none;">.nosp@m.</span>ipen.<span style="display: none;">.nosp@m.</span>edu</a> project: D6_Engine brief: Function definintions for setting up the Vertex array object using the Vertex buffer and Index buffer arrays.</p>
+<p >Copyright Â© 2021 DigiPen, All rights reserved.</p>
+<p >file: Mesh.h author: Jeremiah Lim Eng Keng, Neo Ting Wei Terrence email: <a href="#" onclick="location.href='mai'+'lto:'+'eng'+'ke'+'ngj'+'er'+'emi'+'ah'+'.li'+'m@'+'dig'+'ip'+'en.'+'ed'+'u'; return false;">engke<span style="display: none;">.nosp@m.</span>ngje<span style="display: none;">.nosp@m.</span>remia<span style="display: none;">.nosp@m.</span>h.li<span style="display: none;">.nosp@m.</span>m@dig<span style="display: none;">.nosp@m.</span>ipen<span style="display: none;">.nosp@m.</span>.edu</a>, <a href="#" onclick="location.href='mai'+'lto:'+'neo'+'.w'+'@di'+'gi'+'pen'+'.e'+'du'; return false;">neo.w<span style="display: none;">.nosp@m.</span>@dig<span style="display: none;">.nosp@m.</span>ipen.<span style="display: none;">.nosp@m.</span>edu</a> project: D6_Engine brief: Function declarations for setting up the Vertex array object using the Vertex buffer and Index buffer arrays.</p>
 <p >Copyright Â© 2021 DigiPen, All rights reserved.</p>
 <p >file: Renderer.cpp author: Jeremiah Lim Eng Keng email: <a href="#" onclick="location.href='mai'+'lto:'+'eng'+'ke'+'ngj'+'er'+'emi'+'ah'+'.li'+'m@'+'dig'+'ip'+'en.'+'ed'+'u'; return false;">engke<span style="display: none;">.nosp@m.</span>ngje<span style="display: none;">.nosp@m.</span>remia<span style="display: none;">.nosp@m.</span>h.li<span style="display: none;">.nosp@m.</span>m@dig<span style="display: none;">.nosp@m.</span>ipen<span style="display: none;">.nosp@m.</span>.edu</a> project: D6_Engine brief: This file contains definitions for the Rendering class. Class for drawing unto the screen.</p>
 <p >Copyright Â© 2021 DigiPen, All rights reserved.</p>
 <p >file: <a class="el" href="_renderer_8h_source.html">Renderer.h</a> author: Jeremiah Lim Eng Keng email: <a href="#" onclick="location.href='mai'+'lto:'+'eng'+'ke'+'ngj'+'er'+'emi'+'ah'+'.li'+'m@'+'dig'+'ip'+'en.'+'ed'+'u'; return false;">engke<span style="display: none;">.nosp@m.</span>ngje<span style="display: none;">.nosp@m.</span>remia<span style="display: none;">.nosp@m.</span>h.li<span style="display: none;">.nosp@m.</span>m@dig<span style="display: none;">.nosp@m.</span>ipen<span style="display: none;">.nosp@m.</span>.edu</a> project: D6_Engine brief: This file contains declarations for the Rendering class. Class for drawing unto the screen.</p>
 <p >Copyright Â© 2021 DigiPen, All rights reserved.</p>
-<p >file: <a class="el" href="_texture_8h_source.html">Texture.h</a> author: Jeremiah Lim Eng Keng email: <a href="#" onclick="location.href='mai'+'lto:'+'eng'+'ke'+'ngj'+'er'+'emi'+'ah'+'.li'+'m@'+'dig'+'ip'+'en.'+'ed'+'u'; return false;">engke<span style="display: none;">.nosp@m.</span>ngje<span style="display: none;">.nosp@m.</span>remia<span style="display: none;">.nosp@m.</span>h.li<span style="display: none;">.nosp@m.</span>m@dig<span style="display: none;">.nosp@m.</span>ipen<span style="display: none;">.nosp@m.</span>.edu</a> project: D6_Engine brief: This file contains definitions for the <a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html" title="Provides a way to load texture, bind and unbind texture.">Texture</a> class. Class creates Textures for objects.</p>
+<p >file: Shader.cpp author: Muhammad Amirul Bin Zaol-kefli email: <a href="#" onclick="location.href='mai'+'lto:'+'muh'+'am'+'mad'+'am'+'iru'+'l.'+'b@d'+'ig'+'ipe'+'n.'+'edu'; return false;">muham<span style="display: none;">.nosp@m.</span>mada<span style="display: none;">.nosp@m.</span>mirul<span style="display: none;">.nosp@m.</span>.b@d<span style="display: none;">.nosp@m.</span>igipe<span style="display: none;">.nosp@m.</span>n.ed<span style="display: none;">.nosp@m.</span>u</a> project: D6_Engine</p>
 <p >Copyright © 2021 DigiPen, All rights reserved.</p>
-<p >/*! file: <a class="el" href="_texture_8h_source.html">Texture.h</a> author: Jeremiah Lim Eng Keng email: <a href="#" onclick="location.href='mai'+'lto:'+'eng'+'ke'+'ngj'+'er'+'emi'+'ah'+'.li'+'m@'+'dig'+'ip'+'en.'+'ed'+'u'; return false;">engke<span style="display: none;">.nosp@m.</span>ngje<span style="display: none;">.nosp@m.</span>remia<span style="display: none;">.nosp@m.</span>h.li<span style="display: none;">.nosp@m.</span>m@dig<span style="display: none;">.nosp@m.</span>ipen<span style="display: none;">.nosp@m.</span>.edu</a> project: D6_Engine brief: This file contains declarations for the <a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html" title="Provides a way to load texture, bind and unbind texture.">Texture</a> class. Class creates Textures for objects.</p>
+<p >file: <a class="el" href="_shader_8h_source.html">Shader.h</a> author: Muhammad Amirul Bin Zaol-kefli email: <a href="#" onclick="location.href='mai'+'lto:'+'muh'+'am'+'mad'+'am'+'iru'+'l.'+'b@d'+'ig'+'ipe'+'n.'+'edu'; return false;">muham<span style="display: none;">.nosp@m.</span>mada<span style="display: none;">.nosp@m.</span>mirul<span style="display: none;">.nosp@m.</span>.b@d<span style="display: none;">.nosp@m.</span>igipe<span style="display: none;">.nosp@m.</span>n.ed<span style="display: none;">.nosp@m.</span>u</a> project: D6_Engine</p>
 <p >Copyright © 2021 DigiPen, All rights reserved. </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->

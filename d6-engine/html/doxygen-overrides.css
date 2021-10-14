@@ -1,0 +1,11 @@
+.memtitle {
+    background-image: none;
+    background-repeat: initial;
+    background-color: #dfe5f1;
+    font-weight: 400;
+}
+
+div.fragment {
+    padding: 8px 8px 9px 8px;
+    margin: 4px 0;
+}

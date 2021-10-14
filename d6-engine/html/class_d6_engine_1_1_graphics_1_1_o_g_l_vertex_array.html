@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/2</span>
+                                &#160;<span id="projectnumber">v0.1/3</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -102,17 +102,18 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>OGLVertexArray</b> ()</td></tr>
 <tr class="memdesc:a4c4f0c83fc02ba442ca5d5399d4cd3cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an empty vertex array object and binds it. <br /></td></tr>
 <tr class="separator:a4c4f0c83fc02ba442ca5d5399d4cd3cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a052468107aad009c1e0640358c2da106"><td class="memItemLeft" align="right" valign="top"><a id="a052468107aad009c1e0640358c2da106" name="a052468107aad009c1e0640358c2da106"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>OGLVertexArray</b> (float *vertices, size_t vSize, GLuint *indices, GLuint iCount, GLint vertexSize=2)</td></tr>
-<tr class="separator:a052468107aad009c1e0640358c2da106"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a197ee6f64e8c00ae93649021596e516c"><td class="memItemLeft" align="right" valign="top"><a id="a197ee6f64e8c00ae93649021596e516c" name="a197ee6f64e8c00ae93649021596e516c"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>OGLVertexArray</b> (<a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_buffer.html">OGLVertexBuffer</a> *vBuffer, <a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_index_buffer.html">OGLIndexBuffer</a> *iBuffer, GLint vertexSize=2)</td></tr>
-<tr class="separator:a197ee6f64e8c00ae93649021596e516c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adee132259d9a1ec628dc63ff20f0a9b9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html#adee132259d9a1ec628dc63ff20f0a9b9">OGLVertexArray</a> (float *vertices, size_t vSize, GLuint *indices, GLuint iCount, GLint positionSize=2, GLint colourSize=3, GLint texturePositionSize=2)</td></tr>
+<tr class="memdesc:adee132259d9a1ec628dc63ff20f0a9b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a vertex array object with the given vertices and indices and binds them.  <a href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html#adee132259d9a1ec628dc63ff20f0a9b9">More...</a><br /></td></tr>
+<tr class="separator:adee132259d9a1ec628dc63ff20f0a9b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f50e69541a1e753a0ada01ad0ddf9f7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html#a0f50e69541a1e753a0ada01ad0ddf9f7">OGLVertexArray</a> (<a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_buffer.html">OGLVertexBuffer</a> *vBuffer, <a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_index_buffer.html">OGLIndexBuffer</a> *iBuffer, GLint positionSize=2, GLint colourSize=3, GLint texturePositionSize=2)</td></tr>
+<tr class="memdesc:a0f50e69541a1e753a0ada01ad0ddf9f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the vertex array object and binds it.  <a href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html#a0f50e69541a1e753a0ada01ad0ddf9f7">More...</a><br /></td></tr>
+<tr class="separator:a0f50e69541a1e753a0ada01ad0ddf9f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b6fea90d988c49cdb3b4e291161ae01"><td class="memItemLeft" align="right" valign="top"><a id="a2b6fea90d988c49cdb3b4e291161ae01" name="a2b6fea90d988c49cdb3b4e291161ae01"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Bind</b> () const</td></tr>
+<tr class="memdesc:a2b6fea90d988c49cdb3b4e291161ae01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binds the <a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html">OGLVertexArray</a>. <br /></td></tr>
 <tr class="separator:a2b6fea90d988c49cdb3b4e291161ae01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec98858f7e69c25e6e5b86f9f9ef215e"><td class="memItemLeft" align="right" valign="top"><a id="aec98858f7e69c25e6e5b86f9f9ef215e" name="aec98858f7e69c25e6e5b86f9f9ef215e"></a>
-GLuint&#160;</td><td class="memItemRight" valign="bottom"><b>GetIndexCount</b> () const</td></tr>
+<tr class="memitem:aec98858f7e69c25e6e5b86f9f9ef215e"><td class="memItemLeft" align="right" valign="top">GLuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html#aec98858f7e69c25e6e5b86f9f9ef215e">GetIndexCount</a> () const</td></tr>
+<tr class="memdesc:aec98858f7e69c25e6e5b86f9f9ef215e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Index Count from the Index Buffer Object.  <a href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html#aec98858f7e69c25e6e5b86f9f9ef215e">More...</a><br /></td></tr>
 <tr class="separator:aec98858f7e69c25e6e5b86f9f9ef215e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ea09edd46c50c24b46398bd0e61710a"><td class="memItemLeft" align="right" valign="top"><a id="a6ea09edd46c50c24b46398bd0e61710a" name="a6ea09edd46c50c24b46398bd0e61710a"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>OGLVertexArray</b> (const <a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html">OGLVertexArray</a> &amp;other)=default</td></tr>
@@ -127,6 +128,167 @@ GLuint&#160;</td><td class="memItemRight" valign="bottom"><b>GetIndexCount</b> (
 <a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html">OGLVertexArray</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (<a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html">OGLVertexArray</a> &amp;&amp;other) noexcept=delete</td></tr>
 <tr class="separator:a8be86ea3a86447a8aa1b5411ce1a3ceb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="adee132259d9a1ec628dc63ff20f0a9b9" name="adee132259d9a1ec628dc63ff20f0a9b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adee132259d9a1ec628dc63ff20f0a9b9">&#9670;&nbsp;</a></span>OGLVertexArray() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">D6Engine::Graphics::OGLVertexArray::OGLVertexArray </td>
+          <td>(</td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>vertices</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>vSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLuint *&#160;</td>
+          <td class="paramname"><em>indices</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLuint&#160;</td>
+          <td class="paramname"><em>iCount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLint&#160;</td>
+          <td class="paramname"><em>positionSize</em> = <code>2</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLint&#160;</td>
+          <td class="paramname"><em>colourSize</em> = <code>3</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLint&#160;</td>
+          <td class="paramname"><em>texturePositionSize</em> = <code>2</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates a vertex array object with the given vertices and indices and binds them. </p>
+<div class="fragment"><div class="line"><span class="keywordtype">float</span> vertices[] = {</div>
+<div class="line">    -1.f, -1.f,  1.f, 0.f, 0.f,  0.f, 0.f,  <span class="comment">// bottom left </span></div>
+<div class="line">     1.f, -1.f,  1.f, 0.f, 0.f,  1.f, 0.f,  <span class="comment">// bottom right </span></div>
+<div class="line">     1.f,  1.f,  0.f, 0.f, 1.f,  1.f, 1.f,  <span class="comment">// top right</span></div>
+<div class="line">    -1.f,  1.f,  .5f, .5f, .5f,  0.f, 1.f   <span class="comment">// top left  </span></div>
+<div class="line">    <span class="comment">// position   vertex color   uv coords</span></div>
+<div class="line">};</div>
+<div class="line"><span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> indices[] = { 0, 1, 2, 2, 3, 0 };</div>
+<div class="line">Graphics::OGLVertexArray* mesh1 = <span class="keyword">new</span> Graphics::OGLVertexArray(vertices, <span class="keyword">sizeof</span> vertices, indices, 6);</div>
+</div><!-- fragment --> <dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vertices</td><td>Array of vertices </td></tr>
+    <tr><td class="paramname">vSize</td><td>Size of the vertices array </td></tr>
+    <tr><td class="paramname">indices</td><td>Array of indices </td></tr>
+    <tr><td class="paramname">iCount</td><td>Number of indices in the array </td></tr>
+    <tr><td class="paramname">positionSize</td><td>Number of values for position segment (e.g. 2 numbers for position will equal to 2). Defaults to 2. </td></tr>
+    <tr><td class="paramname">colourSize</td><td>Number of values for colours segment (e.g. 3 numbers for colours will equal to 3). Defaults to 3. </td></tr>
+    <tr><td class="paramname">texturePositionSize</td><td>Number of values for texture position segment (e.g. 2 numbers for texture position will equal to 2). Defaults to 2. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a0f50e69541a1e753a0ada01ad0ddf9f7" name="a0f50e69541a1e753a0ada01ad0ddf9f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f50e69541a1e753a0ada01ad0ddf9f7">&#9670;&nbsp;</a></span>OGLVertexArray() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">D6Engine::Graphics::OGLVertexArray::OGLVertexArray </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_buffer.html">OGLVertexBuffer</a> *&#160;</td>
+          <td class="paramname"><em>vBuffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_index_buffer.html">OGLIndexBuffer</a> *&#160;</td>
+          <td class="paramname"><em>iBuffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLint&#160;</td>
+          <td class="paramname"><em>positionSize</em> = <code>2</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLint&#160;</td>
+          <td class="paramname"><em>colourSize</em> = <code>3</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLint&#160;</td>
+          <td class="paramname"><em>texturePositionSize</em> = <code>2</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates the vertex array object and binds it. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vBuffer</td><td>Reference to a <a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_buffer.html">OGLVertexBuffer</a> </td></tr>
+    <tr><td class="paramname">iBuffer</td><td>Reference to a <a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_index_buffer.html">OGLIndexBuffer</a> </td></tr>
+    <tr><td class="paramname">positionSize</td><td>Number of varibles for position segment (e.g. 2 numbers for position will equal to 2). Defaults to 2. </td></tr>
+    <tr><td class="paramname">colourSize</td><td>Number of varibles for colours segment (e.g. 3 numbers for colours will equal to 3). Defaults to 3. </td></tr>
+    <tr><td class="paramname">texturePositionSize</td><td>Number of varibles for texture position segment (e.g. 2 numbers for texture position will equal to 2). Defaults to 2. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="aec98858f7e69c25e6e5b86f9f9ef215e" name="aec98858f7e69c25e6e5b86f9f9ef215e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec98858f7e69c25e6e5b86f9f9ef215e">&#9670;&nbsp;</a></span>GetIndexCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLuint D6Engine::Graphics::OGLVertexArray::GetIndexCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the Index Count from the Index Buffer Object. </p>
+<dl class="section return"><dt>Returns</dt><dd>Number of indices in the index buffer. </dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/graphics/<a class="el" href="_o_g_l_vertex_array_8h_source.html">OGLVertexArray.h</a></li>
 <li>src/graphics/OGLVertexArray.cpp</li>

@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/2</span>
+                                &#160;<span id="projectnumber">v0.1/3</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -114,39 +114,266 @@ Classes</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a933a7aa75d695cb8066c214c4860985c"><td class="memItemLeft" align="right" valign="top"><a id="a933a7aa75d695cb8066c214c4860985c" name="a933a7aa75d695cb8066c214c4860985c"></a>
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>Clear</b> ()</td></tr>
-<tr class="memdesc:a933a7aa75d695cb8066c214c4860985c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears Colour Buffer Bits. <br /></td></tr>
+<tr class="memdesc:a933a7aa75d695cb8066c214c4860985c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears <a class="el" href="struct_d6_engine_1_1_graphics_1_1_colour.html" title="Representation of an RGBA colour. This is used to pass around colour values in D6 Engine.">Colour</a> Buffer Bits. <br /></td></tr>
 <tr class="separator:a933a7aa75d695cb8066c214c4860985c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b3e8e8095d2890c7baa6afe01c71b96"><td class="memItemLeft" align="right" valign="top"><a id="a6b3e8e8095d2890c7baa6afe01c71b96" name="a6b3e8e8095d2890c7baa6afe01c71b96"></a>
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>Init</b> ()</td></tr>
 <tr class="memdesc:a6b3e8e8095d2890c7baa6afe01c71b96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the <a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html" title="Render Class for drawing.">Renderer</a>. <br /></td></tr>
 <tr class="separator:a6b3e8e8095d2890c7baa6afe01c71b96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76b7bfcbdf4881209b3b66a68e51564a"><td class="memItemLeft" align="right" valign="top"><a id="a76b7bfcbdf4881209b3b66a68e51564a" name="a76b7bfcbdf4881209b3b66a68e51564a"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()</td></tr>
-<tr class="memdesc:a76b7bfcbdf4881209b3b66a68e51564a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the <a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html" title="Render Class for drawing.">Renderer</a>. <br /></td></tr>
-<tr class="separator:a76b7bfcbdf4881209b3b66a68e51564a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa74f69b39c6c33589d1a816acb2533c8"><td class="memItemLeft" align="right" valign="top"><a id="aa74f69b39c6c33589d1a816acb2533c8" name="aa74f69b39c6c33589d1a816acb2533c8"></a>
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>Draw</b> ()</td></tr>
-<tr class="memdesc:aa74f69b39c6c33589d1a816acb2533c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw call for <a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html" title="Render Class for drawing.">Renderer</a>. <br /></td></tr>
+<tr class="memdesc:aa74f69b39c6c33589d1a816acb2533c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw call for <a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html" title="Render Class for drawing.">Renderer</a>. Currently using Triangle Strip for Render. <br /></td></tr>
 <tr class="separator:aa74f69b39c6c33589d1a816acb2533c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a734702dd30fc3f196643878262586424"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#a734702dd30fc3f196643878262586424">InsertObject</a> (std::string key, <a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html">GLObject</a> obj)</td></tr>
-<tr class="memdesc:a734702dd30fc3f196643878262586424"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts an object into the objectContainer map, unique key, and <a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html">GLObject</a> obj.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#a734702dd30fc3f196643878262586424">More...</a><br /></td></tr>
-<tr class="separator:a734702dd30fc3f196643878262586424"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0334bb1259a8214bc6d86f40c836cb1"><td class="memItemLeft" align="right" valign="top"><a id="ac0334bb1259a8214bc6d86f40c836cb1" name="ac0334bb1259a8214bc6d86f40c836cb1"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>Cleanup</b> ()</td></tr>
+<tr class="memdesc:ac0334bb1259a8214bc6d86f40c836cb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the object, shader and mesh containers used in the renderer class. <br /></td></tr>
+<tr class="separator:ac0334bb1259a8214bc6d86f40c836cb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a952e7e0290c62244a62cb6a182af7331"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html">GLObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#a952e7e0290c62244a62cb6a182af7331">InsertObject</a> (const std::string &amp;key, const <a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html">GLObject</a> &amp;obj)</td></tr>
+<tr class="memdesc:a952e7e0290c62244a62cb6a182af7331"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts an object into the objectContainer map and returns the reference to new <a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html">GLObject</a>. Has duplicate checking. If duplicate key is selected, it will return the reference to the <a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html">GLObject</a> the is found by key;.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#a952e7e0290c62244a62cb6a182af7331">More...</a><br /></td></tr>
+<tr class="separator:a952e7e0290c62244a62cb6a182af7331"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfba3c29e53b2b4fbb0046c9f3a530f4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#abfba3c29e53b2b4fbb0046c9f3a530f4">DeleteObject</a> (std::string key)</td></tr>
+<tr class="memdesc:abfba3c29e53b2b4fbb0046c9f3a530f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes an object in the objectContainer based on the key provided.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#abfba3c29e53b2b4fbb0046c9f3a530f4">More...</a><br /></td></tr>
+<tr class="separator:abfba3c29e53b2b4fbb0046c9f3a530f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5763aede9ff2d4a1e40b964a469a8013"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#a5763aede9ff2d4a1e40b964a469a8013">InsertMesh</a> (std::string key, <a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html">OGLVertexArray</a> *mesh)</td></tr>
-<tr class="memdesc:a5763aede9ff2d4a1e40b964a469a8013"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a mesh into meshContainer map, unique key, and OGLVertexArray* mesh.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#a5763aede9ff2d4a1e40b964a469a8013">More...</a><br /></td></tr>
+<tr class="memdesc:a5763aede9ff2d4a1e40b964a469a8013"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a mesh into meshContainer map, unique key, and OGLVertexArray* mesh. Checks for duplicated <a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html">OGLVertexArray</a>.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#a5763aede9ff2d4a1e40b964a469a8013">More...</a><br /></td></tr>
 <tr class="separator:a5763aede9ff2d4a1e40b964a469a8013"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6c53c91d1c371880e38400b605e6f6b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#ad6c53c91d1c371880e38400b605e6f6b">DeleteMesh</a> (std::string key)</td></tr>
+<tr class="memdesc:ad6c53c91d1c371880e38400b605e6f6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes a Mesh in the meshContainer based on the key provided.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#ad6c53c91d1c371880e38400b605e6f6b">More...</a><br /></td></tr>
+<tr class="separator:ad6c53c91d1c371880e38400b605e6f6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2f9d1d31c730954419f3b56f84e624f"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#ab2f9d1d31c730954419f3b56f84e624f">InsertShaderProgram</a> (std::string key, <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html">Shader</a> *shd)</td></tr>
-<tr class="memdesc:ab2f9d1d31c730954419f3b56f84e624f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a shader into shadderProgrammes map, unique key, and Shader* shd.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#ab2f9d1d31c730954419f3b56f84e624f">More...</a><br /></td></tr>
+<tr class="memdesc:ab2f9d1d31c730954419f3b56f84e624f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a shader into shaderPrograms map, unique key, and Shader* shd. Checks for duplicated <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a>.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#ab2f9d1d31c730954419f3b56f84e624f">More...</a><br /></td></tr>
 <tr class="separator:ab2f9d1d31c730954419f3b56f84e624f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a002b2e2e684065ff686d8672bdb59d2f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#a002b2e2e684065ff686d8672bdb59d2f">DeleteShaderProgram</a> (std::string key)</td></tr>
+<tr class="memdesc:a002b2e2e684065ff686d8672bdb59d2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes a <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a> in the shaderPrograms Container based on the key provided.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#a002b2e2e684065ff686d8672bdb59d2f">More...</a><br /></td></tr>
+<tr class="separator:a002b2e2e684065ff686d8672bdb59d2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abec9517acd2ea99da9679dea2259f6bc"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#abec9517acd2ea99da9679dea2259f6bc">InsertTexture</a> (std::string key, GLuint *tex)</td></tr>
-<tr class="memdesc:abec9517acd2ea99da9679dea2259f6bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a texture ID into textureContainer map, unique key, and GLuint* tex.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#abec9517acd2ea99da9679dea2259f6bc">More...</a><br /></td></tr>
+<tr class="memdesc:abec9517acd2ea99da9679dea2259f6bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a texture ID into textureContainer map, unique key, and GLuint* tex. Checks for duplicated <a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html" title="Provides a way to load texture, bind and unbind texture.">Texture</a>.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#abec9517acd2ea99da9679dea2259f6bc">More...</a><br /></td></tr>
 <tr class="separator:abec9517acd2ea99da9679dea2259f6bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13f40cfb90604b60cb554a5ae40be31a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#a13f40cfb90604b60cb554a5ae40be31a">SetBackgroundColor</a> (GLfloat r, GLfloat g, GLfloat b, GLfloat a)</td></tr>
 <tr class="memdesc:a13f40cfb90604b60cb554a5ae40be31a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the current colour bits colours.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#a13f40cfb90604b60cb554a5ae40be31a">More...</a><br /></td></tr>
 <tr class="separator:a13f40cfb90604b60cb554a5ae40be31a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a612b473516a4df14bc7ccdbe8755873b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#a612b473516a4df14bc7ccdbe8755873b">UpdateWindow</a> (int width, int height)</td></tr>
+<tr class="memdesc:a612b473516a4df14bc7ccdbe8755873b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates <a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html" title="Render Class for drawing.">Renderer</a> with the height and width for rendering.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#a612b473516a4df14bc7ccdbe8755873b">More...</a><br /></td></tr>
+<tr class="separator:a612b473516a4df14bc7ccdbe8755873b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad00edf732a9f99355d298b67a14a66cd"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html">Shader</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#ad00edf732a9f99355d298b67a14a66cd">GetShaderProgram</a> (std::string key)</td></tr>
+<tr class="memdesc:ad00edf732a9f99355d298b67a14a66cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets the shaderProgram from the key. Warning will be shown on console when <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a> is not found.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#ad00edf732a9f99355d298b67a14a66cd">More...</a><br /></td></tr>
+<tr class="separator:ad00edf732a9f99355d298b67a14a66cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d231ca7ead558d00565f6022c15def6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html">OGLVertexArray</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#a6d231ca7ead558d00565f6022c15def6">GetMesh</a> (std::string key)</td></tr>
+<tr class="memdesc:a6d231ca7ead558d00565f6022c15def6"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets the Mesh from the key. Warning will be shown on console when Mesh is not found.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#a6d231ca7ead558d00565f6022c15def6">More...</a><br /></td></tr>
+<tr class="separator:a6d231ca7ead558d00565f6022c15def6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2498e4bac9e65ccc6f3b6c2ab624c17c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#a2498e4bac9e65ccc6f3b6c2ab624c17c">EnableDebugDraw</a> (bool state)</td></tr>
+<tr class="memdesc:a2498e4bac9e65ccc6f3b6c2ab624c17c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables or Disables Debug Draw (Debug Drawing is Disabled on startup)  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#a2498e4bac9e65ccc6f3b6c2ab624c17c">More...</a><br /></td></tr>
+<tr class="separator:a2498e4bac9e65ccc6f3b6c2ab624c17c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Render Class for drawing. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="ad6c53c91d1c371880e38400b605e6f6b" name="ad6c53c91d1c371880e38400b605e6f6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6c53c91d1c371880e38400b605e6f6b">&#9670;&nbsp;</a></span>DeleteMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void D6Engine::Graphics::Renderer::DeleteMesh </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Deletes a Mesh in the meshContainer based on the key provided. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>Key to the Mesh that is to be deleted </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="abfba3c29e53b2b4fbb0046c9f3a530f4" name="abfba3c29e53b2b4fbb0046c9f3a530f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfba3c29e53b2b4fbb0046c9f3a530f4">&#9670;&nbsp;</a></span>DeleteObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void D6Engine::Graphics::Renderer::DeleteObject </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Deletes an object in the objectContainer based on the key provided. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>Key to the Object that is to be deleted </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a002b2e2e684065ff686d8672bdb59d2f" name="a002b2e2e684065ff686d8672bdb59d2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a002b2e2e684065ff686d8672bdb59d2f">&#9670;&nbsp;</a></span>DeleteShaderProgram()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void D6Engine::Graphics::Renderer::DeleteShaderProgram </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Deletes a <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a> in the shaderPrograms Container based on the key provided. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>Key to the <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a> that is to be deleted </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a2498e4bac9e65ccc6f3b6c2ab624c17c" name="a2498e4bac9e65ccc6f3b6c2ab624c17c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2498e4bac9e65ccc6f3b6c2ab624c17c">&#9670;&nbsp;</a></span>EnableDebugDraw()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void D6Engine::Graphics::Renderer::EnableDebugDraw </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Enables or Disables Debug Draw (Debug Drawing is Disabled on startup) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>True: debug draw is Enabled, False: debug draw is Disabled </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a6d231ca7ead558d00565f6022c15def6" name="a6d231ca7ead558d00565f6022c15def6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d231ca7ead558d00565f6022c15def6">&#9670;&nbsp;</a></span>GetMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html">OGLVertexArray</a> * D6Engine::Graphics::Renderer::GetMesh </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>gets the Mesh from the key. Warning will be shown on console when Mesh is not found. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>Name of the Mesh to be found from meshContainer </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>OGLVertexArray* returns a pointer to the shader found by key </dd></dl>
+
+</div>
+</div>
+<a id="ad00edf732a9f99355d298b67a14a66cd" name="ad00edf732a9f99355d298b67a14a66cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad00edf732a9f99355d298b67a14a66cd">&#9670;&nbsp;</a></span>GetShaderProgram()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html">Shader</a> * D6Engine::Graphics::Renderer::GetShaderProgram </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>gets the shaderProgram from the key. Warning will be shown on console when <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a> is not found. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>Name of the <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a> to be found from shaderPrograms </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Shader* returns a pointer to the shader found by key </dd></dl>
+
+</div>
+</div>
 <a id="a5763aede9ff2d4a1e40b964a469a8013" name="a5763aede9ff2d4a1e40b964a469a8013"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5763aede9ff2d4a1e40b964a469a8013">&#9670;&nbsp;</a></span>InsertMesh()</h2>
 
@@ -181,7 +408,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>Draw</b> ()</t
 </table>
 </div><div class="memdoc">
 
-<p>Inserts a mesh into meshContainer map, unique key, and OGLVertexArray* mesh. </p>
+<p>Inserts a mesh into meshContainer map, unique key, and OGLVertexArray* mesh. Checks for duplicated <a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html">OGLVertexArray</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">key</td><td>Name of the Mesh to be inserted </td></tr>
@@ -189,12 +416,12 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>Draw</b> ()</t
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>bool true when successfully inserted into meshContainer map. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>bool true when successfully inserted into meshContainer map. false when duplicate Key is inserted. </dd></dl>
 
 </div>
 </div>
-<a id="a734702dd30fc3f196643878262586424" name="a734702dd30fc3f196643878262586424"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a734702dd30fc3f196643878262586424">&#9670;&nbsp;</a></span>InsertObject()</h2>
+<a id="a952e7e0290c62244a62cb6a182af7331" name="a952e7e0290c62244a62cb6a182af7331"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a952e7e0290c62244a62cb6a182af7331">&#9670;&nbsp;</a></span>InsertObject()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203,15 +430,15 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>Draw</b> ()</t
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool D6Engine::Graphics::Renderer::InsertObject </td>
+          <td class="memname"><a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html">Renderer::GLObject</a> * D6Engine::Graphics::Renderer::InsertObject </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>key</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html">GLObject</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html">GLObject</a> &amp;&#160;</td>
           <td class="paramname"><em>obj</em>&#160;</td>
         </tr>
         <tr>
@@ -227,15 +454,15 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>Draw</b> ()</t
 </table>
 </div><div class="memdoc">
 
-<p>Inserts an object into the objectContainer map, unique key, and <a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html">GLObject</a> obj. </p>
+<p>Inserts an object into the objectContainer map and returns the reference to new <a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html">GLObject</a>. Has duplicate checking. If duplicate key is selected, it will return the reference to the <a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html">GLObject</a> the is found by key;. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">key</td><td>Name of the object to be inserteds </td></tr>
+    <tr><td class="paramname">key</td><td>Name of the object to be inserted </td></tr>
     <tr><td class="paramname">obj</td><td><a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html">GLObject</a> class </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>bool true when successfully inserted into objectContainer map. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html">GLObject</a> reference </dd></dl>
 
 </div>
 </div>
@@ -273,15 +500,15 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>Draw</b> ()</t
 </table>
 </div><div class="memdoc">
 
-<p>Inserts a shader into shadderProgrammes map, unique key, and Shader* shd. </p>
+<p>Inserts a shader into shaderPrograms map, unique key, and Shader* shd. Checks for duplicated <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">key</td><td>Name of the <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html">Shader</a> to be inserted </td></tr>
-    <tr><td class="paramname">shd</td><td>Pointer to <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html">Shader</a> Class </td></tr>
+    <tr><td class="paramname">key</td><td>Name of the <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a> to be inserted </td></tr>
+    <tr><td class="paramname">shd</td><td>Pointer to <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a> Class </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>bool true when successfully inserted into shadderProgrammes map. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>bool true when successfully inserted into shaderPrograms map. false when duplicate Key is inserted. </dd></dl>
 
 </div>
 </div>
@@ -319,7 +546,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>Draw</b> ()</t
 </table>
 </div><div class="memdoc">
 
-<p>Inserts a texture ID into textureContainer map, unique key, and GLuint* tex. </p>
+<p>Inserts a texture ID into textureContainer map, unique key, and GLuint* tex. Checks for duplicated <a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html" title="Provides a way to load texture, bind and unbind texture.">Texture</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">key</td><td>Name of the <a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html" title="Provides a way to load texture, bind and unbind texture.">Texture</a> to be inserted </td></tr>
@@ -327,7 +554,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>Draw</b> ()</t
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>bool true when successfully inserted into textureContainer map. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>bool true when successfully inserted into textureContainer map. false when duplicate Key is inserted. </dd></dl>
 
 </div>
 </div>
@@ -380,11 +607,56 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>Draw</b> ()</t
 <p>Set the current colour bits colours. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">r</td><td>RED v </td></tr>
+    <tr><td class="paramname">r</td><td>RED </td></tr>
     <tr><td class="paramname">g</td><td>GREEN <br  />
  </td></tr>
     <tr><td class="paramname">b</td><td>BLUE </td></tr>
     <tr><td class="paramname">a</td><td>ALPHA </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a612b473516a4df14bc7ccdbe8755873b" name="a612b473516a4df14bc7ccdbe8755873b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a612b473516a4df14bc7ccdbe8755873b">&#9670;&nbsp;</a></span>UpdateWindow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void D6Engine::Graphics::Renderer::UpdateWindow </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>height</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Updates <a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html" title="Render Class for drawing.">Renderer</a> with the height and width for rendering. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">width</td><td>Width of the window </td></tr>
+    <tr><td class="paramname">height</td><td>Height of the window </td></tr>
   </table>
   </dd>
 </dl>

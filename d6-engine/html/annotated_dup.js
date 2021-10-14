@@ -20,16 +20,19 @@ var annotated_dup =
         [ "Metadata", "class_d6_engine_1_1_file_system_1_1_metadata.html", null ]
       ] ],
       [ "Graphics", "namespace_d6_engine_1_1_graphics.html", [
-        [ "FragmentShader", "struct_d6_engine_1_1_graphics_1_1_fragment_shader.html", null ],
+        [ "Colour", "struct_d6_engine_1_1_graphics_1_1_colour.html", "struct_d6_engine_1_1_graphics_1_1_colour" ],
+        [ "DebugDraw", "class_d6_engine_1_1_graphics_1_1_debug_draw.html", "class_d6_engine_1_1_graphics_1_1_debug_draw" ],
+        [ "FragmentShader", "struct_d6_engine_1_1_graphics_1_1_fragment_shader.html", "struct_d6_engine_1_1_graphics_1_1_fragment_shader" ],
         [ "OGLBuffer", "class_d6_engine_1_1_graphics_1_1_o_g_l_buffer.html", null ],
         [ "OGLContext", "class_d6_engine_1_1_graphics_1_1_o_g_l_context.html", null ],
+        [ "OGLFramebuffer", "class_d6_engine_1_1_graphics_1_1_o_g_l_framebuffer.html", null ],
         [ "OGLIndexBuffer", "class_d6_engine_1_1_graphics_1_1_o_g_l_index_buffer.html", null ],
         [ "OGLVertexArray", "class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html", "class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array" ],
         [ "OGLVertexBuffer", "class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_buffer.html", null ],
         [ "Renderer", "class_d6_engine_1_1_graphics_1_1_renderer.html", "class_d6_engine_1_1_graphics_1_1_renderer" ],
-        [ "Shader", "class_d6_engine_1_1_graphics_1_1_shader.html", null ],
+        [ "Shader", "class_d6_engine_1_1_graphics_1_1_shader.html", "class_d6_engine_1_1_graphics_1_1_shader" ],
         [ "Texture", "class_d6_engine_1_1_graphics_1_1_texture.html", "class_d6_engine_1_1_graphics_1_1_texture" ],
-        [ "VertexShader", "struct_d6_engine_1_1_graphics_1_1_vertex_shader.html", null ]
+        [ "VertexShader", "struct_d6_engine_1_1_graphics_1_1_vertex_shader.html", "struct_d6_engine_1_1_graphics_1_1_vertex_shader" ]
       ] ],
       [ "Input", "namespace_d6_engine_1_1_input.html", [
         [ "Keyboard", "class_d6_engine_1_1_input_1_1_keyboard.html", null ],
@@ -57,6 +60,8 @@ var annotated_dup =
       [ "GameObjectManager", "class_d6_engine_1_1_game_object_manager.html", "class_d6_engine_1_1_game_object_manager" ],
       [ "IState", "class_d6_engine_1_1_i_state.html", null ],
       [ "MonoBehaviour", "class_d6_engine_1_1_mono_behaviour.html", "class_d6_engine_1_1_mono_behaviour" ],
+      [ "Rigidbody2D", "class_d6_engine_1_1_rigidbody2_d.html", "class_d6_engine_1_1_rigidbody2_d" ],
+      [ "SpriteRenderer", "class_d6_engine_1_1_sprite_renderer.html", "class_d6_engine_1_1_sprite_renderer" ],
       [ "TestComponent", "class_d6_engine_1_1_test_component.html", "class_d6_engine_1_1_test_component" ],
       [ "Time", "class_d6_engine_1_1_time.html", null ],
       [ "Transform", "class_d6_engine_1_1_transform.html", "class_d6_engine_1_1_transform" ]

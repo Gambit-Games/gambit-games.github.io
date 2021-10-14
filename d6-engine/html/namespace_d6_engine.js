@@ -17,6 +17,8 @@ var namespace_d6_engine =
     [ "GameObjectManager", "class_d6_engine_1_1_game_object_manager.html", "class_d6_engine_1_1_game_object_manager" ],
     [ "IState", "class_d6_engine_1_1_i_state.html", null ],
     [ "MonoBehaviour", "class_d6_engine_1_1_mono_behaviour.html", "class_d6_engine_1_1_mono_behaviour" ],
+    [ "Rigidbody2D", "class_d6_engine_1_1_rigidbody2_d.html", "class_d6_engine_1_1_rigidbody2_d" ],
+    [ "SpriteRenderer", "class_d6_engine_1_1_sprite_renderer.html", "class_d6_engine_1_1_sprite_renderer" ],
     [ "TestComponent", "class_d6_engine_1_1_test_component.html", "class_d6_engine_1_1_test_component" ],
     [ "Time", "class_d6_engine_1_1_time.html", null ],
     [ "Transform", "class_d6_engine_1_1_transform.html", "class_d6_engine_1_1_transform" ]

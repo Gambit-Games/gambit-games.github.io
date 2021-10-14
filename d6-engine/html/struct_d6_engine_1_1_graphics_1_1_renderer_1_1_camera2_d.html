@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/2</span>
+                                &#160;<span id="projectnumber">v0.1/3</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -104,15 +104,20 @@ $(document).ready(function(){initNavTree('struct_d6_engine_1_1_graphics_1_1_rend
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a117aa5f0c06c8763bd951153ac66d23a"><td class="memItemLeft" align="right" valign="top"><a id="a117aa5f0c06c8763bd951153ac66d23a" name="a117aa5f0c06c8763bd951153ac66d23a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>init</b> ()</td></tr>
-<tr class="memdesc:a117aa5f0c06c8763bd951153ac66d23a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Init camera with default params. <br /></td></tr>
-<tr class="separator:a117aa5f0c06c8763bd951153ac66d23a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c14d4fb155d4b80798e94edc4e456ba"><td class="memItemLeft" align="right" valign="top"><a id="a4c14d4fb155d4b80798e94edc4e456ba" name="a4c14d4fb155d4b80798e94edc4e456ba"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Init</b> ()</td></tr>
+<tr class="memdesc:a4c14d4fb155d4b80798e94edc4e456ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Init camera with default params. <br /></td></tr>
+<tr class="separator:a4c14d4fb155d4b80798e94edc4e456ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3dd9180c1da33591bdca6c85359b2611"><td class="memItemLeft" align="right" valign="top"><a id="a3dd9180c1da33591bdca6c85359b2611" name="a3dd9180c1da33591bdca6c85359b2611"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()</td></tr>
+<tr class="memdesc:a3dd9180c1da33591bdca6c85359b2611"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the camera Class when called, based on new window size (width and height) <br /></td></tr>
+<tr class="separator:a3dd9180c1da33591bdca6c85359b2611"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:abb0537212590d108680254f7fd41136e"><td class="memItemLeft" align="right" valign="top"><a id="abb0537212590d108680254f7fd41136e" name="abb0537212590d108680254f7fd41136e"></a>
 glm::mat3&#160;</td><td class="memItemRight" valign="bottom"><b>view_xform</b> {}</td></tr>
+<tr class="memdesc:abb0537212590d108680254f7fd41136e"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO. <br /></td></tr>
 <tr class="separator:abb0537212590d108680254f7fd41136e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab55cfe514d64b20f10da4919da0c8f29"><td class="memItemLeft" align="right" valign="top"><a id="ab55cfe514d64b20f10da4919da0c8f29" name="ab55cfe514d64b20f10da4919da0c8f29"></a>
 glm::mat3&#160;</td><td class="memItemRight" valign="bottom"><b>camwin_to_ndc_xform</b> {}</td></tr>
@@ -122,9 +127,11 @@ glm::mat3&#160;</td><td class="memItemRight" valign="bottom"><b>world_to_ndc_xfo
 <tr class="separator:a534a31fce02e90b076e4f67274cf7294"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeba5892fba0930ab1a63032b6e112eb2"><td class="memItemLeft" align="right" valign="top"><a id="aeba5892fba0930ab1a63032b6e112eb2" name="aeba5892fba0930ab1a63032b6e112eb2"></a>
 GLint&#160;</td><td class="memItemRight" valign="bottom"><b>height</b> { 10 }</td></tr>
+<tr class="memdesc:aeba5892fba0930ab1a63032b6e112eb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hight of the camara. <br /></td></tr>
 <tr class="separator:aeba5892fba0930ab1a63032b6e112eb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa477af6e44fce1cf39c39c219b3b72a2"><td class="memItemLeft" align="right" valign="top"><a id="aa477af6e44fce1cf39c39c219b3b72a2" name="aa477af6e44fce1cf39c39c219b3b72a2"></a>
 GLfloat&#160;</td><td class="memItemRight" valign="bottom"><b>ar</b> {}</td></tr>
+<tr class="memdesc:aa477af6e44fce1cf39c39c219b3b72a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ratio of Width/Height. <br /></td></tr>
 <tr class="separator:aa477af6e44fce1cf39c39c219b3b72a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
