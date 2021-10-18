@@ -9,12 +9,13 @@ var searchData=
   ['deleteshaderprogram_6',['DeleteShaderProgram',['../class_d6_engine_1_1_graphics_1_1_renderer.html#a002b2e2e684065ff686d8672bdb59d2f',1,'D6Engine::Graphics::Renderer']]],
   ['deltatime_7',['deltaTime',['../class_d6_engine_1_1_time.html#a0974aedbc30ab6ad84635f3a418c1398',1,'D6Engine::Time']]],
   ['destroy_8',['Destroy',['../class_d6_engine_1_1_game_object.html#ab8634ada828de19b0f0e92c61779166a',1,'D6Engine::GameObject']]],
-  ['dirty_9',['dirty',['../struct_d6_engine_1_1_scene_management_1_1_scene.html#acb54f95289a3f05434d39c09cb1b9d3e',1,'D6Engine::SceneManagement::Scene']]],
-  ['draw_10',['Draw',['../class_d6_engine_1_1_graphics_1_1_debug_draw.html#a43358f801b185c538f3d5d90b9d0b551',1,'D6Engine::Graphics::DebugDraw::Draw()'],['../struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#aa2a49554708a47fa5edffef300a2f656',1,'D6Engine::Graphics::Renderer::GLObject::Draw()'],['../class_d6_engine_1_1_graphics_1_1_renderer.html#aa74f69b39c6c33589d1a816acb2533c8',1,'D6Engine::Graphics::Renderer::Draw()'],['../class_d6_engine_1_1_engine_log.html#a8f132af67d3ec142045287015d50659f',1,'D6Engine::EngineLog::Draw()']]],
-  ['ecs_11',['ECS',['../namespace_d6_engine_1_1_e_c_s.html',1,'D6Engine']]],
-  ['filesystem_12',['FileSystem',['../namespace_d6_engine_1_1_file_system.html',1,'D6Engine']]],
-  ['graphics_13',['Graphics',['../namespace_d6_engine_1_1_graphics.html',1,'D6Engine']]],
-  ['input_14',['Input',['../namespace_d6_engine_1_1_input.html',1,'D6Engine']]],
-  ['math_15',['Math',['../namespace_d6_engine_1_1_math.html',1,'D6Engine']]],
-  ['scenemanagement_16',['SceneManagement',['../namespace_d6_engine_1_1_scene_management.html',1,'D6Engine']]]
+  ['detachchildren_9',['DetachChildren',['../class_d6_engine_1_1_transform.html#a4e4b0ed42da78758d5ae129419669061',1,'D6Engine::Transform']]],
+  ['dirty_10',['dirty',['../struct_d6_engine_1_1_scene_management_1_1_scene.html#acb54f95289a3f05434d39c09cb1b9d3e',1,'D6Engine::SceneManagement::Scene']]],
+  ['draw_11',['Draw',['../class_d6_engine_1_1_graphics_1_1_debug_draw.html#a43358f801b185c538f3d5d90b9d0b551',1,'D6Engine::Graphics::DebugDraw::Draw()'],['../struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#aa2a49554708a47fa5edffef300a2f656',1,'D6Engine::Graphics::Renderer::GLObject::Draw()'],['../class_d6_engine_1_1_graphics_1_1_renderer.html#aa74f69b39c6c33589d1a816acb2533c8',1,'D6Engine::Graphics::Renderer::Draw()'],['../class_d6_engine_1_1_engine_log.html#a8f132af67d3ec142045287015d50659f',1,'D6Engine::EngineLog::Draw()']]],
+  ['ecs_12',['ECS',['../namespace_d6_engine_1_1_e_c_s.html',1,'D6Engine']]],
+  ['filesystem_13',['FileSystem',['../namespace_d6_engine_1_1_file_system.html',1,'D6Engine']]],
+  ['graphics_14',['Graphics',['../namespace_d6_engine_1_1_graphics.html',1,'D6Engine']]],
+  ['input_15',['Input',['../namespace_d6_engine_1_1_input.html',1,'D6Engine']]],
+  ['math_16',['Math',['../namespace_d6_engine_1_1_math.html',1,'D6Engine']]],
+  ['scenemanagement_17',['SceneManagement',['../namespace_d6_engine_1_1_scene_management.html',1,'D6Engine']]]
 ];

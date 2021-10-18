@@ -32,7 +32,7 @@ var hierarchy =
     [ "D6Engine::Graphics::Renderer::GLObject", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html", null ],
     [ "D6Engine::IState", "class_d6_engine_1_1_i_state.html", null ],
     [ "D6Engine::Input::Keyboard", "class_d6_engine_1_1_input_1_1_keyboard.html", null ],
-    [ "D6Engine::Math::Matrix3x3", "union_d6_engine_1_1_math_1_1_matrix3x3.html", null ],
+    [ "D6Engine::Math::Mat3", "union_d6_engine_1_1_math_1_1_mat3.html", null ],
     [ "D6Engine::FileSystem::Metadata", "class_d6_engine_1_1_file_system_1_1_metadata.html", [
       [ "D6Engine::FileSystem::Config", "class_d6_engine_1_1_file_system_1_1_config.html", null ]
     ] ],
@@ -56,7 +56,7 @@ var hierarchy =
     [ "D6Engine::ECS::SystemManager", "class_d6_engine_1_1_e_c_s_1_1_system_manager.html", null ],
     [ "D6Engine::Graphics::Texture", "class_d6_engine_1_1_graphics_1_1_texture.html", null ],
     [ "D6Engine::Time", "class_d6_engine_1_1_time.html", null ],
-    [ "D6Engine::Math::Vector2D", "union_d6_engine_1_1_math_1_1_vector2_d.html", null ],
-    [ "D6Engine::Math::Vector3D", "union_d6_engine_1_1_math_1_1_vector3_d.html", null ],
+    [ "D6Engine::Math::Vec2", "union_d6_engine_1_1_math_1_1_vec2.html", null ],
+    [ "D6Engine::Math::Vec3", "union_d6_engine_1_1_math_1_1_vec3.html", null ],
     [ "D6Engine::Graphics::VertexShader", "struct_d6_engine_1_1_graphics_1_1_vertex_shader.html", null ]
 ];

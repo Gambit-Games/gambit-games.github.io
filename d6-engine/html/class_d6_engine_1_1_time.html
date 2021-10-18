@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/3</span>
+                                &#160;<span id="projectnumber">v0.1/4</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -112,10 +112,6 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>ComputeTime</b
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:abc0c9c68b0e36f32a0f8f6baaab2aed0"><td class="memItemLeft" align="right" valign="top"><a id="abc0c9c68b0e36f32a0f8f6baaab2aed0" name="abc0c9c68b0e36f32a0f8f6baaab2aed0"></a>
-static const float &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>time</b> = m_time</td></tr>
-<tr class="memdesc:abc0c9c68b0e36f32a0f8f6baaab2aed0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Elapsed time in seconds since the initialisation of the first scene. (Read-Only) <br /></td></tr>
-<tr class="separator:abc0c9c68b0e36f32a0f8f6baaab2aed0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0974aedbc30ab6ad84635f3a418c1398"><td class="memItemLeft" align="right" valign="top"><a id="a0974aedbc30ab6ad84635f3a418c1398" name="a0974aedbc30ab6ad84635f3a418c1398"></a>
 static const float &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>deltaTime</b> = m_deltaTime</td></tr>
 <tr class="memdesc:a0974aedbc30ab6ad84635f3a418c1398"><td class="mdescLeft">&#160;</td><td class="mdescRight">Elapsed time in seconds since the last frame update. (Read-Only) <br /></td></tr>
@@ -124,14 +120,20 @@ static const float &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>d
 static const float &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>fixedTime</b> = m_fixedTime</td></tr>
 <tr class="memdesc:a11085b3ee2d67b749e4924d7976ba2cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Elapsed time incremented based on FixedUpdate. (Read-Only) <br /></td></tr>
 <tr class="separator:a11085b3ee2d67b749e4924d7976ba2cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a272fe304a10714f6174dc7ab847c3cf9"><td class="memItemLeft" align="right" valign="top"><a id="a272fe304a10714f6174dc7ab847c3cf9" name="a272fe304a10714f6174dc7ab847c3cf9"></a>
-static float&#160;</td><td class="memItemRight" valign="bottom"><b>maximumDeltaTime</b> = 0</td></tr>
-<tr class="memdesc:a272fe304a10714f6174dc7ab847c3cf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">The maximum value of <a class="el" href="class_d6_engine_1_1_time.html#a0974aedbc30ab6ad84635f3a418c1398" title="Elapsed time in seconds since the last frame update. (Read-Only)">Time::deltaTime</a> in any given frame. This is a time in seconds that limits the increase of <a class="el" href="class_d6_engine_1_1_time.html#abc0c9c68b0e36f32a0f8f6baaab2aed0" title="Elapsed time in seconds since the initialisation of the first scene. (Read-Only)">Time::time</a> between two frames. Defaults to '0' for uncapped deltaTime values. <br /></td></tr>
-<tr class="separator:a272fe304a10714f6174dc7ab847c3cf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25dec88d57edd6537a21d87eb61e3bc1"><td class="memItemLeft" align="right" valign="top"><a id="a25dec88d57edd6537a21d87eb61e3bc1" name="a25dec88d57edd6537a21d87eb61e3bc1"></a>
 static float&#160;</td><td class="memItemRight" valign="bottom"><b>fixedDeltaTime</b> = 1.0f / 50</td></tr>
 <tr class="memdesc:a25dec88d57edd6537a21d87eb61e3bc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The interval in seconds at which physics and other fixed frame rate updates such as FixedUpdate() are performed. Defaults to 0.02s (50hz). <br /></td></tr>
 <tr class="separator:a25dec88d57edd6537a21d87eb61e3bc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a272fe304a10714f6174dc7ab847c3cf9"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_time.html#a272fe304a10714f6174dc7ab847c3cf9">maximumDeltaTime</a> = 0</td></tr>
+<tr class="memdesc:a272fe304a10714f6174dc7ab847c3cf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">The maximum value of <a class="el" href="class_d6_engine_1_1_time.html#a0974aedbc30ab6ad84635f3a418c1398" title="Elapsed time in seconds since the last frame update. (Read-Only)">Time::deltaTime</a> in any given frame.  <a href="class_d6_engine_1_1_time.html#a272fe304a10714f6174dc7ab847c3cf9">More...</a><br /></td></tr>
+<tr class="separator:a272fe304a10714f6174dc7ab847c3cf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc0c9c68b0e36f32a0f8f6baaab2aed0"><td class="memItemLeft" align="right" valign="top"><a id="abc0c9c68b0e36f32a0f8f6baaab2aed0" name="abc0c9c68b0e36f32a0f8f6baaab2aed0"></a>
+static const float &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>time</b> = m_time</td></tr>
+<tr class="memdesc:abc0c9c68b0e36f32a0f8f6baaab2aed0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Elapsed time in seconds since the initialisation of the first scene. (Read-Only) <br /></td></tr>
+<tr class="separator:abc0c9c68b0e36f32a0f8f6baaab2aed0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa7cfd6ec383a607f183f2ef3ef21080"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_time.html#afa7cfd6ec383a607f183f2ef3ef21080">timeScale</a></td></tr>
+<tr class="memdesc:afa7cfd6ec383a607f183f2ef3ef21080"><td class="mdescLeft">&#160;</td><td class="mdescRight">The multiplier at which time passes.  <a href="class_d6_engine_1_1_time.html#afa7cfd6ec383a607f183f2ef3ef21080">More...</a><br /></td></tr>
+<tr class="separator:afa7cfd6ec383a607f183f2ef3ef21080"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34b4e63756af87bd78c8eb8198c64cac"><td class="memItemLeft" align="right" valign="top"><a id="a34b4e63756af87bd78c8eb8198c64cac" name="a34b4e63756af87bd78c8eb8198c64cac"></a>
 static int&#160;</td><td class="memItemRight" valign="bottom"><b>fixedStepCount</b> = 0</td></tr>
 <tr class="memdesc:a34b4e63756af87bd78c8eb8198c64cac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal engine value used to queue multiple fixed steps depending on actual delta time. <br /></td></tr>
@@ -151,10 +153,58 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>PerformanceDataWindo
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Provides an interface to get time information from SDL's high performance counter. </p>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/time/<a class="el" href="_time_8h_source.html">Time.h</a></li>
-<li>src/time/Time.cpp</li>
-</ul>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a272fe304a10714f6174dc7ab847c3cf9" name="a272fe304a10714f6174dc7ab847c3cf9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a272fe304a10714f6174dc7ab847c3cf9">&#9670;&nbsp;</a></span>maximumDeltaTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float D6Engine::Time::maximumDeltaTime = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The maximum value of <a class="el" href="class_d6_engine_1_1_time.html#a0974aedbc30ab6ad84635f3a418c1398" title="Elapsed time in seconds since the last frame update. (Read-Only)">Time::deltaTime</a> in any given frame. </p>
+<p >This is a time in seconds that limits the increase of <a class="el" href="class_d6_engine_1_1_time.html#abc0c9c68b0e36f32a0f8f6baaab2aed0" title="Elapsed time in seconds since the initialisation of the first scene. (Read-Only)">Time::time</a> between two frames. Defaults to '0' for uncapped deltaTime values. </p>
+
+</div>
+</div>
+<a id="afa7cfd6ec383a607f183f2ef3ef21080" name="afa7cfd6ec383a607f183f2ef3ef21080"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa7cfd6ec383a607f183f2ef3ef21080">&#9670;&nbsp;</a></span>timeScale</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float D6Engine::Time::timeScale</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The multiplier at which time passes. </p>
+<p >This can be used for time slow or speed-up effects. When timeScale is 1.0, time passes at normal speeds. When timeScale is set to 0.5, time passes twice as slow. When timeScale is set to zero, all functions that are frame rate independent will pause. Negative values are ignored.</p>
+<p >When manipulating the timeScale, multiply <a class="el" href="class_d6_engine_1_1_time.html#a25dec88d57edd6537a21d87eb61e3bc1" title="The interval in seconds at which physics and other fixed frame rate updates such as FixedUpdate() are...">Time::fixedDeltaTime</a> by it to ensure the number of FixedUpdate calls remain constant. </p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.9.1-->
@@ -162,7 +212,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>PerformanceDataWindo
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d6_engine.html">D6Engine</a></li><li class="navelem"><a class="el" href="class_d6_engine_1_1_time.html">Time</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Mon Oct 18 2021 14:42:56 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

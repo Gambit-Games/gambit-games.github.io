@@ -40,9 +40,9 @@ var annotated_dup =
         [ "MouseInput", "struct_d6_engine_1_1_input_1_1_mouse_input.html", null ]
       ] ],
       [ "Math", "namespace_d6_engine_1_1_math.html", [
-        [ "Matrix3x3", "union_d6_engine_1_1_math_1_1_matrix3x3.html", "union_d6_engine_1_1_math_1_1_matrix3x3" ],
-        [ "Vector2D", "union_d6_engine_1_1_math_1_1_vector2_d.html", "union_d6_engine_1_1_math_1_1_vector2_d" ],
-        [ "Vector3D", "union_d6_engine_1_1_math_1_1_vector3_d.html", "union_d6_engine_1_1_math_1_1_vector3_d" ]
+        [ "Mat3", "union_d6_engine_1_1_math_1_1_mat3.html", "union_d6_engine_1_1_math_1_1_mat3" ],
+        [ "Vec2", "union_d6_engine_1_1_math_1_1_vec2.html", "union_d6_engine_1_1_math_1_1_vec2" ],
+        [ "Vec3", "union_d6_engine_1_1_math_1_1_vec3.html", "union_d6_engine_1_1_math_1_1_vec3" ]
       ] ],
       [ "SceneManagement", "namespace_d6_engine_1_1_scene_management.html", [
         [ "Scene", "struct_d6_engine_1_1_scene_management_1_1_scene.html", "struct_d6_engine_1_1_scene_management_1_1_scene" ],

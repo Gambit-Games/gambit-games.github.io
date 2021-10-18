@@ -5,6 +5,7 @@ var searchData=
   ['renderer_2',['Renderer',['../class_d6_engine_1_1_graphics_1_1_renderer.html',1,'D6Engine::Graphics']]],
   ['rigidbody2d_3',['Rigidbody2D',['../class_d6_engine_1_1_rigidbody2_d.html',1,'D6Engine']]],
   ['rigidbodytype_4',['RigidbodyType',['../class_d6_engine_1_1_rigidbody2_d.html#ab0b5233ab9343b7c124252e73e0cc299',1,'D6Engine::Rigidbody2D']]],
-  ['rotatedeg_5',['RotateDeg',['../union_d6_engine_1_1_math_1_1_matrix3x3.html#aeb40641e46d6846de2751ea5b31ec051',1,'D6Engine::Math::Matrix3x3']]],
-  ['rotaterad_6',['RotateRad',['../union_d6_engine_1_1_math_1_1_matrix3x3.html#a0a8b9ea9b83dcb89ebd47469a9d5b9ca',1,'D6Engine::Math::Matrix3x3']]]
+  ['rotatedeg_5',['RotateDeg',['../union_d6_engine_1_1_math_1_1_mat3.html#a5c37454051ac8faa8407e04e7a74cc89',1,'D6Engine::Math::Mat3::RotateDeg()'],['../union_d6_engine_1_1_math_1_1_vec2.html#a8ca7174d85fe12060a7ed1062dc21f79',1,'D6Engine::Math::Vec2::RotateDeg()']]],
+  ['rotaterad_6',['RotateRad',['../union_d6_engine_1_1_math_1_1_mat3.html#afc0c907c8105f23c5ae1725d6c778f17',1,'D6Engine::Math::Mat3::RotateRad()'],['../union_d6_engine_1_1_math_1_1_vec2.html#ab904fc72994fb3b37636a140f1bfdcc0',1,'D6Engine::Math::Vec2::RotateRad()']]],
+  ['rotation_7',['rotation',['../class_d6_engine_1_1_transform.html#a0a14ec2558b897b536caaf0519a8a112',1,'D6Engine::Transform']]]
 ];
