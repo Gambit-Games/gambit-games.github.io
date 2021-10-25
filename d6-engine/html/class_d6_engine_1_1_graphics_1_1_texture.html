@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/4</span>
+                                &#160;<span id="projectnumber">v0.1/5</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -96,22 +96,26 @@ $(document).ready(function(){initNavTree('class_d6_engine_1_1_graphics_1_1_textu
 </div><!--header-->
 <div class="contents">
 
-<p>Provides a way to load texture, bind and unbind texture.  
+<p>Textrue Class for texture loading.  
  <a href="class_d6_engine_1_1_graphics_1_1_texture.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_texture_8h_source.html">Texture.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af6a0c9bf346b307e2678dec1f9bf57fe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html#af6a0c9bf346b307e2678dec1f9bf57fe">Texture</a> (const std::string &amp;path)</td></tr>
-<tr class="memdesc:af6a0c9bf346b307e2678dec1f9bf57fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a texture from file location.  <a href="class_d6_engine_1_1_graphics_1_1_texture.html#af6a0c9bf346b307e2678dec1f9bf57fe">More...</a><br /></td></tr>
-<tr class="separator:af6a0c9bf346b307e2678dec1f9bf57fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b88a59fc37e409fa5c80e2246d77fda"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html#a9b88a59fc37e409fa5c80e2246d77fda">Texture</a> (const std::string &amp;filepath, GLenum type=GL_TEXTURE_2D, GLint textureUnit=0)</td></tr>
+<tr class="memdesc:a9b88a59fc37e409fa5c80e2246d77fda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a texture from file location.  <a href="class_d6_engine_1_1_graphics_1_1_texture.html#a9b88a59fc37e409fa5c80e2246d77fda">More...</a><br /></td></tr>
+<tr class="separator:a9b88a59fc37e409fa5c80e2246d77fda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa014ec4f701444e6861abb7c3d6aa548"><td class="memItemLeft" align="right" valign="top"><a id="aa014ec4f701444e6861abb7c3d6aa548" name="aa014ec4f701444e6861abb7c3d6aa548"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>~Texture</b> ()</td></tr>
+<tr class="memdesc:aa014ec4f701444e6861abb7c3d6aa548"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html" title="Textrue Class for texture loading.">Texture</a> Class destroyer. <br /></td></tr>
+<tr class="separator:aa014ec4f701444e6861abb7c3d6aa548"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a638fad9068f1d3c41442a70243f8d8ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html#a638fad9068f1d3c41442a70243f8d8ef">Bind</a> (unsigned int slot=0) const</td></tr>
 <tr class="memdesc:a638fad9068f1d3c41442a70243f8d8ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binds the texture to the slot (0 - 31)  <a href="class_d6_engine_1_1_graphics_1_1_texture.html#a638fad9068f1d3c41442a70243f8d8ef">More...</a><br /></td></tr>
 <tr class="separator:a638fad9068f1d3c41442a70243f8d8ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e8a4351335f059c6855d2029dba756b"><td class="memItemLeft" align="right" valign="top"><a id="a3e8a4351335f059c6855d2029dba756b" name="a3e8a4351335f059c6855d2029dba756b"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Unbind</b> ()</td></tr>
-<tr class="memdesc:a3e8a4351335f059c6855d2029dba756b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unbinds the <a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html" title="Provides a way to load texture, bind and unbind texture.">Texture</a>. <br /></td></tr>
+<tr class="memdesc:a3e8a4351335f059c6855d2029dba756b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unbinds the <a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html" title="Textrue Class for texture loading.">Texture</a>. <br /></td></tr>
 <tr class="separator:a3e8a4351335f059c6855d2029dba756b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b5c1d2d01185b8110857e71541bb3c2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html#a1b5c1d2d01185b8110857e71541bb3c2">GetWidth</a> () const</td></tr>
 <tr class="memdesc:a1b5c1d2d01185b8110857e71541bb3c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the width from texture class.  <a href="class_d6_engine_1_1_graphics_1_1_texture.html#a1b5c1d2d01185b8110857e71541bb3c2">More...</a><br /></td></tr>
@@ -119,18 +123,21 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Unbind</b> ()</td></t
 <tr class="memitem:ae470f1dde570500941f068af38cb39bd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html#ae470f1dde570500941f068af38cb39bd">GetHeight</a> () const</td></tr>
 <tr class="memdesc:ae470f1dde570500941f068af38cb39bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Height from texture class.  <a href="class_d6_engine_1_1_graphics_1_1_texture.html#ae470f1dde570500941f068af38cb39bd">More...</a><br /></td></tr>
 <tr class="separator:ae470f1dde570500941f068af38cb39bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a390e13986a95e4af85dc3255c5dca4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html#a1a390e13986a95e4af85dc3255c5dca4">GetRendererID</a> () const</td></tr>
-<tr class="memdesc:a1a390e13986a95e4af85dc3255c5dca4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the renderer ID from texture class.  <a href="class_d6_engine_1_1_graphics_1_1_texture.html#a1a390e13986a95e4af85dc3255c5dca4">More...</a><br /></td></tr>
-<tr class="separator:a1a390e13986a95e4af85dc3255c5dca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af835fd9b0977c914644d8f2d83290955"><td class="memItemLeft" align="right" valign="top"><a id="af835fd9b0977c914644d8f2d83290955" name="af835fd9b0977c914644d8f2d83290955"></a>
-GLuint&#160;</td><td class="memItemRight" valign="bottom"><b>createTexture</b> (int w, int h, bool isDepth=false)</td></tr>
-<tr class="separator:af835fd9b0977c914644d8f2d83290955"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2cb8c3ee2941de880588a0e4d2e8aef"><td class="memItemLeft" align="right" valign="top">GLuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html#aa2cb8c3ee2941de880588a0e4d2e8aef">GetTextureID</a> () const</td></tr>
+<tr class="memdesc:aa2cb8c3ee2941de880588a0e4d2e8aef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the texture ID from texture class.  <a href="class_d6_engine_1_1_graphics_1_1_texture.html#aa2cb8c3ee2941de880588a0e4d2e8aef">More...</a><br /></td></tr>
+<tr class="separator:aa2cb8c3ee2941de880588a0e4d2e8aef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6445cc251668196a02f51065219d6e9"><td class="memItemLeft" align="right" valign="top">GLuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html#aa6445cc251668196a02f51065219d6e9">GetTextureUnit</a> () const</td></tr>
+<tr class="memdesc:aa6445cc251668196a02f51065219d6e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the texture unit from texture class.  <a href="class_d6_engine_1_1_graphics_1_1_texture.html#aa6445cc251668196a02f51065219d6e9">More...</a><br /></td></tr>
+<tr class="separator:aa6445cc251668196a02f51065219d6e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a307816ceb1f9ff24bb363a4f231b16b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html#a307816ceb1f9ff24bb363a4f231b16b6">LoadTexture</a> (std::string filepath)</td></tr>
+<tr class="memdesc:a307816ceb1f9ff24bb363a4f231b16b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a texture from a file path.  <a href="class_d6_engine_1_1_graphics_1_1_texture.html#a307816ceb1f9ff24bb363a4f231b16b6">More...</a><br /></td></tr>
+<tr class="separator:a307816ceb1f9ff24bb363a4f231b16b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >Provides a way to load texture, bind and unbind texture. </p>
+<div class="textblock"><p >Textrue Class for texture loading. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="af6a0c9bf346b307e2678dec1f9bf57fe" name="af6a0c9bf346b307e2678dec1f9bf57fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6a0c9bf346b307e2678dec1f9bf57fe">&#9670;&nbsp;</a></span>Texture()</h2>
+<a id="a9b88a59fc37e409fa5c80e2246d77fda" name="a9b88a59fc37e409fa5c80e2246d77fda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b88a59fc37e409fa5c80e2246d77fda">&#9670;&nbsp;</a></span>Texture()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139,8 +146,24 @@ GLuint&#160;</td><td class="memItemRight" valign="bottom"><b>createTexture</b> (
           <td class="memname">D6Engine::Graphics::Texture::Texture </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>path</em></td><td>)</td>
+          <td class="paramname"><em>filepath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">GLenum&#160;</td>
+          <td class="paramname"><em>type</em> = <code>GL_TEXTURE_2D</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLint&#160;</td>
+          <td class="paramname"><em>textureUnit</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -149,6 +172,8 @@ GLuint&#160;</td><td class="memItemRight" valign="bottom"><b>createTexture</b> (
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">path</td><td>The file path to the texture </td></tr>
+    <tr><td class="paramname">type</td><td>The type of texture (defaulted to GL_TEXTURE_2D) </td></tr>
+    <tr><td class="paramname">textureUnit</td><td>Selectes the texture unit based on "textureUnit" input (defaulted to 0) </td></tr>
   </table>
   </dd>
 </dl>
@@ -210,8 +235,8 @@ GLuint&#160;</td><td class="memItemRight" valign="bottom"><b>createTexture</b> (
 
 </div>
 </div>
-<a id="a1a390e13986a95e4af85dc3255c5dca4" name="a1a390e13986a95e4af85dc3255c5dca4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a390e13986a95e4af85dc3255c5dca4">&#9670;&nbsp;</a></span>GetRendererID()</h2>
+<a id="aa2cb8c3ee2941de880588a0e4d2e8aef" name="aa2cb8c3ee2941de880588a0e4d2e8aef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2cb8c3ee2941de880588a0e4d2e8aef">&#9670;&nbsp;</a></span>GetTextureID()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -220,7 +245,7 @@ GLuint&#160;</td><td class="memItemRight" valign="bottom"><b>createTexture</b> (
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int D6Engine::Graphics::Texture::GetRendererID </td>
+          <td class="memname">GLuint D6Engine::Graphics::Texture::GetTextureID </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -233,8 +258,36 @@ GLuint&#160;</td><td class="memItemRight" valign="bottom"><b>createTexture</b> (
 </table>
 </div><div class="memdoc">
 
-<p>Gets the renderer ID from texture class. </p>
-<dl class="section return"><dt>Returns</dt><dd>int <a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html" title="Render Class for drawing.">Renderer</a> ID of texture </dd></dl>
+<p>Gets the texture ID from texture class. </p>
+<dl class="section return"><dt>Returns</dt><dd>int texture ID of texture </dd></dl>
+
+</div>
+</div>
+<a id="aa6445cc251668196a02f51065219d6e9" name="aa6445cc251668196a02f51065219d6e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6445cc251668196a02f51065219d6e9">&#9670;&nbsp;</a></span>GetTextureUnit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLuint D6Engine::Graphics::Texture::GetTextureUnit </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the texture unit from texture class. </p>
+<dl class="section return"><dt>Returns</dt><dd>int texture unit of texture </dd></dl>
 
 </div>
 </div>
@@ -266,6 +319,32 @@ GLuint&#160;</td><td class="memItemRight" valign="bottom"><b>createTexture</b> (
 
 </div>
 </div>
+<a id="a307816ceb1f9ff24bb363a4f231b16b6" name="a307816ceb1f9ff24bb363a4f231b16b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a307816ceb1f9ff24bb363a4f231b16b6">&#9670;&nbsp;</a></span>LoadTexture()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void D6Engine::Graphics::Texture::LoadTexture </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>filepath</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Loads a texture from a file path. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filepath</td><td>The file path to the texture </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.9.1-->
@@ -273,7 +352,7 @@ GLuint&#160;</td><td class="memItemRight" valign="bottom"><b>createTexture</b> (
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d6_engine.html">D6Engine</a></li><li class="navelem"><a class="el" href="namespace_d6_engine_1_1_graphics.html">Graphics</a></li><li class="navelem"><a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html">Texture</a></li>
-    <li class="footer">Generated on Mon Oct 18 2021 14:42:56 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Mon Oct 25 2021 21:51:56 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

@@ -1,6 +1,5 @@
 var namespace_d6_engine_1_1_graphics =
 [
-    [ "Colour", "struct_d6_engine_1_1_graphics_1_1_colour.html", "struct_d6_engine_1_1_graphics_1_1_colour" ],
     [ "DebugDraw", "class_d6_engine_1_1_graphics_1_1_debug_draw.html", "class_d6_engine_1_1_graphics_1_1_debug_draw" ],
     [ "FragmentShader", "struct_d6_engine_1_1_graphics_1_1_fragment_shader.html", "struct_d6_engine_1_1_graphics_1_1_fragment_shader" ],
     [ "OGLBuffer", "class_d6_engine_1_1_graphics_1_1_o_g_l_buffer.html", null ],

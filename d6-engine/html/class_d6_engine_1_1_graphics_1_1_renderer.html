@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/4</span>
+                                &#160;<span id="projectnumber">v0.1/5</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -114,7 +114,7 @@ Classes</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a933a7aa75d695cb8066c214c4860985c"><td class="memItemLeft" align="right" valign="top"><a id="a933a7aa75d695cb8066c214c4860985c" name="a933a7aa75d695cb8066c214c4860985c"></a>
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>Clear</b> ()</td></tr>
-<tr class="memdesc:a933a7aa75d695cb8066c214c4860985c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears <a class="el" href="struct_d6_engine_1_1_graphics_1_1_colour.html" title="Representation of an RGBA colour. This is used to pass around colour values in D6 Engine.">Colour</a> Buffer Bits. <br /></td></tr>
+<tr class="memdesc:a933a7aa75d695cb8066c214c4860985c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears <a class="el" href="struct_d6_engine_1_1_colour.html" title="Representation of an RGBA colour. This is used to pass around colour values in D6 Engine.">Colour</a> Buffer Bits. <br /></td></tr>
 <tr class="separator:a933a7aa75d695cb8066c214c4860985c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b3e8e8095d2890c7baa6afe01c71b96"><td class="memItemLeft" align="right" valign="top"><a id="a6b3e8e8095d2890c7baa6afe01c71b96" name="a6b3e8e8095d2890c7baa6afe01c71b96"></a>
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>Init</b> ()</td></tr>
@@ -146,9 +146,9 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>Cleanup</b> ()
 <tr class="memitem:a002b2e2e684065ff686d8672bdb59d2f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#a002b2e2e684065ff686d8672bdb59d2f">DeleteShaderProgram</a> (std::string key)</td></tr>
 <tr class="memdesc:a002b2e2e684065ff686d8672bdb59d2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes a <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a> in the shaderPrograms Container based on the key provided.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#a002b2e2e684065ff686d8672bdb59d2f">More...</a><br /></td></tr>
 <tr class="separator:a002b2e2e684065ff686d8672bdb59d2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abec9517acd2ea99da9679dea2259f6bc"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#abec9517acd2ea99da9679dea2259f6bc">InsertTexture</a> (std::string key, GLuint *tex)</td></tr>
-<tr class="memdesc:abec9517acd2ea99da9679dea2259f6bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a texture ID into textureContainer map, unique key, and GLuint* tex. Checks for duplicated <a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html" title="Provides a way to load texture, bind and unbind texture.">Texture</a>.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#abec9517acd2ea99da9679dea2259f6bc">More...</a><br /></td></tr>
-<tr class="separator:abec9517acd2ea99da9679dea2259f6bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa19c5df512694178ee2a19bf2effd5d5"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#aa19c5df512694178ee2a19bf2effd5d5">InsertTexture</a> (std::string key, <a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html">Texture</a> *tex)</td></tr>
+<tr class="memdesc:aa19c5df512694178ee2a19bf2effd5d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a texture ID into textureContainer map, unique key, and GLuint* tex. Checks for duplicated <a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html" title="Textrue Class for texture loading.">Texture</a>.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#aa19c5df512694178ee2a19bf2effd5d5">More...</a><br /></td></tr>
+<tr class="separator:aa19c5df512694178ee2a19bf2effd5d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13f40cfb90604b60cb554a5ae40be31a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#a13f40cfb90604b60cb554a5ae40be31a">SetBackgroundColor</a> (GLfloat r, GLfloat g, GLfloat b, GLfloat a)</td></tr>
 <tr class="memdesc:a13f40cfb90604b60cb554a5ae40be31a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the current colour bits colours.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#a13f40cfb90604b60cb554a5ae40be31a">More...</a><br /></td></tr>
 <tr class="separator:a13f40cfb90604b60cb554a5ae40be31a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -512,8 +512,8 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>Cleanup</b> ()
 
 </div>
 </div>
-<a id="abec9517acd2ea99da9679dea2259f6bc" name="abec9517acd2ea99da9679dea2259f6bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abec9517acd2ea99da9679dea2259f6bc">&#9670;&nbsp;</a></span>InsertTexture()</h2>
+<a id="aa19c5df512694178ee2a19bf2effd5d5" name="aa19c5df512694178ee2a19bf2effd5d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa19c5df512694178ee2a19bf2effd5d5">&#9670;&nbsp;</a></span>InsertTexture()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -530,7 +530,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>Cleanup</b> ()
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">GLuint *&#160;</td>
+          <td class="paramtype"><a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html">Texture</a> *&#160;</td>
           <td class="paramname"><em>tex</em>&#160;</td>
         </tr>
         <tr>
@@ -546,11 +546,11 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>Cleanup</b> ()
 </table>
 </div><div class="memdoc">
 
-<p>Inserts a texture ID into textureContainer map, unique key, and GLuint* tex. Checks for duplicated <a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html" title="Provides a way to load texture, bind and unbind texture.">Texture</a>. </p>
+<p>Inserts a texture ID into textureContainer map, unique key, and GLuint* tex. Checks for duplicated <a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html" title="Textrue Class for texture loading.">Texture</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">key</td><td>Name of the <a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html" title="Provides a way to load texture, bind and unbind texture.">Texture</a> to be inserted </td></tr>
-    <tr><td class="paramname">tex</td><td>Pointer to the Id of the <a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html" title="Provides a way to load texture, bind and unbind texture.">Texture</a> </td></tr>
+    <tr><td class="paramname">key</td><td>Name of the <a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html" title="Textrue Class for texture loading.">Texture</a> to be inserted </td></tr>
+    <tr><td class="paramname">tex</td><td>Pointer to the Id of the <a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html" title="Textrue Class for texture loading.">Texture</a> </td></tr>
   </table>
   </dd>
 </dl>
@@ -670,7 +670,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>Cleanup</b> ()
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d6_engine.html">D6Engine</a></li><li class="navelem"><a class="el" href="namespace_d6_engine_1_1_graphics.html">Graphics</a></li><li class="navelem"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html">Renderer</a></li>
-    <li class="footer">Generated on Mon Oct 18 2021 14:42:56 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Mon Oct 25 2021 21:51:56 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

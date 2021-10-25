@@ -6,7 +6,7 @@ var hierarchy =
       [ "D6Engine::SceneManagement::SceneJSONHandler", "class_d6_engine_1_1_scene_management_1_1_scene_j_s_o_n_handler.html", null ]
     ] ],
     [ "D6Engine::Graphics::Renderer::Camera2D", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_camera2_d.html", null ],
-    [ "D6Engine::Graphics::Colour", "struct_d6_engine_1_1_graphics_1_1_colour.html", null ],
+    [ "D6Engine::Colour", "struct_d6_engine_1_1_colour.html", null ],
     [ "D6Engine::Component", "class_d6_engine_1_1_component.html", [
       [ "D6Engine::MonoBehaviour", "class_d6_engine_1_1_mono_behaviour.html", [
         [ "D6Engine::TestComponent", "class_d6_engine_1_1_test_component.html", null ]

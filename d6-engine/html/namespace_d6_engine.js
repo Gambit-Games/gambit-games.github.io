@@ -7,6 +7,7 @@ var namespace_d6_engine =
     [ "Input", "namespace_d6_engine_1_1_input.html", "namespace_d6_engine_1_1_input" ],
     [ "Math", "namespace_d6_engine_1_1_math.html", "namespace_d6_engine_1_1_math" ],
     [ "SceneManagement", "namespace_d6_engine_1_1_scene_management.html", "namespace_d6_engine_1_1_scene_management" ],
+    [ "Colour", "struct_d6_engine_1_1_colour.html", "struct_d6_engine_1_1_colour" ],
     [ "Component", "class_d6_engine_1_1_component.html", "class_d6_engine_1_1_component" ],
     [ "Engine", "class_d6_engine_1_1_engine.html", null ],
     [ "EngineLog", "class_d6_engine_1_1_engine_log.html", "class_d6_engine_1_1_engine_log" ],

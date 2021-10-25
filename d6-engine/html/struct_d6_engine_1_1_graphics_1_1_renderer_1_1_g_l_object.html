@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/4</span>
+                                &#160;<span id="projectnumber">v0.1/5</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -102,19 +102,34 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0ef78f30c231cb1ea8aaf766506e3b40"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a0ef78f30c231cb1ea8aaf766506e3b40">Init</a> (std::string modelName, std::string shaderName)</td></tr>
 <tr class="memdesc:a0ef78f30c231cb1ea8aaf766506e3b40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes object with input mesh and shader.  <a href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a0ef78f30c231cb1ea8aaf766506e3b40">More...</a><br /></td></tr>
 <tr class="separator:a0ef78f30c231cb1ea8aaf766506e3b40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c75cdcc2107fc423db1eee04652fa88"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a4c75cdcc2107fc423db1eee04652fa88">Init</a> (std::string modelName, std::string shaderName, <a class="el" href="class_d6_engine_1_1_transform.html">Transform</a> *transformPtr)</td></tr>
-<tr class="memdesc:a4c75cdcc2107fc423db1eee04652fa88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise the object with input, mesh, shader and model <a class="el" href="class_d6_engine_1_1_transform.html" title="Position, rotation and scale of an object.">Transform</a>.  <a href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a4c75cdcc2107fc423db1eee04652fa88">More...</a><br /></td></tr>
-<tr class="separator:a4c75cdcc2107fc423db1eee04652fa88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ecf6a494c7e1171d2a37bc3272f1309"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a4ecf6a494c7e1171d2a37bc3272f1309">Init</a> (std::string modelName, std::string shaderName, std::string textureName, <a class="el" href="class_d6_engine_1_1_transform.html">Transform</a> *transformMatrix)</td></tr>
+<tr class="memdesc:a4ecf6a494c7e1171d2a37bc3272f1309"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise the object with input, mesh, shader and model <a class="el" href="class_d6_engine_1_1_transform.html" title="Position, rotation and scale of an object.">Transform</a>.  <a href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a4ecf6a494c7e1171d2a37bc3272f1309">More...</a><br /></td></tr>
+<tr class="separator:a4ecf6a494c7e1171d2a37bc3272f1309"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2a49554708a47fa5edffef300a2f656"><td class="memItemLeft" align="right" valign="top"><a id="aa2a49554708a47fa5edffef300a2f656" name="aa2a49554708a47fa5edffef300a2f656"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Draw</b> ()</td></tr>
 <tr class="memdesc:aa2a49554708a47fa5edffef300a2f656"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the current Object. <br /></td></tr>
 <tr class="separator:aa2a49554708a47fa5edffef300a2f656"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab687f66aa54371966091a284a6275d63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#ab687f66aa54371966091a284a6275d63">SetMesh</a> (std::string key)</td></tr>
+<tr class="memdesc:ab687f66aa54371966091a284a6275d63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the Mesh of the object.  <a href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#ab687f66aa54371966091a284a6275d63">More...</a><br /></td></tr>
+<tr class="separator:ab687f66aa54371966091a284a6275d63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74359edff3987591e974ab70972d7f29"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a74359edff3987591e974ab70972d7f29">SetShader</a> (std::string key)</td></tr>
+<tr class="memdesc:a74359edff3987591e974ab70972d7f29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a> of the object.  <a href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a74359edff3987591e974ab70972d7f29">More...</a><br /></td></tr>
+<tr class="separator:a74359edff3987591e974ab70972d7f29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c635a01076f7997d286f27a87a44ed9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a1c635a01076f7997d286f27a87a44ed9">SetTexture</a> (std::string key)</td></tr>
+<tr class="memdesc:a1c635a01076f7997d286f27a87a44ed9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the <a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html" title="Textrue Class for texture loading.">Texture</a> of the object.  <a href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a1c635a01076f7997d286f27a87a44ed9">More...</a><br /></td></tr>
+<tr class="separator:a1c635a01076f7997d286f27a87a44ed9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac51a1ca94719dfbe6ae5074679519e4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#ac51a1ca94719dfbe6ae5074679519e4c">SetTransformMatrix</a> (<a class="el" href="class_d6_engine_1_1_transform.html">Transform</a> *transformMatrix)</td></tr>
+<tr class="memdesc:ac51a1ca94719dfbe6ae5074679519e4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the <a class="el" href="class_d6_engine_1_1_transform.html" title="Position, rotation and scale of an object.">Transform</a> Matrix of the object.  <a href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#ac51a1ca94719dfbe6ae5074679519e4c">More...</a><br /></td></tr>
+<tr class="separator:ac51a1ca94719dfbe6ae5074679519e4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a535a9d80f46dd93923d02fe68f81d143"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a535a9d80f46dd93923d02fe68f81d143">SetColour</a> (glm::vec3 newColour)</td></tr>
+<tr class="memdesc:a535a9d80f46dd93923d02fe68f81d143"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the <a class="el" href="struct_d6_engine_1_1_colour.html" title="Representation of an RGBA colour. This is used to pass around colour values in D6 Engine.">Colour</a> of the object.  <a href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a535a9d80f46dd93923d02fe68f81d143">More...</a><br /></td></tr>
+<tr class="separator:a535a9d80f46dd93923d02fe68f81d143"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a98e16ba66e4f06e6a5cadd257a4be0bb"><td class="memItemLeft" align="right" valign="top"><a id="a98e16ba66e4f06e6a5cadd257a4be0bb" name="a98e16ba66e4f06e6a5cadd257a4be0bb"></a>
 glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><b>colour</b> { 1.f, 1.f, 1.f }</td></tr>
-<tr class="memdesc:a98e16ba66e4f06e6a5cadd257a4be0bb"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="struct_d6_engine_1_1_graphics_1_1_colour.html" title="Representation of an RGBA colour. This is used to pass around colour values in D6 Engine.">Colour</a> of the object (white) <br /></td></tr>
+<tr class="memdesc:a98e16ba66e4f06e6a5cadd257a4be0bb"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="struct_d6_engine_1_1_colour.html" title="Representation of an RGBA colour. This is used to pass around colour values in D6 Engine.">Colour</a> of the object (white) <br /></td></tr>
 <tr class="separator:a98e16ba66e4f06e6a5cadd257a4be0bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab78394db0e9f1b7abd728288b0feeabe"><td class="memItemLeft" align="right" valign="top"><a id="ab78394db0e9f1b7abd728288b0feeabe" name="ab78394db0e9f1b7abd728288b0feeabe"></a>
 bool *&#160;</td><td class="memItemRight" valign="bottom"><b>enabled</b> {}</td></tr>
@@ -136,6 +151,10 @@ std::map&lt; std::string, <a class="el" href="class_d6_engine_1_1_graphics_1_1_o
 std::map&lt; std::string, <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html">Shader</a> * &gt;::iterator&#160;</td><td class="memItemRight" valign="bottom"><b>shaderRef</b></td></tr>
 <tr class="memdesc:ae5a38b12d755360d1094a047b94fe4e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference iterator to the shader in the shaderPrograms container. <br /></td></tr>
 <tr class="separator:ae5a38b12d755360d1094a047b94fe4e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1404b7761787df039cbd24a46b65a943"><td class="memItemLeft" align="right" valign="top"><a id="a1404b7761787df039cbd24a46b65a943" name="a1404b7761787df039cbd24a46b65a943"></a>
+std::map&lt; std::string, <a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html">Texture</a> * &gt;::iterator&#160;</td><td class="memItemRight" valign="bottom"><b>textureRef</b></td></tr>
+<tr class="memdesc:a1404b7761787df039cbd24a46b65a943"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference iterator to the <a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html" title="Textrue Class for texture loading.">Texture</a> in the textureContainer container. <br /></td></tr>
+<tr class="separator:a1404b7761787df039cbd24a46b65a943"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a0ef78f30c231cb1ea8aaf766506e3b40" name="a0ef78f30c231cb1ea8aaf766506e3b40"></a>
@@ -175,8 +194,8 @@ std::map&lt; std::string, <a class="el" href="class_d6_engine_1_1_graphics_1_1_s
 
 </div>
 </div>
-<a id="a4c75cdcc2107fc423db1eee04652fa88" name="a4c75cdcc2107fc423db1eee04652fa88"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c75cdcc2107fc423db1eee04652fa88">&#9670;&nbsp;</a></span>Init() <span class="overload">[2/2]</span></h2>
+<a id="a4ecf6a494c7e1171d2a37bc3272f1309" name="a4ecf6a494c7e1171d2a37bc3272f1309"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ecf6a494c7e1171d2a37bc3272f1309">&#9670;&nbsp;</a></span>Init() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -196,8 +215,14 @@ std::map&lt; std::string, <a class="el" href="class_d6_engine_1_1_graphics_1_1_s
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>textureName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype"><a class="el" href="class_d6_engine_1_1_transform.html">Transform</a> *&#160;</td>
-          <td class="paramname"><em>transformPtr</em>&#160;</td>
+          <td class="paramname"><em>transformMatrix</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -212,7 +237,138 @@ std::map&lt; std::string, <a class="el" href="class_d6_engine_1_1_graphics_1_1_s
   <table class="params">
     <tr><td class="paramname">modelName</td><td>Name of the model in the MeshContainer. </td></tr>
     <tr><td class="paramname">shaderName</td><td>Name of the shader in the ShaderPrograms container. </td></tr>
-    <tr><td class="paramname">transformPtr</td><td>Pointer to the <a class="el" href="class_d6_engine_1_1_transform.html" title="Position, rotation and scale of an object.">Transform</a> component to reference from. </td></tr>
+    <tr><td class="paramname">textureName</td><td>Name of the texture in the textureContainer. </td></tr>
+    <tr><td class="paramname">transformMatrix</td><td>Matrix for the object (Translate, Rotate and Scale concated matrix). </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a535a9d80f46dd93923d02fe68f81d143" name="a535a9d80f46dd93923d02fe68f81d143"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a535a9d80f46dd93923d02fe68f81d143">&#9670;&nbsp;</a></span>SetColour()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void D6Engine::Graphics::Renderer::GLObject::SetColour </td>
+          <td>(</td>
+          <td class="paramtype">glm::vec3&#160;</td>
+          <td class="paramname"><em>newColour</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the <a class="el" href="struct_d6_engine_1_1_colour.html" title="Representation of an RGBA colour. This is used to pass around colour values in D6 Engine.">Colour</a> of the object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newColour</td><td>New colour to set the object to. (glm::vec3) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ab687f66aa54371966091a284a6275d63" name="ab687f66aa54371966091a284a6275d63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab687f66aa54371966091a284a6275d63">&#9670;&nbsp;</a></span>SetMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void D6Engine::Graphics::Renderer::GLObject::SetMesh </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the Mesh of the object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The key to the Mesh (string) to be found in the meshContainer. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a74359edff3987591e974ab70972d7f29" name="a74359edff3987591e974ab70972d7f29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74359edff3987591e974ab70972d7f29">&#9670;&nbsp;</a></span>SetShader()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void D6Engine::Graphics::Renderer::GLObject::SetShader </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a> of the object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The key to the <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a> (string) to be found in the shaderPrograms Container. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a1c635a01076f7997d286f27a87a44ed9" name="a1c635a01076f7997d286f27a87a44ed9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c635a01076f7997d286f27a87a44ed9">&#9670;&nbsp;</a></span>SetTexture()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void D6Engine::Graphics::Renderer::GLObject::SetTexture </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the <a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html" title="Textrue Class for texture loading.">Texture</a> of the object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The key to the <a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html" title="Textrue Class for texture loading.">Texture</a> (string) to be found in the textureContainer. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac51a1ca94719dfbe6ae5074679519e4c" name="ac51a1ca94719dfbe6ae5074679519e4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac51a1ca94719dfbe6ae5074679519e4c">&#9670;&nbsp;</a></span>SetTransformMatrix()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void D6Engine::Graphics::Renderer::GLObject::SetTransformMatrix </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_d6_engine_1_1_transform.html">Transform</a> *&#160;</td>
+          <td class="paramname"><em>transformMatrix</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the <a class="el" href="class_d6_engine_1_1_transform.html" title="Position, rotation and scale of an object.">Transform</a> Matrix of the object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">transformMatrix</td><td>A pointer to a Transfrom componant. </td></tr>
   </table>
   </dd>
 </dl>
@@ -226,7 +382,7 @@ std::map&lt; std::string, <a class="el" href="class_d6_engine_1_1_graphics_1_1_s
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d6_engine.html">D6Engine</a></li><li class="navelem"><a class="el" href="namespace_d6_engine_1_1_graphics.html">Graphics</a></li><li class="navelem"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html">Renderer</a></li><li class="navelem"><a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html">GLObject</a></li>
-    <li class="footer">Generated on Mon Oct 18 2021 14:42:56 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Mon Oct 25 2021 21:51:56 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

@@ -20,7 +20,6 @@ var annotated_dup =
         [ "Metadata", "class_d6_engine_1_1_file_system_1_1_metadata.html", null ]
       ] ],
       [ "Graphics", "namespace_d6_engine_1_1_graphics.html", [
-        [ "Colour", "struct_d6_engine_1_1_graphics_1_1_colour.html", "struct_d6_engine_1_1_graphics_1_1_colour" ],
         [ "DebugDraw", "class_d6_engine_1_1_graphics_1_1_debug_draw.html", "class_d6_engine_1_1_graphics_1_1_debug_draw" ],
         [ "FragmentShader", "struct_d6_engine_1_1_graphics_1_1_fragment_shader.html", "struct_d6_engine_1_1_graphics_1_1_fragment_shader" ],
         [ "OGLBuffer", "class_d6_engine_1_1_graphics_1_1_o_g_l_buffer.html", null ],
@@ -50,6 +49,7 @@ var annotated_dup =
         [ "SceneManager", "class_d6_engine_1_1_scene_management_1_1_scene_manager.html", null ],
         [ "SceneObject", "struct_d6_engine_1_1_scene_management_1_1_scene_object.html", "struct_d6_engine_1_1_scene_management_1_1_scene_object" ]
       ] ],
+      [ "Colour", "struct_d6_engine_1_1_colour.html", "struct_d6_engine_1_1_colour" ],
       [ "Component", "class_d6_engine_1_1_component.html", "class_d6_engine_1_1_component" ],
       [ "Engine", "class_d6_engine_1_1_engine.html", null ],
       [ "EngineLog", "class_d6_engine_1_1_engine_log.html", "class_d6_engine_1_1_engine_log" ],

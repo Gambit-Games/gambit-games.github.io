@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/4</span>
+                                &#160;<span id="projectnumber">v0.1/5</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -124,8 +124,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ab6fa487a3b8217d33be9b29970abdcac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operator for Vector /= float, overrides the current vector with the result of the division of the vector with the float.  <a href="union_d6_engine_1_1_math_1_1_vec2.html#ab6fa487a3b8217d33be9b29970abdcac">More...</a><br /></td></tr>
 <tr class="separator:ab6fa487a3b8217d33be9b29970abdcac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8494efc7b01f8366f32f1d883420a36"><td class="memItemLeft" align="right" valign="top"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html#ac8494efc7b01f8366f32f1d883420a36">operator=</a> (const glm::vec2 &amp;rhs)</td></tr>
-<tr class="memdesc:ac8494efc7b01f8366f32f1d883420a36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conversion from glm::vec2 to Vector2D.  <a href="union_d6_engine_1_1_math_1_1_vec2.html#ac8494efc7b01f8366f32f1d883420a36">More...</a><br /></td></tr>
+<tr class="memdesc:ac8494efc7b01f8366f32f1d883420a36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conversion from glm::vec2 to <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html" title="Provides an interface to create, edit, and multiply 2D Vectors.">Vec2</a>.  <a href="union_d6_engine_1_1_math_1_1_vec2.html#ac8494efc7b01f8366f32f1d883420a36">More...</a><br /></td></tr>
 <tr class="separator:ac8494efc7b01f8366f32f1d883420a36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8c02a7affa8f8580ec1d4a6b44842bb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html#ad8c02a7affa8f8580ec1d4a6b44842bb">operator==</a> (const <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> &amp;rhs) const</td></tr>
+<tr class="memdesc:ad8c02a7affa8f8580ec1d4a6b44842bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two vectors for reasonable equality.  <a href="union_d6_engine_1_1_math_1_1_vec2.html#ad8c02a7affa8f8580ec1d4a6b44842bb">More...</a><br /></td></tr>
+<tr class="separator:ad8c02a7affa8f8580ec1d4a6b44842bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9aaa19e2558637824be242bb9866b8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html#aa9aaa19e2558637824be242bb9866b8f">operator-</a> () const</td></tr>
 <tr class="memdesc:aa9aaa19e2558637824be242bb9866b8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Negation operator for the vector.  <a href="union_d6_engine_1_1_math_1_1_vec2.html#aa9aaa19e2558637824be242bb9866b8f">More...</a><br /></td></tr>
 <tr class="separator:aa9aaa19e2558637824be242bb9866b8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -325,14 +328,41 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>m</b> [2] = {}</td><
       </table>
 </div><div class="memdoc">
 
-<p>Conversion from glm::vec2 to Vector2D. </p>
+<p>Conversion from glm::vec2 to <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html" title="Provides an interface to create, edit, and multiply 2D Vectors.">Vec2</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rhs</td><td>glm::vec2 to convert from </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Reference to the converted Vector2D </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference to the converted <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html" title="Provides an interface to create, edit, and multiply 2D Vectors.">Vec2</a> </dd></dl>
+
+</div>
+</div>
+<a id="ad8c02a7affa8f8580ec1d4a6b44842bb" name="ad8c02a7affa8f8580ec1d4a6b44842bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8c02a7affa8f8580ec1d4a6b44842bb">&#9670;&nbsp;</a></span>operator==()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool D6Engine::Math::Vec2::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compares two vectors for reasonable equality. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rhs</td><td><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html" title="Provides an interface to create, edit, and multiply 2D Vectors.">Vec2</a> to compare with. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether both <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html" title="Provides an interface to create, edit, and multiply 2D Vectors.">Vec2</a> values are equal. </dd></dl>
 
 </div>
 </div>
@@ -435,7 +465,7 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>m</b> [2] = {}</td><
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d6_engine.html">D6Engine</a></li><li class="navelem"><a class="el" href="namespace_d6_engine_1_1_math.html">Math</a></li><li class="navelem"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a></li>
-    <li class="footer">Generated on Mon Oct 18 2021 14:42:56 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Mon Oct 25 2021 21:51:56 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

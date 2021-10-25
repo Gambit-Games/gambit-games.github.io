@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/4</span>
+                                &#160;<span id="projectnumber">v0.1/5</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -159,12 +159,12 @@ $(document).ready(function(){initNavTree('_shader_8h_source.html',''); initResiz
 <div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    };</div>
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>}</div>
 <div class="ttc" id="aclass_d6_engine_1_1_graphics_1_1_debug_draw_html"><div class="ttname"><a href="class_d6_engine_1_1_graphics_1_1_debug_draw.html">D6Engine::Graphics::DebugDraw</a></div><div class="ttdoc">Provides a way to load texture, bind and unbind texture.</div><div class="ttdef"><b>Definition:</b> DebugDraw.h:24</div></div>
-<div class="ttc" id="aclass_d6_engine_1_1_graphics_1_1_renderer_html"><div class="ttname"><a href="class_d6_engine_1_1_graphics_1_1_renderer.html">D6Engine::Graphics::Renderer</a></div><div class="ttdoc">Render Class for drawing.</div><div class="ttdef"><b>Definition:</b> Renderer.h:30</div></div>
+<div class="ttc" id="aclass_d6_engine_1_1_graphics_1_1_renderer_html"><div class="ttname"><a href="class_d6_engine_1_1_graphics_1_1_renderer.html">D6Engine::Graphics::Renderer</a></div><div class="ttdoc">Render Class for drawing.</div><div class="ttdef"><b>Definition:</b> Renderer.h:34</div></div>
 <div class="ttc" id="aclass_d6_engine_1_1_graphics_1_1_shader_html"><div class="ttname"><a href="class_d6_engine_1_1_graphics_1_1_shader.html">D6Engine::Graphics::Shader</a></div><div class="ttdoc">Shader Class which handles the shader parsing and generation of the shader code.</div><div class="ttdef"><b>Definition:</b> Shader.h:57</div></div>
 <div class="ttc" id="aclass_d6_engine_1_1_graphics_1_1_shader_html_a50a3c8d659f5022de6292589c5110867"><div class="ttname"><a href="class_d6_engine_1_1_graphics_1_1_shader.html#a50a3c8d659f5022de6292589c5110867">D6Engine::Graphics::Shader::LoadShaderFromFile</a></div><div class="ttdeci">static Shader * LoadShaderFromFile(const std::string &amp;shaderFilePath)</div><div class="ttdoc">Loads the Shader from a Shader File path (.glsl)</div><div class="ttdef"><b>Definition:</b> Shader.cpp:37</div></div>
 <div class="ttc" id="aclass_d6_engine_1_1_graphics_1_1_shader_html_a53386a53f5bd3693c34373c91a326a4f"><div class="ttname"><a href="class_d6_engine_1_1_graphics_1_1_shader.html#a53386a53f5bd3693c34373c91a326a4f">D6Engine::Graphics::Shader::Bind</a></div><div class="ttdeci">void Bind() const</div><div class="ttdoc">Binds the Shader.</div><div class="ttdef"><b>Definition:</b> Shader.cpp:250</div></div>
 <div class="ttc" id="aclass_d6_engine_1_1_graphics_1_1_shader_html_a5a7f0ca91915692794b7e22335f73655"><div class="ttname"><a href="class_d6_engine_1_1_graphics_1_1_shader.html#a5a7f0ca91915692794b7e22335f73655">D6Engine::Graphics::Shader::Unbind</a></div><div class="ttdeci">void Unbind() const</div><div class="ttdoc">Unbinds the Shader.</div><div class="ttdef"><b>Definition:</b> Shader.cpp:255</div></div>
-<div class="ttc" id="anamespace_d6_engine_1_1_graphics_html"><div class="ttname"><a href="namespace_d6_engine_1_1_graphics.html">D6Engine::Graphics</a></div><div class="ttdoc">The implementation the shader class.</div><div class="ttdef"><b>Definition:</b> Colour.cpp:17</div></div>
+<div class="ttc" id="anamespace_d6_engine_1_1_graphics_html"><div class="ttname"><a href="namespace_d6_engine_1_1_graphics.html">D6Engine::Graphics</a></div><div class="ttdoc">The implementation the shader class.</div><div class="ttdef"><b>Definition:</b> DebugDraw.cpp:15</div></div>
 <div class="ttc" id="astruct_d6_engine_1_1_graphics_1_1_fragment_shader_html"><div class="ttname"><a href="struct_d6_engine_1_1_graphics_1_1_fragment_shader.html">D6Engine::Graphics::FragmentShader</a></div><div class="ttdoc">Fragment Shader struct storing the Fragment shader source.</div><div class="ttdef"><b>Definition:</b> Shader.h:41</div></div>
 <div class="ttc" id="astruct_d6_engine_1_1_graphics_1_1_fragment_shader_html_a5f9dc703864f37f3234dd6e630101adf"><div class="ttname"><a href="struct_d6_engine_1_1_graphics_1_1_fragment_shader.html#a5f9dc703864f37f3234dd6e630101adf">D6Engine::Graphics::FragmentShader::fragmentSource</a></div><div class="ttdeci">std::string fragmentSource</div><div class="ttdoc">Fragment Shader Source.</div><div class="ttdef"><b>Definition:</b> Shader.h:50</div></div>
 <div class="ttc" id="astruct_d6_engine_1_1_graphics_1_1_fragment_shader_html_ab07a935bec1be0d18f16f73f3ff939db"><div class="ttname"><a href="struct_d6_engine_1_1_graphics_1_1_fragment_shader.html#ab07a935bec1be0d18f16f73f3ff939db">D6Engine::Graphics::FragmentShader::FragmentShader</a></div><div class="ttdeci">FragmentShader(const std::string &amp;fragmentSrc)</div><div class="ttdoc">Gets the Fragment Source from a Fragment shader Source.</div><div class="ttdef"><b>Definition:</b> Shader.h:46</div></div>
@@ -178,7 +178,7 @@ $(document).ready(function(){initNavTree('_shader_8h_source.html',''); initResiz
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_560415a5d2bc4999842279f4fc1debef.html">graphics</a></li><li class="navelem"><b>Shader.h</b></li>
-    <li class="footer">Generated on Mon Oct 18 2021 14:42:56 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Mon Oct 25 2021 21:51:56 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>
