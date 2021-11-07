@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/5</span>
+                                &#160;<span id="projectnumber">v0.1/6</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -105,6 +105,7 @@ $(document).ready(function(){initNavTree('class_d6_engine_1_1_test_component.htm
   <img src="class_d6_engine_1_1_test_component.png" usemap="#D6Engine::TestComponent_map" alt=""/>
   <map id="D6Engine::TestComponent_map" name="D6Engine::TestComponent_map">
 <area href="class_d6_engine_1_1_mono_behaviour.html" title="MonoBehaviour is the base class for components which can be enabled and disabled." alt="D6Engine::MonoBehaviour" shape="rect" coords="0,56,163,80"/>
+<area href="class_d6_engine_1_1_animation_event.html" title="AnimationEvent allows other ScriptComponents to trigger Animation in their own Script." alt="D6Engine::AnimationEvent" shape="rect" coords="173,56,336,80"/>
 <area href="class_d6_engine_1_1_component.html" title="Base component class for all GameObject components." alt="D6Engine::Component" shape="rect" coords="0,0,163,24"/>
   </map>
 </div></div>
@@ -129,6 +130,16 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Test</b> ()</td></tr>
 <tr class="memitem:abef3d49588afd3bd520804ad76bfef4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_test_component.html#abef3d49588afd3bd520804ad76bfef4c">LateUpdate</a> () override</td></tr>
 <tr class="memdesc:abef3d49588afd3bd520804ad76bfef4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">LateUpdate is called every frame, if the Behaviour is enabled. LateUpdate is called after all Update functions have. This is useful to order script execution.  <a href="class_d6_engine_1_1_test_component.html#abef3d49588afd3bd520804ad76bfef4c">More...</a><br /></td></tr>
 <tr class="separator:abef3d49588afd3bd520804ad76bfef4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfcdde52b4a6a4777024b3858ac65ba7"><td class="memItemLeft" align="right" valign="top"><a id="adfcdde52b4a6a4777024b3858ac65ba7" name="adfcdde52b4a6a4777024b3858ac65ba7"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>InvokeEvent1</b> ()</td></tr>
+<tr class="memdesc:adfcdde52b4a6a4777024b3858ac65ba7"><td class="mdescLeft">&#160;</td><td class="mdescRight">ANIMATION EVENTS CODE ////////////////////////////////////////////////////////////////. <br /></td></tr>
+<tr class="separator:adfcdde52b4a6a4777024b3858ac65ba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a122161785374f5e4684fa977cf9f7575"><td class="memItemLeft" align="right" valign="top"><a id="a122161785374f5e4684fa977cf9f7575" name="a122161785374f5e4684fa977cf9f7575"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>InvokeEvent2</b> ()</td></tr>
+<tr class="separator:a122161785374f5e4684fa977cf9f7575"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18320172f74bb60715da2cac140a334e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_test_component.html#a18320172f74bb60715da2cac140a334e">OnAnimationEventTrigger</a> (const std::string &amp;name, int frameNumber) override</td></tr>
+<tr class="memdesc:a18320172f74bb60715da2cac140a334e"><td class="mdescLeft">&#160;</td><td class="mdescRight">A pure virtual function that allows the ScriptComponents to activate other functions as events.  <a href="class_d6_engine_1_1_test_component.html#a18320172f74bb60715da2cac140a334e">More...</a><br /></td></tr>
+<tr class="separator:a18320172f74bb60715da2cac140a334e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_d6_engine_1_1_component"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_d6_engine_1_1_component')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_d6_engine_1_1_component.html">D6Engine::Component</a></td></tr>
 <tr class="memitem:aa714123e795c31a8476384549c8031c9 inherit pub_methods_class_d6_engine_1_1_component"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_d6_engine_1_1_game_object.html">GameObject</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_component.html#aa714123e795c31a8476384549c8031c9">GetGameObject</a> () const</td></tr>
 <tr class="memdesc:aa714123e795c31a8476384549c8031c9 inherit pub_methods_class_d6_engine_1_1_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> this component is attached to.  <a href="class_d6_engine_1_1_component.html#aa714123e795c31a8476384549c8031c9">More...</a><br /></td></tr>
@@ -167,8 +178,11 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>testString</b>
 <a class="el" href="struct_d6_engine_1_1_colour.html">Colour</a>&#160;</td><td class="memItemRight" valign="bottom"><b>TestColor</b> { 1.0f, 1.0f, 1.0f, 1.0f }</td></tr>
 <tr class="separator:aa0511acabc9d3522b195aab97e5328f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af245998c7f373e22fbb73ee78a097f58"><td class="memItemLeft" align="right" valign="top"><a id="af245998c7f373e22fbb73ee78a097f58" name="af245998c7f373e22fbb73ee78a097f58"></a>
-TestEnum&#160;</td><td class="memItemRight" valign="bottom"><b>TestEnum</b></td></tr>
+TestEnum&#160;</td><td class="memItemRight" valign="bottom"><b>TestEnum</b> = TestEnum::Enum1</td></tr>
 <tr class="separator:af245998c7f373e22fbb73ee78a097f58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97f5a77317bc44ac8fb8de69fdb102e8"><td class="memItemLeft" align="right" valign="top"><a id="a97f5a77317bc44ac8fb8de69fdb102e8" name="a97f5a77317bc44ac8fb8de69fdb102e8"></a>
+<a class="el" href="class_d6_engine_1_1_u_u_i_d.html">UUID</a>&#160;</td><td class="memItemRight" valign="bottom"><b>TestUUID</b> = <a class="el" href="class_d6_engine_1_1_u_u_i_d.html">UUID</a>(1234567890123456789)</td></tr>
+<tr class="separator:a97f5a77317bc44ac8fb8de69fdb102e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_class_d6_engine_1_1_mono_behaviour"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_d6_engine_1_1_mono_behaviour')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_d6_engine_1_1_mono_behaviour.html">D6Engine::MonoBehaviour</a></td></tr>
 <tr class="memitem:aa1176943352727d8896f6e6f1f45d23c inherit pub_attribs_class_d6_engine_1_1_mono_behaviour"><td class="memItemLeft" align="right" valign="top"><a id="aa1176943352727d8896f6e6f1f45d23c" name="aa1176943352727d8896f6e6f1f45d23c"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>enabled</b> = true</td></tr>
@@ -269,6 +283,53 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a18320172f74bb60715da2cac140a334e" name="a18320172f74bb60715da2cac140a334e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18320172f74bb60715da2cac140a334e">&#9670;&nbsp;</a></span>OnAnimationEventTrigger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void D6Engine::TestComponent::OnAnimationEventTrigger </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>frameNumber</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>A pure virtual function that allows the ScriptComponents to activate other functions as events. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>the name of the SpriteSheet that the ScriptComponent wants to trigger animation in </td></tr>
+    <tr><td class="paramname">frameNumber</td><td>the frame number of the SpriteSheet that the ScriptComponent wants to trigger animation in </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="class_d6_engine_1_1_animation_event.html#a1bc9ba31ba50040f192908057c3a5b8d">D6Engine::AnimationEvent</a>.</p>
+
+</div>
+</div>
 <a id="a4b798252d6fab555b70d0e688323498b" name="a4b798252d6fab555b70d0e688323498b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4b798252d6fab555b70d0e688323498b">&#9670;&nbsp;</a></span>Start()</h2>
 
@@ -335,7 +396,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d6_engine.html">D6Engine</a></li><li class="navelem"><a class="el" href="class_d6_engine_1_1_test_component.html">TestComponent</a></li>
-    <li class="footer">Generated on Mon Oct 25 2021 21:51:56 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Sun Nov 7 2021 14:43:51 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

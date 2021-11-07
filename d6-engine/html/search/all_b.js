@@ -1,22 +1,5 @@
 var searchData=
 [
-  ['mass_0',['mass',['../class_d6_engine_1_1_rigidbody2_d.html#ac6c5cc63cf6027aae94616d4665b8eab',1,'D6Engine::Rigidbody2D']]],
-  ['mat3_1',['Mat3',['../union_d6_engine_1_1_math_1_1_mat3.html',1,'D6Engine::Math::Mat3'],['../namespace_d6_engine_1_1_math.html#a49500aad0c4777909922e6f108c21356',1,'D6Engine::Math::Mat3()']]],
-  ['maximumdeltatime_2',['maximumDeltaTime',['../class_d6_engine_1_1_time.html#a272fe304a10714f6174dc7ab847c3cf9',1,'D6Engine::Time']]],
-  ['meshref_3',['meshRef',['../struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#aa8b6428e544ffaeac88c9b316fe7d04b',1,'D6Engine::Graphics::Renderer::GLObject']]],
-  ['metadata_4',['Metadata',['../class_d6_engine_1_1_file_system_1_1_metadata.html',1,'D6Engine::FileSystem']]],
-  ['modeltondctransformmatrix_5',['modelToNDCTransformMatrix',['../struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#ab73e01e4f5719887930c89408606c289',1,'D6Engine::Graphics::Renderer::GLObject']]],
-  ['monobehaviour_6',['MonoBehaviour',['../class_d6_engine_1_1_mono_behaviour.html',1,'D6Engine']]],
-  ['mouse_7',['Mouse',['../class_d6_engine_1_1_input_1_1_mouse.html',1,'D6Engine::Input']]],
-  ['mousedown_8',['MouseDown',['../class_d6_engine_1_1_input_1_1_mouse.html#a3078023d28056eb1570d5ae45ca7c826',1,'D6Engine::Input::Mouse']]],
-  ['mouseinput_9',['MouseInput',['../struct_d6_engine_1_1_input_1_1_mouse_input.html',1,'D6Engine::Input']]],
-  ['mouseup_10',['MouseUp',['../class_d6_engine_1_1_input_1_1_mouse.html#a11186fe8b814e7f99768dcc7a073601c',1,'D6Engine::Input::Mouse']]],
-  ['moveposition_11',['MovePosition',['../class_d6_engine_1_1_rigidbody2_d.html#a088abb65372729acf8041136570822ff',1,'D6Engine::Rigidbody2D']]],
-  ['mtx33identity_12',['Mtx33Identity',['../namespace_d6_engine_1_1_math.html#a9b1f830091604634d92b024d94ab1827',1,'D6Engine::Math']]],
-  ['mtx33inverse_13',['Mtx33Inverse',['../namespace_d6_engine_1_1_math.html#a734398e568c9b499d6ca24833cfc2957',1,'D6Engine::Math']]],
-  ['mtx33rotdeg_14',['Mtx33RotDeg',['../namespace_d6_engine_1_1_math.html#ae96304e518d04bfd5cd4bcd6821b8a32',1,'D6Engine::Math']]],
-  ['mtx33rotrad_15',['Mtx33RotRad',['../namespace_d6_engine_1_1_math.html#a2930d8430a0862c4a043889c4602446b',1,'D6Engine::Math']]],
-  ['mtx33scale_16',['Mtx33Scale',['../namespace_d6_engine_1_1_math.html#acd7adeca485f4becab77f35a080b130a',1,'D6Engine::Math']]],
-  ['mtx33translate_17',['Mtx33Translate',['../namespace_d6_engine_1_1_math.html#a3b418678714a9549e1358d505a28982e',1,'D6Engine::Math']]],
-  ['mtx33transpose_18',['Mtx33Transpose',['../namespace_d6_engine_1_1_math.html#a6b17413b8732012a5231b237260a0df4',1,'D6Engine::Math']]]
+  ['name_0',['name',['../class_d6_engine_1_1_game_object.html#adf393db9834d8d72680844c22513ec1d',1,'D6Engine::GameObject::name()'],['../struct_d6_engine_1_1_scene_management_1_1_scene_object.html#a446227a74bd8ab36787e562d09e45c7f',1,'D6Engine::SceneManagement::SceneObject::name()'],['../struct_d6_engine_1_1_scene_management_1_1_scene.html#a078ff1c9dc123c63300748133cb5f5d0',1,'D6Engine::SceneManagement::Scene::name()']]],
+  ['newcamera2d_1',['NewCamera2D',['../class_d6_engine_1_1_graphics_1_1_renderer.html#acc24842977c50a75c6fd99ca8dabc0fd',1,'D6Engine::Graphics::Renderer']]]
 ];

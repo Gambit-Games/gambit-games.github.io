@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/5</span>
+                                &#160;<span id="projectnumber">v0.1/6</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -93,40 +93,45 @@ $(document).ready(function(){initNavTree('_debug_draw_8h_source.html',''); initR
 </div><!--header-->
 <div class="contents">
 <div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#pragma once</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &quot;../D6pch.h&quot;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;../D6pch.h&quot;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &quot;../Engine.h&quot;</span></div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &quot;Renderer.h&quot;</span></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="comment">// TODO documentation</span></div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_d6_engine_1_1_graphics.html">D6Engine::Graphics</a></div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>{</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="class_d6_engine_1_1_graphics_1_1_debug_draw.html">   24</a></span>    <span class="keyword">class </span><a class="code hl_class" href="class_d6_engine_1_1_graphics_1_1_debug_draw.html">DebugDraw</a> {</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="class_d6_engine_1_1_graphics_1_1_debug_draw.html#a06a0656f5a0d69705afc832feb6d24e6">Init</a>();</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="class_d6_engine_1_1_graphics_1_1_debug_draw.html#a43358f801b185c538f3d5d90b9d0b551">Draw</a>(glm::mat3 modelToNDCTransform);</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="class_d6_engine_1_1_graphics_1_1_debug_draw.html#a684e0db730bbb8f3967cd31853b06fcc">   41</a></span>        <span class="keywordtype">void</span> <a class="code hl_function" href="class_d6_engine_1_1_graphics_1_1_debug_draw.html#a684e0db730bbb8f3967cd31853b06fcc">SetColour</a>(glm::vec3 newColour) {</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>            colour = newColour;</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        };</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        <span class="comment">//std::map&lt;std::string, Shader*&gt;::iterator shaderRef;</span></div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        glm::vec3 colour{ 1.f, 1.f, 1.f };</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        <a class="code hl_class" href="class_d6_engine_1_1_graphics_1_1_shader.html">Shader</a>* shd;</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <a class="code hl_class" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html">OGLVertexArray</a>* mesh;</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    };</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>   </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>}</div>
-<div class="ttc" id="aclass_d6_engine_1_1_graphics_1_1_debug_draw_html"><div class="ttname"><a href="class_d6_engine_1_1_graphics_1_1_debug_draw.html">D6Engine::Graphics::DebugDraw</a></div><div class="ttdoc">Provides a way to load texture, bind and unbind texture.</div><div class="ttdef"><b>Definition:</b> DebugDraw.h:24</div></div>
-<div class="ttc" id="aclass_d6_engine_1_1_graphics_1_1_debug_draw_html_a06a0656f5a0d69705afc832feb6d24e6"><div class="ttname"><a href="class_d6_engine_1_1_graphics_1_1_debug_draw.html#a06a0656f5a0d69705afc832feb6d24e6">D6Engine::Graphics::DebugDraw::Init</a></div><div class="ttdeci">void Init()</div><div class="ttdoc">Initialize the Debug Draw object.</div><div class="ttdef"><b>Definition:</b> DebugDraw.cpp:17</div></div>
-<div class="ttc" id="aclass_d6_engine_1_1_graphics_1_1_debug_draw_html_a43358f801b185c538f3d5d90b9d0b551"><div class="ttname"><a href="class_d6_engine_1_1_graphics_1_1_debug_draw.html#a43358f801b185c538f3d5d90b9d0b551">D6Engine::Graphics::DebugDraw::Draw</a></div><div class="ttdeci">void Draw(glm::mat3 modelToNDCTransform)</div><div class="ttdoc">Draw function of Debug Draw object.</div><div class="ttdef"><b>Definition:</b> DebugDraw.cpp:35</div></div>
-<div class="ttc" id="aclass_d6_engine_1_1_graphics_1_1_debug_draw_html_a684e0db730bbb8f3967cd31853b06fcc"><div class="ttname"><a href="class_d6_engine_1_1_graphics_1_1_debug_draw.html#a684e0db730bbb8f3967cd31853b06fcc">D6Engine::Graphics::DebugDraw::SetColour</a></div><div class="ttdeci">void SetColour(glm::vec3 newColour)</div><div class="ttdoc">Set the colour of the debug draw object.</div><div class="ttdef"><b>Definition:</b> DebugDraw.h:41</div></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="class_d6_engine_1_1_graphics_1_1_debug_draw.html">   25</a></span>    <span class="keyword">class </span><a class="code hl_class" href="class_d6_engine_1_1_graphics_1_1_debug_draw.html">DebugDraw</a> {</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="class_d6_engine_1_1_graphics_1_1_debug_draw.html#a06a0656f5a0d69705afc832feb6d24e6">Init</a>();</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="class_d6_engine_1_1_graphics_1_1_debug_draw.html#a1899d689806c02deebcbd8addf5a6ad1">Draw</a>(glm::mat3 modelToNDCTransform) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="class_d6_engine_1_1_graphics_1_1_debug_draw.html#a338240cbae77a041a569c3903cf89a1f">   42</a></span>        <span class="keywordtype">void</span> <a class="code hl_function" href="class_d6_engine_1_1_graphics_1_1_debug_draw.html#a338240cbae77a041a569c3903cf89a1f">SetColour</a>(<a class="code hl_struct" href="struct_d6_engine_1_1_colour.html">Colour</a> newColour) {</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>            colour = newColour;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        }</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_d6_engine_1_1_graphics_1_1_debug_draw.html#a786406fbff0a88686b1973aa894c6de7">Cleanup</a>();</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        <a class="code hl_struct" href="struct_d6_engine_1_1_colour.html">Colour</a> colour {1, 1, 1, 1};</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        <a class="code hl_class" href="class_d6_engine_1_1_graphics_1_1_material.html">Material</a>* material = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        <a class="code hl_class" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html">OGLVertexArray</a>* mesh = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    };</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>   </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>}</div>
+<div class="ttc" id="aclass_d6_engine_1_1_graphics_1_1_debug_draw_html"><div class="ttname"><a href="class_d6_engine_1_1_graphics_1_1_debug_draw.html">D6Engine::Graphics::DebugDraw</a></div><div class="ttdoc">Provides a way to load texture, bind and unbind texture.</div><div class="ttdef"><b>Definition:</b> DebugDraw.h:25</div></div>
+<div class="ttc" id="aclass_d6_engine_1_1_graphics_1_1_debug_draw_html_a06a0656f5a0d69705afc832feb6d24e6"><div class="ttname"><a href="class_d6_engine_1_1_graphics_1_1_debug_draw.html#a06a0656f5a0d69705afc832feb6d24e6">D6Engine::Graphics::DebugDraw::Init</a></div><div class="ttdeci">void Init()</div><div class="ttdoc">Initialize the Debug Draw object.</div><div class="ttdef"><b>Definition:</b> DebugDraw.cpp:15</div></div>
+<div class="ttc" id="aclass_d6_engine_1_1_graphics_1_1_debug_draw_html_a1899d689806c02deebcbd8addf5a6ad1"><div class="ttname"><a href="class_d6_engine_1_1_graphics_1_1_debug_draw.html#a1899d689806c02deebcbd8addf5a6ad1">D6Engine::Graphics::DebugDraw::Draw</a></div><div class="ttdeci">void Draw(glm::mat3 modelToNDCTransform) const</div><div class="ttdoc">Draw function of Debug Draw object.</div><div class="ttdef"><b>Definition:</b> DebugDraw.cpp:49</div></div>
+<div class="ttc" id="aclass_d6_engine_1_1_graphics_1_1_debug_draw_html_a338240cbae77a041a569c3903cf89a1f"><div class="ttname"><a href="class_d6_engine_1_1_graphics_1_1_debug_draw.html#a338240cbae77a041a569c3903cf89a1f">D6Engine::Graphics::DebugDraw::SetColour</a></div><div class="ttdeci">void SetColour(Colour newColour)</div><div class="ttdoc">Set the colour of the debug draw object.</div><div class="ttdef"><b>Definition:</b> DebugDraw.h:42</div></div>
+<div class="ttc" id="aclass_d6_engine_1_1_graphics_1_1_debug_draw_html_a786406fbff0a88686b1973aa894c6de7"><div class="ttname"><a href="class_d6_engine_1_1_graphics_1_1_debug_draw.html#a786406fbff0a88686b1973aa894c6de7">D6Engine::Graphics::DebugDraw::Cleanup</a></div><div class="ttdeci">static void Cleanup()</div><div class="ttdoc">Cleanup funtion for debug draw.</div><div class="ttdef"><b>Definition:</b> DebugDraw.cpp:65</div></div>
+<div class="ttc" id="aclass_d6_engine_1_1_graphics_1_1_material_html"><div class="ttname"><a href="class_d6_engine_1_1_graphics_1_1_material.html">D6Engine::Graphics::Material</a></div><div class="ttdoc">Material Class for shader and texture binding loading, at least a Shader is needed for a Material Obj...</div><div class="ttdef"><b>Definition:</b> Material.h:24</div></div>
 <div class="ttc" id="aclass_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array_html"><div class="ttname"><a href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html">D6Engine::Graphics::OGLVertexArray</a></div><div class="ttdef"><b>Definition:</b> OGLVertexArray.h:18</div></div>
-<div class="ttc" id="aclass_d6_engine_1_1_graphics_1_1_shader_html"><div class="ttname"><a href="class_d6_engine_1_1_graphics_1_1_shader.html">D6Engine::Graphics::Shader</a></div><div class="ttdoc">Shader Class which handles the shader parsing and generation of the shader code.</div><div class="ttdef"><b>Definition:</b> Shader.h:57</div></div>
-<div class="ttc" id="anamespace_d6_engine_1_1_graphics_html"><div class="ttname"><a href="namespace_d6_engine_1_1_graphics.html">D6Engine::Graphics</a></div><div class="ttdoc">The implementation the shader class.</div><div class="ttdef"><b>Definition:</b> DebugDraw.cpp:15</div></div>
+<div class="ttc" id="anamespace_d6_engine_1_1_graphics_html"><div class="ttname"><a href="namespace_d6_engine_1_1_graphics.html">D6Engine::Graphics</a></div><div class="ttdoc">The implementation the shader class.</div><div class="ttdef"><b>Definition:</b> DebugDraw.cpp:13</div></div>
+<div class="ttc" id="astruct_d6_engine_1_1_colour_html"><div class="ttname"><a href="struct_d6_engine_1_1_colour.html">D6Engine::Colour</a></div><div class="ttdoc">Representation of an RGBA colour. This is used to pass around colour values in D6 Engine.</div><div class="ttdef"><b>Definition:</b> Colour.h:23</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.9.1-->
@@ -134,7 +139,7 @@ $(document).ready(function(){initNavTree('_debug_draw_8h_source.html',''); initR
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_560415a5d2bc4999842279f4fc1debef.html">graphics</a></li><li class="navelem"><b>DebugDraw.h</b></li>
-    <li class="footer">Generated on Mon Oct 25 2021 21:51:56 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Sun Nov 7 2021 14:43:51 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

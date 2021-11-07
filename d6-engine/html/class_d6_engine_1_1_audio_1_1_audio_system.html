@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/5</span>
+                                &#160;<span id="projectnumber">v0.1/6</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -92,6 +92,7 @@ $(document).ready(function(){initNavTree('class_d6_engine_1_1_audio_1_1_audio_sy
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="class_d6_engine_1_1_audio_1_1_audio_system-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">D6Engine::Audio::AudioSystem Class Reference</div></div>
 </div><!--header-->
@@ -123,11 +124,8 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>CleanUp</b> ()
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()</td></tr>
 <tr class="memdesc:a0546615654c14656e93d18a0c0374604"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls FMOD Update tick. <br /></td></tr>
 <tr class="separator:a0546615654c14656e93d18a0c0374604"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a368b8283d202454d5300723ec1986381"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_audio_1_1_audio_system.html#a368b8283d202454d5300723ec1986381">CreateClip</a> (const std::string &amp;name, const std::string &amp;path, FMOD_MODE mode=FMOD_DEFAULT)</td></tr>
-<tr class="memdesc:a368b8283d202454d5300723ec1986381"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a given sound file into the <a class="el" href="namespace_d6_engine_1_1_audio.html">Audio</a> <a class="el" href="class_d6_engine_1_1_engine.html">Engine</a>. Call this in your state load function.  <a href="class_d6_engine_1_1_audio_1_1_audio_system.html#a368b8283d202454d5300723ec1986381">More...</a><br /></td></tr>
-<tr class="separator:a368b8283d202454d5300723ec1986381"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50e7b99bb67fecc886f6aca57cb5928e"><td class="memItemLeft" align="right" valign="top">static FMOD::Channel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_audio_1_1_audio_system.html#a50e7b99bb67fecc886f6aca57cb5928e">PlayClip</a> (const std::string &amp;name, <a class="el" href="class_d6_engine_1_1_audio_1_1_audio_system.html#a0379214172f6b2497e2e568b5e2bf3a9">ChannelGroup</a> channelGroup)</td></tr>
-<tr class="memdesc:a50e7b99bb67fecc886f6aca57cb5928e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Plays a given sound clip. The clip must already be loaded via <a class="el" href="class_d6_engine_1_1_audio_1_1_audio_system.html#a368b8283d202454d5300723ec1986381" title="Loads a given sound file into the Audio Engine. Call this in your state load function.">AudioSystem::CreateClip</a>.  <a href="class_d6_engine_1_1_audio_1_1_audio_system.html#a50e7b99bb67fecc886f6aca57cb5928e">More...</a><br /></td></tr>
+<tr class="memdesc:a50e7b99bb67fecc886f6aca57cb5928e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Plays a given sound clip. The clip must already be loaded via AudioSystem::CreateClip.  <a href="class_d6_engine_1_1_audio_1_1_audio_system.html#a50e7b99bb67fecc886f6aca57cb5928e">More...</a><br /></td></tr>
 <tr class="separator:a50e7b99bb67fecc886f6aca57cb5928e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5563f7fbcdad7cf33e5b1490dc8d8770"><td class="memItemLeft" align="right" valign="top">static FMOD::Channel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_audio_1_1_audio_system.html#a5563f7fbcdad7cf33e5b1490dc8d8770">PlayClip</a> (const std::string &amp;name, FMOD::ChannelGroup *channelGroup=nullptr, float volume=1)</td></tr>
 <tr class="memdesc:a5563f7fbcdad7cf33e5b1490dc8d8770"><td class="mdescLeft">&#160;</td><td class="mdescRight">Plays a given sound clip.  <a href="class_d6_engine_1_1_audio_1_1_audio_system.html#a5563f7fbcdad7cf33e5b1490dc8d8770">More...</a><br /></td></tr>
@@ -135,64 +133,17 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()<
 <tr class="memitem:a3e6a78f73c95b3ed22b8f9dc83ee7e68"><td class="memItemLeft" align="right" valign="top">static FMOD::ChannelGroup &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_audio_1_1_audio_system.html#a3e6a78f73c95b3ed22b8f9dc83ee7e68">GetChannelGroup</a> (<a class="el" href="class_d6_engine_1_1_audio_1_1_audio_system.html#a0379214172f6b2497e2e568b5e2bf3a9">ChannelGroup</a> group)</td></tr>
 <tr class="memdesc:a3e6a78f73c95b3ed22b8f9dc83ee7e68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets one of the FMOD channel groups. Call only after initialisation.  <a href="class_d6_engine_1_1_audio_1_1_audio_system.html#a3e6a78f73c95b3ed22b8f9dc83ee7e68">More...</a><br /></td></tr>
 <tr class="separator:a3e6a78f73c95b3ed22b8f9dc83ee7e68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:ac08cf18e1be2da0a633ed0d55ec2c83b"><td class="memItemLeft" align="right" valign="top"><a id="ac08cf18e1be2da0a633ed0d55ec2c83b" name="ac08cf18e1be2da0a633ed0d55ec2c83b"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>AudioResource</b></td></tr>
+<tr class="separator:ac08cf18e1be2da0a633ed0d55ec2c83b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Provides an interface for the FMOD Core API, allowing for loading and playback of sound clips. </p>
-<p ><a class="el" href="namespace_d6_engine_1_1_audio.html">Audio</a> files are loaded as clips via <a class="el" href="class_d6_engine_1_1_audio_1_1_audio_system.html#a368b8283d202454d5300723ec1986381" title="Loads a given sound file into the Audio Engine. Call this in your state load function.">AudioSystem::CreateClip()</a>, and stored in an unordered_map. On cleanup, the files are automatically unloaded from the heap. </p>
+<p ><a class="el" href="namespace_d6_engine_1_1_audio.html">Audio</a> files are loaded as clips via AudioSystem::CreateClip(), and stored in an unordered_map. On cleanup, the files are automatically unloaded from the heap. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a368b8283d202454d5300723ec1986381" name="a368b8283d202454d5300723ec1986381"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a368b8283d202454d5300723ec1986381">&#9670;&nbsp;</a></span>CreateClip()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool D6Engine::Audio::AudioSystem::CreateClip </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>path</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">FMOD_MODE&#160;</td>
-          <td class="paramname"><em>mode</em> = <code>FMOD_DEFAULT</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Loads a given sound file into the <a class="el" href="namespace_d6_engine_1_1_audio.html">Audio</a> <a class="el" href="class_d6_engine_1_1_engine.html">Engine</a>. Call this in your state load function. </p>
-<p >Sound unloading is automatically handled on exit. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">name</td><td>The identifying name used for this sound clip. </td></tr>
-    <tr><td class="paramname">path</td><td>Path to the sound file. </td></tr>
-    <tr><td class="paramname">mode</td><td>FMOD loading flags. Determines how the sound is loaded, which is important depending on the size and purpose, as well as if it loops and more. More info here: <a href="https://www.fmod.com/resources/documentation-api?version=2.02&page=core-api-common.html#fmod_mode">https://www.fmod.com/resources/documentation-api?version=2.02&amp;page=core-api-common.html#fmod_mode</a> </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>True if the sound loaded successfully or already exists, false otherwise. </dd></dl>
-
-</div>
-</div>
 <a id="a3e6a78f73c95b3ed22b8f9dc83ee7e68" name="a3e6a78f73c95b3ed22b8f9dc83ee7e68"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3e6a78f73c95b3ed22b8f9dc83ee7e68">&#9670;&nbsp;</a></span>GetChannelGroup()</h2>
 
@@ -290,7 +241,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()<
 </table>
 </div><div class="memdoc">
 
-<p>Plays a given sound clip. The clip must already be loaded via <a class="el" href="class_d6_engine_1_1_audio_1_1_audio_system.html#a368b8283d202454d5300723ec1986381" title="Loads a given sound file into the Audio Engine. Call this in your state load function.">AudioSystem::CreateClip</a>. </p>
+<p>Plays a given sound clip. The clip must already be loaded via AudioSystem::CreateClip. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">name</td><td>The identifying name used for the sound clip. </td></tr>
@@ -362,7 +313,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()<
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d6_engine.html">D6Engine</a></li><li class="navelem"><a class="el" href="namespace_d6_engine_1_1_audio.html">Audio</a></li><li class="navelem"><a class="el" href="class_d6_engine_1_1_audio_1_1_audio_system.html">AudioSystem</a></li>
-    <li class="footer">Generated on Mon Oct 25 2021 21:51:56 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Sun Nov 7 2021 14:43:51 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/5</span>
+                                &#160;<span id="projectnumber">v0.1/6</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -93,14 +93,16 @@ $(document).ready(function(){initNavTree('functions_d.html',''); initResizable()
 
 <h3><a id="index_d" name="index_d"></a>- d -</h3><ul>
 <li>Debug()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_engine_log.html#a876ce08f38d653b03c6dedbb037ab271">D6Engine::EngineLog</a></li>
+<li>DeleteCamera2D()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#a574b4e452c44bc0e820471991deeebe9">D6Engine::Graphics::Renderer</a></li>
+<li>DeleteMaterial()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#a34d390ea203f0aab8918cb7d00fcdd5c">D6Engine::Graphics::Renderer</a></li>
 <li>DeleteMesh()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#ad6c53c91d1c371880e38400b605e6f6b">D6Engine::Graphics::Renderer</a></li>
 <li>DeleteObject()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#abfba3c29e53b2b4fbb0046c9f3a530f4">D6Engine::Graphics::Renderer</a></li>
-<li>DeleteShaderProgram()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#a002b2e2e684065ff686d8672bdb59d2f">D6Engine::Graphics::Renderer</a></li>
 <li>deltaTime&#160;:&#160;<a class="el" href="class_d6_engine_1_1_time.html#a0974aedbc30ab6ad84635f3a418c1398">D6Engine::Time</a></li>
 <li>Destroy()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_game_object.html#ab8634ada828de19b0f0e92c61779166a">D6Engine::GameObject</a></li>
 <li>DetachChildren()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_transform.html#a4e4b0ed42da78758d5ae129419669061">D6Engine::Transform</a></li>
-<li>dirty&#160;:&#160;<a class="el" href="struct_d6_engine_1_1_scene_management_1_1_scene.html#acb54f95289a3f05434d39c09cb1b9d3e">D6Engine::SceneManagement::Scene</a></li>
-<li>Draw()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_engine_log.html#a8f132af67d3ec142045287015d50659f">D6Engine::EngineLog</a>, <a class="el" href="class_d6_engine_1_1_graphics_1_1_debug_draw.html#a43358f801b185c538f3d5d90b9d0b551">D6Engine::Graphics::DebugDraw</a>, <a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#aa74f69b39c6c33589d1a816acb2533c8">D6Engine::Graphics::Renderer</a>, <a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#aa2a49554708a47fa5edffef300a2f656">D6Engine::Graphics::Renderer::GLObject</a></li>
+<li>dirty&#160;:&#160;<a class="el" href="class_d6_engine_1_1_prefab.html#af31e8e05bf7fc155e4ee99b58e384e49">D6Engine::Prefab</a>, <a class="el" href="struct_d6_engine_1_1_scene_management_1_1_scene.html#acb54f95289a3f05434d39c09cb1b9d3e">D6Engine::SceneManagement::Scene</a></li>
+<li>Draw()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_engine_log.html#a8f132af67d3ec142045287015d50659f">D6Engine::EngineLog</a>, <a class="el" href="class_d6_engine_1_1_graphics_1_1_debug_draw.html#a1899d689806c02deebcbd8addf5a6ad1">D6Engine::Graphics::DebugDraw</a>, <a class="el" href="class_d6_engine_1_1_graphics_1_1_line.html#a61cd29596031a99a9d27ae11b52661e4">D6Engine::Graphics::Line</a>, <a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#aa74f69b39c6c33589d1a816acb2533c8">D6Engine::Graphics::Renderer</a>, <a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#aa2a49554708a47fa5edffef300a2f656">D6Engine::Graphics::Renderer::GLObject</a></li>
+<li>DrawBox()&#160;:&#160;<a class="el" href="class_d6_engine_1_1_debug_1_1_debug_draw_box_collider.html#a6dfe0f229e1232af525f0ea21043f8cd">D6Engine::Debug::DebugDrawBoxCollider</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -108,7 +110,7 @@ $(document).ready(function(){initNavTree('functions_d.html',''); initResizable()
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Oct 25 2021 21:51:56 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Sun Nov 7 2021 14:43:52 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

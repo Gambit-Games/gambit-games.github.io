@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/5</span>
+                                &#160;<span id="projectnumber">v0.1/6</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -91,6 +91,7 @@ $(document).ready(function(){initNavTree('class_d6_engine_1_1_game_object_manage
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="class_d6_engine_1_1_game_object_manager-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">D6Engine::GameObjectManager Class Reference</div></div>
@@ -137,6 +138,15 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Free</b> ()</td></tr>
 <tr class="memdesc:ad58a1d329b48bfdea11c20432ba24a98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears all GameObjects in the scene, usually before a state transition/restart. <br /></td></tr>
 <tr class="separator:ad58a1d329b48bfdea11c20432ba24a98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:acd89f21ef3312bdb17da2cf2e22c04f0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_d6_engine_1_1_game_object.html">GameObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_game_object_manager.html#acd89f21ef3312bdb17da2cf2e22c04f0">Find</a> (std::string name)</td></tr>
+<tr class="memdesc:acd89f21ef3312bdb17da2cf2e22c04f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds and returns a reference to a <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> by name.  <a href="class_d6_engine_1_1_game_object_manager.html#acd89f21ef3312bdb17da2cf2e22c04f0">More...</a><br /></td></tr>
+<tr class="separator:acd89f21ef3312bdb17da2cf2e22c04f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7267ad3c7234bb1a388902f6db59b58a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_d6_engine_1_1_game_object.html">GameObject</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_game_object_manager.html#a7267ad3c7234bb1a388902f6db59b58a">Get</a> (<a class="el" href="class_d6_engine_1_1_u_u_i_d.html">UUID</a> &amp;uuid)</td></tr>
+<tr class="memdesc:a7267ad3c7234bb1a388902f6db59b58a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a reference to a <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> via its <a class="el" href="class_d6_engine_1_1_u_u_i_d.html" title="Generates and stores a Universally Unique ID and provides caching for vector index values.">UUID</a>.  <a href="class_d6_engine_1_1_game_object_manager.html#a7267ad3c7234bb1a388902f6db59b58a">More...</a><br /></td></tr>
+<tr class="separator:a7267ad3c7234bb1a388902f6db59b58a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
 <tr class="memitem:a13320c645e6f6d55e7a5cfe512262628"><td class="memItemLeft" align="right" valign="top"><a id="a13320c645e6f6d55e7a5cfe512262628" name="a13320c645e6f6d55e7a5cfe512262628"></a>
@@ -146,6 +156,78 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>SceneManagement::Sce
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Stores all scene GameObjects and runs their behaviours as part of the main game loop. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="acd89f21ef3312bdb17da2cf2e22c04f0" name="acd89f21ef3312bdb17da2cf2e22c04f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd89f21ef3312bdb17da2cf2e22c04f0">&#9670;&nbsp;</a></span>Find()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_d6_engine_1_1_game_object.html">GameObject</a> * D6Engine::GameObjectManager::Find </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Finds and returns a reference to a <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> by name. </p>
+<p >For a more performance-friendly alternative that avoids string comparisons, see <a class="el" href="class_d6_engine_1_1_game_object_manager.html#a7267ad3c7234bb1a388902f6db59b58a" title="Gets a reference to a GameObject via its UUID.">GameObjectManager.Get</a>. </p><dl class="section warning"><dt>Warning</dt><dd><a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> pointers acquired this way are volatile and could be lost during events such as deletion and creation of other GameObjects due to reallocation of the internal storage vector. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The name of the <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> to search for. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A temporary pointer to the <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a>. </dd></dl>
+
+</div>
+</div>
+<a id="a7267ad3c7234bb1a388902f6db59b58a" name="a7267ad3c7234bb1a388902f6db59b58a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7267ad3c7234bb1a388902f6db59b58a">&#9670;&nbsp;</a></span>Get()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_d6_engine_1_1_game_object.html">GameObject</a> &amp; D6Engine::GameObjectManager::Get </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_d6_engine_1_1_u_u_i_d.html">UUID</a> &amp;&#160;</td>
+          <td class="paramname"><em>uuid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets a reference to a <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> via its <a class="el" href="class_d6_engine_1_1_u_u_i_d.html" title="Generates and stores a Universally Unique ID and provides caching for vector index values.">UUID</a>. </p>
+<dl class="section warning"><dt>Warning</dt><dd><a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> references acquired this way are volatile and could be lost during events such as deletion and creation of other GameObjects due to reallocation of the internal storage vector. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">uuid</td><td>The <a class="el" href="class_d6_engine_1_1_u_u_i_d.html" title="Generates and stores a Universally Unique ID and provides caching for vector index values.">UUID</a> of the <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A temporary reference to the <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a>. </dd></dl>
+
+</div>
+</div>
 <a id="ad72f8eaf7cc0e94dea5f888c041bd983" name="ad72f8eaf7cc0e94dea5f888c041bd983"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad72f8eaf7cc0e94dea5f888c041bd983">&#9670;&nbsp;</a></span>Instantiate() <span class="overload">[1/4]</span></h2>
 
@@ -340,7 +422,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>SceneManagement::Sce
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d6_engine.html">D6Engine</a></li><li class="navelem"><a class="el" href="class_d6_engine_1_1_game_object_manager.html">GameObjectManager</a></li>
-    <li class="footer">Generated on Mon Oct 25 2021 21:51:56 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Sun Nov 7 2021 14:43:51 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

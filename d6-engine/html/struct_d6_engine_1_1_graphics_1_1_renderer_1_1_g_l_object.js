@@ -1,18 +1,17 @@
 var struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object =
 [
     [ "Draw", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#aa2a49554708a47fa5edffef300a2f656", null ],
-    [ "Init", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a0ef78f30c231cb1ea8aaf766506e3b40", null ],
-    [ "Init", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a4ecf6a494c7e1171d2a37bc3272f1309", null ],
-    [ "SetColour", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a535a9d80f46dd93923d02fe68f81d143", null ],
+    [ "Init", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a088602a04f5055915b168c248e064c9d", null ],
+    [ "SetColour", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a19debe0bee598c5bbcfa0ff32d349e1c", null ],
+    [ "SetMaterial", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a014cdb01a66e7583db23c5d7f5af6d53", null ],
     [ "SetMesh", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#ab687f66aa54371966091a284a6275d63", null ],
-    [ "SetShader", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a74359edff3987591e974ab70972d7f29", null ],
-    [ "SetTexture", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a1c635a01076f7997d286f27a87a44ed9", null ],
-    [ "SetTransformMatrix", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#ac51a1ca94719dfbe6ae5074679519e4c", null ],
-    [ "colour", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a98e16ba66e4f06e6a5cadd257a4be0bb", null ],
+    [ "SetTransformMatrix", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a1b4c63be7e014130a5f860f54af8b1f8", null ],
+    [ "colour", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a5c8b377adadfe709f6a0494778ec55c3", null ],
     [ "enabled", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#ab78394db0e9f1b7abd728288b0feeabe", null ],
+    [ "materialRef", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a165ec2bd8086f7ef1bc1fea7e71dce65", null ],
     [ "meshRef", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#aa8b6428e544ffaeac88c9b316fe7d04b", null ],
     [ "modelToNDCTransformMatrix", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#ab73e01e4f5719887930c89408606c289", null ],
-    [ "shaderRef", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#ae5a38b12d755360d1094a047b94fe4e6", null ],
-    [ "textureRef", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a1404b7761787df039cbd24a46b65a943", null ],
-    [ "transform", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#ac0f76261a028a531a9e7018651ca90b9", null ]
+    [ "sortOrder", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a23d00c6e6f3495166f443cb8a7734463", null ],
+    [ "spriteRenderer", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a257d3c2d1008d6533a9e57c57e01d522", null ],
+    [ "texture", "struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#abe162db18e1ddab4a5b23ec8bbaa3c31", null ]
 ];

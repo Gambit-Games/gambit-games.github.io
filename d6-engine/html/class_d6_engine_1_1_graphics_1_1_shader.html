@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/5</span>
+                                &#160;<span id="projectnumber">v0.1/6</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -102,9 +102,27 @@ $(document).ready(function(){initNavTree('class_d6_engine_1_1_graphics_1_1_shade
  <a href="class_d6_engine_1_1_graphics_1_1_shader.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_shader_8h_source.html">Shader.h</a>&gt;</code></p>
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for D6Engine::Graphics::Shader:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="class_d6_engine_1_1_graphics_1_1_shader.png" usemap="#D6Engine::Graphics::Shader_map" alt=""/>
+  <map id="D6Engine::Graphics::Shader_map" name="D6Engine::Graphics::Shader_map">
+<area href="struct_d6_engine_1_1_resource.html" alt="D6Engine::Resource&lt; Shader * &gt;" shape="rect" coords="0,0,204,24"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a5237ac369aff7f208b3091fe8bf90245"><td class="memItemLeft" align="right" valign="top"><a id="a5237ac369aff7f208b3091fe8bf90245" name="a5237ac369aff7f208b3091fe8bf90245"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Shader</b> ()</td></tr>
+<tr class="memdesc:a5237ac369aff7f208b3091fe8bf90245"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default Constructor that constructs an empty shader object. <br /></td></tr>
+<tr class="separator:a5237ac369aff7f208b3091fe8bf90245"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4de1e1e51cda702a8fbcdeb886f951c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html#ad4de1e1e51cda702a8fbcdeb886f951c">Shader</a> (const std::string &amp;filepath, const std::string &amp;metadatafilepath=&quot;&quot;)</td></tr>
+<tr class="memdesc:ad4de1e1e51cda702a8fbcdeb886f951c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conversion Constructor that takes in filepath and metadata filepath. Used as a way to construct and compile shader to be used for <a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html" title="Render Class for drawing Objects.">Renderer</a>.  <a href="class_d6_engine_1_1_graphics_1_1_shader.html#ad4de1e1e51cda702a8fbcdeb886f951c">More...</a><br /></td></tr>
+<tr class="separator:ad4de1e1e51cda702a8fbcdeb886f951c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53386a53f5bd3693c34373c91a326a4f"><td class="memItemLeft" align="right" valign="top"><a id="a53386a53f5bd3693c34373c91a326a4f" name="a53386a53f5bd3693c34373c91a326a4f"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Bind</b> () const</td></tr>
 <tr class="memdesc:a53386a53f5bd3693c34373c91a326a4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binds the <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a>. <br /></td></tr>
@@ -116,12 +134,15 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Unbind</b> () const</
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a50a3c8d659f5022de6292589c5110867"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html">Shader</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html#a50a3c8d659f5022de6292589c5110867">LoadShaderFromFile</a> (const std::string &amp;shaderFilePath)</td></tr>
-<tr class="memdesc:a50a3c8d659f5022de6292589c5110867"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a> from a <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a> File path (.glsl)  <a href="class_d6_engine_1_1_graphics_1_1_shader.html#a50a3c8d659f5022de6292589c5110867">More...</a><br /></td></tr>
-<tr class="separator:a50a3c8d659f5022de6292589c5110867"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72dfe54868d31da66d408204d3a8a628"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html">Shader</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html#a72dfe54868d31da66d408204d3a8a628">LoadShaderFromFile</a> (const std::string &amp;vertexSrcFilepath, const std::string &amp;fragmentSrcFilepath)</td></tr>
-<tr class="memdesc:a72dfe54868d31da66d408204d3a8a628"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a> from a Vertex <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a> Source File path and a Fragment shader source File path.  <a href="class_d6_engine_1_1_graphics_1_1_shader.html#a72dfe54868d31da66d408204d3a8a628">More...</a><br /></td></tr>
-<tr class="separator:a72dfe54868d31da66d408204d3a8a628"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b46cddcd47c9a69e6c3370b4c33397f"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html#a9b46cddcd47c9a69e6c3370b4c33397f">ReadFile</a> (const std::string &amp;filepath)</td></tr>
+<tr class="memdesc:a9b46cddcd47c9a69e6c3370b4c33397f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the contents of the file to store it into both the vertexShader and the fragmentShader.  <a href="class_d6_engine_1_1_graphics_1_1_shader.html#a9b46cddcd47c9a69e6c3370b4c33397f">More...</a><br /></td></tr>
+<tr class="separator:a9b46cddcd47c9a69e6c3370b4c33397f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39c6c7ee57b63a69c6bc212f7ce5024f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html#a39c6c7ee57b63a69c6bc212f7ce5024f">PreProcess</a> (<a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html">Shader</a> *shaderObj, const std::string &amp;source)</td></tr>
+<tr class="memdesc:a39c6c7ee57b63a69c6bc212f7ce5024f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Processes the shader contents into vertexShader and fragmentShader respectively.  <a href="class_d6_engine_1_1_graphics_1_1_shader.html#a39c6c7ee57b63a69c6bc212f7ce5024f">More...</a><br /></td></tr>
+<tr class="separator:a39c6c7ee57b63a69c6bc212f7ce5024f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12636383cbe2182c3225ab13a021ece7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html#a12636383cbe2182c3225ab13a021ece7">Compile</a> (<a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html">Shader</a> *shaderObj)</td></tr>
+<tr class="memdesc:a12636383cbe2182c3225ab13a021ece7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compiles the vertexShader and the fragmentShader and put it into the <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a> Object to be one complete <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a> Object.  <a href="class_d6_engine_1_1_graphics_1_1_shader.html#a12636383cbe2182c3225ab13a021ece7">More...</a><br /></td></tr>
+<tr class="separator:a12636383cbe2182c3225ab13a021ece7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
@@ -131,12 +152,72 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Renderer</b></td></t
 <tr class="memitem:a3e5e3905a71e537325e6e63760b07c21"><td class="memItemLeft" align="right" valign="top"><a id="a3e5e3905a71e537325e6e63760b07c21" name="a3e5e3905a71e537325e6e63760b07c21"></a>
 class&#160;</td><td class="memItemRight" valign="bottom"><b>DebugDraw</b></td></tr>
 <tr class="separator:a3e5e3905a71e537325e6e63760b07c21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a864cca3466d5710a4742ec5caf34b497"><td class="memItemLeft" align="right" valign="top"><a id="a864cca3466d5710a4742ec5caf34b497" name="a864cca3466d5710a4742ec5caf34b497"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>Line</b></td></tr>
+<tr class="separator:a864cca3466d5710a4742ec5caf34b497"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_attribs_struct_d6_engine_1_1_resource"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_struct_d6_engine_1_1_resource')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="struct_d6_engine_1_1_resource.html">D6Engine::Resource&lt; Shader * &gt;</a></td></tr>
+<tr class="memitem:ac0b19f06f39be1908d68a197501a36fe inherit pub_attribs_struct_d6_engine_1_1_resource"><td class="memItemLeft" align="right" valign="top"><a id="ac0b19f06f39be1908d68a197501a36fe" name="ac0b19f06f39be1908d68a197501a36fe"></a>
+uint64_t&#160;</td><td class="memItemRight" valign="bottom"><b>uuid</b></td></tr>
+<tr class="separator:ac0b19f06f39be1908d68a197501a36fe inherit pub_attribs_struct_d6_engine_1_1_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04becdbac2a61276f0f6772ce5e7aefa inherit pub_attribs_struct_d6_engine_1_1_resource"><td class="memItemLeft" align="right" valign="top"><a id="a04becdbac2a61276f0f6772ce5e7aefa" name="a04becdbac2a61276f0f6772ce5e7aefa"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>name</b></td></tr>
+<tr class="separator:a04becdbac2a61276f0f6772ce5e7aefa inherit pub_attribs_struct_d6_engine_1_1_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0430fbfac2467e9dcc2293a36aac491e inherit pub_attribs_struct_d6_engine_1_1_resource"><td class="memItemLeft" align="right" valign="top"><a id="a0430fbfac2467e9dcc2293a36aac491e" name="a0430fbfac2467e9dcc2293a36aac491e"></a>
+std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><b>filepath</b></td></tr>
+<tr class="separator:a0430fbfac2467e9dcc2293a36aac491e inherit pub_attribs_struct_d6_engine_1_1_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18724f5f27cf28d044e9a73ade471cc1 inherit pub_attribs_struct_d6_engine_1_1_resource"><td class="memItemLeft" align="right" valign="top"><a id="a18724f5f27cf28d044e9a73ade471cc1" name="a18724f5f27cf28d044e9a73ade471cc1"></a>
+<a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html">Shader</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>resource</b></td></tr>
+<tr class="separator:a18724f5f27cf28d044e9a73ade471cc1 inherit pub_attribs_struct_d6_engine_1_1_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e2ca4e5a44fba7e695070a62421a119 inherit pub_attribs_struct_d6_engine_1_1_resource"><td class="memItemLeft" align="right" valign="top"><a id="a8e2ca4e5a44fba7e695070a62421a119" name="a8e2ca4e5a44fba7e695070a62421a119"></a>
+ResourceType&#160;</td><td class="memItemRight" valign="bottom"><b>resourcetype</b></td></tr>
+<tr class="separator:a8e2ca4e5a44fba7e695070a62421a119 inherit pub_attribs_struct_d6_engine_1_1_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p ><a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a> Class which handles the shader parsing and generation of the shader code. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a50a3c8d659f5022de6292589c5110867" name="a50a3c8d659f5022de6292589c5110867"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50a3c8d659f5022de6292589c5110867">&#9670;&nbsp;</a></span>LoadShaderFromFile() <span class="overload">[1/2]</span></h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ad4de1e1e51cda702a8fbcdeb886f951c" name="ad4de1e1e51cda702a8fbcdeb886f951c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4de1e1e51cda702a8fbcdeb886f951c">&#9670;&nbsp;</a></span>Shader()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">D6Engine::Graphics::Shader::Shader </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>filepath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>metadatafilepath</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Conversion Constructor that takes in filepath and metadata filepath. Used as a way to construct and compile shader to be used for <a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html" title="Render Class for drawing Objects.">Renderer</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filepath</td><td>the directory of where the <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a> file is from </td></tr>
+    <tr><td class="paramname">metadatafilepath</td><td>the directory of where the <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a> metadata file is from </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a12636383cbe2182c3225ab13a021ece7" name="a12636383cbe2182c3225ab13a021ece7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12636383cbe2182c3225ab13a021ece7">&#9670;&nbsp;</a></span>Compile()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145,10 +226,10 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>DebugDraw</b></td></
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html">Shader</a> * D6Engine::Graphics::Shader::LoadShaderFromFile </td>
+          <td class="memname">void D6Engine::Graphics::Shader::Compile </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>shaderFilePath</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html">Shader</a> *&#160;</td>
+          <td class="paramname"><em>shaderObj</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -159,19 +240,18 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>DebugDraw</b></td></
 </table>
 </div><div class="memdoc">
 
-<p>Loads the <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a> from a <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a> File path (.glsl) </p>
+<p>Compiles the vertexShader and the fragmentShader and put it into the <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a> Object to be one complete <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a> Object. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">shaderFilePath</td><td>File path to shader code. </td></tr>
+    <tr><td class="paramname">shaderObj</td><td>the <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a> object that the function wants to compile into </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a> Reference to the generated shader. </dd></dl>
 
 </div>
 </div>
-<a id="a72dfe54868d31da66d408204d3a8a628" name="a72dfe54868d31da66d408204d3a8a628"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72dfe54868d31da66d408204d3a8a628">&#9670;&nbsp;</a></span>LoadShaderFromFile() <span class="overload">[2/2]</span></h2>
+<a id="a39c6c7ee57b63a69c6bc212f7ce5024f" name="a39c6c7ee57b63a69c6bc212f7ce5024f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39c6c7ee57b63a69c6bc212f7ce5024f">&#9670;&nbsp;</a></span>PreProcess()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -180,16 +260,16 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>DebugDraw</b></td></
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html">Shader</a> * D6Engine::Graphics::Shader::LoadShaderFromFile </td>
+          <td class="memname">void D6Engine::Graphics::Shader::PreProcess </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>vertexSrcFilepath</em>, </td>
+          <td class="paramtype"><a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html">Shader</a> *&#160;</td>
+          <td class="paramname"><em>shaderObj</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>fragmentSrcFilepath</em>&#160;</td>
+          <td class="paramname"><em>source</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -204,15 +284,49 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>DebugDraw</b></td></
 </table>
 </div><div class="memdoc">
 
-<p>Loads the <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a> from a Vertex <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a> Source File path and a Fragment shader source File path. </p>
+<p>Processes the shader contents into vertexShader and fragmentShader respectively. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">vertexSrcFilepath</td><td>File path to the vertex shader code. </td></tr>
-    <tr><td class="paramname">fragmentSrcFilepath</td><td>File path to the fragment shader code. </td></tr>
+    <tr><td class="paramname">shaderObj</td><td>the <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a> that contains the vertexShader object and fragmentShader object </td></tr>
+    <tr><td class="paramname">source</td><td>the contents of the shader as a string </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a> Reference to the generated shader. </dd></dl>
+
+</div>
+</div>
+<a id="a9b46cddcd47c9a69e6c3370b4c33397f" name="a9b46cddcd47c9a69e6c3370b4c33397f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b46cddcd47c9a69e6c3370b4c33397f">&#9670;&nbsp;</a></span>ReadFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string D6Engine::Graphics::Shader::ReadFile </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>filepath</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reads the contents of the file to store it into both the vertexShader and the fragmentShader. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filepath</td><td>the directory of where the <a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html" title="Shader Class which handles the shader parsing and generation of the shader code.">Shader</a> file is from </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the contents of the shader into a string </dd></dl>
 
 </div>
 </div>
@@ -223,7 +337,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>DebugDraw</b></td></
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d6_engine.html">D6Engine</a></li><li class="navelem"><a class="el" href="namespace_d6_engine_1_1_graphics.html">Graphics</a></li><li class="navelem"><a class="el" href="class_d6_engine_1_1_graphics_1_1_shader.html">Shader</a></li>
-    <li class="footer">Generated on Mon Oct 25 2021 21:51:56 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Sun Nov 7 2021 14:43:52 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

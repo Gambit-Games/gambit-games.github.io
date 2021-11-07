@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/5</span>
+                                &#160;<span id="projectnumber">v0.1/6</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -90,15 +90,13 @@ $(document).ready(function(){initNavTree('class_d6_engine_1_1_rigidbody2_d.html'
 
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="class_d6_engine_1_1_rigidbody2_d-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">D6Engine::Rigidbody2D Class Reference<span class="mlabels"><span class="mlabel">final</span></span></div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>The class has to be initialized with a mass =/= 0, and defaults to the Static rigidbody type.  
+<p>This class acts as the interface to the Rigidbody component.  
  <a href="class_d6_engine_1_1_rigidbody2_d.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_rigidbody2_d_8h_source.html">Rigidbody2D.h</a>&gt;</code></p>
@@ -114,27 +112,31 @@ $(document).ready(function(){initNavTree('class_d6_engine_1_1_rigidbody2_d.html'
   </map>
 </div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:ab0b5233ab9343b7c124252e73e0cc299"><td class="memItemLeft" align="right" valign="top"><a id="ab0b5233ab9343b7c124252e73e0cc299" name="ab0b5233ab9343b7c124252e73e0cc299"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_rigidbody2_d.html#ab0b5233ab9343b7c124252e73e0cc299">RigidbodyType</a> { <b>Static</b>
-, <b>Dynamic</b>
-, <b>Kinematic</b>
- }</td></tr>
-<tr class="memdesc:ab0b5233ab9343b7c124252e73e0cc299"><td class="mdescLeft">&#160;</td><td class="mdescRight">These enums define the rigidbody behaviour Static: Rigidbody that is stationary and repels other dynamic rigidbodies. Dynamic: Interacts with all applied forces. Kinematic: Does not interact with applied forces. <br /></td></tr>
-<tr class="separator:ab0b5233ab9343b7c124252e73e0cc299"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a606e3198ea3925190eacdf79d1d174a3"><td class="memItemLeft" align="right" valign="top"><a id="a606e3198ea3925190eacdf79d1d174a3" name="a606e3198ea3925190eacdf79d1d174a3"></a>
+<a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetVelocity</b> ()</td></tr>
+<tr class="memdesc:a606e3198ea3925190eacdf79d1d174a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a reference to the linear velocity of the rigidbody <br /></td></tr>
+<tr class="separator:a606e3198ea3925190eacdf79d1d174a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c34d40908643542957fd42ca1b8ca62"><td class="memItemLeft" align="right" valign="top"><a id="a4c34d40908643542957fd42ca1b8ca62" name="a4c34d40908643542957fd42ca1b8ca62"></a>
+float &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetMass</b> ()</td></tr>
+<tr class="memdesc:a4c34d40908643542957fd42ca1b8ca62"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a reference to the mass of the rigidbody <br /></td></tr>
+<tr class="separator:a4c34d40908643542957fd42ca1b8ca62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae63447f0689d21660afa52843d0bdde2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_d6_engine.html#acf2598ac58928ce47bbef32b30f74446">RigidbodyType</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_rigidbody2_d.html#ae63447f0689d21660afa52843d0bdde2">GetRigidbodyType</a> ()</td></tr>
+<tr class="memdesc:ae63447f0689d21660afa52843d0bdde2"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a reference to the rigidbody type associated with the <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a>  <a href="class_d6_engine_1_1_rigidbody2_d.html#ae63447f0689d21660afa52843d0bdde2">More...</a><br /></td></tr>
+<tr class="separator:ae63447f0689d21660afa52843d0bdde2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8455fc8b04f5440b1228022095558deb"><td class="memItemLeft" align="right" valign="top">bool &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_rigidbody2_d.html#a8455fc8b04f5440b1228022095558deb">IsSimulated</a> ()</td></tr>
+<tr class="memdesc:a8455fc8b04f5440b1228022095558deb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set this to false if you wish to move the sprite/object directly through its transform component (currently unimplemented)  <a href="class_d6_engine_1_1_rigidbody2_d.html#a8455fc8b04f5440b1228022095558deb">More...</a><br /></td></tr>
+<tr class="separator:a8455fc8b04f5440b1228022095558deb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe1bdaa5e8142e0e25687632db0700f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_rigidbody2_d.html#afe1bdaa5e8142e0e25687632db0700f4">AddForce</a> (<a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> const &amp;aForce)</td></tr>
-<tr class="memdesc:afe1bdaa5e8142e0e25687632db0700f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies a force directly to the rigidbody. Object will accelerate by the force following: F=MA.  <a href="class_d6_engine_1_1_rigidbody2_d.html#afe1bdaa5e8142e0e25687632db0700f4">More...</a><br /></td></tr>
+<tr class="memdesc:afe1bdaa5e8142e0e25687632db0700f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies a force directly to the rigidbody. Object will accelerate by the force following: F=MA (Currently not working as intended. To be reimplemented into a forces manager)  <a href="class_d6_engine_1_1_rigidbody2_d.html#afe1bdaa5e8142e0e25687632db0700f4">More...</a><br /></td></tr>
 <tr class="separator:afe1bdaa5e8142e0e25687632db0700f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a088abb65372729acf8041136570822ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_rigidbody2_d.html#a088abb65372729acf8041136570822ff">MovePosition</a> (<a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> const &amp;targetPos)</td></tr>
-<tr class="memdesc:a088abb65372729acf8041136570822ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves the rigidbody directly to the position specified, within the next physics update, ignoring linear drag and gravity.  <a href="class_d6_engine_1_1_rigidbody2_d.html#a088abb65372729acf8041136570822ff">More...</a><br /></td></tr>
-<tr class="separator:a088abb65372729acf8041136570822ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2728c8a703537c66ac9aceb939359570"><td class="memItemLeft" align="right" valign="top"><a id="a2728c8a703537c66ac9aceb939359570" name="a2728c8a703537c66ac9aceb939359570"></a>
-<a class="el" href="class_d6_engine_1_1_rigidbody2_d.html#ab0b5233ab9343b7c124252e73e0cc299">RigidbodyType</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetRigidbodyType</b> () const</td></tr>
-<tr class="memdesc:a2728c8a703537c66ac9aceb939359570"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the rigidbody type associated with the <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a>. <br /></td></tr>
-<tr class="separator:a2728c8a703537c66ac9aceb939359570"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca4545e6a48be5b08317015851d06e5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_rigidbody2_d.html#aca4545e6a48be5b08317015851d06e5e">MovePosition</a> (<a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> const &amp;targetVec, float speed)</td></tr>
+<tr class="memdesc:aca4545e6a48be5b08317015851d06e5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves the rigidbody in the direction specified, using a given arbitrary speed value.  <a href="class_d6_engine_1_1_rigidbody2_d.html#aca4545e6a48be5b08317015851d06e5e">More...</a><br /></td></tr>
+<tr class="separator:aca4545e6a48be5b08317015851d06e5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a043b3904ac11058592c50fce8ae0d319"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_rigidbody2_d.html#a043b3904ac11058592c50fce8ae0d319">SetGameObject</a> (<a class="el" href="class_d6_engine_1_1_game_object.html">GameObject</a> *target) override</td></tr>
+<tr class="memdesc:a043b3904ac11058592c50fce8ae0d319"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binds this component to the <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> after construction.  <a href="class_d6_engine_1_1_rigidbody2_d.html#a043b3904ac11058592c50fce8ae0d319">More...</a><br /></td></tr>
+<tr class="separator:a043b3904ac11058592c50fce8ae0d319"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a773766a4ad2ecabee6a1e87f7ee39303"><td class="memItemLeft" align="right" valign="top"><a id="a773766a4ad2ecabee6a1e87f7ee39303" name="a773766a4ad2ecabee6a1e87f7ee39303"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Rigidbody2D</b> (<a class="el" href="class_d6_engine_1_1_rigidbody2_d.html">Rigidbody2D</a> const &amp;rhs)=default</td></tr>
 <tr class="separator:a773766a4ad2ecabee6a1e87f7ee39303"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,34 +169,11 @@ Public Member Functions</h2></td></tr>
 <a class="el" href="class_d6_engine_1_1_component.html">Component</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (<a class="el" href="class_d6_engine_1_1_component.html">Component</a> &amp;&amp;other) noexcept=default</td></tr>
 <tr class="separator:a14ed5564b9605629729e4bce49c61def inherit pub_methods_class_d6_engine_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:ac7318d072919fe2348d47f64059d3fb4"><td class="memItemLeft" align="right" valign="top"><a id="ac7318d072919fe2348d47f64059d3fb4" name="ac7318d072919fe2348d47f64059d3fb4"></a>
-<a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><b>velocity</b></td></tr>
-<tr class="memdesc:ac7318d072919fe2348d47f64059d3fb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">linear velocity of the rigidbody <br /></td></tr>
-<tr class="separator:ac7318d072919fe2348d47f64059d3fb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad87b94691a69d9cc4cafa4ecdf9b2b0a"><td class="memItemLeft" align="right" valign="top"><a id="ad87b94691a69d9cc4cafa4ecdf9b2b0a" name="ad87b94691a69d9cc4cafa4ecdf9b2b0a"></a>
-<a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><b>position</b></td></tr>
-<tr class="memdesc:ad87b94691a69d9cc4cafa4ecdf9b2b0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">rigidbody's position is updated, then gets used to update <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a>'s transform <br /></td></tr>
-<tr class="separator:ad87b94691a69d9cc4cafa4ecdf9b2b0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6c5cc63cf6027aae94616d4665b8eab"><td class="memItemLeft" align="right" valign="top"><a id="ac6c5cc63cf6027aae94616d4665b8eab" name="ac6c5cc63cf6027aae94616d4665b8eab"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>mass</b></td></tr>
-<tr class="memdesc:ac6c5cc63cf6027aae94616d4665b8eab"><td class="mdescLeft">&#160;</td><td class="mdescRight">mass of the rigidbody <br /></td></tr>
-<tr class="separator:ac6c5cc63cf6027aae94616d4665b8eab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a262e61c460f3ffd604909cded1d0dae5"><td class="memItemLeft" align="right" valign="top"><a id="a262e61c460f3ffd604909cded1d0dae5" name="a262e61c460f3ffd604909cded1d0dae5"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>isSimulated</b></td></tr>
-<tr class="memdesc:a262e61c460f3ffd604909cded1d0dae5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set this to false if you wish to move the sprite/object directly through its transform component. <br /></td></tr>
-<tr class="separator:a262e61c460f3ffd604909cded1d0dae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_methods_class_d6_engine_1_1_component"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_d6_engine_1_1_component')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_d6_engine_1_1_component.html">D6Engine::Component</a></td></tr>
-<tr class="memitem:a8ba93d270ad608aef5e45ac527db2a69 inherit pro_methods_class_d6_engine_1_1_component"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_component.html#a8ba93d270ad608aef5e45ac527db2a69">SetGameObject</a> (<a class="el" href="class_d6_engine_1_1_game_object.html">GameObject</a> *target)</td></tr>
-<tr class="memdesc:a8ba93d270ad608aef5e45ac527db2a69 inherit pro_methods_class_d6_engine_1_1_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binds this component to the <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> after construction.  <a href="class_d6_engine_1_1_component.html#a8ba93d270ad608aef5e45ac527db2a69">More...</a><br /></td></tr>
-<tr class="separator:a8ba93d270ad608aef5e45ac527db2a69 inherit pro_methods_class_d6_engine_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >The class has to be initialized with a mass =/= 0, and defaults to the Static rigidbody type. </p>
+<div class="textblock"><p >This class acts as the interface to the Rigidbody component. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="afe1bdaa5e8142e0e25687632db0700f4" name="afe1bdaa5e8142e0e25687632db0700f4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afe1bdaa5e8142e0e25687632db0700f4">&#9670;&nbsp;</a></span>AddForce()</h2>
@@ -212,7 +191,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Applies a force directly to the rigidbody. Object will accelerate by the force following: F=MA. </p>
+<p>Applies a force directly to the rigidbody. Object will accelerate by the force following: F=MA (Currently not working as intended. To be reimplemented into a forces manager) </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">Force</td><td>to be applied in vector2. </td></tr>
@@ -222,8 +201,48 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a088abb65372729acf8041136570822ff" name="a088abb65372729acf8041136570822ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a088abb65372729acf8041136570822ff">&#9670;&nbsp;</a></span>MovePosition()</h2>
+<a id="ae63447f0689d21660afa52843d0bdde2" name="ae63447f0689d21660afa52843d0bdde2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae63447f0689d21660afa52843d0bdde2">&#9670;&nbsp;</a></span>GetRigidbodyType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_d6_engine.html#acf2598ac58928ce47bbef32b30f74446">RigidbodyType</a> &amp; D6Engine::Rigidbody2D::GetRigidbodyType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns a reference to the rigidbody type associated with the <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> </p>
+<dl class="section return"><dt>Returns</dt><dd>RigidbodyType returnable types are Static, Dynamic, Kinematic. </dd></dl>
+
+</div>
+</div>
+<a id="a8455fc8b04f5440b1228022095558deb" name="a8455fc8b04f5440b1228022095558deb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8455fc8b04f5440b1228022095558deb">&#9670;&nbsp;</a></span>IsSimulated()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool &amp; D6Engine::Rigidbody2D::IsSimulated </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set this to false if you wish to move the sprite/object directly through its transform component (currently unimplemented) </p>
+<dl class="section return"><dt>Returns</dt><dd>bool returns true if the rigidbody is affected by the physics system, false otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="aca4545e6a48be5b08317015851d06e5e" name="aca4545e6a48be5b08317015851d06e5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca4545e6a48be5b08317015851d06e5e">&#9670;&nbsp;</a></span>MovePosition()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -232,19 +251,61 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname">void D6Engine::Rigidbody2D::MovePosition </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> const &amp;&#160;</td>
-          <td class="paramname"><em>targetPos</em></td><td>)</td>
+          <td class="paramname"><em>targetVec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>speed</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Moves the rigidbody directly to the position specified, within the next physics update, ignoring linear drag and gravity. </p>
+<p>Moves the rigidbody in the direction specified, using a given arbitrary speed value. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">Force</td><td>to be applied in vector2. </td></tr>
+    <tr><td class="paramname">targetPos</td><td>direction in vector2. </td></tr>
+    <tr><td class="paramname">speed</td><td>quickness of movement </td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a043b3904ac11058592c50fce8ae0d319" name="a043b3904ac11058592c50fce8ae0d319"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a043b3904ac11058592c50fce8ae0d319">&#9670;&nbsp;</a></span>SetGameObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void D6Engine::Rigidbody2D::SetGameObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_d6_engine_1_1_game_object.html">GameObject</a> *&#160;</td>
+          <td class="paramname"><em>target</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Binds this component to the <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> after construction. </p>
+<p >Sends the address of this gameobject's transform to the actual physics body2d for physics system to update in real time. </p>
+
+<p>Reimplemented from <a class="el" href="class_d6_engine_1_1_component.html#a8ba93d270ad608aef5e45ac527db2a69">D6Engine::Component</a>.</p>
 
 </div>
 </div>
@@ -255,7 +316,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d6_engine.html">D6Engine</a></li><li class="navelem"><a class="el" href="class_d6_engine_1_1_rigidbody2_d.html">Rigidbody2D</a></li>
-    <li class="footer">Generated on Mon Oct 25 2021 21:51:56 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Sun Nov 7 2021 14:43:51 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

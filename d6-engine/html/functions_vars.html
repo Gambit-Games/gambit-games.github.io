@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/5</span>
+                                &#160;<span id="projectnumber">v0.1/6</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -93,7 +93,6 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 
 <h3><a id="index_a" name="index_a"></a>- a -</h3><ul>
 <li>a&#160;:&#160;<a class="el" href="struct_d6_engine_1_1_colour.html#acd0aea600d0af5d5cba007949da77f0e">D6Engine::Colour</a></li>
-<li>ar&#160;:&#160;<a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_camera2_d.html#aa477af6e44fce1cf39c39c219b3b72a2">D6Engine::Graphics::Renderer::Camera2D</a></li>
 </ul>
 
 
@@ -104,14 +103,16 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 
 <h3><a id="index_c" name="index_c"></a>- c -</h3><ul>
 <li>childCount&#160;:&#160;<a class="el" href="class_d6_engine_1_1_transform.html#ae6f49b9585adb2618dbbae866edc6896">D6Engine::Transform</a></li>
-<li>colour&#160;:&#160;<a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a98e16ba66e4f06e6a5cadd257a4be0bb">D6Engine::Graphics::Renderer::GLObject</a></li>
+<li>cLayer&#160;:&#160;<a class="el" href="class_d6_engine_1_1_box_collider2_d.html#a421f36f640bf34b484a204afa2d5d309">D6Engine::BoxCollider2D</a></li>
+<li>collidedBoxes&#160;:&#160;<a class="el" href="class_d6_engine_1_1_box_collider2_d.html#aedeac4209a790cf95f92c1909b47f915">D6Engine::BoxCollider2D</a></li>
+<li>colour&#160;:&#160;<a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a5c8b377adadfe709f6a0494778ec55c3">D6Engine::Graphics::Renderer::GLObject</a>, <a class="el" href="class_d6_engine_1_1_sprite_renderer.html#a5b0298d1c405d10f3bcbbeefe98a43da">D6Engine::SpriteRenderer</a></li>
 <li>components&#160;:&#160;<a class="el" href="struct_d6_engine_1_1_scene_management_1_1_scene_object.html#a3c94f6e74628894260ef9b8b50a8476c">D6Engine::SceneManagement::SceneObject</a></li>
 </ul>
 
 
 <h3><a id="index_d" name="index_d"></a>- d -</h3><ul>
 <li>deltaTime&#160;:&#160;<a class="el" href="class_d6_engine_1_1_time.html#a0974aedbc30ab6ad84635f3a418c1398">D6Engine::Time</a></li>
-<li>dirty&#160;:&#160;<a class="el" href="struct_d6_engine_1_1_scene_management_1_1_scene.html#acb54f95289a3f05434d39c09cb1b9d3e">D6Engine::SceneManagement::Scene</a></li>
+<li>dirty&#160;:&#160;<a class="el" href="class_d6_engine_1_1_prefab.html#af31e8e05bf7fc155e4ee99b58e384e49">D6Engine::Prefab</a>, <a class="el" href="struct_d6_engine_1_1_scene_management_1_1_scene.html#acb54f95289a3f05434d39c09cb1b9d3e">D6Engine::SceneManagement::Scene</a></li>
 </ul>
 
 
@@ -136,22 +137,19 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 </ul>
 
 
-<h3><a id="index_h" name="index_h"></a>- h -</h3><ul>
-<li>height&#160;:&#160;<a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_camera2_d.html#aeba5892fba0930ab1a63032b6e112eb2">D6Engine::Graphics::Renderer::Camera2D</a></li>
-</ul>
-
-
 <h3><a id="index_i" name="index_i"></a>- i -</h3><ul>
 <li>isActive&#160;:&#160;<a class="el" href="class_d6_engine_1_1_game_object.html#a5a0fb8eec1154b35bedf4be43d74b1ea">D6Engine::GameObject</a></li>
-<li>isSimulated&#160;:&#160;<a class="el" href="class_d6_engine_1_1_rigidbody2_d.html#a262e61c460f3ffd604909cded1d0dae5">D6Engine::Rigidbody2D</a></li>
+<li>isEnabled&#160;:&#160;<a class="el" href="class_d6_engine_1_1_box_collider2_d.html#a22868c35f92faa61f6ce798066d2ae58">D6Engine::BoxCollider2D</a></li>
 <li>isStatic&#160;:&#160;<a class="el" href="class_d6_engine_1_1_game_object.html#a03bcfde324681092f4cebe396fc03628">D6Engine::GameObject</a></li>
+<li>isTrigger&#160;:&#160;<a class="el" href="class_d6_engine_1_1_box_collider2_d.html#a0883f9530788dccba05bdf66a627b34b">D6Engine::BoxCollider2D</a></li>
 </ul>
 
 
 <h3><a id="index_m" name="index_m"></a>- m -</h3><ul>
-<li>mass&#160;:&#160;<a class="el" href="class_d6_engine_1_1_rigidbody2_d.html#ac6c5cc63cf6027aae94616d4665b8eab">D6Engine::Rigidbody2D</a></li>
+<li>materialRef&#160;:&#160;<a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a165ec2bd8086f7ef1bc1fea7e71dce65">D6Engine::Graphics::Renderer::GLObject</a></li>
 <li>maximumDeltaTime&#160;:&#160;<a class="el" href="class_d6_engine_1_1_time.html#a272fe304a10714f6174dc7ab847c3cf9">D6Engine::Time</a></li>
 <li>meshRef&#160;:&#160;<a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#aa8b6428e544ffaeac88c9b316fe7d04b">D6Engine::Graphics::Renderer::GLObject</a></li>
+<li>meshSize&#160;:&#160;<a class="el" href="class_d6_engine_1_1_box_collider2_d.html#aeaa3f6046787614341aea55f2c64ee85">D6Engine::BoxCollider2D</a></li>
 <li>modelToNDCTransformMatrix&#160;:&#160;<a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#ab73e01e4f5719887930c89408606c289">D6Engine::Graphics::Renderer::GLObject</a></li>
 </ul>
 
@@ -161,9 +159,16 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 </ul>
 
 
+<h3><a id="index_o" name="index_o"></a>- o -</h3><ul>
+<li>origPts&#160;:&#160;<a class="el" href="class_d6_engine_1_1_box_collider2_d.html#aeb17414c4c8d860db9d76adcf2678abb">D6Engine::BoxCollider2D</a></li>
+<li>overlap&#160;:&#160;<a class="el" href="class_d6_engine_1_1_box_collider2_d.html#a2dce6f035a9036cd0d1b5ac6e5160b31">D6Engine::BoxCollider2D</a></li>
+</ul>
+
+
 <h3><a id="index_p" name="index_p"></a>- p -</h3><ul>
 <li>path&#160;:&#160;<a class="el" href="struct_d6_engine_1_1_scene_management_1_1_scene.html#a3da5d62a40ea94d7267bd3c2d7c8d7af">D6Engine::SceneManagement::Scene</a></li>
-<li>position&#160;:&#160;<a class="el" href="class_d6_engine_1_1_rigidbody2_d.html#ad87b94691a69d9cc4cafa4ecdf9b2b0a">D6Engine::Rigidbody2D</a>, <a class="el" href="class_d6_engine_1_1_transform.html#ad37edc99163c1ccd8ee115eb81ce4363">D6Engine::Transform</a></li>
+<li>position&#160;:&#160;<a class="el" href="class_d6_engine_1_1_transform.html#ad37edc99163c1ccd8ee115eb81ce4363">D6Engine::Transform</a></li>
+<li>pTrans&#160;:&#160;<a class="el" href="class_d6_engine_1_1_box_collider2_d.html#a910cf2b1525954dcf0bac886419ba055">D6Engine::BoxCollider2D</a></li>
 </ul>
 
 
@@ -175,25 +180,27 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 
 <h3><a id="index_s" name="index_s"></a>- s -</h3><ul>
 <li>scale&#160;:&#160;<a class="el" href="class_d6_engine_1_1_transform.html#a81bc4f0c7534d91484da632a85039c68">D6Engine::Transform</a></li>
-<li>sceneObjects&#160;:&#160;<a class="el" href="struct_d6_engine_1_1_scene_management_1_1_scene.html#a2e3893ee447af7438e6f3d6a25b188e4">D6Engine::SceneManagement::Scene</a></li>
-<li>shaderRef&#160;:&#160;<a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#ae5a38b12d755360d1094a047b94fe4e6">D6Engine::Graphics::Renderer::GLObject</a></li>
-<li>sortOrder&#160;:&#160;<a class="el" href="class_d6_engine_1_1_sprite_renderer.html#a0d9738f52e0f3177137feb9eaff63ae8">D6Engine::SpriteRenderer</a></li>
-<li>sprite&#160;:&#160;<a class="el" href="class_d6_engine_1_1_sprite_renderer.html#aa74686f8ba4332d4ad63c96153993930">D6Engine::SpriteRenderer</a></li>
+<li>sceneObjects&#160;:&#160;<a class="el" href="class_d6_engine_1_1_prefab.html#a4fd09cade06eeebf9499321c3a2a6158">D6Engine::Prefab</a>, <a class="el" href="struct_d6_engine_1_1_scene_management_1_1_scene.html#a2e3893ee447af7438e6f3d6a25b188e4">D6Engine::SceneManagement::Scene</a></li>
+<li>sortOrder&#160;:&#160;<a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a23d00c6e6f3495166f443cb8a7734463">D6Engine::Graphics::Renderer::GLObject</a></li>
+<li>spriteRenderer&#160;:&#160;<a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a257d3c2d1008d6533a9e57c57e01d522">D6Engine::Graphics::Renderer::GLObject</a></li>
 </ul>
 
 
 <h3><a id="index_t" name="index_t"></a>- t -</h3><ul>
-<li>textureRef&#160;:&#160;<a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#a1404b7761787df039cbd24a46b65a943">D6Engine::Graphics::Renderer::GLObject</a></li>
+<li>texture&#160;:&#160;<a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#abe162db18e1ddab4a5b23ec8bbaa3c31">D6Engine::Graphics::Renderer::GLObject</a></li>
 <li>time&#160;:&#160;<a class="el" href="class_d6_engine_1_1_time.html#abc0c9c68b0e36f32a0f8f6baaab2aed0">D6Engine::Time</a></li>
 <li>timeScale&#160;:&#160;<a class="el" href="class_d6_engine_1_1_time.html#afa7cfd6ec383a607f183f2ef3ef21080">D6Engine::Time</a></li>
-<li>transform&#160;:&#160;<a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html#ac0f76261a028a531a9e7018651ca90b9">D6Engine::Graphics::Renderer::GLObject</a></li>
+</ul>
+
+
+<h3><a id="index_u" name="index_u"></a>- u -</h3><ul>
+<li>uuid&#160;:&#160;<a class="el" href="class_d6_engine_1_1_game_object.html#a7802cb751b333a0d7e74b39310882b8b">D6Engine::GameObject</a>, <a class="el" href="struct_d6_engine_1_1_scene_management_1_1_scene_object.html#a9d79a0be1a5baa8306a2850451443f16">D6Engine::SceneManagement::SceneObject</a></li>
 </ul>
 
 
 <h3><a id="index_v" name="index_v"></a>- v -</h3><ul>
-<li>velocity&#160;:&#160;<a class="el" href="class_d6_engine_1_1_rigidbody2_d.html#ac7318d072919fe2348d47f64059d3fb4">D6Engine::Rigidbody2D</a></li>
+<li>vertexPts&#160;:&#160;<a class="el" href="class_d6_engine_1_1_box_collider2_d.html#ac336717e9e680ba87ce7bdcffca18ce3">D6Engine::BoxCollider2D</a></li>
 <li>vertexSource&#160;:&#160;<a class="el" href="struct_d6_engine_1_1_graphics_1_1_vertex_shader.html#a6837755f59bf96eae54ef13777d479be">D6Engine::Graphics::VertexShader</a></li>
-<li>view_xform&#160;:&#160;<a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_camera2_d.html#abb0537212590d108680254f7fd41136e">D6Engine::Graphics::Renderer::Camera2D</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -201,7 +208,7 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Oct 25 2021 21:51:56 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Sun Nov 7 2021 14:43:52 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

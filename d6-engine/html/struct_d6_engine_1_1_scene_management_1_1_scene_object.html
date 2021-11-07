@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/5</span>
+                                &#160;<span id="projectnumber">v0.1/6</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -95,26 +95,38 @@ $(document).ready(function(){initNavTree('struct_d6_engine_1_1_scene_management_
   <div class="headertitle"><div class="title">D6Engine::SceneManagement::SceneObject Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Stores data to create a <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a>.  
+ <a href="struct_d6_engine_1_1_scene_management_1_1_scene_object.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_scene_8h_source.html">Scene.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a446227a74bd8ab36787e562d09e45c7f"><td class="memItemLeft" align="right" valign="top"><a id="a446227a74bd8ab36787e562d09e45c7f" name="a446227a74bd8ab36787e562d09e45c7f"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>name</b></td></tr>
-<tr class="memdesc:a446227a74bd8ab36787e562d09e45c7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The name of the <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> to be created from this <a class="el" href="struct_d6_engine_1_1_scene_management_1_1_scene_object.html">SceneObject</a>. <br /></td></tr>
+<tr class="memdesc:a446227a74bd8ab36787e562d09e45c7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The name of the <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> to be created from this <a class="el" href="struct_d6_engine_1_1_scene_management_1_1_scene_object.html" title="Stores data to create a GameObject.">SceneObject</a>. <br /></td></tr>
 <tr class="separator:a446227a74bd8ab36787e562d09e45c7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d79a0be1a5baa8306a2850451443f16"><td class="memItemLeft" align="right" valign="top"><a id="a9d79a0be1a5baa8306a2850451443f16" name="a9d79a0be1a5baa8306a2850451443f16"></a>
+<a class="el" href="class_d6_engine_1_1_u_u_i_d.html">UUID</a>&#160;</td><td class="memItemRight" valign="bottom"><b>uuid</b></td></tr>
+<tr class="memdesc:a9d79a0be1a5baa8306a2850451443f16"><td class="mdescLeft">&#160;</td><td class="mdescRight">The unique ID of the <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a>. <br /></td></tr>
+<tr class="separator:a9d79a0be1a5baa8306a2850451443f16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c94f6e74628894260ef9b8b50a8476c"><td class="memItemLeft" align="right" valign="top"><a id="a3c94f6e74628894260ef9b8b50a8476c" name="a3c94f6e74628894260ef9b8b50a8476c"></a>
 std::vector&lt; std::pair&lt; type, std::queue&lt; variant &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>components</b></td></tr>
 <tr class="memdesc:a3c94f6e74628894260ef9b8b50a8476c"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list of <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> component metadata, stored as type of component and list of values. <br /></td></tr>
 <tr class="separator:a3c94f6e74628894260ef9b8b50a8476c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-</div><!-- contents -->
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >Stores data to create a <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a>. </p>
+<p >SceneObjects are stored in scene definitions, used to cache scene data during runtime. Each <a class="el" href="struct_d6_engine_1_1_scene_management_1_1_scene_object.html" title="Stores data to create a GameObject.">SceneObject</a> stores basic data on their particular <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a>, and are not capable of executing game logic themselves. </p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.9.1-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d6_engine.html">D6Engine</a></li><li class="navelem"><a class="el" href="namespace_d6_engine_1_1_scene_management.html">SceneManagement</a></li><li class="navelem"><a class="el" href="struct_d6_engine_1_1_scene_management_1_1_scene_object.html">SceneObject</a></li>
-    <li class="footer">Generated on Mon Oct 25 2021 21:51:56 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Sun Nov 7 2021 14:43:52 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['rigidbodytype_0',['RigidbodyType',['../class_d6_engine_1_1_rigidbody2_d.html#ab0b5233ab9343b7c124252e73e0cc299',1,'D6Engine::Rigidbody2D']]]
+  ['rigidbodytype_0',['RigidbodyType',['../namespace_d6_engine.html#acf2598ac58928ce47bbef32b30f74446',1,'D6Engine']]]
 ];
