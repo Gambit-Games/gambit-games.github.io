@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/6</span>
+                                &#160;<span id="projectnumber">v0.1/7</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -102,16 +102,20 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>OGLVertexArray</b> ()</td></tr>
 <tr class="memdesc:a4c4f0c83fc02ba442ca5d5399d4cd3cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an empty vertex array object and binds it. <br /></td></tr>
 <tr class="separator:a4c4f0c83fc02ba442ca5d5399d4cd3cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adee132259d9a1ec628dc63ff20f0a9b9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html#adee132259d9a1ec628dc63ff20f0a9b9">OGLVertexArray</a> (float *vertices, size_t vSize, GLuint *indices, GLuint iCount, GLint positionSize=2, GLint colourSize=3, GLint texturePositionSize=2)</td></tr>
-<tr class="memdesc:adee132259d9a1ec628dc63ff20f0a9b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a vertex array object with the given vertices and indices and binds them.  <a href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html#adee132259d9a1ec628dc63ff20f0a9b9">More...</a><br /></td></tr>
-<tr class="separator:adee132259d9a1ec628dc63ff20f0a9b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35622ee62c327a892c9e6551aa5393b0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html#a35622ee62c327a892c9e6551aa5393b0">OGLVertexArray</a> (float *vertices, size_t vSize, GLuint *indices, GLuint iCount, GLint positionSize=2, GLint colourSize=3, GLint texturePositionSize=2, GLenum drawType=GL_STATIC_DRAW)</td></tr>
+<tr class="memdesc:a35622ee62c327a892c9e6551aa5393b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a vertex array object with the given vertices and indices and binds them.  <a href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html#a35622ee62c327a892c9e6551aa5393b0">More...</a><br /></td></tr>
+<tr class="separator:a35622ee62c327a892c9e6551aa5393b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f50e69541a1e753a0ada01ad0ddf9f7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html#a0f50e69541a1e753a0ada01ad0ddf9f7">OGLVertexArray</a> (<a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_buffer.html">OGLVertexBuffer</a> *vBuffer, <a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_index_buffer.html">OGLIndexBuffer</a> *iBuffer, GLint positionSize=2, GLint colourSize=3, GLint texturePositionSize=2)</td></tr>
 <tr class="memdesc:a0f50e69541a1e753a0ada01ad0ddf9f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the vertex array object and binds it.  <a href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html#a0f50e69541a1e753a0ada01ad0ddf9f7">More...</a><br /></td></tr>
 <tr class="separator:a0f50e69541a1e753a0ada01ad0ddf9f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b6fea90d988c49cdb3b4e291161ae01"><td class="memItemLeft" align="right" valign="top"><a id="a2b6fea90d988c49cdb3b4e291161ae01" name="a2b6fea90d988c49cdb3b4e291161ae01"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Bind</b> () const</td></tr>
-<tr class="memdesc:a2b6fea90d988c49cdb3b4e291161ae01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binds the <a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html">OGLVertexArray</a>. <br /></td></tr>
+<tr class="memdesc:a2b6fea90d988c49cdb3b4e291161ae01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binds the Vertex Array Object. <br /></td></tr>
 <tr class="separator:a2b6fea90d988c49cdb3b4e291161ae01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe841e0479b077070af2b3b7fbf6615c"><td class="memItemLeft" align="right" valign="top"><a id="afe841e0479b077070af2b3b7fbf6615c" name="afe841e0479b077070af2b3b7fbf6615c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Unbind</b> () const</td></tr>
+<tr class="memdesc:afe841e0479b077070af2b3b7fbf6615c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unbinds the Vertex Array Object. <br /></td></tr>
+<tr class="separator:afe841e0479b077070af2b3b7fbf6615c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec98858f7e69c25e6e5b86f9f9ef215e"><td class="memItemLeft" align="right" valign="top">GLuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html#aec98858f7e69c25e6e5b86f9f9ef215e">GetIndexCount</a> () const</td></tr>
 <tr class="memdesc:aec98858f7e69c25e6e5b86f9f9ef215e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Index Count from the Index Buffer Object.  <a href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html#aec98858f7e69c25e6e5b86f9f9ef215e">More...</a><br /></td></tr>
 <tr class="separator:aec98858f7e69c25e6e5b86f9f9ef215e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -129,8 +133,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Bind</b> () const</td
 <tr class="separator:a8be86ea3a86447a8aa1b5411ce1a3ceb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="adee132259d9a1ec628dc63ff20f0a9b9" name="adee132259d9a1ec628dc63ff20f0a9b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adee132259d9a1ec628dc63ff20f0a9b9">&#9670;&nbsp;</a></span>OGLVertexArray() <span class="overload">[1/2]</span></h2>
+<a id="a35622ee62c327a892c9e6551aa5393b0" name="a35622ee62c327a892c9e6551aa5393b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35622ee62c327a892c9e6551aa5393b0">&#9670;&nbsp;</a></span>OGLVertexArray() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -175,7 +179,13 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Bind</b> () const</td
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">GLint&#160;</td>
-          <td class="paramname"><em>texturePositionSize</em> = <code>2</code>&#160;</td>
+          <td class="paramname"><em>texturePositionSize</em> = <code>2</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLenum&#160;</td>
+          <td class="paramname"><em>drawType</em> = <code>GL_STATIC_DRAW</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -201,6 +211,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Bind</b> () const</td
     <tr><td class="paramname">vSize</td><td>Size of the vertices array </td></tr>
     <tr><td class="paramname">indices</td><td>Array of indices </td></tr>
     <tr><td class="paramname">iCount</td><td>Number of indices in the array </td></tr>
+    <tr><td class="paramname">drawType</td><td>They draw type of the array GL_STATIC_DRAW or GL_DYNAMIC_DRAW or GL_STREAM_DRAW </td></tr>
     <tr><td class="paramname">positionSize</td><td>Number of values for position segment (e.g. 2 numbers for position will equal to 2). Defaults to 2. </td></tr>
     <tr><td class="paramname">colourSize</td><td>Number of values for colours segment (e.g. 3 numbers for colours will equal to 3). Defaults to 3. </td></tr>
     <tr><td class="paramname">texturePositionSize</td><td>Number of values for texture position segment (e.g. 2 numbers for texture position will equal to 2). Defaults to 2. </td></tr>
@@ -296,7 +307,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Bind</b> () const</td
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d6_engine.html">D6Engine</a></li><li class="navelem"><a class="el" href="namespace_d6_engine_1_1_graphics.html">Graphics</a></li><li class="navelem"><a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html">OGLVertexArray</a></li>
-    <li class="footer">Generated on Sun Nov 7 2021 14:43:51 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Wed Dec 8 2021 00:32:11 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

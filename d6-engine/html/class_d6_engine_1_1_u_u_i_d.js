@@ -7,6 +7,7 @@ var class_d6_engine_1_1_u_u_i_d =
     [ "GetValue", "class_d6_engine_1_1_u_u_i_d.html#a2c4e3fd17309f65e3a22373086219e38", null ],
     [ "operator bool", "class_d6_engine_1_1_u_u_i_d.html#a9598008f73c3c233b357eaa1dddabc94", null ],
     [ "operator uint64_t", "class_d6_engine_1_1_u_u_i_d.html#ada76ab02cc638da4ad9712fe33790d45", null ],
+    [ "operator=", "class_d6_engine_1_1_u_u_i_d.html#af53d90a54ba431d9cf8daeed8ef82af2", null ],
     [ "operator==", "class_d6_engine_1_1_u_u_i_d.html#a5191ca3b65fb48484e03146d062f6cdd", null ],
     [ "operator==", "class_d6_engine_1_1_u_u_i_d.html#a53a6542eb524f0f51fdf23a005088394", null ],
     [ "ToString", "class_d6_engine_1_1_u_u_i_d.html#a5306b6de74f26ff6ce7dac06d2464777", null ],

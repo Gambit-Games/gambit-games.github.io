@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/6</span>
+                                &#160;<span id="projectnumber">v0.1/7</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -90,7 +90,10 @@ $(document).ready(function(){initNavTree('class_d6_engine_1_1_graphics_1_1_textu
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="class_d6_engine_1_1_graphics_1_1_texture-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">D6Engine::Graphics::Texture Class Reference</div></div>
 </div><!--header-->
@@ -108,10 +111,24 @@ $(document).ready(function(){initNavTree('class_d6_engine_1_1_graphics_1_1_textu
  <div class="center">
   <img src="class_d6_engine_1_1_graphics_1_1_texture.png" usemap="#D6Engine::Graphics::Texture_map" alt=""/>
   <map id="D6Engine::Graphics::Texture_map" name="D6Engine::Graphics::Texture_map">
-<area href="struct_d6_engine_1_1_resource.html" alt="D6Engine::Resource&lt; Texture * &gt;" shape="rect" coords="0,0,205,24"/>
+<area href="struct_d6_engine_1_1_resources_1_1_resource.html" alt="D6Engine::Resources::Resource&lt; Texture * &gt;" shape="rect" coords="0,0,271,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a123f0c5392cd0b7932ee018445678d91"><td class="memItemLeft" align="right" valign="top"><a id="a123f0c5392cd0b7932ee018445678d91" name="a123f0c5392cd0b7932ee018445678d91"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><b>FilterModes</b> { <b>REPEAT</b>
+, <b>CLAMP</b>
+, <b>MIRROR</b>
+, <b>MIRROR_ONCE</b>
+ }</td></tr>
+<tr class="separator:a123f0c5392cd0b7932ee018445678d91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5ae29ad526af5e20fa33714ad733967"><td class="memItemLeft" align="right" valign="top"><a id="af5ae29ad526af5e20fa33714ad733967" name="af5ae29ad526af5e20fa33714ad733967"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><b>WrapModes</b> { <b>POINT</b>
+, <b>BILINEAR</b>
+, <b>TRILINEAR</b>
+ }</td></tr>
+<tr class="separator:af5ae29ad526af5e20fa33714ad733967"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad7b69b43dd3e71f7691b4930d2d82b77"><td class="memItemLeft" align="right" valign="top"><a id="ad7b69b43dd3e71f7691b4930d2d82b77" name="ad7b69b43dd3e71f7691b4930d2d82b77"></a>
@@ -119,9 +136,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad7b69b43dd3e71f7691b4930d2d82b77"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html" title="Texture Class for texture loading.">Texture</a> default constructor <br  />
  <br /></td></tr>
 <tr class="separator:ad7b69b43dd3e71f7691b4930d2d82b77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac189efc1d03270159761059c20baaa9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html#aac189efc1d03270159761059c20baaa9">Texture</a> (const std::string &amp;filepath, const std::string &amp;metadatafilepath=&quot;&quot;, bool isSpriteSheet=false, GLenum type=GL_TEXTURE_2D, GLint textureUnit=0)</td></tr>
-<tr class="memdesc:aac189efc1d03270159761059c20baaa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a texture from file location.  <a href="class_d6_engine_1_1_graphics_1_1_texture.html#aac189efc1d03270159761059c20baaa9">More...</a><br /></td></tr>
-<tr class="separator:aac189efc1d03270159761059c20baaa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe589f0806bf81671483d6d53c309cf0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html#afe589f0806bf81671483d6d53c309cf0">Texture</a> (const std::string &amp;texturefilepath, const std::string &amp;metadatafilepath=&quot;&quot;, GLenum type=GL_TEXTURE_2D, GLint textureUnit=0)</td></tr>
+<tr class="memdesc:afe589f0806bf81671483d6d53c309cf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a texture from file location.  <a href="class_d6_engine_1_1_graphics_1_1_texture.html#afe589f0806bf81671483d6d53c309cf0">More...</a><br /></td></tr>
+<tr class="separator:afe589f0806bf81671483d6d53c309cf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa014ec4f701444e6861abb7c3d6aa548"><td class="memItemLeft" align="right" valign="top"><a id="aa014ec4f701444e6861abb7c3d6aa548" name="aa014ec4f701444e6861abb7c3d6aa548"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>~Texture</b> ()</td></tr>
 <tr class="memdesc:aa014ec4f701444e6861abb7c3d6aa548"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html" title="Texture Class for texture loading.">Texture</a> Class destroyer. <br /></td></tr>
@@ -151,53 +168,51 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Unbind</b> () const</
 <tr class="memitem:aa6445cc251668196a02f51065219d6e9"><td class="memItemLeft" align="right" valign="top">GLuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html#aa6445cc251668196a02f51065219d6e9">GetTextureUnit</a> () const</td></tr>
 <tr class="memdesc:aa6445cc251668196a02f51065219d6e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the texture unit from texture class.  <a href="class_d6_engine_1_1_graphics_1_1_texture.html#aa6445cc251668196a02f51065219d6e9">More...</a><br /></td></tr>
 <tr class="separator:aa6445cc251668196a02f51065219d6e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35edf41e08ebb3706e33fda00e4a5241"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html#a35edf41e08ebb3706e33fda00e4a5241">LoadTexture</a> (const std::string &amp;filepath)</td></tr>
-<tr class="memdesc:a35edf41e08ebb3706e33fda00e4a5241"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a texture from a file path.  <a href="class_d6_engine_1_1_graphics_1_1_texture.html#a35edf41e08ebb3706e33fda00e4a5241">More...</a><br /></td></tr>
-<tr class="separator:a35edf41e08ebb3706e33fda00e4a5241"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a213a3cb6554b6d1e69cdb4e6efec76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html#a8a213a3cb6554b6d1e69cdb4e6efec76">SetSpriteDimensions</a> (glm::vec2 newSpriteDimensionsUnits)</td></tr>
-<tr class="memdesc:a8a213a3cb6554b6d1e69cdb4e6efec76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the maximum dimension unit of the sprite with x y coordinates (For Sprite Rendering, this is required to be Set)  <a href="class_d6_engine_1_1_graphics_1_1_texture.html#a8a213a3cb6554b6d1e69cdb4e6efec76">More...</a><br /></td></tr>
-<tr class="separator:a8a213a3cb6554b6d1e69cdb4e6efec76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7e14caabdf20173e243a99a0bc7c6d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html#ae7e14caabdf20173e243a99a0bc7c6d2">SetUVCoordinate</a> (glm::vec2 newUVCoord)</td></tr>
-<tr class="memdesc:ae7e14caabdf20173e243a99a0bc7c6d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the current UV Coordinates for in texture.  <a href="class_d6_engine_1_1_graphics_1_1_texture.html#ae7e14caabdf20173e243a99a0bc7c6d2">More...</a><br /></td></tr>
-<tr class="separator:ae7e14caabdf20173e243a99a0bc7c6d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d14ed5e1374327eca3dc5bacc5738b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html#a0d14ed5e1374327eca3dc5bacc5738b7">SetIsSpriteSheet</a> (bool newState)</td></tr>
-<tr class="memdesc:a0d14ed5e1374327eca3dc5bacc5738b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the isSprite bool check.  <a href="class_d6_engine_1_1_graphics_1_1_texture.html#a0d14ed5e1374327eca3dc5bacc5738b7">More...</a><br /></td></tr>
-<tr class="separator:a0d14ed5e1374327eca3dc5bacc5738b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3f65b94d4b00bef6bdb8984cc987942"><td class="memItemLeft" align="right" valign="top">glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html#ab3f65b94d4b00bef6bdb8984cc987942">GetSpriteDimensions</a> () const</td></tr>
-<tr class="memdesc:ab3f65b94d4b00bef6bdb8984cc987942"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the sprite dimensions <br  />
-  <a href="class_d6_engine_1_1_graphics_1_1_texture.html#ab3f65b94d4b00bef6bdb8984cc987942">More...</a><br /></td></tr>
-<tr class="separator:ab3f65b94d4b00bef6bdb8984cc987942"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80b82f3e60a2b15365ba904e2a8fb9ad"><td class="memItemLeft" align="right" valign="top">glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html#a80b82f3e60a2b15365ba904e2a8fb9ad">GetUVCoordinate</a> () const</td></tr>
-<tr class="memdesc:a80b82f3e60a2b15365ba904e2a8fb9ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current Sprite Frame unit.  <a href="class_d6_engine_1_1_graphics_1_1_texture.html#a80b82f3e60a2b15365ba904e2a8fb9ad">More...</a><br /></td></tr>
-<tr class="separator:a80b82f3e60a2b15365ba904e2a8fb9ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92b68b92898f9078fdf746089e20bc0d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html#a92b68b92898f9078fdf746089e20bc0d">GetIsSpriteSheet</a> () const</td></tr>
-<tr class="memdesc:a92b68b92898f9078fdf746089e20bc0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets if the texture renders as Sprite or <a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html" title="Texture Class for texture loading.">Texture</a>.  <a href="class_d6_engine_1_1_graphics_1_1_texture.html#a92b68b92898f9078fdf746089e20bc0d">More...</a><br /></td></tr>
-<tr class="separator:a92b68b92898f9078fdf746089e20bc0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dfc0c8c2492b6bcea58b64f5b271cc3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html#a8dfc0c8c2492b6bcea58b64f5b271cc3">LoadTexture</a> (const std::string &amp;texturefilepath)</td></tr>
+<tr class="memdesc:a8dfc0c8c2492b6bcea58b64f5b271cc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a texture from a file path.  <a href="class_d6_engine_1_1_graphics_1_1_texture.html#a8dfc0c8c2492b6bcea58b64f5b271cc3">More...</a><br /></td></tr>
+<tr class="separator:a8dfc0c8c2492b6bcea58b64f5b271cc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_attribs_struct_d6_engine_1_1_resource"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_struct_d6_engine_1_1_resource')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="struct_d6_engine_1_1_resource.html">D6Engine::Resource&lt; Texture * &gt;</a></td></tr>
-<tr class="memitem:ac0b19f06f39be1908d68a197501a36fe inherit pub_attribs_struct_d6_engine_1_1_resource"><td class="memItemLeft" align="right" valign="top"><a id="ac0b19f06f39be1908d68a197501a36fe" name="ac0b19f06f39be1908d68a197501a36fe"></a>
-uint64_t&#160;</td><td class="memItemRight" valign="bottom"><b>uuid</b></td></tr>
-<tr class="separator:ac0b19f06f39be1908d68a197501a36fe inherit pub_attribs_struct_d6_engine_1_1_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04becdbac2a61276f0f6772ce5e7aefa inherit pub_attribs_struct_d6_engine_1_1_resource"><td class="memItemLeft" align="right" valign="top"><a id="a04becdbac2a61276f0f6772ce5e7aefa" name="a04becdbac2a61276f0f6772ce5e7aefa"></a>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:af538b653eed19c0d3fadefb200ffb7bc"><td class="memItemLeft" align="right" valign="top"><a id="af538b653eed19c0d3fadefb200ffb7bc" name="af538b653eed19c0d3fadefb200ffb7bc"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>SetCurrentTextureFilter</b> (FilterModes filter)</td></tr>
+<tr class="separator:af538b653eed19c0d3fadefb200ffb7bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53cebc1d8b90dff8253f25fe1af73e8a"><td class="memItemLeft" align="right" valign="top"><a id="a53cebc1d8b90dff8253f25fe1af73e8a" name="a53cebc1d8b90dff8253f25fe1af73e8a"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>SetCurrentTextureWrap</b> (WrapModes wrap)</td></tr>
+<tr class="separator:a53cebc1d8b90dff8253f25fe1af73e8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:affb608ad407e1f132812e75263c8ee8a"><td class="memItemLeft" align="right" valign="top"><a id="affb608ad407e1f132812e75263c8ee8a" name="affb608ad407e1f132812e75263c8ee8a"></a>
+<a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Math::Vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><b>pivotPoints</b> = { 0.5f, 0.5f }</td></tr>
+<tr class="memdesc:affb608ad407e1f132812e75263c8ee8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The pivot points of the texture. This determines the origin point of the texture. <br /></td></tr>
+<tr class="separator:affb608ad407e1f132812e75263c8ee8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77c014ea018ca52c63a73996bfe3c96a"><td class="memItemLeft" align="right" valign="top"><a id="a77c014ea018ca52c63a73996bfe3c96a" name="a77c014ea018ca52c63a73996bfe3c96a"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>scaleFactor</b> = 1.0f</td></tr>
+<tr class="memdesc:a77c014ea018ca52c63a73996bfe3c96a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The scale factor of the texture. This is the initial scale of the texture in world space. <br /></td></tr>
+<tr class="separator:a77c014ea018ca52c63a73996bfe3c96a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_struct_d6_engine_1_1_resources_1_1_resource"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_struct_d6_engine_1_1_resources_1_1_resource')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="struct_d6_engine_1_1_resources_1_1_resource.html">D6Engine::Resources::Resource&lt; Texture * &gt;</a></td></tr>
+<tr class="memitem:abd5f4db4837d905bebe3d98aa8857917 inherit pub_attribs_struct_d6_engine_1_1_resources_1_1_resource"><td class="memItemLeft" align="right" valign="top"><a id="abd5f4db4837d905bebe3d98aa8857917" name="abd5f4db4837d905bebe3d98aa8857917"></a>
+<a class="el" href="class_d6_engine_1_1_u_u_i_d.html">UUID</a>&#160;</td><td class="memItemRight" valign="bottom"><b>uuid</b></td></tr>
+<tr class="separator:abd5f4db4837d905bebe3d98aa8857917 inherit pub_attribs_struct_d6_engine_1_1_resources_1_1_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51a80197c30b2743311218b7002f41f6 inherit pub_attribs_struct_d6_engine_1_1_resources_1_1_resource"><td class="memItemLeft" align="right" valign="top"><a id="a51a80197c30b2743311218b7002f41f6" name="a51a80197c30b2743311218b7002f41f6"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>name</b></td></tr>
-<tr class="separator:a04becdbac2a61276f0f6772ce5e7aefa inherit pub_attribs_struct_d6_engine_1_1_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0430fbfac2467e9dcc2293a36aac491e inherit pub_attribs_struct_d6_engine_1_1_resource"><td class="memItemLeft" align="right" valign="top"><a id="a0430fbfac2467e9dcc2293a36aac491e" name="a0430fbfac2467e9dcc2293a36aac491e"></a>
+<tr class="separator:a51a80197c30b2743311218b7002f41f6 inherit pub_attribs_struct_d6_engine_1_1_resources_1_1_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cbdc6ad5540d3f4a04e16c15aed757a inherit pub_attribs_struct_d6_engine_1_1_resources_1_1_resource"><td class="memItemLeft" align="right" valign="top"><a id="a1cbdc6ad5540d3f4a04e16c15aed757a" name="a1cbdc6ad5540d3f4a04e16c15aed757a"></a>
 std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><b>filepath</b></td></tr>
-<tr class="separator:a0430fbfac2467e9dcc2293a36aac491e inherit pub_attribs_struct_d6_engine_1_1_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18724f5f27cf28d044e9a73ade471cc1 inherit pub_attribs_struct_d6_engine_1_1_resource"><td class="memItemLeft" align="right" valign="top"><a id="a18724f5f27cf28d044e9a73ade471cc1" name="a18724f5f27cf28d044e9a73ade471cc1"></a>
+<tr class="separator:a1cbdc6ad5540d3f4a04e16c15aed757a inherit pub_attribs_struct_d6_engine_1_1_resources_1_1_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b6def8370553c827a6d7c9a37f0dd78 inherit pub_attribs_struct_d6_engine_1_1_resources_1_1_resource"><td class="memItemLeft" align="right" valign="top"><a id="a2b6def8370553c827a6d7c9a37f0dd78" name="a2b6def8370553c827a6d7c9a37f0dd78"></a>
 <a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html">Texture</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>resource</b></td></tr>
-<tr class="separator:a18724f5f27cf28d044e9a73ade471cc1 inherit pub_attribs_struct_d6_engine_1_1_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e2ca4e5a44fba7e695070a62421a119 inherit pub_attribs_struct_d6_engine_1_1_resource"><td class="memItemLeft" align="right" valign="top"><a id="a8e2ca4e5a44fba7e695070a62421a119" name="a8e2ca4e5a44fba7e695070a62421a119"></a>
-ResourceType&#160;</td><td class="memItemRight" valign="bottom"><b>resourcetype</b></td></tr>
-<tr class="separator:a8e2ca4e5a44fba7e695070a62421a119 inherit pub_attribs_struct_d6_engine_1_1_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a2b6def8370553c827a6d7c9a37f0dd78 inherit pub_attribs_struct_d6_engine_1_1_resources_1_1_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d3e2e2005398699a3e42b562df8a7a0 inherit pub_attribs_struct_d6_engine_1_1_resources_1_1_resource"><td class="memItemLeft" align="right" valign="top"><a id="a3d3e2e2005398699a3e42b562df8a7a0" name="a3d3e2e2005398699a3e42b562df8a7a0"></a>
+ResourceType&#160;</td><td class="memItemRight" valign="bottom"><b>resourceType</b></td></tr>
+<tr class="separator:a3d3e2e2005398699a3e42b562df8a7a0 inherit pub_attribs_struct_d6_engine_1_1_resources_1_1_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p ><a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html" title="Texture Class for texture loading.">Texture</a> Class for texture loading. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aac189efc1d03270159761059c20baaa9" name="aac189efc1d03270159761059c20baaa9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac189efc1d03270159761059c20baaa9">&#9670;&nbsp;</a></span>Texture()</h2>
+<a id="afe589f0806bf81671483d6d53c309cf0" name="afe589f0806bf81671483d6d53c309cf0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe589f0806bf81671483d6d53c309cf0">&#9670;&nbsp;</a></span>Texture()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -206,19 +221,13 @@ ResourceType&#160;</td><td class="memItemRight" valign="bottom"><b>resourcetype<
           <td class="memname">D6Engine::Graphics::Texture::Texture </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>filepath</em>, </td>
+          <td class="paramname"><em>texturefilepath</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>metadatafilepath</em> = <code>&quot;&quot;</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>isSpriteSheet</em> = <code>false</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -243,9 +252,8 @@ ResourceType&#160;</td><td class="memItemRight" valign="bottom"><b>resourcetype<
 <p>Creates a texture from file location. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">filepath</td><td>The file path to the texture </td></tr>
+    <tr><td class="paramname">texturefilepath</td><td>The file path to the texture </td></tr>
     <tr><td class="paramname">metadatafilepath</td><td>The metadata file path to the texture </td></tr>
-    <tr><td class="paramname">isSpriteSheet</td><td>whether the texture contains multiple sprites </td></tr>
     <tr><td class="paramname">type</td><td>The type of texture (defaulted to GL_TEXTURE_2D) </td></tr>
     <tr><td class="paramname">textureUnit</td><td>Selects the texture unit based on "textureUnit" input (defaulted to 0) </td></tr>
   </table>
@@ -309,34 +317,6 @@ ResourceType&#160;</td><td class="memItemRight" valign="bottom"><b>resourcetype<
 
 </div>
 </div>
-<a id="a92b68b92898f9078fdf746089e20bc0d" name="a92b68b92898f9078fdf746089e20bc0d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92b68b92898f9078fdf746089e20bc0d">&#9670;&nbsp;</a></span>GetIsSpriteSheet()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool D6Engine::Graphics::Texture::GetIsSpriteSheet </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Gets if the texture renders as Sprite or <a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html" title="Texture Class for texture loading.">Texture</a>. </p>
-<dl class="section return"><dt>Returns</dt><dd>Returns the isSprite bool, True renders Sprites, False renders normal textures </dd></dl>
-
-</div>
-</div>
 <a id="a817cd6c4e7d52a6b696c011ea5208ef7" name="a817cd6c4e7d52a6b696c011ea5208ef7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a817cd6c4e7d52a6b696c011ea5208ef7">&#9670;&nbsp;</a></span>GetPivotPoints()</h2>
 
@@ -390,35 +370,6 @@ ResourceType&#160;</td><td class="memItemRight" valign="bottom"><b>resourcetype<
 
 <p>Gets the scale factor of the texture. </p>
 <dl class="section return"><dt>Returns</dt><dd>The scale factor of the texture. </dd></dl>
-
-</div>
-</div>
-<a id="ab3f65b94d4b00bef6bdb8984cc987942" name="ab3f65b94d4b00bef6bdb8984cc987942"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab3f65b94d4b00bef6bdb8984cc987942">&#9670;&nbsp;</a></span>GetSpriteDimensions()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">glm::vec2 D6Engine::Graphics::Texture::GetSpriteDimensions </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Gets the sprite dimensions <br  />
- </p>
-<dl class="section return"><dt>Returns</dt><dd>A vec2 to of the spriteDimensionsUnits </dd></dl>
 
 </div>
 </div>
@@ -478,34 +429,6 @@ ResourceType&#160;</td><td class="memItemRight" valign="bottom"><b>resourcetype<
 
 </div>
 </div>
-<a id="a80b82f3e60a2b15365ba904e2a8fb9ad" name="a80b82f3e60a2b15365ba904e2a8fb9ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80b82f3e60a2b15365ba904e2a8fb9ad">&#9670;&nbsp;</a></span>GetUVCoordinate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">glm::vec2 D6Engine::Graphics::Texture::GetUVCoordinate </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Gets the current Sprite Frame unit. </p>
-<dl class="section return"><dt>Returns</dt><dd>The current sprite frame unit </dd></dl>
-
-</div>
-</div>
 <a id="a1b5c1d2d01185b8110857e71541bb3c2" name="a1b5c1d2d01185b8110857e71541bb3c2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1b5c1d2d01185b8110857e71541bb3c2">&#9670;&nbsp;</a></span>GetWidth()</h2>
 
@@ -534,8 +457,8 @@ ResourceType&#160;</td><td class="memItemRight" valign="bottom"><b>resourcetype<
 
 </div>
 </div>
-<a id="a35edf41e08ebb3706e33fda00e4a5241" name="a35edf41e08ebb3706e33fda00e4a5241"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a35edf41e08ebb3706e33fda00e4a5241">&#9670;&nbsp;</a></span>LoadTexture()</h2>
+<a id="a8dfc0c8c2492b6bcea58b64f5b271cc3" name="a8dfc0c8c2492b6bcea58b64f5b271cc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dfc0c8c2492b6bcea58b64f5b271cc3">&#9670;&nbsp;</a></span>LoadTexture()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -544,7 +467,7 @@ ResourceType&#160;</td><td class="memItemRight" valign="bottom"><b>resourcetype<
           <td class="memname">void D6Engine::Graphics::Texture::LoadTexture </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>filepath</em></td><td>)</td>
+          <td class="paramname"><em>texturefilepath</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -553,86 +476,7 @@ ResourceType&#160;</td><td class="memItemRight" valign="bottom"><b>resourcetype<
 <p>Loads a texture from a file path. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">filepath</td><td>The file path to the texture </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a0d14ed5e1374327eca3dc5bacc5738b7" name="a0d14ed5e1374327eca3dc5bacc5738b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d14ed5e1374327eca3dc5bacc5738b7">&#9670;&nbsp;</a></span>SetIsSpriteSheet()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void D6Engine::Graphics::Texture::SetIsSpriteSheet </td>
-          <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>newState</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Sets the isSprite bool check. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">newState</td><td>True renders Sprites, False renders normal textures <br  />
- </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a8a213a3cb6554b6d1e69cdb4e6efec76" name="a8a213a3cb6554b6d1e69cdb4e6efec76"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a213a3cb6554b6d1e69cdb4e6efec76">&#9670;&nbsp;</a></span>SetSpriteDimensions()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void D6Engine::Graphics::Texture::SetSpriteDimensions </td>
-          <td>(</td>
-          <td class="paramtype">glm::vec2&#160;</td>
-          <td class="paramname"><em>newSpriteDimensionsUnits</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set the maximum dimension unit of the sprite with x y coordinates (For Sprite Rendering, this is required to be Set) </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">newSpriteDimensionsUnits</td><td>A vec2 of the max unit of x coordinate and y coordinate </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="ae7e14caabdf20173e243a99a0bc7c6d2" name="ae7e14caabdf20173e243a99a0bc7c6d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7e14caabdf20173e243a99a0bc7c6d2">&#9670;&nbsp;</a></span>SetUVCoordinate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void D6Engine::Graphics::Texture::SetUVCoordinate </td>
-          <td>(</td>
-          <td class="paramtype">glm::vec2&#160;</td>
-          <td class="paramname"><em>newUVCoord</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Sets the current UV Coordinates for in texture. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">newUVCoord</td><td>The new UV coordinates to render in the texture </td></tr>
+    <tr><td class="paramname">texturefilepath</td><td>The file path to the texture </td></tr>
   </table>
   </dd>
 </dl>
@@ -646,7 +490,7 @@ ResourceType&#160;</td><td class="memItemRight" valign="bottom"><b>resourcetype<
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d6_engine.html">D6Engine</a></li><li class="navelem"><a class="el" href="namespace_d6_engine_1_1_graphics.html">Graphics</a></li><li class="navelem"><a class="el" href="class_d6_engine_1_1_graphics_1_1_texture.html">Texture</a></li>
-    <li class="footer">Generated on Sun Nov 7 2021 14:43:52 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Wed Dec 8 2021 00:32:11 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

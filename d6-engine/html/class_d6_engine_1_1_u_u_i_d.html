@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/6</span>
+                                &#160;<span id="projectnumber">v0.1/7</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -122,8 +122,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5306b6de74f26ff6ce7dac06d2464777"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_u_u_i_d.html#a5306b6de74f26ff6ce7dac06d2464777">ToString</a> () const</td></tr>
 <tr class="memdesc:a5306b6de74f26ff6ce7dac06d2464777"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the <a class="el" href="class_d6_engine_1_1_u_u_i_d.html" title="Generates and stores a Universally Unique ID and provides caching for vector index values.">UUID</a> as a formatted string.  <a href="class_d6_engine_1_1_u_u_i_d.html#a5306b6de74f26ff6ce7dac06d2464777">More...</a><br /></td></tr>
 <tr class="separator:a5306b6de74f26ff6ce7dac06d2464777"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af53d90a54ba431d9cf8daeed8ef82af2"><td class="memItemLeft" align="right" valign="top"><a id="af53d90a54ba431d9cf8daeed8ef82af2" name="af53d90a54ba431d9cf8daeed8ef82af2"></a>
-<a class="el" href="class_d6_engine_1_1_u_u_i_d.html">UUID</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (uint64_t uuid) noexcept</td></tr>
+<tr class="memitem:af53d90a54ba431d9cf8daeed8ef82af2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_d6_engine_1_1_u_u_i_d.html">UUID</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_u_u_i_d.html#af53d90a54ba431d9cf8daeed8ef82af2">operator=</a> (uint64_t uuid) noexcept</td></tr>
+<tr class="memdesc:af53d90a54ba431d9cf8daeed8ef82af2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns an unsigned 64-bit integer to the <a class="el" href="class_d6_engine_1_1_u_u_i_d.html" title="Generates and stores a Universally Unique ID and provides caching for vector index values.">UUID</a>.  <a href="class_d6_engine_1_1_u_u_i_d.html#af53d90a54ba431d9cf8daeed8ef82af2">More...</a><br /></td></tr>
 <tr class="separator:af53d90a54ba431d9cf8daeed8ef82af2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a980cb761d57a742ce16f16be260cd0f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_u_u_i_d.html#a980cb761d57a742ce16f16be260cd0f7">UpdateCache</a> (size_t newIndex, size_t newVersion)</td></tr>
 <tr class="memdesc:a980cb761d57a742ce16f16be260cd0f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refreshes the cached index with a new index value and version.  <a href="class_d6_engine_1_1_u_u_i_d.html#a980cb761d57a742ce16f16be260cd0f7">More...</a><br /></td></tr>
@@ -263,6 +263,41 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="af53d90a54ba431d9cf8daeed8ef82af2" name="af53d90a54ba431d9cf8daeed8ef82af2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af53d90a54ba431d9cf8daeed8ef82af2">&#9670;&nbsp;</a></span>operator=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_d6_engine_1_1_u_u_i_d.html">UUID</a> &amp; D6Engine::UUID::operator= </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>uuid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Assigns an unsigned 64-bit integer to the <a class="el" href="class_d6_engine_1_1_u_u_i_d.html" title="Generates and stores a Universally Unique ID and provides caching for vector index values.">UUID</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">uuid</td><td>The uuid to assign. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>This instance of the <a class="el" href="class_d6_engine_1_1_u_u_i_d.html" title="Generates and stores a Universally Unique ID and provides caching for vector index values.">UUID</a>. </dd></dl>
+
+</div>
+</div>
 <a id="a5191ca3b65fb48484e03146d062f6cdd" name="a5191ca3b65fb48484e03146d062f6cdd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5191ca3b65fb48484e03146d062f6cdd">&#9670;&nbsp;</a></span>operator==() <span class="overload">[1/2]</span></h2>
 
@@ -397,7 +432,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d6_engine.html">D6Engine</a></li><li class="navelem"><a class="el" href="class_d6_engine_1_1_u_u_i_d.html">UUID</a></li>
-    <li class="footer">Generated on Sun Nov 7 2021 14:43:51 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Wed Dec 8 2021 00:32:11 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

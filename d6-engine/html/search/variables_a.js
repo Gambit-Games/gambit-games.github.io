@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['origpts_0',['origPts',['../class_d6_engine_1_1_box_collider2_d.html#aeb17414c4c8d860db9d76adcf2678abb',1,'D6Engine::BoxCollider2D']]],
-  ['overlap_1',['overlap',['../class_d6_engine_1_1_box_collider2_d.html#a2dce6f035a9036cd0d1b5ac6e5160b31',1,'D6Engine::BoxCollider2D']]]
+  ['leftpunchdelay_0',['leftPunchDelay',['../class_d6_engine_1_1_player_attack.html#ae931e1a5c1f36c7d6e90d1029d4f99a8',1,'D6Engine::PlayerAttack']]],
+  ['leftpunchdmg_1',['leftPunchDmg',['../class_d6_engine_1_1_player_attack.html#aa67dbe30a165a4b90627b1d9d4b37786',1,'D6Engine::PlayerAttack']]],
+  ['loop_2',['loop',['../struct_d6_engine_1_1_resources_1_1_animation_clip.html#aaca0e7a9e856ace9e4136f602af8eb43',1,'D6Engine::Resources::AnimationClip']]]
 ];

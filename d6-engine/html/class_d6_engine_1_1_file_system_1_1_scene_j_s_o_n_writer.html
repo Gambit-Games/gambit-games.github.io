@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/6</span>
+                                &#160;<span id="projectnumber">v0.1/7</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -90,18 +90,65 @@ $(document).ready(function(){initNavTree('class_d6_engine_1_1_file_system_1_1_sc
 
 <div class="header">
   <div class="summary">
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="class_d6_engine_1_1_file_system_1_1_scene_j_s_o_n_writer-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">D6Engine::FileSystem::SceneJSONWriter Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Writes a Scene to a JSON file.  
+ <a href="class_d6_engine_1_1_file_system_1_1_scene_j_s_o_n_writer.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_scene_j_s_o_n_writer_8h_source.html">SceneJSONWriter.h</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:acec2c2d473aa11a8d6993cc01c22e73b"><td class="memItemLeft" align="right" valign="top"><a id="acec2c2d473aa11a8d6993cc01c22e73b" name="acec2c2d473aa11a8d6993cc01c22e73b"></a>
-static bool&#160;</td><td class="memItemRight" valign="bottom"><b>Write</b> (<a class="el" href="struct_d6_engine_1_1_scene_management_1_1_scene.html">SceneManagement::Scene</a> *currentScene, std::vector&lt; <a class="el" href="class_d6_engine_1_1_game_object.html">GameObject</a> &gt; &amp;gameObjects)</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:acec2c2d473aa11a8d6993cc01c22e73b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_scene_j_s_o_n_writer.html#acec2c2d473aa11a8d6993cc01c22e73b">Write</a> (<a class="el" href="struct_d6_engine_1_1_scene_management_1_1_scene.html">SceneManagement::Scene</a> *currentScene, std::vector&lt; <a class="el" href="class_d6_engine_1_1_game_object.html">GameObject</a> &gt; &amp;gameObjects)</td></tr>
+<tr class="memdesc:acec2c2d473aa11a8d6993cc01c22e73b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a scene to a JSON file.  <a href="class_d6_engine_1_1_file_system_1_1_scene_j_s_o_n_writer.html#acec2c2d473aa11a8d6993cc01c22e73b">More...</a><br /></td></tr>
 <tr class="separator:acec2c2d473aa11a8d6993cc01c22e73b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >Writes a Scene to a JSON file. </p>
+<p >The serialising process only supports certain types and will warn if it encounters an unsupported type. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="acec2c2d473aa11a8d6993cc01c22e73b" name="acec2c2d473aa11a8d6993cc01c22e73b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acec2c2d473aa11a8d6993cc01c22e73b">&#9670;&nbsp;</a></span>Write()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool D6Engine::FileSystem::SceneJSONWriter::Write </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_d6_engine_1_1_scene_management_1_1_scene.html">SceneManagement::Scene</a> *&#160;</td>
+          <td class="paramname"><em>currentScene</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="class_d6_engine_1_1_game_object.html">GameObject</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>gameObjects</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Writes a scene to a JSON file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">currentScene</td><td>Pointer to the Scene that will be serialised and saved to its respective file. </td></tr>
+    <tr><td class="paramname">gameObjects</td><td>A vector of GameObjects representing the current GameObjects in the scene, usually provided by the <a class="el" href="class_d6_engine_1_1_game_object_manager.html" title="Stores all scene GameObjects and runs their behaviours as part of the main game loop.">GameObjectManager</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the write operation was successful, false otherwise. </dd></dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.9.1-->
@@ -109,7 +156,7 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><b>Write</b> (<a 
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d6_engine.html">D6Engine</a></li><li class="navelem"><a class="el" href="namespace_d6_engine_1_1_file_system.html">FileSystem</a></li><li class="navelem"><a class="el" href="class_d6_engine_1_1_file_system_1_1_scene_j_s_o_n_writer.html">SceneJSONWriter</a></li>
-    <li class="footer">Generated on Sun Nov 7 2021 14:43:51 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Wed Dec 8 2021 00:32:11 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

@@ -25,12 +25,15 @@
 var NAVTREE =
 [
   [ "D6 Engine", "index.html", [
+    [ "Deprecated List", "deprecated.html", null ],
+    [ "Bug List", "bug.html", null ],
     [ "Todo List", "todo.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", null ],
         [ "Functions", "namespacemembers_func.html", null ],
+        [ "Variables", "namespacemembers_vars.html", null ],
         [ "Typedefs", "namespacemembers_type.html", null ],
         [ "Enumerations", "namespacemembers_enum.html", null ]
       ] ]
@@ -43,7 +46,8 @@ var NAVTREE =
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", null ],
-        [ "Enumerations", "functions_enum.html", null ]
+        [ "Enumerations", "functions_enum.html", null ],
+        [ "Related Functions", "functions_rela.html", null ]
       ] ]
     ] ]
   ] ]
@@ -52,9 +56,11 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_d6_engine_1_1_graphics_1_1_material.html#a8f1f6827d4c43235ad6d3fd6a64eb0bd",
-"class_d6_engine_1_1_transform.html#a8cc3ef643225c47c6eacba85e6ddb052",
-"struct_d6_engine_1_1_scene_management_1_1_scene.html#a2e3893ee447af7438e6f3d6a25b188e4"
+"class_d6_engine_1_1_circle_collider.html#a4ce4be216cc23fedc57e446a0369260d",
+"class_d6_engine_1_1_graphics_1_1_text_renderer.html#a2d22d3293877ea2874e430af3970db51",
+"class_d6_engine_1_1_player_input.html#a47905eedafbe50cedeb2c91658b49756a3cf53b7601ee463412beea23294bd347",
+"class_d6_engine_1_1_u_i_1_1_u_i_interactable.html#a3f6dcc211f1a935c4099b71477bf8dcaa1e23852820b9154316c7c06e2b7ba051",
+"struct_d6_engine_1_1_graphics_1_1_fragment_shader.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

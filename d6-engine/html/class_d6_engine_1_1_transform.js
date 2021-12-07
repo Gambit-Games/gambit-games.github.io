@@ -9,6 +9,7 @@ var class_d6_engine_1_1_transform =
     [ "GetChild", "class_d6_engine_1_1_transform.html#af9778b6979eaccefd1d4db358d27de27", null ],
     [ "GetMatrix", "class_d6_engine_1_1_transform.html#a2e0aea28150e3b5fc13757cb11a230ee", null ],
     [ "GetParent", "class_d6_engine_1_1_transform.html#a5afa0b8ac9687b7909d20e165f46916c", null ],
+    [ "GetRoot", "class_d6_engine_1_1_transform.html#afd0818da62d7c2e0b8cafa78b988525b", null ],
     [ "GetSiblingIndex", "class_d6_engine_1_1_transform.html#a7458b2baef85a5dba5c780d17d92ca4b", null ],
     [ "InverseTransformDirection", "class_d6_engine_1_1_transform.html#ad759297b02cd8683cdb86fa508da3bc5", null ],
     [ "InverseTransformPoint", "class_d6_engine_1_1_transform.html#a1e87e6a726545949bfda2c0f3985f192", null ],

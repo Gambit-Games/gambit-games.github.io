@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/6</span>
+                                &#160;<span id="projectnumber">v0.1/7</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -92,6 +92,7 @@ $(document).ready(function(){initNavTree('struct_d6_engine_1_1_colour.html','');
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="struct_d6_engine_1_1_colour-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">D6Engine::Colour Struct Reference<span class="mlabels"><span class="mlabel">final</span></span></div></div>
 </div><!--header-->
@@ -113,6 +114,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa75f49a3b52a7d1a794a66b89bf94267"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d6_engine_1_1_colour.html#aa75f49a3b52a7d1a794a66b89bf94267">operator[]</a> (size_t i) const</td></tr>
 <tr class="memdesc:aa75f49a3b52a7d1a794a66b89bf94267"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the r, g, b and a components respectively.  <a href="struct_d6_engine_1_1_colour.html#aa75f49a3b52a7d1a794a66b89bf94267">More...</a><br /></td></tr>
 <tr class="separator:aa75f49a3b52a7d1a794a66b89bf94267"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2458dad782a9a006ff290c26f57071b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_d6_engine_1_1_colour.html">Colour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d6_engine_1_1_colour.html#ae2458dad782a9a006ff290c26f57071b">operator*</a> (float f) const</td></tr>
+<tr class="memdesc:ae2458dad782a9a006ff290c26f57071b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiplies the colour value across all channels by a scalar value.  <a href="struct_d6_engine_1_1_colour.html#ae2458dad782a9a006ff290c26f57071b">More...</a><br /></td></tr>
+<tr class="separator:ae2458dad782a9a006ff290c26f57071b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8416dc4e7a9edb65f17a698dcd3df571"><td class="memItemLeft" align="right" valign="top"><a id="a8416dc4e7a9edb65f17a698dcd3df571" name="a8416dc4e7a9edb65f17a698dcd3df571"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>operator glm::vec3</b> () const</td></tr>
 <tr class="memdesc:a8416dc4e7a9edb65f17a698dcd3df571"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the colour as a glm::vec3 with float colour values ranging 0-1. <br /></td></tr>
@@ -146,6 +150,25 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>b</b></td></tr>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>a</b></td></tr>
 <tr class="memdesc:acd0aea600d0af5d5cba007949da77f0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alpha component of the colour. 0 is transparent and 1 is opaque. <br /></td></tr>
 <tr class="separator:acd0aea600d0af5d5cba007949da77f0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a85451dd8c00567d053e1ded624ed9d92"><td class="memItemLeft" align="right" valign="top"><a id="a85451dd8c00567d053e1ded624ed9d92" name="a85451dd8c00567d053e1ded624ed9d92"></a>
+static <a class="el" href="struct_d6_engine_1_1_colour.html">Colour</a>&#160;</td><td class="memItemRight" valign="bottom"><b>red</b> = { 1,0,0,1 }</td></tr>
+<tr class="memdesc:a85451dd8c00567d053e1ded624ed9d92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default Red colour. <br /></td></tr>
+<tr class="separator:a85451dd8c00567d053e1ded624ed9d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a133ec83e401cc07cc2855b4d3b86fb85"><td class="memItemLeft" align="right" valign="top"><a id="a133ec83e401cc07cc2855b4d3b86fb85" name="a133ec83e401cc07cc2855b4d3b86fb85"></a>
+static <a class="el" href="struct_d6_engine_1_1_colour.html">Colour</a>&#160;</td><td class="memItemRight" valign="bottom"><b>green</b> = { 0,1,0,1 }</td></tr>
+<tr class="memdesc:a133ec83e401cc07cc2855b4d3b86fb85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default Blue colour. <br /></td></tr>
+<tr class="separator:a133ec83e401cc07cc2855b4d3b86fb85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe98f26152ef740a98aafeee93ca0382"><td class="memItemLeft" align="right" valign="top"><a id="afe98f26152ef740a98aafeee93ca0382" name="afe98f26152ef740a98aafeee93ca0382"></a>
+static <a class="el" href="struct_d6_engine_1_1_colour.html">Colour</a>&#160;</td><td class="memItemRight" valign="bottom"><b>blue</b> = { 0,0,1,1 }</td></tr>
+<tr class="memdesc:afe98f26152ef740a98aafeee93ca0382"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default Green colour. <br /></td></tr>
+<tr class="separator:afe98f26152ef740a98aafeee93ca0382"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6fbb99b5c6a5fb8bc2a3167e133dde9"><td class="memItemLeft" align="right" valign="top"><a id="af6fbb99b5c6a5fb8bc2a3167e133dde9" name="af6fbb99b5c6a5fb8bc2a3167e133dde9"></a>
+static <a class="el" href="struct_d6_engine_1_1_colour.html">Colour</a>&#160;</td><td class="memItemRight" valign="bottom"><b>white</b> = { 1,1,1,1 }</td></tr>
+<tr class="memdesc:af6fbb99b5c6a5fb8bc2a3167e133dde9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default White colour. <br /></td></tr>
+<tr class="separator:af6fbb99b5c6a5fb8bc2a3167e133dde9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Representation of an RGBA colour. This is used to pass around colour values in D6 <a class="el" href="class_d6_engine_1_1_engine.html">Engine</a>. </p>
@@ -203,6 +226,33 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>a</b></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ae2458dad782a9a006ff290c26f57071b" name="ae2458dad782a9a006ff290c26f57071b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2458dad782a9a006ff290c26f57071b">&#9670;&nbsp;</a></span>operator*()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_d6_engine_1_1_colour.html">Colour</a> D6Engine::Colour::operator* </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Multiplies the colour value across all channels by a scalar value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td>The scalar multiplier. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A copy of this <a class="el" href="struct_d6_engine_1_1_colour.html" title="Representation of an RGBA colour. This is used to pass around colour values in D6 Engine.">Colour</a> object. </dd></dl>
+
+</div>
+</div>
 <a id="a9e383a904af3a28e0c9b51c7d3e7ce98" name="a9e383a904af3a28e0c9b51c7d3e7ce98"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9e383a904af3a28e0c9b51c7d3e7ce98">&#9670;&nbsp;</a></span>operator=()</h2>
 
@@ -311,7 +361,7 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>a</b></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d6_engine.html">D6Engine</a></li><li class="navelem"><a class="el" href="struct_d6_engine_1_1_colour.html">Colour</a></li>
-    <li class="footer">Generated on Sun Nov 7 2021 14:43:51 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Wed Dec 8 2021 00:32:10 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

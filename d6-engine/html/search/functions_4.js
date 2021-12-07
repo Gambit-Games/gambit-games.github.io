@@ -6,7 +6,6 @@ var searchData=
   ['enableinterpolatecolour_3',['EnableInterpolateColour',['../class_d6_engine_1_1_graphics_1_1_line.html#a3651b7e2e635d56e33f0f555217c7979',1,'D6Engine::Graphics::Line']]],
   ['end_4',['end',['../class_d6_engine_1_1_transform.html#a4366b6bd1c5f77d41f271106623ec3fa',1,'D6Engine::Transform::end() noexcept'],['../class_d6_engine_1_1_transform.html#a9679e2b4f5169e0110a340046e33f2c5',1,'D6Engine::Transform::end() const noexcept']]],
   ['enginelog_5',['EngineLog',['../class_d6_engine_1_1_engine_log.html#ac7cd73ccd1a683f9d7ebc66483cba533',1,'D6Engine::EngineLog']]],
-  ['eraseallbox_6',['EraseAllBox',['../class_d6_engine_1_1_debug_1_1_debug_draw_box_collider.html#a731b8b3ff765126e513ad2d5d16425ae',1,'D6Engine::Debug::DebugDrawBoxCollider']]],
-  ['erasebox_7',['EraseBox',['../class_d6_engine_1_1_debug_1_1_debug_draw_box_collider.html#aa72b4e1e321ad6a5736914d7452fbcce',1,'D6Engine::Debug::DebugDrawBoxCollider']]],
-  ['error_8',['Error',['../class_d6_engine_1_1_engine_log.html#afb78303d4a49b8bd8514ba3d3b10ff9f',1,'D6Engine::EngineLog']]]
+  ['eraseallcolliders_6',['EraseAllColliders',['../class_d6_engine_1_1_debug_draw_collider.html#a8a5da38aa3d4bbb2c700458ea7f8c094',1,'D6Engine::DebugDrawCollider']]],
+  ['error_7',['Error',['../class_d6_engine_1_1_engine_log.html#afb78303d4a49b8bd8514ba3d3b10ff9f',1,'D6Engine::EngineLog']]]
 ];

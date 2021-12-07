@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/6</span>
+                                &#160;<span id="projectnumber">v0.1/7</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -133,6 +133,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>DetachChildren</b> ()
 <tr class="memitem:a5afa0b8ac9687b7909d20e165f46916c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_d6_engine_1_1_transform.html">Transform</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_transform.html#a5afa0b8ac9687b7909d20e165f46916c">GetParent</a> () const</td></tr>
 <tr class="memdesc:a5afa0b8ac9687b7909d20e165f46916c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the parent <a class="el" href="class_d6_engine_1_1_transform.html" title="Position, rotation and scale of an object.">Transform</a> of this <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a>. (Read-Only)  <a href="class_d6_engine_1_1_transform.html#a5afa0b8ac9687b7909d20e165f46916c">More...</a><br /></td></tr>
 <tr class="separator:a5afa0b8ac9687b7909d20e165f46916c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd0818da62d7c2e0b8cafa78b988525b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_d6_engine_1_1_transform.html">Transform</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_transform.html#afd0818da62d7c2e0b8cafa78b988525b">GetRoot</a> () const</td></tr>
+<tr class="memdesc:afd0818da62d7c2e0b8cafa78b988525b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the topmost transform in the hierarchy.  <a href="class_d6_engine_1_1_transform.html#afd0818da62d7c2e0b8cafa78b988525b">More...</a><br /></td></tr>
+<tr class="separator:afd0818da62d7c2e0b8cafa78b988525b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7458b2baef85a5dba5c780d17d92ca4b"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_transform.html#a7458b2baef85a5dba5c780d17d92ca4b">GetSiblingIndex</a> () const</td></tr>
 <tr class="memdesc:a7458b2baef85a5dba5c780d17d92ca4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the sibling index of the <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a>.  <a href="class_d6_engine_1_1_transform.html#a7458b2baef85a5dba5c780d17d92ca4b">More...</a><br /></td></tr>
 <tr class="separator:a7458b2baef85a5dba5c780d17d92ca4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -445,6 +448,26 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="afd0818da62d7c2e0b8cafa78b988525b" name="afd0818da62d7c2e0b8cafa78b988525b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd0818da62d7c2e0b8cafa78b988525b">&#9670;&nbsp;</a></span>GetRoot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_d6_engine_1_1_transform.html">Transform</a> &amp; D6Engine::Transform::GetRoot </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the topmost transform in the hierarchy. </p>
+<dl class="section return"><dt>Returns</dt><dd>Reference to the topmost transform in its hierarchy, or itself if the <a class="el" href="class_d6_engine_1_1_transform.html" title="Position, rotation and scale of an object.">Transform</a> has no parent. </dd></dl>
+
+</div>
+</div>
 <a id="a7458b2baef85a5dba5c780d17d92ca4b" name="a7458b2baef85a5dba5c780d17d92ca4b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7458b2baef85a5dba5c780d17d92ca4b">&#9670;&nbsp;</a></span>GetSiblingIndex()</h2>
 
@@ -668,7 +691,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Set the parent of the <a class="el" href="class_d6_engine_1_1_transform.html" title="Position, rotation and scale of an object.">Transform</a>. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000001">Todo:</a></b></dt><dd>Set parent via <a class="el" href="class_d6_engine_1_1_u_u_i_d.html" title="Generates and stores a Universally Unique ID and provides caching for vector index values.">UUID</a> </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">Todo:</a></b></dt><dd>Set parent via <a class="el" href="class_d6_engine_1_1_u_u_i_d.html" title="Generates and stores a Universally Unique ID and provides caching for vector index values.">UUID</a> </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">newParent</td><td>Pointer to the <a class="el" href="class_d6_engine_1_1_transform.html" title="Position, rotation and scale of an object.">Transform</a> that will be set as the parent of this <a class="el" href="class_d6_engine_1_1_transform.html" title="Position, rotation and scale of an object.">Transform</a>. </td></tr>
@@ -842,7 +865,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d6_engine.html">D6Engine</a></li><li class="navelem"><a class="el" href="class_d6_engine_1_1_transform.html">Transform</a></li>
-    <li class="footer">Generated on Sun Nov 7 2021 14:43:51 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Wed Dec 8 2021 00:32:11 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/6</span>
+                                &#160;<span id="projectnumber">v0.1/7</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -92,6 +92,7 @@ $(document).ready(function(){initNavTree('class_d6_engine_1_1_camera_1_1_camera2
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="class_d6_engine_1_1_camera_1_1_camera2_d-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">D6Engine::Camera::Camera2D Class Reference</div></div>
 </div><!--header-->
@@ -129,6 +130,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()</td></t
 <tr class="memitem:a327f6d88f013e3f082eb40fc5ebd68df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_camera_1_1_camera2_d.html#a327f6d88f013e3f082eb40fc5ebd68df">SetCameraName</a> (const std::string &amp;cameraName)</td></tr>
 <tr class="memdesc:a327f6d88f013e3f082eb40fc5ebd68df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the name of the current <a class="el" href="namespace_d6_engine_1_1_camera.html">Camera</a> Object.  <a href="class_d6_engine_1_1_camera_1_1_camera2_d.html#a327f6d88f013e3f082eb40fc5ebd68df">More...</a><br /></td></tr>
 <tr class="separator:a327f6d88f013e3f082eb40fc5ebd68df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d6b318d1db12d9cd7d36240bf49fcdf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_camera_1_1_camera2_d.html#a5d6b318d1db12d9cd7d36240bf49fcdf">SetCullingUnit</a> (const <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Math::Vec2</a> xyUnit)</td></tr>
+<tr class="memdesc:a5d6b318d1db12d9cd7d36240bf49fcdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the Culling unit offset from the position of the camera in WORLD SPACE, culling needs to be on to be able to use this.  <a href="class_d6_engine_1_1_camera_1_1_camera2_d.html#a5d6b318d1db12d9cd7d36240bf49fcdf">More...</a><br /></td></tr>
+<tr class="separator:a5d6b318d1db12d9cd7d36240bf49fcdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbabfd3754c968896336f6ff203d59d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_camera_1_1_camera2_d.html#adbabfd3754c968896336f6ff203d59d9">EnableCamera2D</a> (bool status)</td></tr>
 <tr class="memdesc:adbabfd3754c968896336f6ff203d59d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables and Disables the camera Object.  <a href="class_d6_engine_1_1_camera_1_1_camera2_d.html#adbabfd3754c968896336f6ff203d59d9">More...</a><br /></td></tr>
 <tr class="separator:adbabfd3754c968896336f6ff203d59d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -138,30 +142,58 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()</td></t
 <tr class="memitem:a6c391779a7cf30cb2052a486f471365e"><td class="memItemLeft" align="right" valign="top">glm::mat3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_camera_1_1_camera2_d.html#a6c391779a7cf30cb2052a486f471365e">GetNDCToWorldTransformation</a> () const</td></tr>
 <tr class="memdesc:a6c391779a7cf30cb2052a486f471365e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the NDC to World Transformation from the <a class="el" href="namespace_d6_engine_1_1_camera.html">Camera</a> Object (NDC is defined as a [-1,1] Box)  <a href="class_d6_engine_1_1_camera_1_1_camera2_d.html#a6c391779a7cf30cb2052a486f471365e">More...</a><br /></td></tr>
 <tr class="separator:a6c391779a7cf30cb2052a486f471365e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aede43627a769488d674f38a38ccfd231"><td class="memItemLeft" align="right" valign="top"><a id="aede43627a769488d674f38a38ccfd231" name="aede43627a769488d674f38a38ccfd231"></a>
+glm::mat3&#160;</td><td class="memItemRight" valign="bottom"><b>GetCameraWindowToNDCTransform</b> () const</td></tr>
+<tr class="separator:aede43627a769488d674f38a38ccfd231"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a315ff843a833adc81973bcbaa989bdb8"><td class="memItemLeft" align="right" valign="top"><a id="a315ff843a833adc81973bcbaa989bdb8" name="a315ff843a833adc81973bcbaa989bdb8"></a>
+glm::mat3&#160;</td><td class="memItemRight" valign="bottom"><b>GetNDCToCameraWindowTransformation</b> () const</td></tr>
+<tr class="separator:a315ff843a833adc81973bcbaa989bdb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9067c689b9a1e629d50f7b4741b947c9"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_camera_1_1_camera2_d.html#a9067c689b9a1e629d50f7b4741b947c9">GetName</a> () const</td></tr>
 <tr class="memdesc:a9067c689b9a1e629d50f7b4741b947c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of the <a class="el" href="class_d6_engine_1_1_camera_1_1_camera2_d.html" title="Camera Class camera System.">Camera2D</a> Object.  <a href="class_d6_engine_1_1_camera_1_1_camera2_d.html#a9067c689b9a1e629d50f7b4741b947c9">More...</a><br /></td></tr>
 <tr class="separator:a9067c689b9a1e629d50f7b4741b947c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a524329becc33d6fd67829eb246440c86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_d6_engine_1_1_u_u_i_d.html">UUID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_camera_1_1_camera2_d.html#a524329becc33d6fd67829eb246440c86">GetUUID</a> () const</td></tr>
 <tr class="memdesc:a524329becc33d6fd67829eb246440c86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of the <a class="el" href="class_d6_engine_1_1_camera_1_1_camera2_d.html" title="Camera Class camera System.">Camera2D</a> Object.  <a href="class_d6_engine_1_1_camera_1_1_camera2_d.html#a524329becc33d6fd67829eb246440c86">More...</a><br /></td></tr>
 <tr class="separator:a524329becc33d6fd67829eb246440c86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cc7be0fb1e7e3f73632f14eafe18c11"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_camera_1_1_camera2_d.html#a4cc7be0fb1e7e3f73632f14eafe18c11">GetIsCulling</a> () const</td></tr>
+<tr class="memdesc:a4cc7be0fb1e7e3f73632f14eafe18c11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns if Culling is enabled on the camera.  <a href="class_d6_engine_1_1_camera_1_1_camera2_d.html#a4cc7be0fb1e7e3f73632f14eafe18c11">More...</a><br /></td></tr>
+<tr class="separator:a4cc7be0fb1e7e3f73632f14eafe18c11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb053b4a7a5f57a7d87f3dc781a3e09c"><td class="memItemLeft" align="right" valign="top">glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_camera_1_1_camera2_d.html#acb053b4a7a5f57a7d87f3dc781a3e09c">GetPosition</a> () const</td></tr>
-<tr class="memdesc:acb053b4a7a5f57a7d87f3dc781a3e09c"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO.  <a href="class_d6_engine_1_1_camera_1_1_camera2_d.html#acb053b4a7a5f57a7d87f3dc781a3e09c">More...</a><br /></td></tr>
+<tr class="memdesc:acb053b4a7a5f57a7d87f3dc781a3e09c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the position of the <a class="el" href="namespace_d6_engine_1_1_camera.html">Camera</a>.  <a href="class_d6_engine_1_1_camera_1_1_camera2_d.html#acb053b4a7a5f57a7d87f3dc781a3e09c">More...</a><br /></td></tr>
 <tr class="separator:acb053b4a7a5f57a7d87f3dc781a3e09c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ff6e8445e33f90eeb4296d554b468ba"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_camera_1_1_camera2_d.html#a8ff6e8445e33f90eeb4296d554b468ba">GetRotation</a> () const</td></tr>
-<tr class="memdesc:a8ff6e8445e33f90eeb4296d554b468ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO.  <a href="class_d6_engine_1_1_camera_1_1_camera2_d.html#a8ff6e8445e33f90eeb4296d554b468ba">More...</a><br /></td></tr>
+<tr class="memdesc:a8ff6e8445e33f90eeb4296d554b468ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the Rotation in deg of the camera.  <a href="class_d6_engine_1_1_camera_1_1_camera2_d.html#a8ff6e8445e33f90eeb4296d554b468ba">More...</a><br /></td></tr>
 <tr class="separator:a8ff6e8445e33f90eeb4296d554b468ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e990cabad7e205955d090176706666c"><td class="memItemLeft" align="right" valign="top">glm::vec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_camera_1_1_camera2_d.html#a0e990cabad7e205955d090176706666c">GetZoom</a> () const</td></tr>
-<tr class="memdesc:a0e990cabad7e205955d090176706666c"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO.  <a href="class_d6_engine_1_1_camera_1_1_camera2_d.html#a0e990cabad7e205955d090176706666c">More...</a><br /></td></tr>
+<tr class="memdesc:a0e990cabad7e205955d090176706666c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the zoom factor of the camera.  <a href="class_d6_engine_1_1_camera_1_1_camera2_d.html#a0e990cabad7e205955d090176706666c">More...</a><br /></td></tr>
 <tr class="separator:a0e990cabad7e205955d090176706666c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a795e51b228104152781b19b71cb2e003"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_camera_1_1_camera2_d.html#a795e51b228104152781b19b71cb2e003">UpdateWindow</a> (unsigned int width, unsigned int height)</td></tr>
-<tr class="memdesc:a795e51b228104152781b19b71cb2e003"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates Renderer with the height and width for rendering.  <a href="class_d6_engine_1_1_camera_1_1_camera2_d.html#a795e51b228104152781b19b71cb2e003">More...</a><br /></td></tr>
-<tr class="separator:a795e51b228104152781b19b71cb2e003"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a809f96f459bd263f8a4954ddf6e9fbd3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Math::Vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_camera_1_1_camera2_d.html#a809f96f459bd263f8a4954ddf6e9fbd3">GetCullingUnits</a> () const</td></tr>
+<tr class="memdesc:a809f96f459bd263f8a4954ddf6e9fbd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the culling unit of the camera in world space.  <a href="class_d6_engine_1_1_camera_1_1_camera2_d.html#a809f96f459bd263f8a4954ddf6e9fbd3">More...</a><br /></td></tr>
+<tr class="separator:a809f96f459bd263f8a4954ddf6e9fbd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f7633f19ffa9ae80c46ee08ba67aa61"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_camera_1_1_camera2_d.html#a1f7633f19ffa9ae80c46ee08ba67aa61">SetIsCulling</a> (bool state)</td></tr>
+<tr class="memdesc:a1f7633f19ffa9ae80c46ee08ba67aa61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Culling State Setter.  <a href="class_d6_engine_1_1_camera_1_1_camera2_d.html#a1f7633f19ffa9ae80c46ee08ba67aa61">More...</a><br /></td></tr>
+<tr class="separator:a1f7633f19ffa9ae80c46ee08ba67aa61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ab98921b938261ed63b654b8c1dca61"><td class="memItemLeft" align="right" valign="top">glm::mat3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_camera_1_1_camera2_d.html#a3ab98921b938261ed63b654b8c1dca61">GetCameraWindowToNDCTransform</a> ()</td></tr>
+<tr class="memdesc:a3ab98921b938261ed63b654b8c1dca61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the CameraWindowToNDCTransform of the camera <br  />
+  <a href="class_d6_engine_1_1_camera_1_1_camera2_d.html#a3ab98921b938261ed63b654b8c1dca61">More...</a><br /></td></tr>
+<tr class="separator:a3ab98921b938261ed63b654b8c1dca61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a10c085b71df4539fec9f3b1b6975ab0a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_d6_engine_1_1_camera_1_1_camera2_d.html">Camera2D</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_camera_1_1_camera2_d.html#a10c085b71df4539fec9f3b1b6975ab0a">Init</a> (const std::string &amp;cameraName)</td></tr>
-<tr class="memdesc:a10c085b71df4539fec9f3b1b6975ab0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates new memory for a new <a class="el" href="class_d6_engine_1_1_camera_1_1_camera2_d.html" title="Camera Class camera System.">Camera2D</a> object and returns a pointer to it.  <a href="class_d6_engine_1_1_camera_1_1_camera2_d.html#a10c085b71df4539fec9f3b1b6975ab0a">More...</a><br /></td></tr>
-<tr class="separator:a10c085b71df4539fec9f3b1b6975ab0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6caa495e93e24388c277fba2ac7904c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_d6_engine_1_1_camera_1_1_camera2_d.html">Camera2D</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_camera_1_1_camera2_d.html#ad6caa495e93e24388c277fba2ac7904c">Init</a> (const std::string &amp;cameraName, bool isCulling=false)</td></tr>
+<tr class="memdesc:ad6caa495e93e24388c277fba2ac7904c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates new memory for a new <a class="el" href="class_d6_engine_1_1_camera_1_1_camera2_d.html" title="Camera Class camera System.">Camera2D</a> object and returns a pointer to it.  <a href="class_d6_engine_1_1_camera_1_1_camera2_d.html#ad6caa495e93e24388c277fba2ac7904c">More...</a><br /></td></tr>
+<tr class="separator:ad6caa495e93e24388c277fba2ac7904c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a0511a6a7f439fcab744e296db148f523"><td class="memItemLeft" align="right" valign="top"><a id="a0511a6a7f439fcab744e296db148f523" name="a0511a6a7f439fcab744e296db148f523"></a>
+<a class="el" href="union_d6_engine_1_1_math_1_1_mat3.html">Math::Mat3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>viewTransform</b> {}</td></tr>
+<tr class="memdesc:a0511a6a7f439fcab744e296db148f523"><td class="mdescLeft">&#160;</td><td class="mdescRight">The View <a class="el" href="class_d6_engine_1_1_transform.html" title="Position, rotation and scale of an object.">Transform</a> of the <a class="el" href="namespace_d6_engine_1_1_camera.html">Camera</a>. <br /></td></tr>
+<tr class="separator:a0511a6a7f439fcab744e296db148f523"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1ebb0c6fc98eb52b4d50e32115ce00e"><td class="memItemLeft" align="right" valign="top"><a id="ad1ebb0c6fc98eb52b4d50e32115ce00e" name="ad1ebb0c6fc98eb52b4d50e32115ce00e"></a>
+<a class="el" href="union_d6_engine_1_1_math_1_1_mat3.html">Math::Mat3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>zoomTransform</b> {}</td></tr>
+<tr class="memdesc:ad1ebb0c6fc98eb52b4d50e32115ce00e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Zoom <a class="el" href="class_d6_engine_1_1_transform.html" title="Position, rotation and scale of an object.">Transform</a> of the <a class="el" href="namespace_d6_engine_1_1_camera.html">Camera</a> <br  />
+ <br /></td></tr>
+<tr class="separator:ad1ebb0c6fc98eb52b4d50e32115ce00e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p ><a class="el" href="namespace_d6_engine_1_1_camera.html">Camera</a> Class camera System. </p>
@@ -189,6 +221,67 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a3ab98921b938261ed63b654b8c1dca61" name="a3ab98921b938261ed63b654b8c1dca61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ab98921b938261ed63b654b8c1dca61">&#9670;&nbsp;</a></span>GetCameraWindowToNDCTransform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::mat3 D6Engine::Camera::Camera2D::GetCameraWindowToNDCTransform </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the CameraWindowToNDCTransform of the camera <br  />
+ </p>
+<dl class="section return"><dt>Returns</dt><dd>A Mat3 to the transform </dd></dl>
+
+</div>
+</div>
+<a id="a809f96f459bd263f8a4954ddf6e9fbd3" name="a809f96f459bd263f8a4954ddf6e9fbd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a809f96f459bd263f8a4954ddf6e9fbd3">&#9670;&nbsp;</a></span>GetCullingUnits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Math::Vec2</a> D6Engine::Camera::Camera2D::GetCullingUnits </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the culling unit of the camera in world space. </p>
+<dl class="section return"><dt>Returns</dt><dd>A math vec 2 of the x culling unit factor and the y culling unit factor </dd></dl>
+
+</div>
+</div>
+<a id="a4cc7be0fb1e7e3f73632f14eafe18c11" name="a4cc7be0fb1e7e3f73632f14eafe18c11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cc7be0fb1e7e3f73632f14eafe18c11">&#9670;&nbsp;</a></span>GetIsCulling()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool D6Engine::Camera::Camera2D::GetIsCulling </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns if Culling is enabled on the camera. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if culling is on, False if Culling is switched off </dd></dl>
 
 </div>
 </div>
@@ -247,8 +340,8 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>TODO. </p>
-<dl class="section return"><dt>Returns</dt><dd>TODO </dd></dl>
+<p>Returns the position of the <a class="el" href="namespace_d6_engine_1_1_camera.html">Camera</a>. </p>
+<dl class="section return"><dt>Returns</dt><dd>A vec2 to the x y position of the camera </dd></dl>
 
 </div>
 </div>
@@ -267,8 +360,8 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>TODO. </p>
-<dl class="section return"><dt>Returns</dt><dd>TODO </dd></dl>
+<p>Returns the Rotation in deg of the camera. </p>
+<dl class="section return"><dt>Returns</dt><dd>A float to the rotation of the camera </dd></dl>
 
 </div>
 </div>
@@ -335,13 +428,13 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>TODO. </p>
-<dl class="section return"><dt>Returns</dt><dd>TODO </dd></dl>
+<p>Returns the zoom factor of the camera. </p>
+<dl class="section return"><dt>Returns</dt><dd>A vec2 to how much it is zoomed in the x and y axis </dd></dl>
 
 </div>
 </div>
-<a id="a10c085b71df4539fec9f3b1b6975ab0a" name="a10c085b71df4539fec9f3b1b6975ab0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10c085b71df4539fec9f3b1b6975ab0a">&#9670;&nbsp;</a></span>Init()</h2>
+<a id="ad6caa495e93e24388c277fba2ac7904c" name="ad6caa495e93e24388c277fba2ac7904c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6caa495e93e24388c277fba2ac7904c">&#9670;&nbsp;</a></span>Init()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -353,8 +446,18 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="class_d6_engine_1_1_camera_1_1_camera2_d.html">Camera2D</a> * D6Engine::Camera::Camera2D::Init </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>cameraName</em></td><td>)</td>
+          <td class="paramname"><em>cameraName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isCulling</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -368,6 +471,7 @@ Static Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">cameraName</td><td>The name of the new <a class="el" href="class_d6_engine_1_1_camera_1_1_camera2_d.html" title="Camera Class camera System.">Camera2D</a> Object </td></tr>
+    <tr><td class="paramname">isCulling</td><td>True when culling is needed for the camera </td></tr>
   </table>
   </dd>
 </dl>
@@ -531,6 +635,32 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a5d6b318d1db12d9cd7d36240bf49fcdf" name="a5d6b318d1db12d9cd7d36240bf49fcdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d6b318d1db12d9cd7d36240bf49fcdf">&#9670;&nbsp;</a></span>SetCullingUnit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void D6Engine::Camera::Camera2D::SetCullingUnit </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Math::Vec2</a>&#160;</td>
+          <td class="paramname"><em>xyUnit</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the Culling unit offset from the position of the camera in WORLD SPACE, culling needs to be on to be able to use this. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xyUnit</td><td>X axis will cull +x and -x from the camera, and Y axis will cull +y and -y from the <a class="el" href="namespace_d6_engine_1_1_camera.html">Camera</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a44458f6d563392b49b02a8cead81eae9" name="a44458f6d563392b49b02a8cead81eae9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a44458f6d563392b49b02a8cead81eae9">&#9670;&nbsp;</a></span>SetFixedCameraRotation()</h2>
 
@@ -557,37 +687,26 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a795e51b228104152781b19b71cb2e003" name="a795e51b228104152781b19b71cb2e003"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a795e51b228104152781b19b71cb2e003">&#9670;&nbsp;</a></span>UpdateWindow()</h2>
+<a id="a1f7633f19ffa9ae80c46ee08ba67aa61" name="a1f7633f19ffa9ae80c46ee08ba67aa61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f7633f19ffa9ae80c46ee08ba67aa61">&#9670;&nbsp;</a></span>SetIsCulling()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void D6Engine::Camera::Camera2D::UpdateWindow </td>
+          <td class="memname">void D6Engine::Camera::Camera2D::SetIsCulling </td>
           <td>(</td>
-          <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>width</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>height</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Updates Renderer with the height and width for rendering. </p>
+<p>Culling State Setter. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">width</td><td>Width of the window </td></tr>
-    <tr><td class="paramname">height</td><td>Height of the window </td></tr>
+    <tr><td class="paramname">state</td><td>True Enables Culling, False Disables Culling </td></tr>
   </table>
   </dd>
 </dl>
@@ -601,7 +720,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d6_engine.html">D6Engine</a></li><li class="navelem"><a class="el" href="namespace_d6_engine_1_1_camera.html">Camera</a></li><li class="navelem"><a class="el" href="class_d6_engine_1_1_camera_1_1_camera2_d.html">Camera2D</a></li>
-    <li class="footer">Generated on Sun Nov 7 2021 14:43:51 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Wed Dec 8 2021 00:32:11 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

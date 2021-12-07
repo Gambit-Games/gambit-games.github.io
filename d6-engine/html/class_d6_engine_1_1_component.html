@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/6</span>
+                                &#160;<span id="projectnumber">v0.1/7</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -110,14 +110,15 @@ $(document).ready(function(){initNavTree('class_d6_engine_1_1_component.html',''
  <div class="center">
   <img src="class_d6_engine_1_1_component.png" usemap="#D6Engine::Component_map" alt=""/>
   <map id="D6Engine::Component_map" name="D6Engine::Component_map">
-<area href="class_d6_engine_1_1_animation_component.html" title="AnimationComponent enables the GameObjects to play Animations from SpriteSheets." alt="D6Engine::AnimationComponent" shape="rect" coords="0,56,191,80"/>
-<area href="class_d6_engine_1_1_box_collider2_d.html" title="The default collider component attached to all collidable game objects. The Box is optimized for OBB ..." alt="D6Engine::BoxCollider2D" shape="rect" coords="201,56,392,80"/>
-<area href="class_d6_engine_1_1_mono_behaviour.html" title="MonoBehaviour is the base class for components which can be enabled and disabled." alt="D6Engine::MonoBehaviour" shape="rect" coords="402,56,593,80"/>
-<area href="class_d6_engine_1_1_rigidbody2_d.html" title="This class acts as the interface to the Rigidbody component." alt="D6Engine::Rigidbody2D" shape="rect" coords="603,56,794,80"/>
-<area href="class_d6_engine_1_1_sprite_renderer.html" title="The SpriteRenderer Component controls the rendering of the Sprite and how it appears in the scene." alt="D6Engine::SpriteRenderer" shape="rect" coords="804,56,995,80"/>
-<area href="class_d6_engine_1_1_transform.html" title="Position, rotation and scale of an object." alt="D6Engine::Transform" shape="rect" coords="1005,56,1196,80"/>
-<area href="class_d6_engine_1_1_grid.html" title="Grid component which controls how objects are placed in space relative to the current position of the..." alt="D6Engine::Grid" shape="rect" coords="301,112,492,136"/>
-<area href="class_d6_engine_1_1_test_component.html" alt="D6Engine::TestComponent" shape="rect" coords="502,112,693,136"/>
+<area href="class_d6_engine_1_1_box_collider2_d.html" title="The default collider component attached to all collidable game objects. The Box is optimized for OBB ..." alt="D6Engine::BoxCollider2D" shape="rect" coords="173,56,336,80"/>
+<area href="class_d6_engine_1_1_circle_collider.html" title="The circle collider component only works with other circle game objects." alt="D6Engine::CircleCollider" shape="rect" coords="173,112,336,136"/>
+<area href="class_d6_engine_1_1_grid.html" title="Grid component which controls how objects are placed in space relative to the current position of the..." alt="D6Engine::Grid" shape="rect" coords="173,168,336,192"/>
+<area href="class_d6_engine_1_1_mono_behaviour.html" title="MonoBehaviour is the base class for components which can be enabled and disabled." alt="D6Engine::MonoBehaviour" shape="rect" coords="173,224,336,248"/>
+<area href="class_d6_engine_1_1_rigidbody2_d.html" title="This class acts as the interface to the Rigidbody component." alt="D6Engine::Rigidbody2D" shape="rect" coords="173,280,336,304"/>
+<area href="class_d6_engine_1_1_sprite_renderer.html" title="The SpriteRenderer Component controls the rendering of the Sprite and how it appears in the scene." alt="D6Engine::SpriteRenderer" shape="rect" coords="173,336,336,360"/>
+<area href="class_d6_engine_1_1_tilemap.html" title="Tilemap component which holds the name and UUID of the map tiles." alt="D6Engine::Tilemap" shape="rect" coords="173,392,336,416"/>
+<area href="class_d6_engine_1_1_transform.html" title="Position, rotation and scale of an object." alt="D6Engine::Transform" shape="rect" coords="173,448,336,472"/>
+<area href="class_d6_engine_1_1_u_i_1_1_u_i_element.html" alt="D6Engine::UI::UIElement" shape="rect" coords="173,504,336,528"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -216,7 +217,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>GameObjectManager</b
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="class_d6_engine_1_1_box_collider2_d.html#a4ba5f707f41732cae51d5a0291fcdfb4">D6Engine::BoxCollider2D</a>, <a class="el" href="class_d6_engine_1_1_rigidbody2_d.html#a043b3904ac11058592c50fce8ae0d319">D6Engine::Rigidbody2D</a>, and <a class="el" href="class_d6_engine_1_1_transform.html#a1a1e266b45c1ff0fb1ca6ccb46718a21">D6Engine::Transform</a>.</p>
+<p>Reimplemented in <a class="el" href="class_d6_engine_1_1_box_collider2_d.html#a4ba5f707f41732cae51d5a0291fcdfb4">D6Engine::BoxCollider2D</a>, <a class="el" href="class_d6_engine_1_1_circle_collider.html#a6f2d271bdfc83879bd4254ef4e01d321">D6Engine::CircleCollider</a>, <a class="el" href="class_d6_engine_1_1_grid.html#ada0c94dcd5fb23a76da37980ecf563b5">D6Engine::Grid</a>, <a class="el" href="class_d6_engine_1_1_rigidbody2_d.html#a043b3904ac11058592c50fce8ae0d319">D6Engine::Rigidbody2D</a>, <a class="el" href="class_d6_engine_1_1_sprite_renderer.html#a826646ee5484b1a0f9a4246dd7b40088">D6Engine::SpriteRenderer</a>, and <a class="el" href="class_d6_engine_1_1_transform.html#a1a1e266b45c1ff0fb1ca6ccb46718a21">D6Engine::Transform</a>.</p>
 
 </div>
 </div>
@@ -227,7 +228,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>GameObjectManager</b
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d6_engine.html">D6Engine</a></li><li class="navelem"><a class="el" href="class_d6_engine_1_1_component.html">Component</a></li>
-    <li class="footer">Generated on Sun Nov 7 2021 14:43:51 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Wed Dec 8 2021 00:32:10 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

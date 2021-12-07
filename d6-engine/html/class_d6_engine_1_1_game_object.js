@@ -13,7 +13,7 @@ var class_d6_engine_1_1_game_object =
     [ "RemoveComponent", "class_d6_engine_1_1_game_object.html#a79e62faa86f527d2f759482d654122bf", null ],
     [ "RemoveComponent", "class_d6_engine_1_1_game_object.html#a7181dbe824bcdde2f64c2ac80e6d1649", null ],
     [ "RemoveComponent", "class_d6_engine_1_1_game_object.html#ae4a1c4053d48a7586befb0d459e4262a", null ],
-    [ "isActive", "class_d6_engine_1_1_game_object.html#a5a0fb8eec1154b35bedf4be43d74b1ea", null ],
+    [ "SetActive", "class_d6_engine_1_1_game_object.html#a1134fa49bb4db6988439cba2c6636869", null ],
     [ "isStatic", "class_d6_engine_1_1_game_object.html#a03bcfde324681092f4cebe396fc03628", null ],
     [ "name", "class_d6_engine_1_1_game_object.html#adf393db9834d8d72680844c22513ec1d", null ],
     [ "uuid", "class_d6_engine_1_1_game_object.html#a7802cb751b333a0d7e74b39310882b8b", null ]

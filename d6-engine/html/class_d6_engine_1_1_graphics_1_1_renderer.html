@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/6</span>
+                                &#160;<span id="projectnumber">v0.1/7</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -108,6 +108,9 @@ $(document).ready(function(){initNavTree('class_d6_engine_1_1_graphics_1_1_rende
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html">GLObject</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_text_object.html">GLTextObject</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO.  <a href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_text_object.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -115,10 +118,13 @@ Static Public Member Functions</h2></td></tr>
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>Clear</b> ()</td></tr>
 <tr class="memdesc:a933a7aa75d695cb8066c214c4860985c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears <a class="el" href="struct_d6_engine_1_1_colour.html" title="Representation of an RGBA colour. This is used to pass around colour values in D6 Engine.">Colour</a> Buffer Bits. <br /></td></tr>
 <tr class="separator:a933a7aa75d695cb8066c214c4860985c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b3e8e8095d2890c7baa6afe01c71b96"><td class="memItemLeft" align="right" valign="top"><a id="a6b3e8e8095d2890c7baa6afe01c71b96" name="a6b3e8e8095d2890c7baa6afe01c71b96"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>Init</b> ()</td></tr>
-<tr class="memdesc:a6b3e8e8095d2890c7baa6afe01c71b96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the <a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html" title="Render Class for drawing Objects.">Renderer</a>. <br /></td></tr>
-<tr class="separator:a6b3e8e8095d2890c7baa6afe01c71b96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcd143334e9901243dbf8729dcea55f1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#abcd143334e9901243dbf8729dcea55f1">SetBackgroundColor</a> (<a class="el" href="struct_d6_engine_1_1_colour.html">Colour</a> colour)</td></tr>
+<tr class="memdesc:abcd143334e9901243dbf8729dcea55f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the background colour of the renderer.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#abcd143334e9901243dbf8729dcea55f1">More...</a><br /></td></tr>
+<tr class="separator:abcd143334e9901243dbf8729dcea55f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89731f34859c81a36f757471fd6b8960"><td class="memItemLeft" align="right" valign="top"><a id="a89731f34859c81a36f757471fd6b8960" name="a89731f34859c81a36f757471fd6b8960"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>Init</b> (<a class="el" href="struct_d6_engine_1_1_colour.html">Colour</a> backgroundColour={.4f,.2f,.4f})</td></tr>
+<tr class="memdesc:a89731f34859c81a36f757471fd6b8960"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the <a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html" title="Render Class for drawing Objects.">Renderer</a>. <br /></td></tr>
+<tr class="separator:a89731f34859c81a36f757471fd6b8960"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa74f69b39c6c33589d1a816acb2533c8"><td class="memItemLeft" align="right" valign="top"><a id="aa74f69b39c6c33589d1a816acb2533c8" name="aa74f69b39c6c33589d1a816acb2533c8"></a>
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>Draw</b> ()</td></tr>
 <tr class="memdesc:aa74f69b39c6c33589d1a816acb2533c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw call for <a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html" title="Render Class for drawing Objects.">Renderer</a>. Currently using Triangle Strip for Render. <br /></td></tr>
@@ -127,12 +133,24 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>Draw</b> ()</t
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>Cleanup</b> ()</td></tr>
 <tr class="memdesc:ac0334bb1259a8214bc6d86f40c836cb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the material and mesh containers used in the renderer class. <br /></td></tr>
 <tr class="separator:ac0334bb1259a8214bc6d86f40c836cb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a952e7e0290c62244a62cb6a182af7331"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html">GLObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#a952e7e0290c62244a62cb6a182af7331">InsertObject</a> (const std::string &amp;key, const <a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html">GLObject</a> &amp;obj)</td></tr>
-<tr class="memdesc:a952e7e0290c62244a62cb6a182af7331"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts an object into the objectContainer map and returns the reference to new <a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html">GLObject</a>. Has duplicate checking. If duplicate key is selected, it will return the reference to the <a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html">GLObject</a> the is found by key;.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#a952e7e0290c62244a62cb6a182af7331">More...</a><br /></td></tr>
-<tr class="separator:a952e7e0290c62244a62cb6a182af7331"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abfba3c29e53b2b4fbb0046c9f3a530f4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#abfba3c29e53b2b4fbb0046c9f3a530f4">DeleteObject</a> (std::string key)</td></tr>
-<tr class="memdesc:abfba3c29e53b2b4fbb0046c9f3a530f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes an object in the objectContainer based on the key provided.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#abfba3c29e53b2b4fbb0046c9f3a530f4">More...</a><br /></td></tr>
-<tr class="separator:abfba3c29e53b2b4fbb0046c9f3a530f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebbe318518e4d6a16129e5a988e902eb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html">OGLVertexArray</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#aebbe318518e4d6a16129e5a988e902eb">SetMesh</a> (std::string key)</td></tr>
+<tr class="memdesc:aebbe318518e4d6a16129e5a988e902eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the Mesh of the object. Mesh must exist in the Mesh Map in the <a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html" title="Render Class for drawing Objects.">Renderer</a>.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#aebbe318518e4d6a16129e5a988e902eb">More...</a><br /></td></tr>
+<tr class="separator:aebbe318518e4d6a16129e5a988e902eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93ac4a48c4af2234f90280f7720afad3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_d6_engine_1_1_graphics_1_1_material.html">Material</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#a93ac4a48c4af2234f90280f7720afad3">SetMaterial</a> (std::string key)</td></tr>
+<tr class="memdesc:a93ac4a48c4af2234f90280f7720afad3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the <a class="el" href="class_d6_engine_1_1_graphics_1_1_material.html" title="Material Class for shader and texture binding loading, at least a Shader is needed for a Material Obj...">Material</a> of the object. <a class="el" href="class_d6_engine_1_1_graphics_1_1_material.html" title="Material Class for shader and texture binding loading, at least a Shader is needed for a Material Obj...">Material</a> must exist in the <a class="el" href="class_d6_engine_1_1_graphics_1_1_material.html" title="Material Class for shader and texture binding loading, at least a Shader is needed for a Material Obj...">Material</a> Map in <a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html" title="Render Class for drawing Objects.">Renderer</a>.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#a93ac4a48c4af2234f90280f7720afad3">More...</a><br /></td></tr>
+<tr class="separator:a93ac4a48c4af2234f90280f7720afad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac17f2fe48ac6bbb015a61f4732fa596"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html">GLObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#aac17f2fe48ac6bbb015a61f4732fa596">InsertObject</a> (<a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html">GLObject</a> obj)</td></tr>
+<tr class="memdesc:aac17f2fe48ac6bbb015a61f4732fa596"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts an object into the objectContainer map and returns the reference to new <a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html">GLObject</a>. Has duplicate checking. If duplicate key is selected, it will return the reference to the <a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html">GLObject</a> the is found by key;.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#aac17f2fe48ac6bbb015a61f4732fa596">More...</a><br /></td></tr>
+<tr class="separator:aac17f2fe48ac6bbb015a61f4732fa596"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3221c48c204e846a29817df99cefedb4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#a3221c48c204e846a29817df99cefedb4">DeleteObject</a> (<a class="el" href="class_d6_engine_1_1_u_u_i_d.html">UUID</a> &amp;id)</td></tr>
+<tr class="memdesc:a3221c48c204e846a29817df99cefedb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes an object in the objectContainer based on the key provided.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#a3221c48c204e846a29817df99cefedb4">More...</a><br /></td></tr>
+<tr class="separator:a3221c48c204e846a29817df99cefedb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba242b8716059bcea45672d1078c316e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#aba242b8716059bcea45672d1078c316e">InsertRendererComponent</a> (<a class="el" href="class_d6_engine_1_1_renderer_component.html">RendererComponent</a> *rc)</td></tr>
+<tr class="memdesc:aba242b8716059bcea45672d1078c316e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a new <a class="el" href="class_d6_engine_1_1_renderer_component.html">RendererComponent</a> into the rendererComponentContainer.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#aba242b8716059bcea45672d1078c316e">More...</a><br /></td></tr>
+<tr class="separator:aba242b8716059bcea45672d1078c316e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4998c34d19a6837ece0e5f7ac40ec80a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#a4998c34d19a6837ece0e5f7ac40ec80a">DeleteRendererComponent</a> (<a class="el" href="class_d6_engine_1_1_renderer_component.html">RendererComponent</a> *rc)</td></tr>
+<tr class="memdesc:a4998c34d19a6837ece0e5f7ac40ec80a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes a <a class="el" href="class_d6_engine_1_1_renderer_component.html">RendererComponent</a> in the rendererComponentContainer using the pointer to the <a class="el" href="class_d6_engine_1_1_renderer_component.html">RendererComponent</a> to be deleted.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#a4998c34d19a6837ece0e5f7ac40ec80a">More...</a><br /></td></tr>
+<tr class="separator:a4998c34d19a6837ece0e5f7ac40ec80a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5763aede9ff2d4a1e40b964a469a8013"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#a5763aede9ff2d4a1e40b964a469a8013">InsertMesh</a> (std::string key, <a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html">OGLVertexArray</a> *mesh)</td></tr>
 <tr class="memdesc:a5763aede9ff2d4a1e40b964a469a8013"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a mesh into meshContainer map, unique key, and OGLVertexArray* mesh. Checks for duplicated <a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html">OGLVertexArray</a>.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#a5763aede9ff2d4a1e40b964a469a8013">More...</a><br /></td></tr>
 <tr class="separator:a5763aede9ff2d4a1e40b964a469a8013"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,25 +166,19 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>Cleanup</b> ()
 <tr class="memitem:a2fc3947ad776d137b7de29468208da44"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_d6_engine_1_1_graphics_1_1_material.html">Material</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#a2fc3947ad776d137b7de29468208da44">GetMaterial</a> (std::string key)</td></tr>
 <tr class="memdesc:a2fc3947ad776d137b7de29468208da44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the name of the <a class="el" href="class_d6_engine_1_1_graphics_1_1_material.html" title="Material Class for shader and texture binding loading, at least a Shader is needed for a Material Obj...">Material</a> from the key.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#a2fc3947ad776d137b7de29468208da44">More...</a><br /></td></tr>
 <tr class="separator:a2fc3947ad776d137b7de29468208da44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13f40cfb90604b60cb554a5ae40be31a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#a13f40cfb90604b60cb554a5ae40be31a">SetBackgroundColor</a> (GLfloat r, GLfloat g, GLfloat b, GLfloat a)</td></tr>
-<tr class="memdesc:a13f40cfb90604b60cb554a5ae40be31a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the current colour bits colours.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#a13f40cfb90604b60cb554a5ae40be31a">More...</a><br /></td></tr>
-<tr class="separator:a13f40cfb90604b60cb554a5ae40be31a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a612b473516a4df14bc7ccdbe8755873b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#a612b473516a4df14bc7ccdbe8755873b">UpdateWindow</a> (int width, int height)</td></tr>
-<tr class="memdesc:a612b473516a4df14bc7ccdbe8755873b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates <a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html" title="Render Class for drawing Objects.">Renderer</a> with the height and width for rendering.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#a612b473516a4df14bc7ccdbe8755873b">More...</a><br /></td></tr>
-<tr class="separator:a612b473516a4df14bc7ccdbe8755873b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d231ca7ead558d00565f6022c15def6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html">OGLVertexArray</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#a6d231ca7ead558d00565f6022c15def6">GetMesh</a> (std::string key)</td></tr>
 <tr class="memdesc:a6d231ca7ead558d00565f6022c15def6"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets the Mesh from the key. Warning will be shown on console when Mesh is not found.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#a6d231ca7ead558d00565f6022c15def6">More...</a><br /></td></tr>
 <tr class="separator:a6d231ca7ead558d00565f6022c15def6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2498e4bac9e65ccc6f3b6c2ab624c17c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#a2498e4bac9e65ccc6f3b6c2ab624c17c">EnableDebugDraw</a> (bool state)</td></tr>
-<tr class="memdesc:a2498e4bac9e65ccc6f3b6c2ab624c17c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables or Disables <a class="el" href="namespace_d6_engine_1_1_debug.html">Debug</a> Draw (<a class="el" href="namespace_d6_engine_1_1_debug.html">Debug</a> Drawing is Disabled on startup)  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#a2498e4bac9e65ccc6f3b6c2ab624c17c">More...</a><br /></td></tr>
+<tr class="memdesc:a2498e4bac9e65ccc6f3b6c2ab624c17c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables or Disables Debug Draw (Debug Drawing is Disabled on startup)  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#a2498e4bac9e65ccc6f3b6c2ab624c17c">More...</a><br /></td></tr>
 <tr class="separator:a2498e4bac9e65ccc6f3b6c2ab624c17c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45cfc7862ad8838f9110330042101fb5"><td class="memItemLeft" align="right" valign="top"><a id="a45cfc7862ad8838f9110330042101fb5" name="a45cfc7862ad8838f9110330042101fb5"></a>
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>SortObjects</b> ()</td></tr>
 <tr class="memdesc:a45cfc7862ad8838f9110330042101fb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorts the GLObjects based on its sorting order. <br /></td></tr>
 <tr class="separator:a45cfc7862ad8838f9110330042101fb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc24842977c50a75c6fd99ca8dabc0fd"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#acc24842977c50a75c6fd99ca8dabc0fd">NewCamera2D</a> (std::string cameraName)</td></tr>
-<tr class="memdesc:acc24842977c50a75c6fd99ca8dabc0fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new Camera2D Pointer and pushes the pointer into the camera2DContainer vector.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#acc24842977c50a75c6fd99ca8dabc0fd">More...</a><br /></td></tr>
-<tr class="separator:acc24842977c50a75c6fd99ca8dabc0fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0faa033a0e76f88bbae293f7d77d7d6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#ae0faa033a0e76f88bbae293f7d77d7d6">NewCamera2D</a> (std::string cameraName, bool isCulling=false)</td></tr>
+<tr class="memdesc:ae0faa033a0e76f88bbae293f7d77d7d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new Camera2D Pointer and pushes the pointer into the camera2DContainer vector.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#ae0faa033a0e76f88bbae293f7d77d7d6">More...</a><br /></td></tr>
+<tr class="separator:ae0faa033a0e76f88bbae293f7d77d7d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a574b4e452c44bc0e820471991deeebe9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#a574b4e452c44bc0e820471991deeebe9">DeleteCamera2D</a> (std::string cameraName)</td></tr>
 <tr class="memdesc:a574b4e452c44bc0e820471991deeebe9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes the Camera2D Object from the camera2DContainer vector and deletes the memory using the Name of the Camera2D.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#a574b4e452c44bc0e820471991deeebe9">More...</a><br /></td></tr>
 <tr class="separator:a574b4e452c44bc0e820471991deeebe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -185,15 +197,42 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SortObjects</b
 <tr class="memitem:add371deb92acb926b1e8fdefd3ff13dd"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_d6_engine_1_1_camera_1_1_camera2_d.html">Camera::Camera2D</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#add371deb92acb926b1e8fdefd3ff13dd">GetActiveCamera2D</a> ()</td></tr>
 <tr class="memdesc:add371deb92acb926b1e8fdefd3ff13dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets and Returns the current active Camera2D Object the is being used by the renderer.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#add371deb92acb926b1e8fdefd3ff13dd">More...</a><br /></td></tr>
 <tr class="separator:add371deb92acb926b1e8fdefd3ff13dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c632191f116c5b7b729ace39c16a7b0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#a7c632191f116c5b7b729ace39c16a7b0">InsertFont</a> (std::string fontName, unsigned int fontSize, std::string textName)</td></tr>
+<tr class="memdesc:a7c632191f116c5b7b729ace39c16a7b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts the font into the vector of fonts to be rendered.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#a7c632191f116c5b7b729ace39c16a7b0">More...</a><br /></td></tr>
+<tr class="separator:a7c632191f116c5b7b729ace39c16a7b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3698f4dbb3003d5325caba64fe0bba2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#aa3698f4dbb3003d5325caba64fe0bba2">DeleteFont</a> (const std::string &amp;textName)</td></tr>
+<tr class="memdesc:aa3698f4dbb3003d5325caba64fe0bba2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes the font using the name of the font.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#aa3698f4dbb3003d5325caba64fe0bba2">More...</a><br /></td></tr>
+<tr class="separator:aa3698f4dbb3003d5325caba64fe0bba2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9d250f4879544d3caca03adf89466bb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html#ae9d250f4879544d3caca03adf89466bb">UpdateFont</a> (std::string textName, std::string text, glm::vec2 position, float scale, <a class="el" href="struct_d6_engine_1_1_colour.html">Colour</a> colour={1, 1, 1})</td></tr>
+<tr class="memdesc:ae9d250f4879544d3caca03adf89466bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the font params using the textname.  <a href="class_d6_engine_1_1_graphics_1_1_renderer.html#ae9d250f4879544d3caca03adf89466bb">More...</a><br /></td></tr>
+<tr class="separator:ae9d250f4879544d3caca03adf89466bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7008833b71c63a202eb70d5e90112b1"><td class="memItemLeft" align="right" valign="top"><a id="ab7008833b71c63a202eb70d5e90112b1" name="ab7008833b71c63a202eb70d5e90112b1"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateRenderViewport</b> ()</td></tr>
+<tr class="separator:ab7008833b71c63a202eb70d5e90112b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
+<tr class="memitem:a3c2bc9086e51560829d45e3ec73a6ded"><td class="memItemLeft" align="right" valign="top"><a id="a3c2bc9086e51560829d45e3ec73a6ded" name="a3c2bc9086e51560829d45e3ec73a6ded"></a>
+static std::map&lt; std::string, <a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html">OGLVertexArray</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>meshContainer</b></td></tr>
+<tr class="separator:a3c2bc9086e51560829d45e3ec73a6ded"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26d58499423fd09cd291920ba49d4b1c"><td class="memItemLeft" align="right" valign="top"><a id="a26d58499423fd09cd291920ba49d4b1c" name="a26d58499423fd09cd291920ba49d4b1c"></a>
+static std::map&lt; std::string, <a class="el" href="class_d6_engine_1_1_graphics_1_1_material.html">Material</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>materialContainer</b></td></tr>
+<tr class="separator:a26d58499423fd09cd291920ba49d4b1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2413dd1a66403dc49bbd3e607dc2ee7c"><td class="memItemLeft" align="right" valign="top"><a id="a2413dd1a66403dc49bbd3e607dc2ee7c" name="a2413dd1a66403dc49bbd3e607dc2ee7c"></a>
+static std::vector&lt; <a class="el" href="class_d6_engine_1_1_renderer_component.html">RendererComponent</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>rendererComponentContainer</b></td></tr>
+<tr class="separator:a2413dd1a66403dc49bbd3e607dc2ee7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc57587a3bdd39410f296941942ca123"><td class="memItemLeft" align="right" valign="top"><a id="acc57587a3bdd39410f296941942ca123" name="acc57587a3bdd39410f296941942ca123"></a>
+static <a class="el" href="class_d6_engine_1_1_camera_1_1_camera2_d.html">Camera::Camera2D</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>activeCamera2D</b></td></tr>
+<tr class="separator:acc57587a3bdd39410f296941942ca123"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29d311684094f5c88a59ceb9b730d830"><td class="memItemLeft" align="right" valign="top"><a id="a29d311684094f5c88a59ceb9b730d830" name="a29d311684094f5c88a59ceb9b730d830"></a>
 static GLuint&#160;</td><td class="memItemRight" valign="bottom"><b>winHeight</b> {}</td></tr>
 <tr class="separator:a29d311684094f5c88a59ceb9b730d830"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94e73d265f295ec4897265f26fb1e06c"><td class="memItemLeft" align="right" valign="top"><a id="a94e73d265f295ec4897265f26fb1e06c" name="a94e73d265f295ec4897265f26fb1e06c"></a>
 static GLuint&#160;</td><td class="memItemRight" valign="bottom"><b>winWidth</b> {}</td></tr>
 <tr class="separator:a94e73d265f295ec4897265f26fb1e06c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3e2dd5343aa0ae0305e64dc2613bef5"><td class="memItemLeft" align="right" valign="top"><a id="af3e2dd5343aa0ae0305e64dc2613bef5" name="af3e2dd5343aa0ae0305e64dc2613bef5"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>renderFPS</b> {false}</td></tr>
+<tr class="separator:af3e2dd5343aa0ae0305e64dc2613bef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
@@ -272,6 +311,40 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Camera2d</b></td></t
 
 </div>
 </div>
+<a id="aa3698f4dbb3003d5325caba64fe0bba2" name="aa3698f4dbb3003d5325caba64fe0bba2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3698f4dbb3003d5325caba64fe0bba2">&#9670;&nbsp;</a></span>DeleteFont()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void D6Engine::Graphics::Renderer::DeleteFont </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>textName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Deletes the font using the name of the font. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">textName</td><td>A reference to the name of the text to be deleted </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a34d390ea203f0aab8918cb7d00fcdd5c" name="a34d390ea203f0aab8918cb7d00fcdd5c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a34d390ea203f0aab8918cb7d00fcdd5c">&#9670;&nbsp;</a></span>DeleteMaterial()</h2>
 
@@ -340,8 +413,8 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Camera2d</b></td></t
 
 </div>
 </div>
-<a id="abfba3c29e53b2b4fbb0046c9f3a530f4" name="abfba3c29e53b2b4fbb0046c9f3a530f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abfba3c29e53b2b4fbb0046c9f3a530f4">&#9670;&nbsp;</a></span>DeleteObject()</h2>
+<a id="a3221c48c204e846a29817df99cefedb4" name="a3221c48c204e846a29817df99cefedb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3221c48c204e846a29817df99cefedb4">&#9670;&nbsp;</a></span>DeleteObject()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -352,8 +425,8 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Camera2d</b></td></t
         <tr>
           <td class="memname">void D6Engine::Graphics::Renderer::DeleteObject </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>key</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="class_d6_engine_1_1_u_u_i_d.html">UUID</a> &amp;&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -368,6 +441,40 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Camera2d</b></td></t
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">key</td><td>Key to the Object that is to be deleted </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a4998c34d19a6837ece0e5f7ac40ec80a" name="a4998c34d19a6837ece0e5f7ac40ec80a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4998c34d19a6837ece0e5f7ac40ec80a">&#9670;&nbsp;</a></span>DeleteRendererComponent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void D6Engine::Graphics::Renderer::DeleteRendererComponent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_d6_engine_1_1_renderer_component.html">RendererComponent</a> *&#160;</td>
+          <td class="paramname"><em>rc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Deletes a <a class="el" href="class_d6_engine_1_1_renderer_component.html">RendererComponent</a> in the rendererComponentContainer using the pointer to the <a class="el" href="class_d6_engine_1_1_renderer_component.html">RendererComponent</a> to be deleted. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rc</td><td>A Pointer to the <a class="el" href="class_d6_engine_1_1_renderer_component.html">RendererComponent</a> </td></tr>
   </table>
   </dd>
 </dl>
@@ -398,7 +505,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Camera2d</b></td></t
 </table>
 </div><div class="memdoc">
 
-<p>Enables or Disables <a class="el" href="namespace_d6_engine_1_1_debug.html">Debug</a> Draw (<a class="el" href="namespace_d6_engine_1_1_debug.html">Debug</a> Drawing is Disabled on startup) </p>
+<p>Enables or Disables Debug Draw (Debug Drawing is Disabled on startup) </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">state</td><td>True: debug draw is Enabled, False: debug draw is Disabled </td></tr>
@@ -552,6 +659,58 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Camera2d</b></td></t
 
 </div>
 </div>
+<a id="a7c632191f116c5b7b729ace39c16a7b0" name="a7c632191f116c5b7b729ace39c16a7b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c632191f116c5b7b729ace39c16a7b0">&#9670;&nbsp;</a></span>InsertFont()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void D6Engine::Graphics::Renderer::InsertFont </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>fontName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>fontSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>textName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Inserts the font into the vector of fonts to be rendered. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fontName</td><td>The file path to the font from the assets/text folder </td></tr>
+    <tr><td class="paramname">fontSize</td><td>Size of the font in pixels (height of the font) </td></tr>
+    <tr><td class="paramname">textName</td><td>Name of the text Object, Name for identifying the font used. Aka "FPS" means font used for FPS </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="afde5b491b84dc63ac372ef5192010541" name="afde5b491b84dc63ac372ef5192010541"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afde5b491b84dc63ac372ef5192010541">&#9670;&nbsp;</a></span>InsertMaterial()</h2>
 
@@ -644,8 +803,8 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Camera2d</b></td></t
 
 </div>
 </div>
-<a id="a952e7e0290c62244a62cb6a182af7331" name="a952e7e0290c62244a62cb6a182af7331"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a952e7e0290c62244a62cb6a182af7331">&#9670;&nbsp;</a></span>InsertObject()</h2>
+<a id="aac17f2fe48ac6bbb015a61f4732fa596" name="aac17f2fe48ac6bbb015a61f4732fa596"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac17f2fe48ac6bbb015a61f4732fa596">&#9670;&nbsp;</a></span>InsertObject()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -656,19 +815,9 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Camera2d</b></td></t
         <tr>
           <td class="memname"><a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html">Renderer::GLObject</a> * D6Engine::Graphics::Renderer::InsertObject </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>key</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype"><a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html">GLObject</a>&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_object.html">GLObject</a> &amp;&#160;</td>
-          <td class="paramname"><em>obj</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -690,8 +839,42 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Camera2d</b></td></t
 
 </div>
 </div>
-<a id="acc24842977c50a75c6fd99ca8dabc0fd" name="acc24842977c50a75c6fd99ca8dabc0fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc24842977c50a75c6fd99ca8dabc0fd">&#9670;&nbsp;</a></span>NewCamera2D()</h2>
+<a id="aba242b8716059bcea45672d1078c316e" name="aba242b8716059bcea45672d1078c316e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba242b8716059bcea45672d1078c316e">&#9670;&nbsp;</a></span>InsertRendererComponent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void D6Engine::Graphics::Renderer::InsertRendererComponent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_d6_engine_1_1_renderer_component.html">RendererComponent</a> *&#160;</td>
+          <td class="paramname"><em>rc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Inserts a new <a class="el" href="class_d6_engine_1_1_renderer_component.html">RendererComponent</a> into the rendererComponentContainer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rc</td><td>A Pointer to the <a class="el" href="class_d6_engine_1_1_renderer_component.html">RendererComponent</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae0faa033a0e76f88bbae293f7d77d7d6" name="ae0faa033a0e76f88bbae293f7d77d7d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0faa033a0e76f88bbae293f7d77d7d6">&#9670;&nbsp;</a></span>NewCamera2D()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -703,8 +886,18 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Camera2d</b></td></t
           <td class="memname">void D6Engine::Graphics::Renderer::NewCamera2D </td>
           <td>(</td>
           <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>cameraName</em></td><td>)</td>
+          <td class="paramname"><em>cameraName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isCulling</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -718,6 +911,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Camera2d</b></td></t
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">cameraName</td><td>The name of the new Camera2D Object </td></tr>
+    <tr><td class="paramname">isCulling</td><td>True sets the camera to enable culling, false disables culling </td></tr>
   </table>
   </dd>
 </dl>
@@ -792,8 +986,8 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Camera2d</b></td></t
 
 </div>
 </div>
-<a id="a13f40cfb90604b60cb554a5ae40be31a" name="a13f40cfb90604b60cb554a5ae40be31a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13f40cfb90604b60cb554a5ae40be31a">&#9670;&nbsp;</a></span>SetBackgroundColor()</h2>
+<a id="abcd143334e9901243dbf8729dcea55f1" name="abcd143334e9901243dbf8729dcea55f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcd143334e9901243dbf8729dcea55f1">&#9670;&nbsp;</a></span>SetBackgroundColor()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -804,31 +998,9 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Camera2d</b></td></t
         <tr>
           <td class="memname">void D6Engine::Graphics::Renderer::SetBackgroundColor </td>
           <td>(</td>
-          <td class="paramtype">GLfloat&#160;</td>
-          <td class="paramname"><em>r</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype"><a class="el" href="struct_d6_engine_1_1_colour.html">Colour</a>&#160;</td>
+          <td class="paramname"><em>colour</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">GLfloat&#160;</td>
-          <td class="paramname"><em>g</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">GLfloat&#160;</td>
-          <td class="paramname"><em>b</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">GLfloat&#160;</td>
-          <td class="paramname"><em>a</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -838,22 +1010,18 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Camera2d</b></td></t
 </table>
 </div><div class="memdoc">
 
-<p>Set the current colour bits colours. </p>
+<p>Set the background colour of the renderer. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">r</td><td>RED </td></tr>
-    <tr><td class="paramname">g</td><td>GREEN <br  />
- </td></tr>
-    <tr><td class="paramname">b</td><td>BLUE </td></tr>
-    <tr><td class="paramname">a</td><td>ALPHA </td></tr>
+    <tr><td class="paramname">colour</td><td>The new colour for the background. </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="a612b473516a4df14bc7ccdbe8755873b" name="a612b473516a4df14bc7ccdbe8755873b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a612b473516a4df14bc7ccdbe8755873b">&#9670;&nbsp;</a></span>UpdateWindow()</h2>
+<a id="a93ac4a48c4af2234f90280f7720afad3" name="a93ac4a48c4af2234f90280f7720afad3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93ac4a48c4af2234f90280f7720afad3">&#9670;&nbsp;</a></span>SetMaterial()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -862,16 +1030,104 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Camera2d</b></td></t
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void D6Engine::Graphics::Renderer::UpdateWindow </td>
+          <td class="memname"><a class="el" href="class_d6_engine_1_1_graphics_1_1_material.html">Material</a> * D6Engine::Graphics::Renderer::SetMaterial </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>width</em>, </td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the <a class="el" href="class_d6_engine_1_1_graphics_1_1_material.html" title="Material Class for shader and texture binding loading, at least a Shader is needed for a Material Obj...">Material</a> of the object. <a class="el" href="class_d6_engine_1_1_graphics_1_1_material.html" title="Material Class for shader and texture binding loading, at least a Shader is needed for a Material Obj...">Material</a> must exist in the <a class="el" href="class_d6_engine_1_1_graphics_1_1_material.html" title="Material Class for shader and texture binding loading, at least a Shader is needed for a Material Obj...">Material</a> Map in <a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html" title="Render Class for drawing Objects.">Renderer</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The key to the <a class="el" href="class_d6_engine_1_1_graphics_1_1_material.html" title="Material Class for shader and texture binding loading, at least a Shader is needed for a Material Obj...">Material</a> (string) to be found in the materialContainer from <a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html" title="Render Class for drawing Objects.">Renderer</a> Class. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A <a class="el" href="class_d6_engine_1_1_graphics_1_1_material.html" title="Material Class for shader and texture binding loading, at least a Shader is needed for a Material Obj...">Material</a> Pointer if it is found on the map, if not returns a nullptr </dd></dl>
+
+</div>
+</div>
+<a id="aebbe318518e4d6a16129e5a988e902eb" name="aebbe318518e4d6a16129e5a988e902eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebbe318518e4d6a16129e5a988e902eb">&#9670;&nbsp;</a></span>SetMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html">OGLVertexArray</a> * D6Engine::Graphics::Renderer::SetMesh </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the Mesh of the object. Mesh must exist in the Mesh Map in the <a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html" title="Render Class for drawing Objects.">Renderer</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The key to the Mesh (string) to be found in the meshContainer from <a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html" title="Render Class for drawing Objects.">Renderer</a> Class. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>An <a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html">OGLVertexArray</a> pointer if it is found on the map, if not returns a nullptr </dd></dl>
+
+</div>
+</div>
+<a id="ae9d250f4879544d3caca03adf89466bb" name="ae9d250f4879544d3caca03adf89466bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9d250f4879544d3caca03adf89466bb">&#9670;&nbsp;</a></span>UpdateFont()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void D6Engine::Graphics::Renderer::UpdateFont </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>textName</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>height</em>&#160;</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">glm::vec2&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>scale</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_d6_engine_1_1_colour.html">Colour</a>&#160;</td>
+          <td class="paramname"><em>colour</em> = <code>{1,1,1}</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -886,11 +1142,14 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Camera2d</b></td></t
 </table>
 </div><div class="memdoc">
 
-<p>Updates <a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html" title="Render Class for drawing Objects.">Renderer</a> with the height and width for rendering. </p>
+<p>Updates the font params using the textname. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">width</td><td>Width of the window </td></tr>
-    <tr><td class="paramname">height</td><td>Height of the window </td></tr>
+    <tr><td class="paramname">textName</td><td>Name of the text to be updated </td></tr>
+    <tr><td class="paramname">text</td><td>The new text to be updated to </td></tr>
+    <tr><td class="paramname">position</td><td>The new Position to be updated to </td></tr>
+    <tr><td class="paramname">scale</td><td>The new scale to be updated to (&gt;=1) </td></tr>
+    <tr><td class="paramname">colour</td><td>The new colour to be updated to </td></tr>
   </table>
   </dd>
 </dl>
@@ -904,7 +1163,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Camera2d</b></td></t
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d6_engine.html">D6Engine</a></li><li class="navelem"><a class="el" href="namespace_d6_engine_1_1_graphics.html">Graphics</a></li><li class="navelem"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html">Renderer</a></li>
-    <li class="footer">Generated on Sun Nov 7 2021 14:43:52 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Wed Dec 8 2021 00:32:11 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

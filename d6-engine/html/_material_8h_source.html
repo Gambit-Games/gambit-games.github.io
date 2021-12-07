@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/6</span>
+                                &#160;<span id="projectnumber">v0.1/7</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -102,7 +102,7 @@ $(document).ready(function(){initNavTree('_material_8h_source.html',''); initRes
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &quot;uuid/UUID.h&quot;</span></div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_d6_engine_1_1_graphics.html">D6Engine::Graphics</a></div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>{</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="class_d6_engine_1_1_graphics_1_1_material.html">   24</a></span>    <span class="keyword">class </span><a class="code hl_class" href="class_d6_engine_1_1_graphics_1_1_material.html">Material</a> : <span class="keyword">public</span> <a class="code hl_struct" href="struct_d6_engine_1_1_resource.html">Resource</a>&lt;Material*&gt; {</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="class_d6_engine_1_1_graphics_1_1_material.html">   24</a></span>    <span class="keyword">class </span><a class="code hl_class" href="class_d6_engine_1_1_graphics_1_1_material.html">Material</a> : <span class="keyword">public</span> <a class="code hl_struct" href="struct_d6_engine_1_1_resources_1_1_resource.html">Resources::Resource</a>&lt;Material*&gt; {</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keyword">public</span>:</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        <a class="code hl_function" href="class_d6_engine_1_1_graphics_1_1_material.html#a89bdbcfde24e5547d7aefc5ca592dea8">Material</a>(<a class="code hl_class" href="class_d6_engine_1_1_graphics_1_1_shader.html">Shader</a>* shader, <span class="keyword">const</span> std::string&amp; materialName);</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        <a class="code hl_function" href="class_d6_engine_1_1_graphics_1_1_material.html#a89bdbcfde24e5547d7aefc5ca592dea8">Material</a>(<a class="code hl_class" href="class_d6_engine_1_1_graphics_1_1_shader.html">Shader</a>* shader, <a class="code hl_class" href="class_d6_engine_1_1_graphics_1_1_texture.html">Texture</a>* texture, <span class="keyword">const</span> std::string&amp; materialName);</div>
@@ -148,12 +148,12 @@ $(document).ready(function(){initNavTree('_material_8h_source.html',''); initRes
 <div class="ttc" id="aclass_d6_engine_1_1_graphics_1_1_material_html_acff6f6591c230d9890a14c6c4ac4c753"><div class="ttname"><a href="class_d6_engine_1_1_graphics_1_1_material.html#acff6f6591c230d9890a14c6c4ac4c753">D6Engine::Graphics::Material::SetShader</a></div><div class="ttdeci">void SetShader(Shader *newShader)</div><div class="ttdoc">Sets the Shader of the current Material using an existing Shader Object.</div><div class="ttdef"><b>Definition:</b> Material.cpp:38</div></div>
 <div class="ttc" id="aclass_d6_engine_1_1_graphics_1_1_material_html_ad1bfe3f8ae04773f62e216e3e74e1a5c"><div class="ttname"><a href="class_d6_engine_1_1_graphics_1_1_material.html#ad1bfe3f8ae04773f62e216e3e74e1a5c">D6Engine::Graphics::Material::GetColour</a></div><div class="ttdeci">Colour GetColour()</div><div class="ttdoc">Gets the Colour from the current Material.</div><div class="ttdef"><b>Definition:</b> Material.h:53</div></div>
 <div class="ttc" id="aclass_d6_engine_1_1_graphics_1_1_material_html_ad5bd9dca3279a41e43f231de8f68b548"><div class="ttname"><a href="class_d6_engine_1_1_graphics_1_1_material.html#ad5bd9dca3279a41e43f231de8f68b548">D6Engine::Graphics::Material::enableColourMode</a></div><div class="ttdeci">void enableColourMode(bool state)</div><div class="ttdoc">Enables colour mode to only render colour without the Texture.</div><div class="ttdef"><b>Definition:</b> Material.cpp:44</div></div>
-<div class="ttc" id="aclass_d6_engine_1_1_graphics_1_1_shader_html"><div class="ttname"><a href="class_d6_engine_1_1_graphics_1_1_shader.html">D6Engine::Graphics::Shader</a></div><div class="ttdoc">Shader Class which handles the shader parsing and generation of the shader code.</div><div class="ttdef"><b>Definition:</b> Shader.h:56</div></div>
-<div class="ttc" id="aclass_d6_engine_1_1_graphics_1_1_texture_html"><div class="ttname"><a href="class_d6_engine_1_1_graphics_1_1_texture.html">D6Engine::Graphics::Texture</a></div><div class="ttdoc">Texture Class for texture loading.</div><div class="ttdef"><b>Definition:</b> Texture.h:25</div></div>
+<div class="ttc" id="aclass_d6_engine_1_1_graphics_1_1_shader_html"><div class="ttname"><a href="class_d6_engine_1_1_graphics_1_1_shader.html">D6Engine::Graphics::Shader</a></div><div class="ttdoc">Shader Class which handles the shader parsing and generation of the shader code.</div><div class="ttdef"><b>Definition:</b> Shader.h:66</div></div>
+<div class="ttc" id="aclass_d6_engine_1_1_graphics_1_1_texture_html"><div class="ttname"><a href="class_d6_engine_1_1_graphics_1_1_texture.html">D6Engine::Graphics::Texture</a></div><div class="ttdoc">Texture Class for texture loading.</div><div class="ttdef"><b>Definition:</b> Texture.h:24</div></div>
 <div class="ttc" id="aclass_d6_engine_1_1_u_u_i_d_html"><div class="ttname"><a href="class_d6_engine_1_1_u_u_i_d.html">D6Engine::UUID</a></div><div class="ttdoc">Generates and stores a Universally Unique ID and provides caching for vector index values.</div><div class="ttdef"><b>Definition:</b> UUID.h:21</div></div>
-<div class="ttc" id="anamespace_d6_engine_1_1_graphics_html"><div class="ttname"><a href="namespace_d6_engine_1_1_graphics.html">D6Engine::Graphics</a></div><div class="ttdoc">The implementation the shader class.</div><div class="ttdef"><b>Definition:</b> DebugDraw.cpp:13</div></div>
+<div class="ttc" id="anamespace_d6_engine_1_1_graphics_html"><div class="ttname"><a href="namespace_d6_engine_1_1_graphics.html">D6Engine::Graphics</a></div><div class="ttdoc">The implementation the shader class.</div><div class="ttdef"><b>Definition:</b> BatchRenderer.cpp:4</div></div>
 <div class="ttc" id="astruct_d6_engine_1_1_colour_html"><div class="ttname"><a href="struct_d6_engine_1_1_colour.html">D6Engine::Colour</a></div><div class="ttdoc">Representation of an RGBA colour. This is used to pass around colour values in D6 Engine.</div><div class="ttdef"><b>Definition:</b> Colour.h:23</div></div>
-<div class="ttc" id="astruct_d6_engine_1_1_resource_html"><div class="ttname"><a href="struct_d6_engine_1_1_resource.html">D6Engine::Resource</a></div><div class="ttdoc">ResourceContainer is a container that stores Resource Info such as a uuid, name and the actual resour...</div><div class="ttdef"><b>Definition:</b> Resource.h:35</div></div>
+<div class="ttc" id="astruct_d6_engine_1_1_resources_1_1_resource_html"><div class="ttname"><a href="struct_d6_engine_1_1_resources_1_1_resource.html">D6Engine::Resources::Resource</a></div><div class="ttdoc">Resource is a container that stores Resource Info such as a uuid, name and the actual resource....</div><div class="ttdef"><b>Definition:</b> Resource.h:37</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.9.1-->
@@ -161,7 +161,7 @@ $(document).ready(function(){initNavTree('_material_8h_source.html',''); initRes
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_560415a5d2bc4999842279f4fc1debef.html">graphics</a></li><li class="navelem"><b>Material.h</b></li>
-    <li class="footer">Generated on Sun Nov 7 2021 14:43:51 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Wed Dec 8 2021 00:32:10 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

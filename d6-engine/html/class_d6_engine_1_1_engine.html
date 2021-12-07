@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/6</span>
+                                &#160;<span id="projectnumber">v0.1/7</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -91,6 +91,7 @@ $(document).ready(function(){initNavTree('class_d6_engine_1_1_engine.html',''); 
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="class_d6_engine_1_1_engine-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">D6Engine::Engine Class Reference</div></div>
 </div><!--header-->
@@ -101,14 +102,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a619d72ccb99b3cf7c996c1afa0491cce"><td class="memItemLeft" align="right" valign="top"><a id="a619d72ccb99b3cf7c996c1afa0491cce" name="a619d72ccb99b3cf7c996c1afa0491cce"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Preload</b> ()</td></tr>
 <tr class="separator:a619d72ccb99b3cf7c996c1afa0491cce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afebd81f3dbf52b26430f373e4672793c"><td class="memItemLeft" align="right" valign="top"><a id="afebd81f3dbf52b26430f373e4672793c" name="afebd81f3dbf52b26430f373e4672793c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Quit</b> () const</td></tr>
-<tr class="separator:afebd81f3dbf52b26430f373e4672793c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60f8c01e178c2b591f89f2f7bcdbef2c"><td class="memItemLeft" align="right" valign="top"><a id="a60f8c01e178c2b591f89f2f7bcdbef2c" name="a60f8c01e178c2b591f89f2f7bcdbef2c"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Cleanup</b> () const</td></tr>
 <tr class="separator:a60f8c01e178c2b591f89f2f7bcdbef2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7b8c625177e39926d57a157b6723ee9"><td class="memItemLeft" align="right" valign="top"><a id="aa7b8c625177e39926d57a157b6723ee9" name="aa7b8c625177e39926d57a157b6723ee9"></a>
-SDL_Window *&#160;</td><td class="memItemRight" valign="bottom"><b>GetWindow</b> () const</td></tr>
+<tr class="memitem:aa7b8c625177e39926d57a157b6723ee9"><td class="memItemLeft" align="right" valign="top">SDL_Window *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_engine.html#aa7b8c625177e39926d57a157b6723ee9">GetWindow</a> () const</td></tr>
+<tr class="memdesc:aa7b8c625177e39926d57a157b6723ee9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the pointer to the main engine window.  <a href="class_d6_engine_1_1_engine.html#aa7b8c625177e39926d57a157b6723ee9">More...</a><br /></td></tr>
 <tr class="separator:aa7b8c625177e39926d57a157b6723ee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a396365e2f963c69b6281f0942407941b"><td class="memItemLeft" align="right" valign="top"><a id="a396365e2f963c69b6281f0942407941b" name="a396365e2f963c69b6281f0942407941b"></a>
 const char *&#160;</td><td class="memItemRight" valign="bottom"><b>GetGlslVersion</b> () const</td></tr>
@@ -116,13 +114,55 @@ const char *&#160;</td><td class="memItemRight" valign="bottom"><b>GetGlslVersio
 <tr class="memitem:a83aed9d9824ad402eb913dac4528e2f3"><td class="memItemLeft" align="right" valign="top"><a id="a83aed9d9824ad402eb913dac4528e2f3" name="a83aed9d9824ad402eb913dac4528e2f3"></a>
 SDL_GLContext &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetSDLGLContext</b> ()</td></tr>
 <tr class="separator:a83aed9d9824ad402eb913dac4528e2f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f4f776d8a9f34613903f4bda0505bbc"><td class="memItemLeft" align="right" valign="top"><a id="a7f4f776d8a9f34613903f4bda0505bbc" name="a7f4f776d8a9f34613903f4bda0505bbc"></a>
-<a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_context.html">Graphics::OGLContext</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetOGLContext</b> () const</td></tr>
-<tr class="separator:a7f4f776d8a9f34613903f4bda0505bbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af95f4fa7e4606c01b65a01632650994e"><td class="memItemLeft" align="right" valign="top"><a id="af95f4fa7e4606c01b65a01632650994e" name="af95f4fa7e4606c01b65a01632650994e"></a>
-<a class="el" href="class_d6_engine_1_1_engine_state_manager.html">EngineStateManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetStateManager</b> ()</td></tr>
-<tr class="separator:af95f4fa7e4606c01b65a01632650994e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a4d55d49122c8645719df94213c933c21"><td class="memItemLeft" align="right" valign="top"><a id="a4d55d49122c8645719df94213c933c21" name="a4d55d49122c8645719df94213c933c21"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>Run</b> ()</td></tr>
+<tr class="separator:a4d55d49122c8645719df94213c933c21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad948077b717136cf7341624acf2bad48"><td class="memItemLeft" align="right" valign="top"><a id="ad948077b717136cf7341624acf2bad48" name="ad948077b717136cf7341624acf2bad48"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>Quit</b> ()</td></tr>
+<tr class="separator:ad948077b717136cf7341624acf2bad48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1e273755487d806176074deab6d3b3d"><td class="memItemLeft" align="right" valign="top"><a id="ac1e273755487d806176074deab6d3b3d" name="ac1e273755487d806176074deab6d3b3d"></a>
+static <a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_context.html">Graphics::OGLContext</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetOGLContext</b> ()</td></tr>
+<tr class="separator:ac1e273755487d806176074deab6d3b3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a419cc5a458cf6657e3131405d7abbad4"><td class="memItemLeft" align="right" valign="top"><a id="a419cc5a458cf6657e3131405d7abbad4" name="a419cc5a458cf6657e3131405d7abbad4"></a>
+static <a class="el" href="class_d6_engine_1_1_engine_state_manager.html">EngineStateManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetStateManager</b> ()</td></tr>
+<tr class="separator:a419cc5a458cf6657e3131405d7abbad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a62148d687994831d76d9035cef2950"><td class="memItemLeft" align="right" valign="top"><a id="a1a62148d687994831d76d9035cef2950" name="a1a62148d687994831d76d9035cef2950"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>SDLError</b> (const char msg[])</td></tr>
+<tr class="separator:a1a62148d687994831d76d9035cef2950"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="aa7b8c625177e39926d57a157b6723ee9" name="aa7b8c625177e39926d57a157b6723ee9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7b8c625177e39926d57a157b6723ee9">&#9670;&nbsp;</a></span>GetWindow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SDL_Window * D6Engine::Engine::GetWindow </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the pointer to the main engine window. </p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000001">Deprecated:</a></b></dt><dd>Use <a class="el" href="class_d6_engine_1_1_screen.html#a9101fbe9d1fa423e480a297851380aee" title="Gets the pointer to the SDL_Window itself. This function should not be explicitly relied on within th...">Screen.GetWindowPointer</a> instead. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A pointer to the main engine window. </dd></dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.9.1-->
@@ -130,7 +170,7 @@ SDL_GLContext &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetSDL
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d6_engine.html">D6Engine</a></li><li class="navelem"><a class="el" href="class_d6_engine_1_1_engine.html">Engine</a></li>
-    <li class="footer">Generated on Sun Nov 7 2021 14:43:51 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Wed Dec 8 2021 00:32:10 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

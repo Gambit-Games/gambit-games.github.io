@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/6</span>
+                                &#160;<span id="projectnumber">v0.1/7</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -109,6 +109,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ad8f66beede5efb9d645d7fc458181d81"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_collision_system.html#ad8f66beede5efb9d645d7fc458181d81">RemoveBoxCollider</a> (<a class="el" href="class_d6_engine_1_1_box_collider2_d.html">BoxCollider2D</a> *aBox)</td></tr>
 <tr class="memdesc:ad8f66beede5efb9d645d7fc458181d81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a box collider from update. Used by the BoxCollider class.  <a href="class_d6_engine_1_1_collision_system.html#ad8f66beede5efb9d645d7fc458181d81">More...</a><br /></td></tr>
 <tr class="separator:ad8f66beede5efb9d645d7fc458181d81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad69c8eacadfa5d283f3fb38c89aeaf6c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_collision_system.html#ad69c8eacadfa5d283f3fb38c89aeaf6c">AddCircleCollider</a> (<a class="el" href="class_d6_engine_1_1_circle_collider.html">CircleCollider</a> *aCircle)</td></tr>
+<tr class="memdesc:ad69c8eacadfa5d283f3fb38c89aeaf6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a circle collider to update. Used by the <a class="el" href="class_d6_engine_1_1_circle_collider.html" title="The circle collider component only works with other circle game objects.">CircleCollider</a> class.  <a href="class_d6_engine_1_1_collision_system.html#ad69c8eacadfa5d283f3fb38c89aeaf6c">More...</a><br /></td></tr>
+<tr class="separator:ad69c8eacadfa5d283f3fb38c89aeaf6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c838ccc7231d253764fd1dfa1de26c1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_collision_system.html#a9c838ccc7231d253764fd1dfa1de26c1">RemoveCircleCollider</a> (<a class="el" href="class_d6_engine_1_1_circle_collider.html">CircleCollider</a> *aCircle)</td></tr>
+<tr class="memdesc:a9c838ccc7231d253764fd1dfa1de26c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a cricle collider from update. Used by the <a class="el" href="class_d6_engine_1_1_circle_collider.html" title="The circle collider component only works with other circle game objects.">CircleCollider</a> class.  <a href="class_d6_engine_1_1_collision_system.html#a9c838ccc7231d253764fd1dfa1de26c1">More...</a><br /></td></tr>
+<tr class="separator:a9c838ccc7231d253764fd1dfa1de26c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2662520c7fed02731263e5489aba7aff"><td class="memItemLeft" align="right" valign="top"><a id="a2662520c7fed02731263e5489aba7aff" name="a2662520c7fed02731263e5489aba7aff"></a>
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateColliderPositions</b> ()</td></tr>
 <tr class="memdesc:a2662520c7fed02731263e5489aba7aff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the positions of all collider objects, relative to their game object's transform. <br /></td></tr>
@@ -165,6 +171,40 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>CheckCollision
 
 </div>
 </div>
+<a id="ad69c8eacadfa5d283f3fb38c89aeaf6c" name="ad69c8eacadfa5d283f3fb38c89aeaf6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad69c8eacadfa5d283f3fb38c89aeaf6c">&#9670;&nbsp;</a></span>AddCircleCollider()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void D6Engine::CollisionSystem::AddCircleCollider </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_d6_engine_1_1_circle_collider.html">CircleCollider</a> *&#160;</td>
+          <td class="paramname"><em>aCircle</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add a circle collider to update. Used by the <a class="el" href="class_d6_engine_1_1_circle_collider.html" title="The circle collider component only works with other circle game objects.">CircleCollider</a> class. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">aCircle</td><td>The <a class="el" href="class_d6_engine_1_1_circle_collider.html" title="The circle collider component only works with other circle game objects.">CircleCollider</a> component to be added. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ad8f66beede5efb9d645d7fc458181d81" name="ad8f66beede5efb9d645d7fc458181d81"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad8f66beede5efb9d645d7fc458181d81">&#9670;&nbsp;</a></span>RemoveBoxCollider()</h2>
 
@@ -193,6 +233,40 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>CheckCollision
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">aBody</td><td>The BoxCollider component to be removed. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a9c838ccc7231d253764fd1dfa1de26c1" name="a9c838ccc7231d253764fd1dfa1de26c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c838ccc7231d253764fd1dfa1de26c1">&#9670;&nbsp;</a></span>RemoveCircleCollider()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void D6Engine::CollisionSystem::RemoveCircleCollider </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_d6_engine_1_1_circle_collider.html">CircleCollider</a> *&#160;</td>
+          <td class="paramname"><em>aCircle</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Remove a cricle collider from update. Used by the <a class="el" href="class_d6_engine_1_1_circle_collider.html" title="The circle collider component only works with other circle game objects.">CircleCollider</a> class. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">aCircle</td><td>The <a class="el" href="class_d6_engine_1_1_circle_collider.html" title="The circle collider component only works with other circle game objects.">CircleCollider</a> component to be removed. </td></tr>
   </table>
   </dd>
 </dl>
@@ -274,7 +348,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>CheckCollision
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d6_engine.html">D6Engine</a></li><li class="navelem"><a class="el" href="class_d6_engine_1_1_collision_system.html">CollisionSystem</a></li>
-    <li class="footer">Generated on Sun Nov 7 2021 14:43:51 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Wed Dec 8 2021 00:32:10 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['name_0',['name',['../class_d6_engine_1_1_game_object.html#adf393db9834d8d72680844c22513ec1d',1,'D6Engine::GameObject::name()'],['../struct_d6_engine_1_1_scene_management_1_1_scene_object.html#a446227a74bd8ab36787e562d09e45c7f',1,'D6Engine::SceneManagement::SceneObject::name()'],['../struct_d6_engine_1_1_scene_management_1_1_scene.html#a078ff1c9dc123c63300748133cb5f5d0',1,'D6Engine::SceneManagement::Scene::name()']]]
+  ['knightabilityinitiated_0',['knightAbilityInitiated',['../class_d6_engine_1_1_ability.html#a2e32ffe2e30cd23916d7fca699fe863d',1,'D6Engine::Ability']]],
+  ['knightdamage_1',['knightDamage',['../class_d6_engine_1_1_ability.html#a91d522e8bca5ca354713b17397b0853f',1,'D6Engine::Ability']]],
+  ['knightorigcooldown_2',['knightOrigCooldown',['../class_d6_engine_1_1_ability.html#a823c38ab8c3328dc5af2834241a9cfe6',1,'D6Engine::Ability']]]
 ];
