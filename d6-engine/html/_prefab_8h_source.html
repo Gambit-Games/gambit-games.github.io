@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/7</span>
+                                &#160;<span id="projectnumber">v0.1/8</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -99,20 +99,24 @@ $(document).ready(function(){initNavTree('_prefab_8h_source.html',''); initResiz
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_d6_engine_1_1_resources.html">D6Engine::Resources</a></div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>{</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="class_d6_engine_1_1_resources_1_1_prefab.html">   17</a></span>    <span class="keyword">class </span><a class="code hl_class" href="class_d6_engine_1_1_resources_1_1_prefab.html">Prefab</a> final : <span class="keyword">public</span> <a class="code hl_struct" href="struct_d6_engine_1_1_resources_1_1_resource.html">Resource</a>&lt;Prefab*&gt;</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    {</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        <a class="code hl_class" href="class_d6_engine_1_1_resources_1_1_prefab.html">Prefab</a>() = <span class="keywordflow">default</span>;</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        <a class="code hl_class" href="class_d6_engine_1_1_resources_1_1_prefab.html">Prefab</a>(<span class="keyword">const</span> std::string&amp; path, <span class="keyword">const</span> std::string&amp; metadataPath);</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="class_d6_engine_1_1_resources_1_1_prefab.html">   20</a></span>    <span class="keyword">class </span><a class="code hl_class" href="class_d6_engine_1_1_resources_1_1_prefab.html">Prefab</a> final : <span class="keyword">public</span> <a class="code hl_struct" href="struct_d6_engine_1_1_resources_1_1_resource.html">Resource</a>&lt;Prefab*&gt;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    {</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keyword">public</span>:</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="class_d6_engine_1_1_resources_1_1_prefab.html#a8630be5fb8d41987298860a2ca98b3f9">   26</a></span>        <span class="keywordtype">bool</span> <a class="code hl_variable" href="class_d6_engine_1_1_resources_1_1_prefab.html#a8630be5fb8d41987298860a2ca98b3f9">dirty</a> = <span class="keyword">true</span>;</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="class_d6_engine_1_1_resources_1_1_prefab.html#add81095ea10455969fac376b227ffd81">   31</a></span>        std::vector&lt;SceneManagement::SceneObject&gt; <a class="code hl_variable" href="class_d6_engine_1_1_resources_1_1_prefab.html#add81095ea10455969fac376b227ffd81">sceneObjects</a>;</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    };</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>}</div>
-<div class="ttc" id="aclass_d6_engine_1_1_resources_1_1_prefab_html"><div class="ttname"><a href="class_d6_engine_1_1_resources_1_1_prefab.html">D6Engine::Resources::Prefab</a></div><div class="ttdef"><b>Definition:</b> Prefab.h:18</div></div>
-<div class="ttc" id="aclass_d6_engine_1_1_resources_1_1_prefab_html_a8630be5fb8d41987298860a2ca98b3f9"><div class="ttname"><a href="class_d6_engine_1_1_resources_1_1_prefab.html#a8630be5fb8d41987298860a2ca98b3f9">D6Engine::Resources::Prefab::dirty</a></div><div class="ttdeci">bool dirty</div><div class="ttdoc">Whether the scene has changes that require saving.</div><div class="ttdef"><b>Definition:</b> Prefab.h:26</div></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        <span class="keyword">static</span> <a class="code hl_class" href="class_d6_engine_1_1_resources_1_1_prefab.html">Prefab</a>&amp; <a class="code hl_function" href="class_d6_engine_1_1_resources_1_1_prefab.html#a7ad094ece18ff17eafbb1a6ae977fcab">Create</a>(<a class="code hl_class" href="class_d6_engine_1_1_game_object.html">GameObject</a>&amp; gameObject, std::filesystem::path path);</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <span class="keyword">explicit</span> <a class="code hl_function" href="class_d6_engine_1_1_resources_1_1_prefab.html#af5cdb5a6e9b4188748fa2d2eb9e127d4">Prefab</a>(<span class="keyword">const</span> std::string&amp; path, <span class="keyword">const</span> std::string&amp; metadataPath = <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    };</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>}</div>
+<div class="ttc" id="aclass_d6_engine_1_1_game_object_html"><div class="ttname"><a href="class_d6_engine_1_1_game_object.html">D6Engine::GameObject</a></div><div class="ttdoc">The base class for all entities in scenes in D6-Engine.</div><div class="ttdef"><b>Definition:</b> GameObject.hpp:39</div></div>
+<div class="ttc" id="aclass_d6_engine_1_1_resources_1_1_prefab_html"><div class="ttname"><a href="class_d6_engine_1_1_resources_1_1_prefab.html">D6Engine::Resources::Prefab</a></div><div class="ttdoc">Stores GameObject data, allowing reuse and duplication of GameObject hierarchies during runtime.</div><div class="ttdef"><b>Definition:</b> Prefab.h:21</div></div>
+<div class="ttc" id="aclass_d6_engine_1_1_resources_1_1_prefab_html_a7ad094ece18ff17eafbb1a6ae977fcab"><div class="ttname"><a href="class_d6_engine_1_1_resources_1_1_prefab.html#a7ad094ece18ff17eafbb1a6ae977fcab">D6Engine::Resources::Prefab::Create</a></div><div class="ttdeci">static Prefab &amp; Create(GameObject &amp;gameObject, std::filesystem::path path)</div><div class="ttdoc">Creates a Prefab and saves it to the filesystem.</div><div class="ttdef"><b>Definition:</b> Prefab.cpp:19</div></div>
+<div class="ttc" id="aclass_d6_engine_1_1_resources_1_1_prefab_html_a8630be5fb8d41987298860a2ca98b3f9"><div class="ttname"><a href="class_d6_engine_1_1_resources_1_1_prefab.html#a8630be5fb8d41987298860a2ca98b3f9">D6Engine::Resources::Prefab::dirty</a></div><div class="ttdeci">bool dirty</div><div class="ttdoc">Whether the prefab has changes that require saving.</div><div class="ttdef"><b>Definition:</b> Prefab.h:26</div></div>
 <div class="ttc" id="aclass_d6_engine_1_1_resources_1_1_prefab_html_add81095ea10455969fac376b227ffd81"><div class="ttname"><a href="class_d6_engine_1_1_resources_1_1_prefab.html#add81095ea10455969fac376b227ffd81">D6Engine::Resources::Prefab::sceneObjects</a></div><div class="ttdeci">std::vector&lt; SceneManagement::SceneObject &gt; sceneObjects</div><div class="ttdoc">The list of SceneObject data the Scene contains, used to construct GameObjects.</div><div class="ttdef"><b>Definition:</b> Prefab.h:31</div></div>
+<div class="ttc" id="aclass_d6_engine_1_1_resources_1_1_prefab_html_af5cdb5a6e9b4188748fa2d2eb9e127d4"><div class="ttname"><a href="class_d6_engine_1_1_resources_1_1_prefab.html#af5cdb5a6e9b4188748fa2d2eb9e127d4">D6Engine::Resources::Prefab::Prefab</a></div><div class="ttdeci">Prefab(const std::string &amp;path, const std::string &amp;metadataPath=&quot;&quot;)</div><div class="ttdoc">Constructs a Prefab from a given file.</div><div class="ttdef"><b>Definition:</b> Prefab.cpp:63</div></div>
 <div class="ttc" id="anamespace_d6_engine_1_1_resources_html"><div class="ttname"><a href="namespace_d6_engine_1_1_resources.html">D6Engine::Resources</a></div><div class="ttdef"><b>Definition:</b> AnimationClip.cpp:22</div></div>
 <div class="ttc" id="astruct_d6_engine_1_1_resources_1_1_resource_html"><div class="ttname"><a href="struct_d6_engine_1_1_resources_1_1_resource.html">D6Engine::Resources::Resource</a></div><div class="ttdoc">Resource is a container that stores Resource Info such as a uuid, name and the actual resource....</div><div class="ttdef"><b>Definition:</b> Resource.h:37</div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -122,7 +126,7 @@ $(document).ready(function(){initNavTree('_prefab_8h_source.html',''); initResiz
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_d15b5e87a130c7809b95a068891bcea4.html">gameobject</a></li><li class="navelem"><b>Prefab.h</b></li>
-    <li class="footer">Generated on Wed Dec 8 2021 00:32:10 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Sun Feb 6 2022 02:47:22 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

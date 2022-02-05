@@ -1,10 +1,6 @@
 var annotated_dup =
 [
     [ "D6Engine", "namespace_d6_engine.html", [
-      [ "Audio", "namespace_d6_engine_1_1_audio.html", [
-        [ "AudioResource", "class_d6_engine_1_1_audio_1_1_audio_resource.html", "class_d6_engine_1_1_audio_1_1_audio_resource" ],
-        [ "AudioSystem", "class_d6_engine_1_1_audio_1_1_audio_system.html", "class_d6_engine_1_1_audio_1_1_audio_system" ]
-      ] ],
       [ "Camera", "namespace_d6_engine_1_1_camera.html", [
         [ "Camera2D", "class_d6_engine_1_1_camera_1_1_camera2_d.html", "class_d6_engine_1_1_camera_1_1_camera2_d" ]
       ] ],
@@ -12,16 +8,17 @@ var annotated_dup =
         [ "AnimClipJSONHandler", "class_d6_engine_1_1_file_system_1_1_anim_clip_j_s_o_n_handler.html", null ],
         [ "AnimClipJSONWriter", "class_d6_engine_1_1_file_system_1_1_anim_clip_j_s_o_n_writer.html", null ],
         [ "Config", "class_d6_engine_1_1_file_system_1_1_config.html", "class_d6_engine_1_1_file_system_1_1_config" ],
+        [ "FileData", "class_d6_engine_1_1_file_system_1_1_file_data.html", null ],
         [ "JSONWriter", "class_d6_engine_1_1_file_system_1_1_j_s_o_n_writer.html", "class_d6_engine_1_1_file_system_1_1_j_s_o_n_writer" ],
-        [ "Metadata", "class_d6_engine_1_1_file_system_1_1_metadata.html", null ],
+        [ "Metadata", "class_d6_engine_1_1_file_system_1_1_metadata.html", "class_d6_engine_1_1_file_system_1_1_metadata" ],
+        [ "PrefabJSONWriter", "class_d6_engine_1_1_file_system_1_1_prefab_j_s_o_n_writer.html", null ],
         [ "SceneJSONHandler", "class_d6_engine_1_1_file_system_1_1_scene_j_s_o_n_handler.html", "class_d6_engine_1_1_file_system_1_1_scene_j_s_o_n_handler" ],
         [ "SceneJSONWriter", "class_d6_engine_1_1_file_system_1_1_scene_j_s_o_n_writer.html", "class_d6_engine_1_1_file_system_1_1_scene_j_s_o_n_writer" ]
       ] ],
       [ "Graphics", "namespace_d6_engine_1_1_graphics.html", [
         [ "BatchRender", "class_d6_engine_1_1_graphics_1_1_batch_render.html", null ],
-        [ "Cursor", "class_d6_engine_1_1_graphics_1_1_cursor.html", "class_d6_engine_1_1_graphics_1_1_cursor" ],
+        [ "Cursor", "class_d6_engine_1_1_graphics_1_1_cursor.html", null ],
         [ "DebugDraw", "class_d6_engine_1_1_graphics_1_1_debug_draw.html", "class_d6_engine_1_1_graphics_1_1_debug_draw" ],
-        [ "FragmentShader", "struct_d6_engine_1_1_graphics_1_1_fragment_shader.html", "struct_d6_engine_1_1_graphics_1_1_fragment_shader" ],
         [ "Line", "class_d6_engine_1_1_graphics_1_1_line.html", "class_d6_engine_1_1_graphics_1_1_line" ],
         [ "Material", "class_d6_engine_1_1_graphics_1_1_material.html", "class_d6_engine_1_1_graphics_1_1_material" ],
         [ "OGLBuffer", "class_d6_engine_1_1_graphics_1_1_o_g_l_buffer.html", null ],
@@ -34,16 +31,18 @@ var annotated_dup =
         [ "Shader", "class_d6_engine_1_1_graphics_1_1_shader.html", "class_d6_engine_1_1_graphics_1_1_shader" ],
         [ "TextRenderer", "class_d6_engine_1_1_graphics_1_1_text_renderer.html", "class_d6_engine_1_1_graphics_1_1_text_renderer" ],
         [ "Texture", "class_d6_engine_1_1_graphics_1_1_texture.html", "class_d6_engine_1_1_graphics_1_1_texture" ],
-        [ "VertexInfo", "struct_d6_engine_1_1_graphics_1_1_vertex_info.html", null ],
-        [ "VertexShader", "struct_d6_engine_1_1_graphics_1_1_vertex_shader.html", "struct_d6_engine_1_1_graphics_1_1_vertex_shader" ]
+        [ "VertexInfo", "struct_d6_engine_1_1_graphics_1_1_vertex_info.html", null ]
       ] ],
       [ "Input", "namespace_d6_engine_1_1_input.html", [
         [ "Keyboard", "class_d6_engine_1_1_input_1_1_keyboard.html", null ],
         [ "Mouse", "class_d6_engine_1_1_input_1_1_mouse.html", null ],
         [ "MouseInput", "struct_d6_engine_1_1_input_1_1_mouse_input.html", null ]
       ] ],
-      [ "Manager", "namespace_d6_engine_1_1_manager.html", [
-        [ "ResourceManager", "class_d6_engine_1_1_manager_1_1_resource_manager.html", null ]
+      [ "Internal", "namespace_d6_engine_1_1_internal.html", [
+        [ "AudioSystem", "class_d6_engine_1_1_internal_1_1_audio_system.html", "class_d6_engine_1_1_internal_1_1_audio_system" ],
+        [ "Core", "class_d6_engine_1_1_internal_1_1_core.html", null ],
+        [ "EventHandler", "class_d6_engine_1_1_internal_1_1_event_handler.html", null ],
+        [ "Splash", "class_d6_engine_1_1_internal_1_1_splash.html", null ]
       ] ],
       [ "Math", "namespace_d6_engine_1_1_math.html", [
         [ "Mat3", "union_d6_engine_1_1_math_1_1_mat3.html", "union_d6_engine_1_1_math_1_1_mat3" ],
@@ -52,6 +51,7 @@ var annotated_dup =
       ] ],
       [ "Resources", "namespace_d6_engine_1_1_resources.html", [
         [ "AnimationClip", "struct_d6_engine_1_1_resources_1_1_animation_clip.html", "struct_d6_engine_1_1_resources_1_1_animation_clip" ],
+        [ "AudioClip", "class_d6_engine_1_1_resources_1_1_audio_clip.html", "class_d6_engine_1_1_resources_1_1_audio_clip" ],
         [ "Font", "class_d6_engine_1_1_resources_1_1_font.html", "class_d6_engine_1_1_resources_1_1_font" ],
         [ "Prefab", "class_d6_engine_1_1_resources_1_1_prefab.html", "class_d6_engine_1_1_resources_1_1_prefab" ],
         [ "Resource", "struct_d6_engine_1_1_resources_1_1_resource.html", null ]
@@ -70,6 +70,7 @@ var annotated_dup =
       [ "Ability", "class_d6_engine_1_1_ability.html", "class_d6_engine_1_1_ability" ],
       [ "Animation", "class_d6_engine_1_1_animation.html", "class_d6_engine_1_1_animation" ],
       [ "AnimationEvent", "class_d6_engine_1_1_animation_event.html", "class_d6_engine_1_1_animation_event" ],
+      [ "AudioSource", "class_d6_engine_1_1_audio_source.html", "class_d6_engine_1_1_audio_source" ],
       [ "Body2D", "struct_d6_engine_1_1_body2_d.html", null ],
       [ "BoreasAI", "class_d6_engine_1_1_boreas_a_i.html", "class_d6_engine_1_1_boreas_a_i" ],
       [ "BoreasAttack", "class_d6_engine_1_1_boreas_attack.html", "class_d6_engine_1_1_boreas_attack" ],
@@ -84,10 +85,10 @@ var annotated_dup =
       [ "DebugDrawCollider", "class_d6_engine_1_1_debug_draw_collider.html", null ],
       [ "DebugTimer", "class_d6_engine_1_1_debug_timer.html", "class_d6_engine_1_1_debug_timer" ],
       [ "DebugTimerResult", "struct_d6_engine_1_1_debug_timer_result.html", null ],
+      [ "EditorInterface", "class_d6_engine_1_1_editor_interface.html", null ],
       [ "Engine", "class_d6_engine_1_1_engine.html", "class_d6_engine_1_1_engine" ],
       [ "EngineLog", "class_d6_engine_1_1_engine_log.html", "class_d6_engine_1_1_engine_log" ],
       [ "EngineStateManager", "class_d6_engine_1_1_engine_state_manager.html", "class_d6_engine_1_1_engine_state_manager" ],
-      [ "EventHandler", "class_d6_engine_1_1_event_handler.html", null ],
       [ "GameObject", "class_d6_engine_1_1_game_object.html", "class_d6_engine_1_1_game_object" ],
       [ "GameObjectFactory", "class_d6_engine_1_1_game_object_factory.html", null ],
       [ "GameObjectManager", "class_d6_engine_1_1_game_object_manager.html", "class_d6_engine_1_1_game_object_manager" ],
@@ -98,14 +99,15 @@ var annotated_dup =
       [ "LevelManager", "class_d6_engine_1_1_level_manager.html", null ],
       [ "MarionAI", "class_d6_engine_1_1_marion_a_i.html", "class_d6_engine_1_1_marion_a_i" ],
       [ "MarionAttack", "class_d6_engine_1_1_marion_attack.html", "class_d6_engine_1_1_marion_attack" ],
+      [ "Mathf", "class_d6_engine_1_1_mathf.html", null ],
       [ "MonoBehaviour", "class_d6_engine_1_1_mono_behaviour.html", "class_d6_engine_1_1_mono_behaviour" ],
       [ "PhysicsSystem", "class_d6_engine_1_1_physics_system.html", null ],
       [ "PlayerAttack", "class_d6_engine_1_1_player_attack.html", "class_d6_engine_1_1_player_attack" ],
       [ "PlayerInput", "class_d6_engine_1_1_player_input.html", "class_d6_engine_1_1_player_input" ],
       [ "Portal", "class_d6_engine_1_1_portal.html", "class_d6_engine_1_1_portal" ],
-      [ "PrefabManager", "class_d6_engine_1_1_prefab_manager.html", null ],
       [ "Random", "class_d6_engine_1_1_random.html", null ],
       [ "RendererComponent", "class_d6_engine_1_1_renderer_component.html", null ],
+      [ "ResourceManager", "class_d6_engine_1_1_resource_manager.html", "class_d6_engine_1_1_resource_manager" ],
       [ "Rigidbody2D", "class_d6_engine_1_1_rigidbody2_d.html", "class_d6_engine_1_1_rigidbody2_d" ],
       [ "Screen", "class_d6_engine_1_1_screen.html", "class_d6_engine_1_1_screen" ],
       [ "SpriteRenderer", "class_d6_engine_1_1_sprite_renderer.html", "class_d6_engine_1_1_sprite_renderer" ],

@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/7</span>
+                                &#160;<span id="projectnumber">v0.1/8</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -140,11 +140,8 @@ float &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetMass</b> ()
 <tr class="memdesc:ae63447f0689d21660afa52843d0bdde2"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a reference to the rigidbody type associated with the <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a>  <a href="class_d6_engine_1_1_rigidbody2_d.html#ae63447f0689d21660afa52843d0bdde2">More...</a><br /></td></tr>
 <tr class="separator:ae63447f0689d21660afa52843d0bdde2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe1bdaa5e8142e0e25687632db0700f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_rigidbody2_d.html#afe1bdaa5e8142e0e25687632db0700f4">AddForce</a> (<a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> const &amp;aForce)</td></tr>
-<tr class="memdesc:afe1bdaa5e8142e0e25687632db0700f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies a force directly to the rigidbody. Object will accelerate by the force following: F=MA (Currently not working as intended. To be reimplemented into a forces manager)  <a href="class_d6_engine_1_1_rigidbody2_d.html#afe1bdaa5e8142e0e25687632db0700f4">More...</a><br /></td></tr>
+<tr class="memdesc:afe1bdaa5e8142e0e25687632db0700f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies a force to the rigidbody. This force only lasts for 1 frame, on the frame it was added. (by current implementation)  <a href="class_d6_engine_1_1_rigidbody2_d.html#afe1bdaa5e8142e0e25687632db0700f4">More...</a><br /></td></tr>
 <tr class="separator:afe1bdaa5e8142e0e25687632db0700f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca4545e6a48be5b08317015851d06e5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_rigidbody2_d.html#aca4545e6a48be5b08317015851d06e5e">MovePosition</a> (<a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> const &amp;targetVec, float speed)</td></tr>
-<tr class="memdesc:aca4545e6a48be5b08317015851d06e5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves the rigidbody in the direction specified, using a given arbitrary speed value.  <a href="class_d6_engine_1_1_rigidbody2_d.html#aca4545e6a48be5b08317015851d06e5e">More...</a><br /></td></tr>
-<tr class="separator:aca4545e6a48be5b08317015851d06e5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a043b3904ac11058592c50fce8ae0d319"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_rigidbody2_d.html#a043b3904ac11058592c50fce8ae0d319">SetGameObject</a> (<a class="el" href="class_d6_engine_1_1_game_object.html">GameObject</a> *target) override</td></tr>
 <tr class="memdesc:a043b3904ac11058592c50fce8ae0d319"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binds this component to the <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> after construction.  <a href="class_d6_engine_1_1_rigidbody2_d.html#a043b3904ac11058592c50fce8ae0d319">More...</a><br /></td></tr>
 <tr class="separator:a043b3904ac11058592c50fce8ae0d319"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -161,6 +158,9 @@ float &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetMass</b> ()
 <a class="el" href="class_d6_engine_1_1_rigidbody2_d.html">Rigidbody2D</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (<a class="el" href="class_d6_engine_1_1_rigidbody2_d.html">Rigidbody2D</a> &amp;&amp;rhs)=default</td></tr>
 <tr class="separator:a59082282cfe8a2032c490fff66ea9ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_d6_engine_1_1_component"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_d6_engine_1_1_component')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_d6_engine_1_1_component.html">D6Engine::Component</a></td></tr>
+<tr class="memitem:aba40581033e66b211b4a9f6261be653f inherit pub_methods_class_d6_engine_1_1_component"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_component.html#aba40581033e66b211b4a9f6261be653f">Awake</a> ()</td></tr>
+<tr class="memdesc:aba40581033e66b211b4a9f6261be653f inherit pub_methods_class_d6_engine_1_1_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Awake is called when the script instance is being loaded. Awake is called either when an active <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> that contains the script is initialized when a Scene loads, or when a previously inactive <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> is set to active, or after a <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> created with Instantiate() is initialized. Use Awake to initialize variables or states before the application starts.  <a href="class_d6_engine_1_1_component.html#aba40581033e66b211b4a9f6261be653f">More...</a><br /></td></tr>
+<tr class="separator:aba40581033e66b211b4a9f6261be653f inherit pub_methods_class_d6_engine_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa714123e795c31a8476384549c8031c9 inherit pub_methods_class_d6_engine_1_1_component"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_d6_engine_1_1_game_object.html">GameObject</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_component.html#aa714123e795c31a8476384549c8031c9">GetGameObject</a> () const</td></tr>
 <tr class="memdesc:aa714123e795c31a8476384549c8031c9 inherit pub_methods_class_d6_engine_1_1_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> this component is attached to.  <a href="class_d6_engine_1_1_component.html#aa714123e795c31a8476384549c8031c9">More...</a><br /></td></tr>
 <tr class="separator:aa714123e795c31a8476384549c8031c9 inherit pub_methods_class_d6_engine_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -202,7 +202,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Applies a force directly to the rigidbody. Object will accelerate by the force following: F=MA (Currently not working as intended. To be reimplemented into a forces manager) </p>
+<p>Applies a force to the rigidbody. This force only lasts for 1 frame, on the frame it was added. (by current implementation) </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">Force</td><td>to be applied in vector2. </td></tr>
@@ -249,43 +249,6 @@ Additional Inherited Members</h2></td></tr>
 
 <p>returns a reference to the rigidbody type associated with the <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> </p>
 <dl class="section return"><dt>Returns</dt><dd>RigidbodyType returnable types are Static, Dynamic, Kinematic. </dd></dl>
-
-</div>
-</div>
-<a id="aca4545e6a48be5b08317015851d06e5e" name="aca4545e6a48be5b08317015851d06e5e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca4545e6a48be5b08317015851d06e5e">&#9670;&nbsp;</a></span>MovePosition()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void D6Engine::Rigidbody2D::MovePosition </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> const &amp;&#160;</td>
-          <td class="paramname"><em>targetVec</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>speed</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Moves the rigidbody in the direction specified, using a given arbitrary speed value. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">targetPos</td><td>direction in vector2. </td></tr>
-    <tr><td class="paramname">speed</td><td>quickness of movement </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>
@@ -348,7 +311,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d6_engine.html">D6Engine</a></li><li class="navelem"><a class="el" href="class_d6_engine_1_1_rigidbody2_d.html">Rigidbody2D</a></li>
-    <li class="footer">Generated on Wed Dec 8 2021 00:32:10 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Sun Feb 6 2022 02:47:22 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

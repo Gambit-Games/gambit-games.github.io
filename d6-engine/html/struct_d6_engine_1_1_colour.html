@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/7</span>
+                                &#160;<span id="projectnumber">v0.1/8</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -125,12 +125,12 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>operator glm::vec4</b> () const</td></tr>
 <tr class="memdesc:aa8b11564e1c3befdcf9cf6c4eb156f53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the colour as a glm::vec4 with float colour and alpha values ranging 0-1. <br /></td></tr>
 <tr class="separator:aa8b11564e1c3befdcf9cf6c4eb156f53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefb759315eec4701b9385a60e0c0bac1"><td class="memItemLeft" align="right" valign="top"><a id="aefb759315eec4701b9385a60e0c0bac1" name="aefb759315eec4701b9385a60e0c0bac1"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>operator float *</b> ()</td></tr>
+<tr class="separator:aefb759315eec4701b9385a60e0c0bac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57dda569c7d53dc32cf4deae521464bb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d6_engine_1_1_colour.html#a57dda569c7d53dc32cf4deae521464bb">Colour</a> (float <a class="el" href="struct_d6_engine_1_1_colour.html#acaa671c90be79dd1954d501f9cc2f5a0">r</a>=0, float <a class="el" href="struct_d6_engine_1_1_colour.html#aef4c86bc863b19be0a3574636b69b173">g</a>=0, float <a class="el" href="struct_d6_engine_1_1_colour.html#ab13829f2afa72346f11c41a2d364430d">b</a>=0, float <a class="el" href="struct_d6_engine_1_1_colour.html#acd0aea600d0af5d5cba007949da77f0e">a</a>=1)</td></tr>
 <tr class="memdesc:a57dda569c7d53dc32cf4deae521464bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="struct_d6_engine_1_1_colour.html" title="Representation of an RGBA colour. This is used to pass around colour values in D6 Engine.">Colour</a> value with the given rgba values.  <a href="struct_d6_engine_1_1_colour.html#a57dda569c7d53dc32cf4deae521464bb">More...</a><br /></td></tr>
 <tr class="separator:a57dda569c7d53dc32cf4deae521464bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e383a904af3a28e0c9b51c7d3e7ce98"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_d6_engine_1_1_colour.html">Colour</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d6_engine_1_1_colour.html#a9e383a904af3a28e0c9b51c7d3e7ce98">operator=</a> (const glm::vec4 &amp;rhs)</td></tr>
-<tr class="memdesc:a9e383a904af3a28e0c9b51c7d3e7ce98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator for glm::vec4 data type. All values must be between 0-1, or an exception will be thrown.  <a href="struct_d6_engine_1_1_colour.html#a9e383a904af3a28e0c9b51c7d3e7ce98">More...</a><br /></td></tr>
-<tr class="separator:a9e383a904af3a28e0c9b51c7d3e7ce98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -253,33 +253,6 @@ static <a class="el" href="struct_d6_engine_1_1_colour.html">Colour</a>&#160;</t
 
 </div>
 </div>
-<a id="a9e383a904af3a28e0c9b51c7d3e7ce98" name="a9e383a904af3a28e0c9b51c7d3e7ce98"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e383a904af3a28e0c9b51c7d3e7ce98">&#9670;&nbsp;</a></span>operator=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_d6_engine_1_1_colour.html">Colour</a> &amp; D6Engine::Colour::operator= </td>
-          <td>(</td>
-          <td class="paramtype">const glm::vec4 &amp;&#160;</td>
-          <td class="paramname"><em>rhs</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Assignment operator for glm::vec4 data type. All values must be between 0-1, or an exception will be thrown. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">rhs</td><td>The glm::vec4 being assigned to this <a class="el" href="struct_d6_engine_1_1_colour.html" title="Representation of an RGBA colour. This is used to pass around colour values in D6 Engine.">Colour</a>. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>A reference to this <a class="el" href="struct_d6_engine_1_1_colour.html" title="Representation of an RGBA colour. This is used to pass around colour values in D6 Engine.">Colour</a>. </dd></dl>
-
-</div>
-</div>
 <a id="a06acdef2726fd0f35e4dd3758651dcb9" name="a06acdef2726fd0f35e4dd3758651dcb9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a06acdef2726fd0f35e4dd3758651dcb9">&#9670;&nbsp;</a></span>operator[]() <span class="overload">[1/2]</span></h2>
 
@@ -361,7 +334,7 @@ static <a class="el" href="struct_d6_engine_1_1_colour.html">Colour</a>&#160;</t
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d6_engine.html">D6Engine</a></li><li class="navelem"><a class="el" href="struct_d6_engine_1_1_colour.html">Colour</a></li>
-    <li class="footer">Generated on Wed Dec 8 2021 00:32:10 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Sun Feb 6 2022 02:47:22 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/7</span>
+                                &#160;<span id="projectnumber">v0.1/8</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -91,6 +91,7 @@ $(document).ready(function(){initNavTree('class_d6_engine_1_1_graphics_1_1_rende
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
@@ -112,6 +113,16 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO.  <a href="struct_d6_engine_1_1_graphics_1_1_renderer_1_1_g_l_text_object.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:aa74f69b39c6c33589d1a816acb2533c8"><td class="memItemLeft" align="right" valign="top"><a id="aa74f69b39c6c33589d1a816acb2533c8" name="aa74f69b39c6c33589d1a816acb2533c8"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Draw</b> ()</td></tr>
+<tr class="memdesc:aa74f69b39c6c33589d1a816acb2533c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw call for <a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html" title="Render Class for drawing Objects.">Renderer</a>. Currently using Triangle Strip for Render. <br /></td></tr>
+<tr class="separator:aa74f69b39c6c33589d1a816acb2533c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb6514022ac4baaef892f8558d8e2e45"><td class="memItemLeft" align="right" valign="top"><a id="abb6514022ac4baaef892f8558d8e2e45" name="abb6514022ac4baaef892f8558d8e2e45"></a>
+<a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_context.html">OGLContext</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetContext</b> ()</td></tr>
+<tr class="separator:abb6514022ac4baaef892f8558d8e2e45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a933a7aa75d695cb8066c214c4860985c"><td class="memItemLeft" align="right" valign="top"><a id="a933a7aa75d695cb8066c214c4860985c" name="a933a7aa75d695cb8066c214c4860985c"></a>
@@ -125,10 +136,6 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>Clear</b> ()</
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>Init</b> (<a class="el" href="struct_d6_engine_1_1_colour.html">Colour</a> backgroundColour={.4f,.2f,.4f})</td></tr>
 <tr class="memdesc:a89731f34859c81a36f757471fd6b8960"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the <a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html" title="Render Class for drawing Objects.">Renderer</a>. <br /></td></tr>
 <tr class="separator:a89731f34859c81a36f757471fd6b8960"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa74f69b39c6c33589d1a816acb2533c8"><td class="memItemLeft" align="right" valign="top"><a id="aa74f69b39c6c33589d1a816acb2533c8" name="aa74f69b39c6c33589d1a816acb2533c8"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>Draw</b> ()</td></tr>
-<tr class="memdesc:aa74f69b39c6c33589d1a816acb2533c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw call for <a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html" title="Render Class for drawing Objects.">Renderer</a>. Currently using Triangle Strip for Render. <br /></td></tr>
-<tr class="separator:aa74f69b39c6c33589d1a816acb2533c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0334bb1259a8214bc6d86f40c836cb1"><td class="memItemLeft" align="right" valign="top"><a id="ac0334bb1259a8214bc6d86f40c836cb1" name="ac0334bb1259a8214bc6d86f40c836cb1"></a>
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>Cleanup</b> ()</td></tr>
 <tr class="memdesc:ac0334bb1259a8214bc6d86f40c836cb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the material and mesh containers used in the renderer class. <br /></td></tr>
@@ -1163,7 +1170,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Camera2d</b></td></t
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d6_engine.html">D6Engine</a></li><li class="navelem"><a class="el" href="namespace_d6_engine_1_1_graphics.html">Graphics</a></li><li class="navelem"><a class="el" href="class_d6_engine_1_1_graphics_1_1_renderer.html">Renderer</a></li>
-    <li class="footer">Generated on Wed Dec 8 2021 00:32:11 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Sun Feb 6 2022 02:47:23 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

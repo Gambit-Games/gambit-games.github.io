@@ -12,6 +12,6 @@ var searchData=
   ['resource_3c_20prefab_20_2a_20_3e_9',['Resource&lt; Prefab * &gt;',['../struct_d6_engine_1_1_resources_1_1_resource.html',1,'D6Engine::Resources']]],
   ['resource_3c_20shader_20_2a_20_3e_10',['Resource&lt; Shader * &gt;',['../struct_d6_engine_1_1_resources_1_1_resource.html',1,'D6Engine::Resources']]],
   ['resource_3c_20texture_20_2a_20_3e_11',['Resource&lt; Texture * &gt;',['../struct_d6_engine_1_1_resources_1_1_resource.html',1,'D6Engine::Resources']]],
-  ['resourcemanager_12',['ResourceManager',['../class_d6_engine_1_1_manager_1_1_resource_manager.html',1,'D6Engine::Manager']]],
+  ['resourcemanager_12',['ResourceManager',['../class_d6_engine_1_1_resource_manager.html',1,'D6Engine']]],
   ['rigidbody2d_13',['Rigidbody2D',['../class_d6_engine_1_1_rigidbody2_d.html',1,'D6Engine']]]
 ];

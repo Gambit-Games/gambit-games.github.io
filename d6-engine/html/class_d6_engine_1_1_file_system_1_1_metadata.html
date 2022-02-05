@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/7</span>
+                                &#160;<span id="projectnumber">v0.1/8</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -90,9 +90,8 @@ $(document).ready(function(){initNavTree('class_d6_engine_1_1_file_system_1_1_me
 
 <div class="header">
   <div class="summary">
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="class_d6_engine_1_1_file_system_1_1_metadata-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">D6Engine::FileSystem::Metadata Class Reference</div></div>
 </div><!--header-->
@@ -103,97 +102,109 @@ $(document).ready(function(){initNavTree('class_d6_engine_1_1_file_system_1_1_me
 
 <p><code>#include &lt;<a class="el" href="_file_metadata_8h_source.html">FileMetadata.h</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a8b40f3772bf0365733e8bcbb04f59e83"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html#a8b40f3772bf0365733e8bcbb04f59e83">LoadData</a> (const std::string path)</td></tr>
-<tr class="memdesc:a8b40f3772bf0365733e8bcbb04f59e83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the Data from the file.  <a href="class_d6_engine_1_1_file_system_1_1_metadata.html#a8b40f3772bf0365733e8bcbb04f59e83">More...</a><br /></td></tr>
-<tr class="separator:a8b40f3772bf0365733e8bcbb04f59e83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1299427a6cc9efa822c05d5849e64cfd"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html#a1299427a6cc9efa822c05d5849e64cfd">GetInt</a> (const std::string &amp;key)</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a1299427a6cc9efa822c05d5849e64cfd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html#a1299427a6cc9efa822c05d5849e64cfd">GetInt</a> (const std::string &amp;key)</td></tr>
 <tr class="memdesc:a1299427a6cc9efa822c05d5849e64cfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the int value in the metadata from a given key.  <a href="class_d6_engine_1_1_file_system_1_1_metadata.html#a1299427a6cc9efa822c05d5849e64cfd">More...</a><br /></td></tr>
 <tr class="separator:a1299427a6cc9efa822c05d5849e64cfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9c9632a8edceac0c1e28fe717d6afe8"><td class="memItemLeft" align="right" valign="top">static uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html#ac9c9632a8edceac0c1e28fe717d6afe8">GetUInt64_T</a> (const std::string &amp;key)</td></tr>
+<tr class="memitem:ac9c9632a8edceac0c1e28fe717d6afe8"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html#ac9c9632a8edceac0c1e28fe717d6afe8">GetUInt64_T</a> (const std::string &amp;key)</td></tr>
 <tr class="memdesc:ac9c9632a8edceac0c1e28fe717d6afe8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the UInt64 value in the metadata from a given key.  <a href="class_d6_engine_1_1_file_system_1_1_metadata.html#ac9c9632a8edceac0c1e28fe717d6afe8">More...</a><br /></td></tr>
 <tr class="separator:ac9c9632a8edceac0c1e28fe717d6afe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae610c15757146e269f0a84d8ee014ee6"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html#ae610c15757146e269f0a84d8ee014ee6">GetString</a> (const std::string &amp;key)</td></tr>
+<tr class="memitem:ae610c15757146e269f0a84d8ee014ee6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html#ae610c15757146e269f0a84d8ee014ee6">GetString</a> (const std::string &amp;key)</td></tr>
 <tr class="memdesc:ae610c15757146e269f0a84d8ee014ee6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the String value in the metadata from a given key.  <a href="class_d6_engine_1_1_file_system_1_1_metadata.html#ae610c15757146e269f0a84d8ee014ee6">More...</a><br /></td></tr>
 <tr class="separator:ae610c15757146e269f0a84d8ee014ee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1fcac43192ca7c84c25cdbeb76cb5ccd"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html#a1fcac43192ca7c84c25cdbeb76cb5ccd">GetFloat</a> (const std::string &amp;key)</td></tr>
+<tr class="memitem:a1fcac43192ca7c84c25cdbeb76cb5ccd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html#a1fcac43192ca7c84c25cdbeb76cb5ccd">GetFloat</a> (const std::string &amp;key)</td></tr>
 <tr class="memdesc:a1fcac43192ca7c84c25cdbeb76cb5ccd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the float value in the metadata from a given key.  <a href="class_d6_engine_1_1_file_system_1_1_metadata.html#a1fcac43192ca7c84c25cdbeb76cb5ccd">More...</a><br /></td></tr>
 <tr class="separator:a1fcac43192ca7c84c25cdbeb76cb5ccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5dcec9a455efe96ee6aa1d47b44d303e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Math::Vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html#a5dcec9a455efe96ee6aa1d47b44d303e">GetVec2</a> (const std::string &amp;key)</td></tr>
+<tr class="memitem:a5dcec9a455efe96ee6aa1d47b44d303e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Math::Vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html#a5dcec9a455efe96ee6aa1d47b44d303e">GetVec2</a> (const std::string &amp;key)</td></tr>
 <tr class="memdesc:a5dcec9a455efe96ee6aa1d47b44d303e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Vector 2D value in the metadata from a given key.  <a href="class_d6_engine_1_1_file_system_1_1_metadata.html#a5dcec9a455efe96ee6aa1d47b44d303e">More...</a><br /></td></tr>
 <tr class="separator:a5dcec9a455efe96ee6aa1d47b44d303e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7875d195ccd38f0dec8184fdf5daea8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html#ae7875d195ccd38f0dec8184fdf5daea8">SetInt</a> (const int data, const std::string &amp;key, const std::string &amp;file=&quot;&quot;)</td></tr>
-<tr class="memdesc:ae7875d195ccd38f0dec8184fdf5daea8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the int value of a user specified key, in the metadata.  <a href="class_d6_engine_1_1_file_system_1_1_metadata.html#ae7875d195ccd38f0dec8184fdf5daea8">More...</a><br /></td></tr>
-<tr class="separator:ae7875d195ccd38f0dec8184fdf5daea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac53606affb3afa297deff179df063881"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html#ac53606affb3afa297deff179df063881">SetUInt64_T</a> (const uint64_t, const std::string &amp;key, const std::string &amp;file=&quot;&quot;)</td></tr>
-<tr class="memdesc:ac53606affb3afa297deff179df063881"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the uint64_t value of a user specified key, in the metadata.  <a href="class_d6_engine_1_1_file_system_1_1_metadata.html#ac53606affb3afa297deff179df063881">More...</a><br /></td></tr>
-<tr class="separator:ac53606affb3afa297deff179df063881"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44e9652bb9bce1da7dea3c988da95b0c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html#a44e9652bb9bce1da7dea3c988da95b0c">SetString</a> (const std::string str, const std::string &amp;key, const std::string &amp;file=&quot;&quot;)</td></tr>
-<tr class="memdesc:a44e9652bb9bce1da7dea3c988da95b0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the string value of a user specified key, in the metadata.  <a href="class_d6_engine_1_1_file_system_1_1_metadata.html#a44e9652bb9bce1da7dea3c988da95b0c">More...</a><br /></td></tr>
-<tr class="separator:a44e9652bb9bce1da7dea3c988da95b0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a515776c851c573aee3b28333c27a45f1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html#a515776c851c573aee3b28333c27a45f1">SetFloat</a> (const float data, const std::string &amp;key, const std::string &amp;file=&quot;&quot;)</td></tr>
-<tr class="memdesc:a515776c851c573aee3b28333c27a45f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the float value of a user specified key, in the metadata.  <a href="class_d6_engine_1_1_file_system_1_1_metadata.html#a515776c851c573aee3b28333c27a45f1">More...</a><br /></td></tr>
-<tr class="separator:a515776c851c573aee3b28333c27a45f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0700cd1445bb9590b40d1265ecd4938"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html#ab0700cd1445bb9590b40d1265ecd4938">SetVec2</a> (const <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Math::Vec2</a> vec, const std::string &amp;key, const std::string &amp;file=&quot;&quot;)</td></tr>
-<tr class="memdesc:ab0700cd1445bb9590b40d1265ecd4938"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the vector2d value of a user specified key, in the metadata.  <a href="class_d6_engine_1_1_file_system_1_1_metadata.html#ab0700cd1445bb9590b40d1265ecd4938">More...</a><br /></td></tr>
-<tr class="separator:ab0700cd1445bb9590b40d1265ecd4938"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa85fb8005038e3ea831f42fe9168fec1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html#aa85fb8005038e3ea831f42fe9168fec1">SetType</a> (const Resources::ResourceType type, const std::string &amp;key, const std::string &amp;file=&quot;&quot;)</td></tr>
-<tr class="memdesc:aa85fb8005038e3ea831f42fe9168fec1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets resource type value of a user specified key, in the metadata.  <a href="class_d6_engine_1_1_file_system_1_1_metadata.html#aa85fb8005038e3ea831f42fe9168fec1">More...</a><br /></td></tr>
-<tr class="separator:aa85fb8005038e3ea831f42fe9168fec1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f97995a79a5c1e78851eb69a3cb68e1"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html#a9f97995a79a5c1e78851eb69a3cb68e1">FileExist</a> (const std::string &amp;fileName)</td></tr>
-<tr class="memdesc:a9f97995a79a5c1e78851eb69a3cb68e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks to see if the specified file exists.  <a href="class_d6_engine_1_1_file_system_1_1_metadata.html#a9f97995a79a5c1e78851eb69a3cb68e1">More...</a><br /></td></tr>
-<tr class="separator:a9f97995a79a5c1e78851eb69a3cb68e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c61c0f4ae3a5c0b7ac5dd4851df939c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html#a4c61c0f4ae3a5c0b7ac5dd4851df939c">CreateFile</a> (const std::string &amp;filepath)</td></tr>
+<tr class="memitem:abf7f17526686040f9ff22a758c95ad0c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html#abf7f17526686040f9ff22a758c95ad0c">SetInt</a> (int data, const std::string &amp;key, const std::string &amp;file=&quot;&quot;)</td></tr>
+<tr class="memdesc:abf7f17526686040f9ff22a758c95ad0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the int value of a user specified key, in the metadata.  <a href="class_d6_engine_1_1_file_system_1_1_metadata.html#abf7f17526686040f9ff22a758c95ad0c">More...</a><br /></td></tr>
+<tr class="separator:abf7f17526686040f9ff22a758c95ad0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5be0e93fef66cbbd3d61d9882e79c3ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html#a5be0e93fef66cbbd3d61d9882e79c3ad">SetUInt64_T</a> (uint64_t data, const std::string &amp;key, const std::string &amp;file=&quot;&quot;)</td></tr>
+<tr class="memdesc:a5be0e93fef66cbbd3d61d9882e79c3ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the uint64_t value of a user specified key, in the metadata.  <a href="class_d6_engine_1_1_file_system_1_1_metadata.html#a5be0e93fef66cbbd3d61d9882e79c3ad">More...</a><br /></td></tr>
+<tr class="separator:a5be0e93fef66cbbd3d61d9882e79c3ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affb7adcbcbe5c220d3b83ca6eefb0de1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html#affb7adcbcbe5c220d3b83ca6eefb0de1">SetString</a> (std::string data, const std::string &amp;key, const std::string &amp;file=&quot;&quot;)</td></tr>
+<tr class="memdesc:affb7adcbcbe5c220d3b83ca6eefb0de1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the string value of a user specified key, in the metadata.  <a href="class_d6_engine_1_1_file_system_1_1_metadata.html#affb7adcbcbe5c220d3b83ca6eefb0de1">More...</a><br /></td></tr>
+<tr class="separator:affb7adcbcbe5c220d3b83ca6eefb0de1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa548a61c12ba2bf91f6743498bc2b19c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html#aa548a61c12ba2bf91f6743498bc2b19c">SetFloat</a> (float data, const std::string &amp;key, const std::string &amp;file=&quot;&quot;)</td></tr>
+<tr class="memdesc:aa548a61c12ba2bf91f6743498bc2b19c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the float value of a user specified key, in the metadata.  <a href="class_d6_engine_1_1_file_system_1_1_metadata.html#aa548a61c12ba2bf91f6743498bc2b19c">More...</a><br /></td></tr>
+<tr class="separator:aa548a61c12ba2bf91f6743498bc2b19c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed7e1075709af81949658af83813ec92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html#aed7e1075709af81949658af83813ec92">SetVec2</a> (<a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Math::Vec2</a> vec, const std::string &amp;key, const std::string &amp;file=&quot;&quot;)</td></tr>
+<tr class="memdesc:aed7e1075709af81949658af83813ec92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the vector2d value of a user specified key, in the metadata.  <a href="class_d6_engine_1_1_file_system_1_1_metadata.html#aed7e1075709af81949658af83813ec92">More...</a><br /></td></tr>
+<tr class="separator:aed7e1075709af81949658af83813ec92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c2baa701900381fe4780db39cda15d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html#a1c2baa701900381fe4780db39cda15d9">SetType</a> (Resources::ResourceType type, const std::string &amp;key, const std::string &amp;file=&quot;&quot;)</td></tr>
+<tr class="memdesc:a1c2baa701900381fe4780db39cda15d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets resource type value of a user specified key, in the metadata.  <a href="class_d6_engine_1_1_file_system_1_1_metadata.html#a1c2baa701900381fe4780db39cda15d9">More...</a><br /></td></tr>
+<tr class="separator:a1c2baa701900381fe4780db39cda15d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9db75e99327c9c2090576940af46f11"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html#aa9db75e99327c9c2090576940af46f11">FileExist</a> ()</td></tr>
+<tr class="memdesc:aa9db75e99327c9c2090576940af46f11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks to see if the specified file exists.  <a href="class_d6_engine_1_1_file_system_1_1_metadata.html#aa9db75e99327c9c2090576940af46f11">More...</a><br /></td></tr>
+<tr class="separator:aa9db75e99327c9c2090576940af46f11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c61c0f4ae3a5c0b7ac5dd4851df939c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html#a4c61c0f4ae3a5c0b7ac5dd4851df939c">CreateFile</a> (const std::string &amp;filepath)</td></tr>
 <tr class="memdesc:a4c61c0f4ae3a5c0b7ac5dd4851df939c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates and empty .d6meta file using the filepath specified by the user.  <a href="class_d6_engine_1_1_file_system_1_1_metadata.html#a4c61c0f4ae3a5c0b7ac5dd4851df939c">More...</a><br /></td></tr>
 <tr class="separator:a4c61c0f4ae3a5c0b7ac5dd4851df939c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38acc7963ec5f951f3d1ea0cb78018c9"><td class="memItemLeft" align="right" valign="top">static Resources::ResourceType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html#a38acc7963ec5f951f3d1ea0cb78018c9">GetResourceType</a> (const std::filesystem::path &amp;filepath)</td></tr>
+<tr class="memitem:a38acc7963ec5f951f3d1ea0cb78018c9"><td class="memItemLeft" align="right" valign="top">Resources::ResourceType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html#a38acc7963ec5f951f3d1ea0cb78018c9">GetResourceType</a> (const std::filesystem::path &amp;filepath)</td></tr>
 <tr class="memdesc:a38acc7963ec5f951f3d1ea0cb78018c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the enum type of the resource.  <a href="class_d6_engine_1_1_file_system_1_1_metadata.html#a38acc7963ec5f951f3d1ea0cb78018c9">More...</a><br /></td></tr>
 <tr class="separator:a38acc7963ec5f951f3d1ea0cb78018c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2bb82e9644991a1a7d48f7ffaae9b01"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html#ab2bb82e9644991a1a7d48f7ffaae9b01">Metadata</a> (std::string filepath)</td></tr>
+<tr class="memdesc:ab2bb82e9644991a1a7d48f7ffaae9b01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates and Loads the metadata from the file specified in the constructor.  <a href="class_d6_engine_1_1_file_system_1_1_metadata.html#ab2bb82e9644991a1a7d48f7ffaae9b01">More...</a><br /></td></tr>
+<tr class="separator:ab2bb82e9644991a1a7d48f7ffaae9b01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:a95a57f8f22c697ef42def7d923fcd2b8"><td class="memItemLeft" align="right" valign="top"><a id="a95a57f8f22c697ef42def7d923fcd2b8" name="a95a57f8f22c697ef42def7d923fcd2b8"></a>
-static std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>imageExtensions</b> = { &quot;.png&quot;, &quot;.jpg&quot;, &quot;.jpeg&quot;, &quot;.bmp&quot; }</td></tr>
-<tr class="separator:a95a57f8f22c697ef42def7d923fcd2b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2793a4f4943bec51029974d8da288926"><td class="memItemLeft" align="right" valign="top"><a id="a2793a4f4943bec51029974d8da288926" name="a2793a4f4943bec51029974d8da288926"></a>
-static std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>audioExtensions</b> = { &quot;.mp3&quot;, &quot;.wav&quot;, &quot;.m4a&quot;, &quot;.ogg&quot;, &quot;.aac&quot;, &quot;.flac&quot; }</td></tr>
-<tr class="separator:a2793a4f4943bec51029974d8da288926"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81c32cbd0a145c2bd8521f16766bcdc7"><td class="memItemLeft" align="right" valign="top"><a id="a81c32cbd0a145c2bd8521f16766bcdc7" name="a81c32cbd0a145c2bd8521f16766bcdc7"></a>
-static std::string&#160;</td><td class="memItemRight" valign="bottom"><b>shaderExtension</b> = { &quot;.glsl&quot; }</td></tr>
-<tr class="separator:a81c32cbd0a145c2bd8521f16766bcdc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76a3f1658a82d914fb88e729b2e7cf63"><td class="memItemLeft" align="right" valign="top"><a id="a76a3f1658a82d914fb88e729b2e7cf63" name="a76a3f1658a82d914fb88e729b2e7cf63"></a>
-static std::string&#160;</td><td class="memItemRight" valign="bottom"><b>animClipExtension</b> = { &quot;.d6anim&quot; }</td></tr>
-<tr class="separator:a76a3f1658a82d914fb88e729b2e7cf63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
-Static Protected Member Functions</h2></td></tr>
-<tr class="memitem:af38b31980d6b6464cd628ccd53308db4"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html#af38b31980d6b6464cd628ccd53308db4">FileDataCheck</a> ()</td></tr>
-<tr class="memdesc:af38b31980d6b6464cd628ccd53308db4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal Function for Sanity check to make sure that the fileData variable is a valid .json document.  <a href="class_d6_engine_1_1_file_system_1_1_metadata.html#af38b31980d6b6464cd628ccd53308db4">More...</a><br /></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a790a03525aad6ffd447d3ceee1ddb14e"><td class="memItemLeft" align="right" valign="top"><a id="a790a03525aad6ffd447d3ceee1ddb14e" name="a790a03525aad6ffd447d3ceee1ddb14e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>LoadData</b> ()</td></tr>
+<tr class="memdesc:a790a03525aad6ffd447d3ceee1ddb14e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the Data from the file. <br /></td></tr>
+<tr class="separator:a790a03525aad6ffd447d3ceee1ddb14e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af38b31980d6b6464cd628ccd53308db4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html#af38b31980d6b6464cd628ccd53308db4">FileDataCheck</a> ()</td></tr>
+<tr class="memdesc:af38b31980d6b6464cd628ccd53308db4"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_d6_engine_1_1_internal.html">Internal</a> Function for Sanity check to make sure that the fileData variable is a valid .json document.  <a href="class_d6_engine_1_1_file_system_1_1_metadata.html#af38b31980d6b6464cd628ccd53308db4">More...</a><br /></td></tr>
 <tr class="separator:af38b31980d6b6464cd628ccd53308db4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af73ee0f6f3804a0b26791504acb5d07f"><td class="memItemLeft" align="right" valign="top">static rapidjson::Document &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html#af73ee0f6f3804a0b26791504acb5d07f">GetFileData</a> ()</td></tr>
-<tr class="memdesc:af73ee0f6f3804a0b26791504acb5d07f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal Function for derived classes.  <a href="class_d6_engine_1_1_file_system_1_1_metadata.html#af73ee0f6f3804a0b26791504acb5d07f">More...</a><br /></td></tr>
-<tr class="separator:af73ee0f6f3804a0b26791504acb5d07f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accbd4f37ae4bbbed65daa4cf8ef21d2c"><td class="memItemLeft" align="right" valign="top">rapidjson::Document &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html#accbd4f37ae4bbbed65daa4cf8ef21d2c">GetFileData</a> ()</td></tr>
+<tr class="memdesc:accbd4f37ae4bbbed65daa4cf8ef21d2c"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_d6_engine_1_1_internal.html">Internal</a> Function for derived classes.  <a href="class_d6_engine_1_1_file_system_1_1_metadata.html#accbd4f37ae4bbbed65daa4cf8ef21d2c">More...</a><br /></td></tr>
+<tr class="separator:accbd4f37ae4bbbed65daa4cf8ef21d2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16af2078d14a346861cca815d987dacf"><td class="memItemLeft" align="right" valign="top"><a id="a16af2078d14a346861cca815d987dacf" name="a16af2078d14a346861cca815d987dacf"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveToFile</b> ()</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveToFile</b> ()</td></tr>
 <tr class="memdesc:a16af2078d14a346861cca815d987dacf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the current metadata to the initialized path. <br /></td></tr>
 <tr class="separator:a16af2078d14a346861cca815d987dacf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01f059189476495ce7e593806e7ca36a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html#a01f059189476495ce7e593806e7ca36a">SaveToFile</a> (const std::string &amp;filename)</td></tr>
+<tr class="memitem:a01f059189476495ce7e593806e7ca36a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html#a01f059189476495ce7e593806e7ca36a">SaveToFile</a> (const std::string &amp;filename)</td></tr>
 <tr class="memdesc:a01f059189476495ce7e593806e7ca36a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the current metadata to a new file using the user specified path.  <a href="class_d6_engine_1_1_file_system_1_1_metadata.html#a01f059189476495ce7e593806e7ca36a">More...</a><br /></td></tr>
 <tr class="separator:a01f059189476495ce7e593806e7ca36a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Provides an interface to load the <a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html" title="Provides an interface to load the Metadata from file.">Metadata</a> from file. </p>
-<dl class="bug"><dt><b><a class="el" href="bug.html#_bug000001">Bug:</a></b></dt><dd>Loaded file data can be overridden if another function calls LoadData due to the static nature of the class. </dd></dl>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ab2bb82e9644991a1a7d48f7ffaae9b01" name="ab2bb82e9644991a1a7d48f7ffaae9b01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2bb82e9644991a1a7d48f7ffaae9b01">&#9670;&nbsp;</a></span>Metadata()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">D6Engine::FileSystem::Metadata::Metadata </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>filepath</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates and Loads the metadata from the file specified in the constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filepath</td><td>filepath of the data (in std string) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a4c61c0f4ae3a5c0b7ac5dd4851df939c" name="a4c61c0f4ae3a5c0b7ac5dd4851df939c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4c61c0f4ae3a5c0b7ac5dd4851df939c">&#9670;&nbsp;</a></span>CreateFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void D6Engine::FileSystem::Metadata::CreateFile </td>
@@ -203,11 +214,6 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveToFile</b>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Creates and empty .d6meta file using the filepath specified by the user. </p>
@@ -238,53 +244,38 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveToFile</b>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Internal Function for Sanity check to make sure that the fileData variable is a valid .json document. </p>
+<p><a class="el" href="namespace_d6_engine_1_1_internal.html">Internal</a> Function for Sanity check to make sure that the fileData variable is a valid .json document. </p>
 <dl class="section return"><dt>Returns</dt><dd>true if file is valid. </dd></dl>
 
 </div>
 </div>
-<a id="a9f97995a79a5c1e78851eb69a3cb68e1" name="a9f97995a79a5c1e78851eb69a3cb68e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f97995a79a5c1e78851eb69a3cb68e1">&#9670;&nbsp;</a></span>FileExist()</h2>
+<a id="aa9db75e99327c9c2090576940af46f11" name="aa9db75e99327c9c2090576940af46f11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9db75e99327c9c2090576940af46f11">&#9670;&nbsp;</a></span>FileExist()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool D6Engine::FileSystem::Metadata::FileExist </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>fileName</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Checks to see if the specified file exists. </p>
-<p >This is used by the Resource <a class="el" href="namespace_d6_engine_1_1_manager.html">Manager</a> to decide on either loading the resource directly from the file, or from the metadata file. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">fileName</td><td>Full path of the file. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>true is file exists, false if the file cannot be found. </dd></dl>
+<p >This is used by the Resource Manager to decide on either loading the resource directly from the file, or from the metadata file. </p><dl class="section return"><dt>Returns</dt><dd>true is file exists, false if the file cannot be found. </dd></dl>
 
 </div>
 </div>
-<a id="af73ee0f6f3804a0b26791504acb5d07f" name="af73ee0f6f3804a0b26791504acb5d07f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af73ee0f6f3804a0b26791504acb5d07f">&#9670;&nbsp;</a></span>GetFileData()</h2>
+<a id="accbd4f37ae4bbbed65daa4cf8ef21d2c" name="accbd4f37ae4bbbed65daa4cf8ef21d2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accbd4f37ae4bbbed65daa4cf8ef21d2c">&#9670;&nbsp;</a></span>GetFileData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -293,7 +284,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveToFile</b>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static rapidjson::Document &amp; D6Engine::FileSystem::Metadata::GetFileData </td>
+          <td class="memname">rapidjson::Document &amp; D6Engine::FileSystem::Metadata::GetFileData </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -301,12 +292,12 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveToFile</b>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Internal Function for derived classes. </p>
+<p><a class="el" href="namespace_d6_engine_1_1_internal.html">Internal</a> Function for derived classes. </p>
 <dl class="section return"><dt>Returns</dt><dd>reference to the rapidjson::Document that has been initialized. </dd></dl>
 
 </div>
@@ -316,9 +307,6 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveToFile</b>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">float D6Engine::FileSystem::Metadata::GetFloat </td>
@@ -328,11 +316,6 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveToFile</b>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Gets the float value in the metadata from a given key. </p>
@@ -351,9 +334,6 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveToFile</b>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">int D6Engine::FileSystem::Metadata::GetInt </td>
@@ -363,11 +343,6 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveToFile</b>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Gets the int value in the metadata from a given key. </p>
@@ -386,9 +361,6 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveToFile</b>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">Resources::ResourceType D6Engine::FileSystem::Metadata::GetResourceType </td>
@@ -398,11 +370,6 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveToFile</b>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Gets the enum type of the resource. </p>
@@ -421,9 +388,6 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveToFile</b>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">std::string D6Engine::FileSystem::Metadata::GetString </td>
@@ -433,11 +397,6 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveToFile</b>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Gets the String value in the metadata from a given key. </p>
@@ -456,9 +415,6 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveToFile</b>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">uint64_t D6Engine::FileSystem::Metadata::GetUInt64_T </td>
@@ -468,11 +424,6 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveToFile</b>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Gets the UInt64 value in the metadata from a given key. </p>
@@ -491,9 +442,6 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveToFile</b>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Math::Vec2</a> D6Engine::FileSystem::Metadata::GetVec2 </td>
@@ -503,11 +451,6 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveToFile</b>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Gets the Vector 2D value in the metadata from a given key. </p>
@@ -518,40 +461,6 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveToFile</b>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Vector 2D value specified by the key, if there is no match for the key, returns an empty vector. </dd></dl>
-
-</div>
-</div>
-<a id="a8b40f3772bf0365733e8bcbb04f59e83" name="a8b40f3772bf0365733e8bcbb04f59e83"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b40f3772bf0365733e8bcbb04f59e83">&#9670;&nbsp;</a></span>LoadData()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void D6Engine::FileSystem::Metadata::LoadData </td>
-          <td>(</td>
-          <td class="paramtype">const std::string&#160;</td>
-          <td class="paramname"><em>path</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Loads the Data from the file. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">Source</td><td>path of the file that is loaded. </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>
@@ -574,7 +483,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveToFile</b>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -589,19 +498,16 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveToFile</b>
 
 </div>
 </div>
-<a id="a515776c851c573aee3b28333c27a45f1" name="a515776c851c573aee3b28333c27a45f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a515776c851c573aee3b28333c27a45f1">&#9670;&nbsp;</a></span>SetFloat()</h2>
+<a id="aa548a61c12ba2bf91f6743498bc2b19c" name="aa548a61c12ba2bf91f6743498bc2b19c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa548a61c12ba2bf91f6743498bc2b19c">&#9670;&nbsp;</a></span>SetFloat()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void D6Engine::FileSystem::Metadata::SetFloat </td>
           <td>(</td>
-          <td class="paramtype">const float&#160;</td>
+          <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>data</em>, </td>
         </tr>
         <tr>
@@ -622,11 +528,6 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveToFile</b>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Sets the float value of a user specified key, in the metadata. </p>
@@ -641,19 +542,16 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveToFile</b>
 
 </div>
 </div>
-<a id="ae7875d195ccd38f0dec8184fdf5daea8" name="ae7875d195ccd38f0dec8184fdf5daea8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7875d195ccd38f0dec8184fdf5daea8">&#9670;&nbsp;</a></span>SetInt()</h2>
+<a id="abf7f17526686040f9ff22a758c95ad0c" name="abf7f17526686040f9ff22a758c95ad0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf7f17526686040f9ff22a758c95ad0c">&#9670;&nbsp;</a></span>SetInt()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void D6Engine::FileSystem::Metadata::SetInt </td>
           <td>(</td>
-          <td class="paramtype">const int&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>data</em>, </td>
         </tr>
         <tr>
@@ -674,11 +572,6 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveToFile</b>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Sets the int value of a user specified key, in the metadata. </p>
@@ -693,20 +586,17 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveToFile</b>
 
 </div>
 </div>
-<a id="a44e9652bb9bce1da7dea3c988da95b0c" name="a44e9652bb9bce1da7dea3c988da95b0c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44e9652bb9bce1da7dea3c988da95b0c">&#9670;&nbsp;</a></span>SetString()</h2>
+<a id="affb7adcbcbe5c220d3b83ca6eefb0de1" name="affb7adcbcbe5c220d3b83ca6eefb0de1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affb7adcbcbe5c220d3b83ca6eefb0de1">&#9670;&nbsp;</a></span>SetString()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void D6Engine::FileSystem::Metadata::SetString </td>
           <td>(</td>
-          <td class="paramtype">const std::string&#160;</td>
-          <td class="paramname"><em>str</em>, </td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -726,11 +616,6 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveToFile</b>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Sets the string value of a user specified key, in the metadata. </p>
@@ -745,19 +630,16 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveToFile</b>
 
 </div>
 </div>
-<a id="aa85fb8005038e3ea831f42fe9168fec1" name="aa85fb8005038e3ea831f42fe9168fec1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa85fb8005038e3ea831f42fe9168fec1">&#9670;&nbsp;</a></span>SetType()</h2>
+<a id="a1c2baa701900381fe4780db39cda15d9" name="a1c2baa701900381fe4780db39cda15d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c2baa701900381fe4780db39cda15d9">&#9670;&nbsp;</a></span>SetType()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void D6Engine::FileSystem::Metadata::SetType </td>
           <td>(</td>
-          <td class="paramtype">const Resources::ResourceType&#160;</td>
+          <td class="paramtype">Resources::ResourceType&#160;</td>
           <td class="paramname"><em>type</em>, </td>
         </tr>
         <tr>
@@ -778,11 +660,6 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveToFile</b>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Sets resource type value of a user specified key, in the metadata. </p>
@@ -797,19 +674,16 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveToFile</b>
 
 </div>
 </div>
-<a id="ac53606affb3afa297deff179df063881" name="ac53606affb3afa297deff179df063881"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac53606affb3afa297deff179df063881">&#9670;&nbsp;</a></span>SetUInt64_T()</h2>
+<a id="a5be0e93fef66cbbd3d61d9882e79c3ad" name="a5be0e93fef66cbbd3d61d9882e79c3ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5be0e93fef66cbbd3d61d9882e79c3ad">&#9670;&nbsp;</a></span>SetUInt64_T()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void D6Engine::FileSystem::Metadata::SetUInt64_T </td>
           <td>(</td>
-          <td class="paramtype">const uint64_t&#160;</td>
+          <td class="paramtype">uint64_t&#160;</td>
           <td class="paramname"><em>data</em>, </td>
         </tr>
         <tr>
@@ -830,11 +704,6 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveToFile</b>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Sets the uint64_t value of a user specified key, in the metadata. </p>
@@ -849,19 +718,16 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveToFile</b>
 
 </div>
 </div>
-<a id="ab0700cd1445bb9590b40d1265ecd4938" name="ab0700cd1445bb9590b40d1265ecd4938"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0700cd1445bb9590b40d1265ecd4938">&#9670;&nbsp;</a></span>SetVec2()</h2>
+<a id="aed7e1075709af81949658af83813ec92" name="aed7e1075709af81949658af83813ec92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed7e1075709af81949658af83813ec92">&#9670;&nbsp;</a></span>SetVec2()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void D6Engine::FileSystem::Metadata::SetVec2 </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Math::Vec2</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Math::Vec2</a>&#160;</td>
           <td class="paramname"><em>vec</em>, </td>
         </tr>
         <tr>
@@ -882,11 +748,6 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveToFile</b>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Sets the vector2d value of a user specified key, in the metadata. </p>
@@ -908,7 +769,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SaveToFile</b>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d6_engine.html">D6Engine</a></li><li class="navelem"><a class="el" href="namespace_d6_engine_1_1_file_system.html">FileSystem</a></li><li class="navelem"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html">Metadata</a></li>
-    <li class="footer">Generated on Wed Dec 8 2021 00:32:11 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Sun Feb 6 2022 02:47:22 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

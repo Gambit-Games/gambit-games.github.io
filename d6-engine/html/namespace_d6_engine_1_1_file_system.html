@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/7</span>
+                                &#160;<span id="projectnumber">v0.1/8</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -105,11 +105,16 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_config.html">Config</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides an interface to load the config.json file.  <a href="class_d6_engine_1_1_file_system_1_1_config.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_file_data.html">FileData</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Centralized Class that holds the Main path of the Assets used in the game, and the general extensions that the game requires.  <a href="class_d6_engine_1_1_file_system_1_1_file_data.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_j_s_o_n_writer.html">JSONWriter</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">General JSON File I/O class to allow easy access to JSON writing via the RapidJSON SAX API.  <a href="class_d6_engine_1_1_file_system_1_1_j_s_o_n_writer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html">Metadata</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides an interface to load the <a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html" title="Provides an interface to load the Metadata from file.">Metadata</a> from file.  <a href="class_d6_engine_1_1_file_system_1_1_metadata.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_prefab_j_s_o_n_writer.html">PrefabJSONWriter</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_scene_j_s_o_n_handler.html">SceneJSONHandler</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">RapidJSON handler class for scene files.  <a href="class_d6_engine_1_1_file_system_1_1_scene_j_s_o_n_handler.html#details">More...</a><br /></td></tr>
@@ -129,11 +134,19 @@ Classes</h2></td></tr>
 <p >Copyright © 2021 DigiPen, All rights reserved.</p>
 <p >file: ConfigLoader.h author: Ryan-Cecil Lim Xuan Xian email: <a href="#" onclick="location.href='mai'+'lto:'+'rya'+'nc'+'eci'+'ll'+'im.'+'x@'+'dig'+'ip'+'en.'+'ed'+'u'; return false;">ryanc<span style="display: none;">.nosp@m.</span>ecil<span style="display: none;">.nosp@m.</span>lim.x<span style="display: none;">.nosp@m.</span>@dig<span style="display: none;">.nosp@m.</span>ipen.<span style="display: none;">.nosp@m.</span>edu</a> project: D6_Engine brief: This file contains the declarations for the ConfigLoader System. It is used to read and parse the initial config.json data</p>
 <p >Copyright © 2021 DigiPen, All rights reserved.</p>
-<p >file: FileMetadata.cpp author: Ryan-Cecil Lim Xuan Xian email: <a href="#" onclick="location.href='mai'+'lto:'+'rya'+'nc'+'eci'+'ll'+'im.'+'x@'+'dig'+'ip'+'en.'+'ed'+'u'; return false;">ryanc<span style="display: none;">.nosp@m.</span>ecil<span style="display: none;">.nosp@m.</span>lim.x<span style="display: none;">.nosp@m.</span>@dig<span style="display: none;">.nosp@m.</span>ipen.<span style="display: none;">.nosp@m.</span>edu</a> project: D6_Engine brief: This file contains the definitions for the <a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html" title="Provides an interface to load the Metadata from file.">Metadata</a> System. It is used to read and parse metadata with .json extensions</p>
+<p ><a class="el" href="namespace_d6_engine_1_1_file_system.html">FileSystem</a>: FileData.cpp author: Ryan-Cecil Lim Xuan Xian email: <a href="#" onclick="location.href='mai'+'lto:'+'rya'+'nc'+'eci'+'ll'+'im.'+'x@'+'dig'+'ip'+'en.'+'ed'+'u'; return false;">ryanc<span style="display: none;">.nosp@m.</span>ecil<span style="display: none;">.nosp@m.</span>lim.x<span style="display: none;">.nosp@m.</span>@dig<span style="display: none;">.nosp@m.</span>ipen.<span style="display: none;">.nosp@m.</span>edu</a> project: D6_Engine</p>
+<p >brief: <a class="el" href="class_d6_engine_1_1_file_system_1_1_file_data.html" title="Centralized Class that holds the Main path of the Assets used in the game, and the general extensions...">FileData</a> contains the definitions of the main file Path and all the General extensions used for the game</p>
 <p >Copyright © 2021 DigiPen, All rights reserved.</p>
+<p >file: <a class="el" href="_file_data_8h_source.html">FileData.h</a> author: Ryan-Cecil Lim Xuan Xian email: <a href="#" onclick="location.href='mai'+'lto:'+'rya'+'nc'+'eci'+'ll'+'im.'+'x@'+'dig'+'ip'+'en.'+'ed'+'u'; return false;">ryanc<span style="display: none;">.nosp@m.</span>ecil<span style="display: none;">.nosp@m.</span>lim.x<span style="display: none;">.nosp@m.</span>@dig<span style="display: none;">.nosp@m.</span>ipen.<span style="display: none;">.nosp@m.</span>edu</a> project: D6_Engine</p>
+<p >brief: <a class="el" href="class_d6_engine_1_1_file_system_1_1_file_data.html" title="Centralized Class that holds the Main path of the Assets used in the game, and the general extensions...">FileData</a> contains the declarations of the main file Path and all the General extensions used for the game</p>
+<p >Copyright © 2021 DigiPen, All rights reserved.</p>
+<p >file: FileMetadata.cpp author: Ryan-Cecil Lim Xuan Xian email: <a href="#" onclick="location.href='mai'+'lto:'+'rya'+'nc'+'eci'+'ll'+'im.'+'x@'+'dig'+'ip'+'en.'+'ed'+'u'; return false;">ryanc<span style="display: none;">.nosp@m.</span>ecil<span style="display: none;">.nosp@m.</span>lim.x<span style="display: none;">.nosp@m.</span>@dig<span style="display: none;">.nosp@m.</span>ipen.<span style="display: none;">.nosp@m.</span>edu</a> project: D6_Engine brief: This file contains the definitions for the <a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html" title="Provides an interface to load the Metadata from file.">Metadata</a> System. It is used to read and parse metadata with .json extensions</p>
+<p >Copyright ï¿½ 2021 DigiPen, All rights reserved.</p>
 <p >file: <a class="el" href="_file_metadata_8h_source.html">FileMetadata.h</a> author: Ryan-Cecil Lim Xuan Xian email: <a href="#" onclick="location.href='mai'+'lto:'+'rya'+'nc'+'eci'+'ll'+'im.'+'x@'+'dig'+'ip'+'en.'+'ed'+'u'; return false;">ryanc<span style="display: none;">.nosp@m.</span>ecil<span style="display: none;">.nosp@m.</span>lim.x<span style="display: none;">.nosp@m.</span>@dig<span style="display: none;">.nosp@m.</span>ipen.<span style="display: none;">.nosp@m.</span>edu</a> project: D6_Engine brief: This file contains the declarations for the <a class="el" href="class_d6_engine_1_1_file_system_1_1_metadata.html" title="Provides an interface to load the Metadata from file.">Metadata</a> System. It is used to read and parse metadata with .json extensions</p>
 <p >Copyright © 2021 DigiPen, All rights reserved.</p>
 <p >file: <a class="el" href="_j_s_o_n_writer_8h_source.html">JSONWriter.h</a> author: Neo Ting Wei Terrence email: <a href="#" onclick="location.href='mai'+'lto:'+'neo'+'.w'+'@di'+'gi'+'pen'+'.e'+'du'; return false;">neo.w<span style="display: none;">.nosp@m.</span>@dig<span style="display: none;">.nosp@m.</span>ipen.<span style="display: none;">.nosp@m.</span>edu</a> project: D6_Engine brief: //TODO</p>
+<p >Copyright Â© 2021 DigiPen, All rights reserved.</p>
+<p >file: <a class="el" href="_prefab_j_s_o_n_writer_8h_source.html">PrefabJSONWriter.h</a> author: Neo Ting Wei Terrence email: <a href="#" onclick="location.href='mai'+'lto:'+'neo'+'.w'+'@di'+'gi'+'pen'+'.e'+'du'; return false;">neo.w<span style="display: none;">.nosp@m.</span>@dig<span style="display: none;">.nosp@m.</span>ipen.<span style="display: none;">.nosp@m.</span>edu</a> project: D6_Engine brief: //TODO</p>
 <p >Copyright Â© 2021 DigiPen, All rights reserved.</p>
 <p >file: <a class="el" href="_scene_j_s_o_n_handler_8h_source.html">SceneJSONHandler.h</a> author: Neo Ting Wei Terrence email: <a href="#" onclick="location.href='mai'+'lto:'+'neo'+'.w'+'@di'+'gi'+'pen'+'.e'+'du'; return false;">neo.w<span style="display: none;">.nosp@m.</span>@dig<span style="display: none;">.nosp@m.</span>ipen.<span style="display: none;">.nosp@m.</span>edu</a> project: D6_Engine brief: This file contains the definitions the JSON handler for scene files (.d6scene), data is loaded into a given Scene struct.</p>
 <p >Copyright Â© 2021 DigiPen, All rights reserved.</p>
@@ -146,7 +159,7 @@ Classes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d6_engine.html">D6Engine</a></li><li class="navelem"><a class="el" href="namespace_d6_engine_1_1_file_system.html">FileSystem</a></li>
-    <li class="footer">Generated on Wed Dec 8 2021 00:32:11 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Sun Feb 6 2022 02:47:22 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

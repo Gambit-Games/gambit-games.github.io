@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/7</span>
+                                &#160;<span id="projectnumber">v0.1/8</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -111,15 +111,30 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4bd677ed9d960bb477358cf4eb5b1243"><td class="memItemLeft" align="right" valign="top"><a id="a4bd677ed9d960bb477358cf4eb5b1243" name="a4bd677ed9d960bb477358cf4eb5b1243"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>JSONWriter</b> (const std::string &amp;path)</td></tr>
-<tr class="separator:a4bd677ed9d960bb477358cf4eb5b1243"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a409d29743ad24cc25c8bd0550110491a"><td class="memItemLeft" align="right" valign="top"><a id="a409d29743ad24cc25c8bd0550110491a" name="a409d29743ad24cc25c8bd0550110491a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Close</b> ()</td></tr>
-<tr class="separator:a409d29743ad24cc25c8bd0550110491a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90e9d280f57032133166bb57e60d5f16"><td class="memItemLeft" align="right" valign="top"><a id="a90e9d280f57032133166bb57e60d5f16" name="a90e9d280f57032133166bb57e60d5f16"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Close</b> () noexcept</td></tr>
+<tr class="separator:a90e9d280f57032133166bb57e60d5f16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af51a5e60910f838f45fa5f9adf8300d8"><td class="memItemLeft" align="right" valign="top"><a id="af51a5e60910f838f45fa5f9adf8300d8" name="af51a5e60910f838f45fa5f9adf8300d8"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>WriteComponent</b> (const std::unique_ptr&lt; <a class="el" href="class_d6_engine_1_1_component.html">Component</a> &gt; &amp;component)</td></tr>
 <tr class="separator:af51a5e60910f838f45fa5f9adf8300d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a515e5fe95fcec7e13697a30a58e2ad74"><td class="memItemLeft" align="right" valign="top"><a id="a515e5fe95fcec7e13697a30a58e2ad74" name="a515e5fe95fcec7e13697a30a58e2ad74"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>WriteValue</b> (const rttr::type &amp;type, const rttr::variant &amp;value)</td></tr>
+<tr class="separator:a515e5fe95fcec7e13697a30a58e2ad74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bd677ed9d960bb477358cf4eb5b1243"><td class="memItemLeft" align="right" valign="top"><a id="a4bd677ed9d960bb477358cf4eb5b1243" name="a4bd677ed9d960bb477358cf4eb5b1243"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>JSONWriter</b> (const std::string &amp;path)</td></tr>
+<tr class="separator:a4bd677ed9d960bb477358cf4eb5b1243"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16eb2ef3ddf6028b7d5a5437f05bf68f"><td class="memItemLeft" align="right" valign="top"><a id="a16eb2ef3ddf6028b7d5a5437f05bf68f" name="a16eb2ef3ddf6028b7d5a5437f05bf68f"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>JSONWriter</b> (const <a class="el" href="class_d6_engine_1_1_file_system_1_1_j_s_o_n_writer.html">JSONWriter</a> &amp;other)=delete</td></tr>
+<tr class="separator:a16eb2ef3ddf6028b7d5a5437f05bf68f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a734a6c3c1cf1d7db7c0fcdfab6673e80"><td class="memItemLeft" align="right" valign="top"><a id="a734a6c3c1cf1d7db7c0fcdfab6673e80" name="a734a6c3c1cf1d7db7c0fcdfab6673e80"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>JSONWriter</b> (<a class="el" href="class_d6_engine_1_1_file_system_1_1_j_s_o_n_writer.html">JSONWriter</a> &amp;&amp;other) noexcept=delete</td></tr>
+<tr class="separator:a734a6c3c1cf1d7db7c0fcdfab6673e80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86bb2205a5c112f3ae52ffba306094b1"><td class="memItemLeft" align="right" valign="top"><a id="a86bb2205a5c112f3ae52ffba306094b1" name="a86bb2205a5c112f3ae52ffba306094b1"></a>
+<a class="el" href="class_d6_engine_1_1_file_system_1_1_j_s_o_n_writer.html">JSONWriter</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="class_d6_engine_1_1_file_system_1_1_j_s_o_n_writer.html">JSONWriter</a> &amp;other)=delete</td></tr>
+<tr class="separator:a86bb2205a5c112f3ae52ffba306094b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fa71a0ddcaa97148fc6c749e56ed0bd"><td class="memItemLeft" align="right" valign="top"><a id="a7fa71a0ddcaa97148fc6c749e56ed0bd" name="a7fa71a0ddcaa97148fc6c749e56ed0bd"></a>
+<a class="el" href="class_d6_engine_1_1_file_system_1_1_j_s_o_n_writer.html">JSONWriter</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (<a class="el" href="class_d6_engine_1_1_file_system_1_1_j_s_o_n_writer.html">JSONWriter</a> &amp;&amp;other) noexcept=delete</td></tr>
+<tr class="separator:a7fa71a0ddcaa97148fc6c749e56ed0bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -149,7 +164,7 @@ rapidjson::StringBuffer&#160;</td><td class="memItemRight" valign="bottom"><b>bu
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d6_engine.html">D6Engine</a></li><li class="navelem"><a class="el" href="namespace_d6_engine_1_1_file_system.html">FileSystem</a></li><li class="navelem"><a class="el" href="class_d6_engine_1_1_file_system_1_1_j_s_o_n_writer.html">JSONWriter</a></li>
-    <li class="footer">Generated on Wed Dec 8 2021 00:32:11 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Sun Feb 6 2022 02:47:22 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

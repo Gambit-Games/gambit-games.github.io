@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/7</span>
+                                &#160;<span id="projectnumber">v0.1/8</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -94,30 +94,22 @@ $(document).ready(function(){initNavTree('_scene_j_s_o_n_writer_8h_source.html',
 <div class="contents">
 <div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#pragma once</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;rapidjson/prettywriter.h&gt;</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;scene/Scene.h&quot;</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &quot;gameobject/GameObject.hpp&quot;</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_d6_engine_1_1_file_system.html">D6Engine::FileSystem</a></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>{</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="class_d6_engine_1_1_file_system_1_1_scene_j_s_o_n_writer.html">   24</a></span>    <span class="keyword">class </span><a class="code hl_class" href="class_d6_engine_1_1_file_system_1_1_scene_j_s_o_n_writer.html">SceneJSONWriter</a></div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    {</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        <span class="keywordtype">bool</span> <a class="code hl_function" href="class_d6_engine_1_1_file_system_1_1_scene_j_s_o_n_writer.html#acec2c2d473aa11a8d6993cc01c22e73b">Write</a>(<a class="code hl_struct" href="struct_d6_engine_1_1_scene_management_1_1_scene.html">SceneManagement::Scene</a>* currentScene, std::vector&lt;GameObject&gt;&amp; gameObjects);</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>        <span class="keywordtype">void</span> WriteComponent(<span class="keyword">const</span> std::unique_ptr&lt;Component&gt;&amp; component, </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>            rapidjson::PrettyWriter&lt;rapidjson::StringBuffer&gt;&amp; writer) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        <span class="keywordtype">void</span> WriteValue(<span class="keyword">const</span> rttr::type&amp; type, <span class="keyword">const</span> rttr::variant&amp; value, </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>            rapidjson::PrettyWriter&lt;rapidjson::StringBuffer&gt;&amp; writer) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    };</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>}</div>
-<div class="ttc" id="aclass_d6_engine_1_1_file_system_1_1_scene_j_s_o_n_writer_html"><div class="ttname"><a href="class_d6_engine_1_1_file_system_1_1_scene_j_s_o_n_writer.html">D6Engine::FileSystem::SceneJSONWriter</a></div><div class="ttdoc">Writes a Scene to a JSON file.</div><div class="ttdef"><b>Definition:</b> SceneJSONWriter.h:25</div></div>
-<div class="ttc" id="aclass_d6_engine_1_1_file_system_1_1_scene_j_s_o_n_writer_html_acec2c2d473aa11a8d6993cc01c22e73b"><div class="ttname"><a href="class_d6_engine_1_1_file_system_1_1_scene_j_s_o_n_writer.html#acec2c2d473aa11a8d6993cc01c22e73b">D6Engine::FileSystem::SceneJSONWriter::Write</a></div><div class="ttdeci">bool Write(SceneManagement::Scene *currentScene, std::vector&lt; GameObject &gt; &amp;gameObjects)</div><div class="ttdoc">Writes a scene to a JSON file.</div><div class="ttdef"><b>Definition:</b> SceneJSONWriter.cpp:27</div></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;scene/Scene.h&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;gameobject/GameObject.hpp&quot;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_d6_engine_1_1_file_system.html">D6Engine::FileSystem</a></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="class_d6_engine_1_1_file_system_1_1_scene_j_s_o_n_writer.html">   23</a></span>    <span class="keyword">class </span><a class="code hl_class" href="class_d6_engine_1_1_file_system_1_1_scene_j_s_o_n_writer.html">SceneJSONWriter</a></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    {</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        <span class="keywordtype">bool</span> <a class="code hl_function" href="class_d6_engine_1_1_file_system_1_1_scene_j_s_o_n_writer.html#acec2c2d473aa11a8d6993cc01c22e73b">Write</a>(<a class="code hl_struct" href="struct_d6_engine_1_1_scene_management_1_1_scene.html">SceneManagement::Scene</a>* currentScene, std::vector&lt;GameObject&gt;&amp; gameObjects);</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    };</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>}</div>
+<div class="ttc" id="aclass_d6_engine_1_1_file_system_1_1_scene_j_s_o_n_writer_html"><div class="ttname"><a href="class_d6_engine_1_1_file_system_1_1_scene_j_s_o_n_writer.html">D6Engine::FileSystem::SceneJSONWriter</a></div><div class="ttdoc">Writes a Scene to a JSON file.</div><div class="ttdef"><b>Definition:</b> SceneJSONWriter.h:24</div></div>
+<div class="ttc" id="aclass_d6_engine_1_1_file_system_1_1_scene_j_s_o_n_writer_html_acec2c2d473aa11a8d6993cc01c22e73b"><div class="ttname"><a href="class_d6_engine_1_1_file_system_1_1_scene_j_s_o_n_writer.html#acec2c2d473aa11a8d6993cc01c22e73b">D6Engine::FileSystem::SceneJSONWriter::Write</a></div><div class="ttdeci">bool Write(SceneManagement::Scene *currentScene, std::vector&lt; GameObject &gt; &amp;gameObjects)</div><div class="ttdoc">Writes a scene to a JSON file.</div><div class="ttdef"><b>Definition:</b> SceneJSONWriter.cpp:30</div></div>
 <div class="ttc" id="anamespace_d6_engine_1_1_file_system_html"><div class="ttname"><a href="namespace_d6_engine_1_1_file_system.html">D6Engine::FileSystem</a></div><div class="ttdef"><b>Definition:</b> AnimClipJSONHandler.cpp:15</div></div>
-<div class="ttc" id="astruct_d6_engine_1_1_scene_management_1_1_scene_html"><div class="ttname"><a href="struct_d6_engine_1_1_scene_management_1_1_scene.html">D6Engine::SceneManagement::Scene</a></div><div class="ttdoc">Scenes store GameObject data in a serialisable format.</div><div class="ttdef"><b>Definition:</b> Scene.h:52</div></div>
+<div class="ttc" id="astruct_d6_engine_1_1_scene_management_1_1_scene_html"><div class="ttname"><a href="struct_d6_engine_1_1_scene_management_1_1_scene.html">D6Engine::SceneManagement::Scene</a></div><div class="ttdoc">Scenes store GameObject data in a serialisable format.</div><div class="ttdef"><b>Definition:</b> Scene.h:65</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.9.1-->
@@ -125,7 +117,7 @@ $(document).ready(function(){initNavTree('_scene_j_s_o_n_writer_8h_source.html',
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_475521bcc5d72920903fa03272aee527.html">filesystem</a></li><li class="navelem"><b>SceneJSONWriter.h</b></li>
-    <li class="footer">Generated on Wed Dec 8 2021 00:32:10 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Sun Feb 6 2022 02:47:21 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/7</span>
+                                &#160;<span id="projectnumber">v0.1/8</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -91,11 +91,17 @@ $(document).ready(function(){initNavTree('class_d6_engine_1_1_resources_1_1_pref
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="class_d6_engine_1_1_resources_1_1_prefab-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">D6Engine::Resources::Prefab Class Reference<span class="mlabels"><span class="mlabel">final</span></span></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Stores <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> data, allowing reuse and duplication of <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> hierarchies during runtime.  
+ <a href="class_d6_engine_1_1_resources_1_1_prefab.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_prefab_8h_source.html">Prefab.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for D6Engine::Resources::Prefab:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -110,15 +116,21 @@ $(document).ready(function(){initNavTree('class_d6_engine_1_1_resources_1_1_pref
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af4e7f09606c87ff89ecfe62f060df19f"><td class="memItemLeft" align="right" valign="top"><a id="af4e7f09606c87ff89ecfe62f060df19f" name="af4e7f09606c87ff89ecfe62f060df19f"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Prefab</b> (const std::string &amp;path, const std::string &amp;metadataPath)</td></tr>
-<tr class="separator:af4e7f09606c87ff89ecfe62f060df19f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5cdb5a6e9b4188748fa2d2eb9e127d4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_resources_1_1_prefab.html#af5cdb5a6e9b4188748fa2d2eb9e127d4">Prefab</a> (const std::string &amp;path, const std::string &amp;metadataPath=&quot;&quot;)</td></tr>
+<tr class="memdesc:af5cdb5a6e9b4188748fa2d2eb9e127d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="class_d6_engine_1_1_resources_1_1_prefab.html" title="Stores GameObject data, allowing reuse and duplication of GameObject hierarchies during runtime.">Prefab</a> from a given file.  <a href="class_d6_engine_1_1_resources_1_1_prefab.html#af5cdb5a6e9b4188748fa2d2eb9e127d4">More...</a><br /></td></tr>
+<tr class="separator:af5cdb5a6e9b4188748fa2d2eb9e127d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a7ad094ece18ff17eafbb1a6ae977fcab"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_d6_engine_1_1_resources_1_1_prefab.html">Prefab</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_resources_1_1_prefab.html#a7ad094ece18ff17eafbb1a6ae977fcab">Create</a> (<a class="el" href="class_d6_engine_1_1_game_object.html">GameObject</a> &amp;gameObject, std::filesystem::path path)</td></tr>
+<tr class="memdesc:a7ad094ece18ff17eafbb1a6ae977fcab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="class_d6_engine_1_1_resources_1_1_prefab.html" title="Stores GameObject data, allowing reuse and duplication of GameObject hierarchies during runtime.">Prefab</a> and saves it to the filesystem.  <a href="class_d6_engine_1_1_resources_1_1_prefab.html#a7ad094ece18ff17eafbb1a6ae977fcab">More...</a><br /></td></tr>
+<tr class="separator:a7ad094ece18ff17eafbb1a6ae977fcab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a8630be5fb8d41987298860a2ca98b3f9"><td class="memItemLeft" align="right" valign="top"><a id="a8630be5fb8d41987298860a2ca98b3f9" name="a8630be5fb8d41987298860a2ca98b3f9"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>dirty</b> = true</td></tr>
-<tr class="memdesc:a8630be5fb8d41987298860a2ca98b3f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the scene has changes that require saving. <br /></td></tr>
+<tr class="memdesc:a8630be5fb8d41987298860a2ca98b3f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the prefab has changes that require saving. <br /></td></tr>
 <tr class="separator:a8630be5fb8d41987298860a2ca98b3f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add81095ea10455969fac376b227ffd81"><td class="memItemLeft" align="right" valign="top"><a id="add81095ea10455969fac376b227ffd81" name="add81095ea10455969fac376b227ffd81"></a>
 std::vector&lt; <a class="el" href="struct_d6_engine_1_1_scene_management_1_1_scene_object.html">SceneManagement::SceneObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>sceneObjects</b></td></tr>
@@ -141,6 +153,107 @@ std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><b>file
 ResourceType&#160;</td><td class="memItemRight" valign="bottom"><b>resourceType</b></td></tr>
 <tr class="separator:a3d3e2e2005398699a3e42b562df8a7a0 inherit pub_attribs_struct_d6_engine_1_1_resources_1_1_resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >Stores <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> data, allowing reuse and duplication of <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> hierarchies during runtime. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="af5cdb5a6e9b4188748fa2d2eb9e127d4" name="af5cdb5a6e9b4188748fa2d2eb9e127d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5cdb5a6e9b4188748fa2d2eb9e127d4">&#9670;&nbsp;</a></span>Prefab()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">D6Engine::Resources::Prefab::Prefab </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>metadataPath</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructs a <a class="el" href="class_d6_engine_1_1_resources_1_1_prefab.html" title="Stores GameObject data, allowing reuse and duplication of GameObject hierarchies during runtime.">Prefab</a> from a given file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td>The path to the <a class="el" href="class_d6_engine_1_1_resources_1_1_prefab.html" title="Stores GameObject data, allowing reuse and duplication of GameObject hierarchies during runtime.">Prefab</a> file. </td></tr>
+    <tr><td class="paramname">metadataPath</td><td>The path to the asset metadata. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a7ad094ece18ff17eafbb1a6ae977fcab" name="a7ad094ece18ff17eafbb1a6ae977fcab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ad094ece18ff17eafbb1a6ae977fcab">&#9670;&nbsp;</a></span>Create()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_d6_engine_1_1_resources_1_1_prefab.html">Prefab</a> &amp; D6Engine::Resources::Prefab::Create </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_d6_engine_1_1_game_object.html">GameObject</a> &amp;&#160;</td>
+          <td class="paramname"><em>gameObject</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::filesystem::path&#160;</td>
+          <td class="paramname"><em>path</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a <a class="el" href="class_d6_engine_1_1_resources_1_1_prefab.html" title="Stores GameObject data, allowing reuse and duplication of GameObject hierarchies during runtime.">Prefab</a> and saves it to the filesystem. </p>
+<p >The entire <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> hierarchy is saved during the process.</p>
+<p >Example:</p>
+<div class="fragment"><div class="line"><span class="keyword">auto</span>&amp; pgo = Internal::Core::GameObjects()::Instantiate({ 20, 30 }, 0, { 1.2f, 0.5f }, <span class="keyword">nullptr</span>, <span class="stringliteral">&quot;Test Prefab&quot;</span>);</div>
+<div class="line">pgo.AddComponent&lt;TestComponent&gt;();</div>
+<div class="line">Internal::Core::GameObjects()::Instantiate(&amp;pgo.GetTransform(), <span class="stringliteral">&quot;Test Prefab Child Object&quot;</span>);</div>
+<div class="line">Resources::Prefab::Create(pgo, <span class="stringliteral">&quot;../GameAssets/assets/Prefabs/&quot;</span>);</div>
+</div><!-- fragment --> <dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gameObject</td><td>The <a class="el" href="class_d6_engine_1_1_game_object.html" title="The base class for all entities in scenes in D6-Engine.">GameObject</a> to create the <a class="el" href="class_d6_engine_1_1_resources_1_1_prefab.html" title="Stores GameObject data, allowing reuse and duplication of GameObject hierarchies during runtime.">Prefab</a> with. </td></tr>
+    <tr><td class="paramname">path</td><td>The path to save the <a class="el" href="class_d6_engine_1_1_resources_1_1_prefab.html" title="Stores GameObject data, allowing reuse and duplication of GameObject hierarchies during runtime.">Prefab</a> to. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The newly created <a class="el" href="class_d6_engine_1_1_resources_1_1_prefab.html" title="Stores GameObject data, allowing reuse and duplication of GameObject hierarchies during runtime.">Prefab</a> instance. </dd></dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.9.1-->
@@ -148,7 +261,7 @@ ResourceType&#160;</td><td class="memItemRight" valign="bottom"><b>resourceType<
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d6_engine.html">D6Engine</a></li><li class="navelem"><a class="el" href="namespace_d6_engine_1_1_resources.html">Resources</a></li><li class="navelem"><a class="el" href="class_d6_engine_1_1_resources_1_1_prefab.html">Prefab</a></li>
-    <li class="footer">Generated on Wed Dec 8 2021 00:32:11 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Sun Feb 6 2022 02:47:23 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/7</span>
+                                &#160;<span id="projectnumber">v0.1/8</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -95,8 +95,12 @@ $(document).ready(function(){initNavTree('class_d6_engine_1_1_graphics_1_1_o_g_l
 
 <p>This is the complete list of members for <a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_context.html">D6Engine::Graphics::OGLContext</a>, including all inherited members.</p>
 <table class="directory">
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>Init</b>() (defined in <a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_context.html">D6Engine::Graphics::OGLContext</a>)</td><td class="entry"><a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_context.html">D6Engine::Graphics::OGLContext</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="odd"><td class="entry"><b>OGLContext</b>(SDL_Window *window) (defined in <a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_context.html">D6Engine::Graphics::OGLContext</a>)</td><td class="entry"><a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_context.html">D6Engine::Graphics::OGLContext</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>GetGLDevice</b>() const (defined in <a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_context.html">D6Engine::Graphics::OGLContext</a>)</td><td class="entry"><a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_context.html">D6Engine::Graphics::OGLContext</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0" class="odd"><td class="entry"><b>GetGlslVersion</b>() const (defined in <a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_context.html">D6Engine::Graphics::OGLContext</a>)</td><td class="entry"><a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_context.html">D6Engine::Graphics::OGLContext</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>GetGLVendor</b>() const (defined in <a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_context.html">D6Engine::Graphics::OGLContext</a>)</td><td class="entry"><a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_context.html">D6Engine::Graphics::OGLContext</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0" class="odd"><td class="entry"><b>GetGLVersion</b>() const (defined in <a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_context.html">D6Engine::Graphics::OGLContext</a>)</td><td class="entry"><a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_context.html">D6Engine::Graphics::OGLContext</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>GetSDLContext</b>() const (defined in <a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_context.html">D6Engine::Graphics::OGLContext</a>)</td><td class="entry"><a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_context.html">D6Engine::Graphics::OGLContext</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0" class="odd"><td class="entry"><b>OGLContext</b>(SDL_Window *window, const std::string &amp;glsl=&quot;450&quot;, int major=4, int minor=5) (defined in <a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_context.html">D6Engine::Graphics::OGLContext</a>)</td><td class="entry"><a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_context.html">D6Engine::Graphics::OGLContext</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>OpenGLError</b>(GLenum source, GLenum type, GLuint id, GLenum severity, GLsizei length, const GLchar *message, const void *userParam) (defined in <a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_context.html">D6Engine::Graphics::OGLContext</a>)</td><td class="entry"><a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_context.html">D6Engine::Graphics::OGLContext</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr bgcolor="#f0f0f0" class="odd"><td class="entry"><b>SwapBuffers</b>() const (defined in <a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_context.html">D6Engine::Graphics::OGLContext</a>)</td><td class="entry"><a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_context.html">D6Engine::Graphics::OGLContext</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
@@ -105,7 +109,7 @@ $(document).ready(function(){initNavTree('class_d6_engine_1_1_graphics_1_1_o_g_l
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Dec 8 2021 00:32:11 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Sun Feb 6 2022 02:47:23 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

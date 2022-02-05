@@ -7,6 +7,7 @@ var searchData=
   ['sceneobject_4',['SceneObject',['../struct_d6_engine_1_1_scene_management_1_1_scene_object.html',1,'D6Engine::SceneManagement']]],
   ['screen_5',['Screen',['../class_d6_engine_1_1_screen.html',1,'D6Engine']]],
   ['shader_6',['Shader',['../class_d6_engine_1_1_graphics_1_1_shader.html',1,'D6Engine::Graphics']]],
-  ['splashui_7',['SplashUI',['../class_immortal_gambit_1_1_u_i_1_1_splash_u_i.html',1,'ImmortalGambit::UI']]],
-  ['spriterenderer_8',['SpriteRenderer',['../class_d6_engine_1_1_sprite_renderer.html',1,'D6Engine']]]
+  ['splash_7',['Splash',['../class_d6_engine_1_1_internal_1_1_splash.html',1,'D6Engine::Internal']]],
+  ['splashui_8',['SplashUI',['../class_immortal_gambit_1_1_u_i_1_1_splash_u_i.html',1,'ImmortalGambit::UI']]],
+  ['spriterenderer_9',['SpriteRenderer',['../class_d6_engine_1_1_sprite_renderer.html',1,'D6Engine']]]
 ];

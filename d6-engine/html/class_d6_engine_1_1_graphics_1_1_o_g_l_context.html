@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/7</span>
+                                &#160;<span id="projectnumber">v0.1/8</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -99,15 +99,27 @@ $(document).ready(function(){initNavTree('class_d6_engine_1_1_graphics_1_1_o_g_l
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5b2cb1c20bee963223cf08e03aa5f288"><td class="memItemLeft" align="right" valign="top"><a id="a5b2cb1c20bee963223cf08e03aa5f288" name="a5b2cb1c20bee963223cf08e03aa5f288"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>OGLContext</b> (SDL_Window *window)</td></tr>
-<tr class="separator:a5b2cb1c20bee963223cf08e03aa5f288"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac37618291d488ee48a1174f5bd25cfa5"><td class="memItemLeft" align="right" valign="top"><a id="ac37618291d488ee48a1174f5bd25cfa5" name="ac37618291d488ee48a1174f5bd25cfa5"></a>
-SDL_GLContext&#160;</td><td class="memItemRight" valign="bottom"><b>Init</b> ()</td></tr>
-<tr class="separator:ac37618291d488ee48a1174f5bd25cfa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf9716b1332cd1e6ab4a3d951926b7e9"><td class="memItemLeft" align="right" valign="top"><a id="acf9716b1332cd1e6ab4a3d951926b7e9" name="acf9716b1332cd1e6ab4a3d951926b7e9"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetGlslVersion</b> () const</td></tr>
+<tr class="separator:acf9716b1332cd1e6ab4a3d951926b7e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49ae874de4ca97bfcdcf274ce4677d1f"><td class="memItemLeft" align="right" valign="top"><a id="a49ae874de4ca97bfcdcf274ce4677d1f" name="a49ae874de4ca97bfcdcf274ce4677d1f"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetGLVersion</b> () const</td></tr>
+<tr class="separator:a49ae874de4ca97bfcdcf274ce4677d1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0956efbafdf3f3b34c65e4199f9609ac"><td class="memItemLeft" align="right" valign="top"><a id="a0956efbafdf3f3b34c65e4199f9609ac" name="a0956efbafdf3f3b34c65e4199f9609ac"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetGLDevice</b> () const</td></tr>
+<tr class="separator:a0956efbafdf3f3b34c65e4199f9609ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c8c3c0dd3730557e43633504b536b72"><td class="memItemLeft" align="right" valign="top"><a id="a5c8c3c0dd3730557e43633504b536b72" name="a5c8c3c0dd3730557e43633504b536b72"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetGLVendor</b> () const</td></tr>
+<tr class="separator:a5c8c3c0dd3730557e43633504b536b72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72fa58cf2e69504fec6416e1111c0033"><td class="memItemLeft" align="right" valign="top"><a id="a72fa58cf2e69504fec6416e1111c0033" name="a72fa58cf2e69504fec6416e1111c0033"></a>
+SDL_GLContext&#160;</td><td class="memItemRight" valign="bottom"><b>GetSDLContext</b> () const</td></tr>
+<tr class="separator:a72fa58cf2e69504fec6416e1111c0033"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07fbe232705a870b2368c529dec7c57a"><td class="memItemLeft" align="right" valign="top"><a id="a07fbe232705a870b2368c529dec7c57a" name="a07fbe232705a870b2368c529dec7c57a"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>SwapBuffers</b> () const</td></tr>
 <tr class="separator:a07fbe232705a870b2368c529dec7c57a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bbb5eea72e7f5feb9d60576bc30661e"><td class="memItemLeft" align="right" valign="top"><a id="a4bbb5eea72e7f5feb9d60576bc30661e" name="a4bbb5eea72e7f5feb9d60576bc30661e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>OGLContext</b> (SDL_Window *window, const std::string &amp;glsl=&quot;450&quot;, int major=4, int minor=5)</td></tr>
+<tr class="separator:a4bbb5eea72e7f5feb9d60576bc30661e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -122,7 +134,7 @@ static void APIENTRY&#160;</td><td class="memItemRight" valign="bottom"><b>OpenG
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d6_engine.html">D6Engine</a></li><li class="navelem"><a class="el" href="namespace_d6_engine_1_1_graphics.html">Graphics</a></li><li class="navelem"><a class="el" href="class_d6_engine_1_1_graphics_1_1_o_g_l_context.html">OGLContext</a></li>
-    <li class="footer">Generated on Wed Dec 8 2021 00:32:11 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Sun Feb 6 2022 02:47:23 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

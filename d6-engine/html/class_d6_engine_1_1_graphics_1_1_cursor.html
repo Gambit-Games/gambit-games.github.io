@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/7</span>
+                                &#160;<span id="projectnumber">v0.1/8</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -90,7 +90,6 @@ $(document).ready(function(){initNavTree('class_d6_engine_1_1_graphics_1_1_curso
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="class_d6_engine_1_1_graphics_1_1_cursor-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">D6Engine::Graphics::Cursor Class Reference</div></div>
@@ -102,14 +101,11 @@ $(document).ready(function(){initNavTree('class_d6_engine_1_1_graphics_1_1_curso
 
 <p><code>#include &lt;<a class="el" href="_cursor_8h_source.html">Cursor.h</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a663edfa09dd63e4c452ab0a36d68097c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_cursor.html#a663edfa09dd63e4c452ab0a36d68097c">Cursor</a> (std::string filepath)</td></tr>
-<tr class="memdesc:a663edfa09dd63e4c452ab0a36d68097c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for the <a class="el" href="class_d6_engine_1_1_graphics_1_1_cursor.html" title="Cursor class for rendering a different cursor of our choosing, supports .ani file.">Cursor</a> Class which takes in the file path to where the .ami file is located.  <a href="class_d6_engine_1_1_graphics_1_1_cursor.html#a663edfa09dd63e4c452ab0a36d68097c">More...</a><br /></td></tr>
-<tr class="separator:a663edfa09dd63e4c452ab0a36d68097c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a59f5ec92290b8f6e66be2a0f92524cbd"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_graphics_1_1_cursor.html#a59f5ec92290b8f6e66be2a0f92524cbd">CursorLoad</a> (const std::string &amp;filepath)</td></tr>
+<tr class="memdesc:a59f5ec92290b8f6e66be2a0f92524cbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a cursor to be used in engine.  <a href="class_d6_engine_1_1_graphics_1_1_cursor.html#a59f5ec92290b8f6e66be2a0f92524cbd">More...</a><br /></td></tr>
+<tr class="separator:a59f5ec92290b8f6e66be2a0f92524cbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a273b01abf9ede7b84574c664117457a6"><td class="memItemLeft" align="right" valign="top"><a id="a273b01abf9ede7b84574c664117457a6" name="a273b01abf9ede7b84574c664117457a6"></a>
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>CursorUnload</b> ()</td></tr>
 <tr class="memdesc:a273b01abf9ede7b84574c664117457a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clean up for the cursor class. <br /></td></tr>
@@ -121,24 +117,32 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SetGameCursor<
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p ><a class="el" href="class_d6_engine_1_1_graphics_1_1_cursor.html" title="Cursor class for rendering a different cursor of our choosing, supports .ani file.">Cursor</a> class for rendering a different cursor of our choosing, supports .ani file. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a663edfa09dd63e4c452ab0a36d68097c" name="a663edfa09dd63e4c452ab0a36d68097c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a663edfa09dd63e4c452ab0a36d68097c">&#9670;&nbsp;</a></span>Cursor()</h2>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a59f5ec92290b8f6e66be2a0f92524cbd" name="a59f5ec92290b8f6e66be2a0f92524cbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59f5ec92290b8f6e66be2a0f92524cbd">&#9670;&nbsp;</a></span>CursorLoad()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">D6Engine::Graphics::Cursor::Cursor </td>
+          <td class="memname">void D6Engine::Graphics::Cursor::CursorLoad </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>filepath</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Constructor for the <a class="el" href="class_d6_engine_1_1_graphics_1_1_cursor.html" title="Cursor class for rendering a different cursor of our choosing, supports .ani file.">Cursor</a> Class which takes in the file path to where the .ami file is located. </p>
+<p>Loads a cursor to be used in engine. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">filepath</td><td>Filepath to the .ami file </td></tr>
@@ -155,7 +159,7 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>SetGameCursor<
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d6_engine.html">D6Engine</a></li><li class="navelem"><a class="el" href="namespace_d6_engine_1_1_graphics.html">Graphics</a></li><li class="navelem"><a class="el" href="class_d6_engine_1_1_graphics_1_1_cursor.html">Cursor</a></li>
-    <li class="footer">Generated on Wed Dec 8 2021 00:32:11 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Sun Feb 6 2022 02:47:23 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

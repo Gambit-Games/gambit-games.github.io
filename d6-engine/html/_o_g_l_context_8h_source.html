@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/7</span>
+                                &#160;<span id="projectnumber">v0.1/8</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -102,29 +102,39 @@ $(document).ready(function(){initNavTree('_o_g_l_context_8h_source.html',''); in
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="class_d6_engine_1_1_graphics_1_1_o_g_l_context.html">   17</a></span>    <span class="keyword">class </span><a class="code hl_class" href="class_d6_engine_1_1_graphics_1_1_o_g_l_context.html">OGLContext</a></div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    {</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        <span class="keyword">explicit</span> <a class="code hl_class" href="class_d6_engine_1_1_graphics_1_1_o_g_l_context.html">OGLContext</a>(SDL_Window* window);</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        SDL_GLContext Init();</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        <span class="keywordtype">void</span> SwapBuffers() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        <span class="keyword">static</span> <span class="keywordtype">void</span> APIENTRY OpenGLError(</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>            GLenum source,</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>            GLenum type,</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>            GLuint <span class="keywordtype">id</span>,</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>            GLenum severity,</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>            GLsizei length,</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>            <span class="keyword">const</span> GLchar* message,</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>            <span class="keyword">const</span> <span class="keywordtype">void</span>* userParam</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        );</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        SDL_Window* window = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>        <span class="keyword">const</span> <span class="keywordtype">char</span>* glslVersion = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        SDL_GLContext glContext = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    };</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>}</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        [[nodiscard]] std::string GetGlslVersion() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        [[nodiscard]] std::string GetGLVersion() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        [[nodiscard]] std::string GetGLDevice() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        [[nodiscard]] std::string GetGLVendor() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        [[nodiscard]] SDL_GLContext GetSDLContext() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        <span class="keywordtype">void</span> SwapBuffers() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        <span class="keyword">static</span> <span class="keywordtype">void</span> APIENTRY OpenGLError(</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>            GLenum source,</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>            GLenum type,</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>            GLuint <span class="keywordtype">id</span>,</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>            GLenum severity,</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>            GLsizei length,</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>            <span class="keyword">const</span> GLchar* message,</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>            <span class="keyword">const</span> <span class="keywordtype">void</span>* userParam</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        );</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        <span class="comment">//Default to OpenGL 4.5</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        <span class="keyword">explicit</span> <a class="code hl_class" href="class_d6_engine_1_1_graphics_1_1_o_g_l_context.html">OGLContext</a>(SDL_Window* window, <span class="keyword">const</span> std::string&amp; glsl = <span class="stringliteral">&quot;450&quot;</span>, <span class="keywordtype">int</span> major = 4, <span class="keywordtype">int</span> minor = 5);</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        SDL_Window* window = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        SDL_GLContext glContext = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        std::string glslVersion;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        std::string glVersion;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        std::string glDevice;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        std::string glVendor;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    };</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>}</div>
 <div class="ttc" id="aclass_d6_engine_1_1_graphics_1_1_o_g_l_context_html"><div class="ttname"><a href="class_d6_engine_1_1_graphics_1_1_o_g_l_context.html">D6Engine::Graphics::OGLContext</a></div><div class="ttdef"><b>Definition:</b> OGLContext.h:18</div></div>
-<div class="ttc" id="anamespace_d6_engine_1_1_graphics_html"><div class="ttname"><a href="namespace_d6_engine_1_1_graphics.html">D6Engine::Graphics</a></div><div class="ttdoc">The implementation the shader class.</div><div class="ttdef"><b>Definition:</b> BatchRenderer.cpp:4</div></div>
+<div class="ttc" id="anamespace_d6_engine_1_1_graphics_html"><div class="ttname"><a href="namespace_d6_engine_1_1_graphics.html">D6Engine::Graphics</a></div><div class="ttdoc">The implementation the shader class.</div><div class="ttdef"><b>Definition:</b> BatchRenderer.cpp:14</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.9.1-->
@@ -132,7 +142,7 @@ $(document).ready(function(){initNavTree('_o_g_l_context_8h_source.html',''); in
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_560415a5d2bc4999842279f4fc1debef.html">graphics</a></li><li class="navelem"><b>OGLContext.h</b></li>
-    <li class="footer">Generated on Wed Dec 8 2021 00:32:10 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Sun Feb 6 2022 02:47:22 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

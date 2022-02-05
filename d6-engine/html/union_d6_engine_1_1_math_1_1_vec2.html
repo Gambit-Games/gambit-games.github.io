@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/7</span>
+                                &#160;<span id="projectnumber">v0.1/8</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -93,6 +93,7 @@ $(document).ready(function(){initNavTree('union_d6_engine_1_1_math_1_1_vec2.html
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="union_d6_engine_1_1_math_1_1_vec2-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">D6Engine::Math::Vec2 Union Reference</div></div>
 </div><!--header-->
@@ -123,9 +124,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab6fa487a3b8217d33be9b29970abdcac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html#ab6fa487a3b8217d33be9b29970abdcac">operator/=</a> (float rhs)</td></tr>
 <tr class="memdesc:ab6fa487a3b8217d33be9b29970abdcac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operator for Vector /= float, overrides the current vector with the result of the division of the vector with the float.  <a href="union_d6_engine_1_1_math_1_1_vec2.html#ab6fa487a3b8217d33be9b29970abdcac">More...</a><br /></td></tr>
 <tr class="separator:ab6fa487a3b8217d33be9b29970abdcac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8494efc7b01f8366f32f1d883420a36"><td class="memItemLeft" align="right" valign="top"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html#ac8494efc7b01f8366f32f1d883420a36">operator=</a> (const glm::vec2 &amp;rhs)</td></tr>
-<tr class="memdesc:ac8494efc7b01f8366f32f1d883420a36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conversion from glm::vec2 to <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html" title="Provides an interface to create, edit, and multiply 2D Vectors.">Vec2</a>.  <a href="union_d6_engine_1_1_math_1_1_vec2.html#ac8494efc7b01f8366f32f1d883420a36">More...</a><br /></td></tr>
-<tr class="separator:ac8494efc7b01f8366f32f1d883420a36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9aaa19e2558637824be242bb9866b8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html#aa9aaa19e2558637824be242bb9866b8f">operator-</a> () const</td></tr>
 <tr class="memdesc:aa9aaa19e2558637824be242bb9866b8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Negation operator for the vector.  <a href="union_d6_engine_1_1_math_1_1_vec2.html#aa9aaa19e2558637824be242bb9866b8f">More...</a><br /></td></tr>
 <tr class="separator:aa9aaa19e2558637824be242bb9866b8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -138,6 +136,35 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abea277a123c1eed9e7d13b3704f5ddc0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html#abea277a123c1eed9e7d13b3704f5ddc0">operator!=</a> (const <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> &amp;rhs) const</td></tr>
 <tr class="memdesc:abea277a123c1eed9e7d13b3704f5ddc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two vectors for inequality.  <a href="union_d6_engine_1_1_math_1_1_vec2.html#abea277a123c1eed9e7d13b3704f5ddc0">More...</a><br /></td></tr>
 <tr class="separator:abea277a123c1eed9e7d13b3704f5ddc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fed90fb72d73ef1869d2b95045c1cf6"><td class="memItemLeft" align="right" valign="top"><a id="a8fed90fb72d73ef1869d2b95045c1cf6" name="a8fed90fb72d73ef1869d2b95045c1cf6"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>ToString</b> () const</td></tr>
+<tr class="memdesc:a8fed90fb72d73ef1869d2b95045c1cf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints the Vector2D to the log. <br /></td></tr>
+<tr class="separator:a8fed90fb72d73ef1869d2b95045c1cf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4aef9ad2351efb2c52a3e1cd1b9d381f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html#a4aef9ad2351efb2c52a3e1cd1b9d381f">Length</a> () const</td></tr>
+<tr class="memdesc:a4aef9ad2351efb2c52a3e1cd1b9d381f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the length of the vector.  <a href="union_d6_engine_1_1_math_1_1_vec2.html#a4aef9ad2351efb2c52a3e1cd1b9d381f">More...</a><br /></td></tr>
+<tr class="separator:a4aef9ad2351efb2c52a3e1cd1b9d381f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d808255b3dbb9508d6102e954bde21a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html#a5d808255b3dbb9508d6102e954bde21a">SquaredLength</a> () const</td></tr>
+<tr class="memdesc:a5d808255b3dbb9508d6102e954bde21a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the squared length of the vector.  <a href="union_d6_engine_1_1_math_1_1_vec2.html#a5d808255b3dbb9508d6102e954bde21a">More...</a><br /></td></tr>
+<tr class="separator:a5d808255b3dbb9508d6102e954bde21a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca08b2aac93e0a93af1200abbbd03a56"><td class="memItemLeft" align="right" valign="top"><a id="aca08b2aac93e0a93af1200abbbd03a56" name="aca08b2aac93e0a93af1200abbbd03a56"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Normalize</b> ()</td></tr>
+<tr class="memdesc:aca08b2aac93e0a93af1200abbbd03a56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalizes the vector to have a length of 1. <br /></td></tr>
+<tr class="separator:aca08b2aac93e0a93af1200abbbd03a56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bb7fc4cb5e4627ca356f2d2f8e0fb26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html#a1bb7fc4cb5e4627ca356f2d2f8e0fb26">operator+</a> (const <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> &amp;rhs) const</td></tr>
+<tr class="memdesc:a1bb7fc4cb5e4627ca356f2d2f8e0fb26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds 2 vectors together.  <a href="union_d6_engine_1_1_math_1_1_vec2.html#a1bb7fc4cb5e4627ca356f2d2f8e0fb26">More...</a><br /></td></tr>
+<tr class="separator:a1bb7fc4cb5e4627ca356f2d2f8e0fb26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77b681bed622f6f803aa081d5fad7760"><td class="memItemLeft" align="right" valign="top"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html#a77b681bed622f6f803aa081d5fad7760">operator-</a> (const <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> &amp;rhs) const</td></tr>
+<tr class="memdesc:a77b681bed622f6f803aa081d5fad7760"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtracts a vector from this vector.  <a href="union_d6_engine_1_1_math_1_1_vec2.html#a77b681bed622f6f803aa081d5fad7760">More...</a><br /></td></tr>
+<tr class="separator:a77b681bed622f6f803aa081d5fad7760"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84616635f37abc4b57fed9afe3c29664"><td class="memItemLeft" align="right" valign="top"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html#a84616635f37abc4b57fed9afe3c29664">operator/</a> (float rhs) const</td></tr>
+<tr class="memdesc:a84616635f37abc4b57fed9afe3c29664"><td class="mdescLeft">&#160;</td><td class="mdescRight">Divides a vector by a float.  <a href="union_d6_engine_1_1_math_1_1_vec2.html#a84616635f37abc4b57fed9afe3c29664">More...</a><br /></td></tr>
+<tr class="separator:a84616635f37abc4b57fed9afe3c29664"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af57777de193c86fae995f4e15dd1075f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html#af57777de193c86fae995f4e15dd1075f">operator*</a> (float rhs) const</td></tr>
+<tr class="memdesc:af57777de193c86fae995f4e15dd1075f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiplies a vector with a float.  <a href="union_d6_engine_1_1_math_1_1_vec2.html#af57777de193c86fae995f4e15dd1075f">More...</a><br /></td></tr>
+<tr class="separator:af57777de193c86fae995f4e15dd1075f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac13f0a41aeb4600b9834e442941e30e2"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html#ac13f0a41aeb4600b9834e442941e30e2">CrossMag</a> (const <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> &amp;rhs) const</td></tr>
+<tr class="memdesc:ac13f0a41aeb4600b9834e442941e30e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the cross product of the 2 vectors.  <a href="union_d6_engine_1_1_math_1_1_vec2.html#ac13f0a41aeb4600b9834e442941e30e2">More...</a><br /></td></tr>
+<tr class="separator:ac13f0a41aeb4600b9834e442941e30e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -147,6 +174,15 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a8ca7174d85fe12060a7ed1062dc21f79"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html#a8ca7174d85fe12060a7ed1062dc21f79">RotateDeg</a> (const <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> &amp;vector, float deg)</td></tr>
 <tr class="memdesc:a8ca7174d85fe12060a7ed1062dc21f79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotates the vector in degrees (Clockwise positive).  <a href="union_d6_engine_1_1_math_1_1_vec2.html#a8ca7174d85fe12060a7ed1062dc21f79">More...</a><br /></td></tr>
 <tr class="separator:a8ca7174d85fe12060a7ed1062dc21f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa56911ff7999ea95009bb1e338084cfe"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html#aa56911ff7999ea95009bb1e338084cfe">Distance</a> (const <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> &amp;lhs, const <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> &amp;rhs)</td></tr>
+<tr class="memdesc:aa56911ff7999ea95009bb1e338084cfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the distance of this point to another point.  <a href="union_d6_engine_1_1_math_1_1_vec2.html#aa56911ff7999ea95009bb1e338084cfe">More...</a><br /></td></tr>
+<tr class="separator:aa56911ff7999ea95009bb1e338084cfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36933bf5627c4c08ce6d50d873749de7"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html#a36933bf5627c4c08ce6d50d873749de7">SquaredDistance</a> (const <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> &amp;lhs, const <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> &amp;rhs)</td></tr>
+<tr class="memdesc:a36933bf5627c4c08ce6d50d873749de7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the squared distance of this point to another point.  <a href="union_d6_engine_1_1_math_1_1_vec2.html#a36933bf5627c4c08ce6d50d873749de7">More...</a><br /></td></tr>
+<tr class="separator:a36933bf5627c4c08ce6d50d873749de7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1db363050763722511f4b0600a631f8a"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html#a1db363050763722511f4b0600a631f8a">Dot</a> (const <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> &amp;lhs, const <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> &amp;rhs)</td></tr>
+<tr class="memdesc:a1db363050763722511f4b0600a631f8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Dot Product of the 2 vectors.  <a href="union_d6_engine_1_1_math_1_1_vec2.html#a1db363050763722511f4b0600a631f8a">More...</a><br /></td></tr>
+<tr class="separator:a1db363050763722511f4b0600a631f8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -163,10 +199,170 @@ struct {</td></tr>
 <tr class="memitem:a74d57e5dc33db5332fa1b4da5b042d36"><td class="memItemLeft" align="right" valign="top"><a id="a74d57e5dc33db5332fa1b4da5b042d36" name="a74d57e5dc33db5332fa1b4da5b042d36"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>m</b> [2] = {}</td></tr>
 <tr class="separator:a74d57e5dc33db5332fa1b4da5b042d36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a768c66b2ebee25ffac371948e67aa0ab"><td class="memItemLeft" align="right" valign="top"><a id="a768c66b2ebee25ffac371948e67aa0ab" name="a768c66b2ebee25ffac371948e67aa0ab"></a>
+static <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><b>up</b> = <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a>(0, 1)</td></tr>
+<tr class="separator:a768c66b2ebee25ffac371948e67aa0ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7dfee186b8cd815f11803007623b98f"><td class="memItemLeft" align="right" valign="top"><a id="aa7dfee186b8cd815f11803007623b98f" name="aa7dfee186b8cd815f11803007623b98f"></a>
+static <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><b>down</b> = <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a>(0, -1)</td></tr>
+<tr class="separator:aa7dfee186b8cd815f11803007623b98f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f7d549055cac5304c5be0af843034e5"><td class="memItemLeft" align="right" valign="top"><a id="a3f7d549055cac5304c5be0af843034e5" name="a3f7d549055cac5304c5be0af843034e5"></a>
+static <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><b>left</b> = <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a>(0, -1)</td></tr>
+<tr class="separator:a3f7d549055cac5304c5be0af843034e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51517e4f749d5c14ae49f6f733c4000a"><td class="memItemLeft" align="right" valign="top"><a id="a51517e4f749d5c14ae49f6f733c4000a" name="a51517e4f749d5c14ae49f6f733c4000a"></a>
+static <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><b>right</b> = <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a>(0, 1)</td></tr>
+<tr class="separator:a51517e4f749d5c14ae49f6f733c4000a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab69deb2a005ec22a7dbca0b17b766ff0"><td class="memItemLeft" align="right" valign="top"><a id="ab69deb2a005ec22a7dbca0b17b766ff0" name="ab69deb2a005ec22a7dbca0b17b766ff0"></a>
+static <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><b>one</b> = <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a>(1, 1)</td></tr>
+<tr class="separator:ab69deb2a005ec22a7dbca0b17b766ff0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a958644f43c237dfa4b9c5b048f420053"><td class="memItemLeft" align="right" valign="top"><a id="a958644f43c237dfa4b9c5b048f420053" name="a958644f43c237dfa4b9c5b048f420053"></a>
+static <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><b>zero</b> = <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a>(0, 0)</td></tr>
+<tr class="separator:a958644f43c237dfa4b9c5b048f420053"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Provides an interface to create, edit, and multiply 2D Vectors. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="ac13f0a41aeb4600b9834e442941e30e2" name="ac13f0a41aeb4600b9834e442941e30e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac13f0a41aeb4600b9834e442941e30e2">&#9670;&nbsp;</a></span>CrossMag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float D6Engine::Math::Vec2::CrossMag </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the cross product of the 2 vectors. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rhs</td><td>other vector to cross with </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>cross product of the 2 vectors </dd></dl>
+
+</div>
+</div>
+<a id="aa56911ff7999ea95009bb1e338084cfe" name="aa56911ff7999ea95009bb1e338084cfe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa56911ff7999ea95009bb1e338084cfe">&#9670;&nbsp;</a></span>Distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float D6Engine::Math::Vec2::Distance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the distance of this point to another point. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lhs</td><td>location of the first point </td></tr>
+    <tr><td class="paramname">rhs</td><td>location of the second point </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Distance between the 2 points </dd></dl>
+
+</div>
+</div>
+<a id="a1db363050763722511f4b0600a631f8a" name="a1db363050763722511f4b0600a631f8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1db363050763722511f4b0600a631f8a">&#9670;&nbsp;</a></span>Dot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float D6Engine::Math::Vec2::Dot </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the Dot Product of the 2 vectors. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lhs</td><td>1st vector to Dot with </td></tr>
+    <tr><td class="paramname">rhs</td><td>2nd vector to Dot with </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Dot of the 2 vectors </dd></dl>
+
+</div>
+</div>
+<a id="a4aef9ad2351efb2c52a3e1cd1b9d381f" name="a4aef9ad2351efb2c52a3e1cd1b9d381f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4aef9ad2351efb2c52a3e1cd1b9d381f">&#9670;&nbsp;</a></span>Length()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float D6Engine::Math::Vec2::Length </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the length of the vector. </p>
+<dl class="section return"><dt>Returns</dt><dd>length of the vector in float </dd></dl>
+
+</div>
+</div>
 <a id="abfcc318b02e48fa1856914409416c85d" name="abfcc318b02e48fa1856914409416c85d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abfcc318b02e48fa1856914409416c85d">&#9670;&nbsp;</a></span>operator glm::vec2()</h2>
 
@@ -214,6 +410,33 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>m</b> [2] = {}</td><
 
 </div>
 </div>
+<a id="af57777de193c86fae995f4e15dd1075f" name="af57777de193c86fae995f4e15dd1075f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af57777de193c86fae995f4e15dd1075f">&#9670;&nbsp;</a></span>operator*()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> D6Engine::Math::Vec2::operator* </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Multiplies a vector with a float. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rhs</td><td>float to multiply by </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>new multiplied vector </dd></dl>
+
+</div>
+</div>
 <a id="aa66acd9b94d6b8e381619a79b5a2a7dd" name="aa66acd9b94d6b8e381619a79b5a2a7dd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa66acd9b94d6b8e381619a79b5a2a7dd">&#9670;&nbsp;</a></span>operator*=()</h2>
 
@@ -238,6 +461,33 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>m</b> [2] = {}</td><
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Reference to the result of the multiplied vector </dd></dl>
+
+</div>
+</div>
+<a id="a1bb7fc4cb5e4627ca356f2d2f8e0fb26" name="a1bb7fc4cb5e4627ca356f2d2f8e0fb26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bb7fc4cb5e4627ca356f2d2f8e0fb26">&#9670;&nbsp;</a></span>operator+()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> D6Engine::Math::Vec2::operator+ </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds 2 vectors together. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rhs</td><td>other vector to add with </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>new vector with both vectors added together </dd></dl>
 
 </div>
 </div>
@@ -269,7 +519,7 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>m</b> [2] = {}</td><
 </div>
 </div>
 <a id="aa9aaa19e2558637824be242bb9866b8f" name="aa9aaa19e2558637824be242bb9866b8f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa9aaa19e2558637824be242bb9866b8f">&#9670;&nbsp;</a></span>operator-()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9aaa19e2558637824be242bb9866b8f">&#9670;&nbsp;</a></span>operator-() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -285,6 +535,33 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>m</b> [2] = {}</td><
 
 <p>Negation operator for the vector. </p>
 <dl class="section return"><dt>Returns</dt><dd>3D vector with the x &amp; y values negated </dd></dl>
+
+</div>
+</div>
+<a id="a77b681bed622f6f803aa081d5fad7760" name="a77b681bed622f6f803aa081d5fad7760"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77b681bed622f6f803aa081d5fad7760">&#9670;&nbsp;</a></span>operator-() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> D6Engine::Math::Vec2::operator- </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Subtracts a vector from this vector. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rhs</td><td>other vector to subtract with </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>new vector from by subtraction </dd></dl>
 
 </div>
 </div>
@@ -315,6 +592,33 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>m</b> [2] = {}</td><
 
 </div>
 </div>
+<a id="a84616635f37abc4b57fed9afe3c29664" name="a84616635f37abc4b57fed9afe3c29664"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84616635f37abc4b57fed9afe3c29664">&#9670;&nbsp;</a></span>operator/()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> D6Engine::Math::Vec2::operator/ </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Divides a vector by a float. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rhs</td><td>float to divide by </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>divided vector </dd></dl>
+
+</div>
+</div>
 <a id="ab6fa487a3b8217d33be9b29970abdcac" name="ab6fa487a3b8217d33be9b29970abdcac"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab6fa487a3b8217d33be9b29970abdcac">&#9670;&nbsp;</a></span>operator/=()</h2>
 
@@ -339,33 +643,6 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>m</b> [2] = {}</td><
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Reference to the result of the divided vector </dd></dl>
-
-</div>
-</div>
-<a id="ac8494efc7b01f8366f32f1d883420a36" name="ac8494efc7b01f8366f32f1d883420a36"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac8494efc7b01f8366f32f1d883420a36">&#9670;&nbsp;</a></span>operator=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> &amp; D6Engine::Math::Vec2::operator= </td>
-          <td>(</td>
-          <td class="paramtype">const glm::vec2 &amp;&#160;</td>
-          <td class="paramname"><em>rhs</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Conversion from glm::vec2 to <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html" title="Provides an interface to create, edit, and multiply 2D Vectors.">Vec2</a>. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">rhs</td><td>glm::vec2 to convert from </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Reference to the converted <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html" title="Provides an interface to create, edit, and multiply 2D Vectors.">Vec2</a> </dd></dl>
 
 </div>
 </div>
@@ -488,6 +765,72 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>m</b> [2] = {}</td><
 
 </div>
 </div>
+<a id="a36933bf5627c4c08ce6d50d873749de7" name="a36933bf5627c4c08ce6d50d873749de7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36933bf5627c4c08ce6d50d873749de7">&#9670;&nbsp;</a></span>SquaredDistance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float D6Engine::Math::Vec2::SquaredDistance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a> &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the squared distance of this point to another point. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lhs</td><td>location of the first point </td></tr>
+    <tr><td class="paramname">rhs</td><td>location of the second point </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>squared distance between the 2 points </dd></dl>
+
+</div>
+</div>
+<a id="a5d808255b3dbb9508d6102e954bde21a" name="a5d808255b3dbb9508d6102e954bde21a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d808255b3dbb9508d6102e954bde21a">&#9670;&nbsp;</a></span>SquaredLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float D6Engine::Math::Vec2::SquaredLength </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the squared length of the vector. </p>
+<dl class="section return"><dt>Returns</dt><dd>squared length of the vector </dd></dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.9.1-->
@@ -495,7 +838,7 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>m</b> [2] = {}</td><
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d6_engine.html">D6Engine</a></li><li class="navelem"><a class="el" href="namespace_d6_engine_1_1_math.html">Math</a></li><li class="navelem"><a class="el" href="union_d6_engine_1_1_math_1_1_vec2.html">Vec2</a></li>
-    <li class="footer">Generated on Wed Dec 8 2021 00:32:11 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Sun Feb 6 2022 02:47:23 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

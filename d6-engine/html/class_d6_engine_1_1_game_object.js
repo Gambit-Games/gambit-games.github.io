@@ -1,6 +1,6 @@
 var class_d6_engine_1_1_game_object =
 [
-    [ "GameObject", "class_d6_engine_1_1_game_object.html#af303a31e3611e2089c0fe50833255b60", null ],
+    [ "GameObject", "class_d6_engine_1_1_game_object.html#adcd42ff23091e77515b61c4ce59a7123", null ],
     [ "GameObject", "class_d6_engine_1_1_game_object.html#a1f00e12f74fe44e6ab78a270fe03e32f", null ],
     [ "~GameObject", "class_d6_engine_1_1_game_object.html#a5b103fb77c4494c27e26d5b9d3278f6b", null ],
     [ "AddComponent", "class_d6_engine_1_1_game_object.html#a94e222e94a9654c10382beab5fdc1fec", null ],
@@ -10,6 +10,8 @@ var class_d6_engine_1_1_game_object =
     [ "GetComponent", "class_d6_engine_1_1_game_object.html#a90cebcff5ee6977b075ff04e9cedac47", null ],
     [ "GetComponent", "class_d6_engine_1_1_game_object.html#ae1ef2b8a50d47d7e5d5b1f6d08b1ec35", null ],
     [ "GetTransform", "class_d6_engine_1_1_game_object.html#aed7238fd3af2cc73b5882d1680eb8aca", null ],
+    [ "operator!=", "class_d6_engine_1_1_game_object.html#aaaa055a0a2b1d173da6ada72e1619885", null ],
+    [ "operator==", "class_d6_engine_1_1_game_object.html#aa19b4531c06e4624c580a6f123208963", null ],
     [ "RemoveComponent", "class_d6_engine_1_1_game_object.html#a79e62faa86f527d2f759482d654122bf", null ],
     [ "RemoveComponent", "class_d6_engine_1_1_game_object.html#a7181dbe824bcdde2f64c2ac80e6d1649", null ],
     [ "RemoveComponent", "class_d6_engine_1_1_game_object.html#ae4a1c4053d48a7586befb0d459e4262a", null ],

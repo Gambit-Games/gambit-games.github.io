@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/7</span>
+                                &#160;<span id="projectnumber">v0.1/8</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -227,7 +227,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Gets the cache version of the <a class="el" href="class_d6_engine_1_1_u_u_i_d.html" title="Generates and stores a Universally Unique ID and provides caching for vector index values.">UUID</a>. </p>
 <p >The cache version is used to check if the cache index is still relevant. When a vector is modified, it is possible for the index to no longer point to the correct element. Comparing the <a class="el" href="class_d6_engine_1_1_u_u_i_d.html" title="Generates and stores a Universally Unique ID and provides caching for vector index values.">UUID</a>'s cache version with an internal cache version number will allow users to check if the cached index needs to be refreshed.</p>
-<p >Internal cache tracking values should start from 1 so that the cache is initialised on first-time access.</p>
+<p ><a class="el" href="namespace_d6_engine_1_1_internal.html">Internal</a> cache tracking values should start from 1 so that the cache is initialised on first-time access.</p>
 <p >Example: </p><div class="fragment"><div class="line"><span class="keywordflow">if</span> (subsystem.uuidCacheVersion &gt; <span class="keywordtype">object</span>.uuid.GetCacheVersion()) {</div>
 <div class="line">    <span class="keywordtype">object</span>.uuid.UpdateCache(newIndex, subsystem.uuidCacheVersion);</div>
 <div class="line">}</div>
@@ -432,7 +432,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d6_engine.html">D6Engine</a></li><li class="navelem"><a class="el" href="class_d6_engine_1_1_u_u_i_d.html">UUID</a></li>
-    <li class="footer">Generated on Wed Dec 8 2021 00:32:11 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Sun Feb 6 2022 02:47:22 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

@@ -26,7 +26,6 @@ var NAVTREE =
 [
   [ "D6 Engine", "index.html", [
     [ "Deprecated List", "deprecated.html", null ],
-    [ "Bug List", "bug.html", null ],
     [ "Todo List", "todo.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
@@ -56,11 +55,12 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_d6_engine_1_1_circle_collider.html#a4ce4be216cc23fedc57e446a0369260d",
-"class_d6_engine_1_1_graphics_1_1_text_renderer.html#a2d22d3293877ea2874e430af3970db51",
-"class_d6_engine_1_1_player_input.html#a47905eedafbe50cedeb2c91658b49756a3cf53b7601ee463412beea23294bd347",
-"class_d6_engine_1_1_u_i_1_1_u_i_interactable.html#a3f6dcc211f1a935c4099b71477bf8dcaa1e23852820b9154316c7c06e2b7ba051",
-"struct_d6_engine_1_1_graphics_1_1_fragment_shader.html"
+"class_d6_engine_1_1_camera_1_1_camera2_d.html#ad1ebb0c6fc98eb52b4d50e32115ce00e",
+"class_d6_engine_1_1_graphics_1_1_line.html#ae5c9960c3d13065b3caea42fba4f8bbf",
+"class_d6_engine_1_1_marion_a_i.html#af4e7e1cfd147b5f581c3b32b807d601ba00b822d580a56cf6b2f6026ee27e36cb",
+"class_d6_engine_1_1_sprite_renderer.html#ad4ae25da923f4d323185d3978c11fe23",
+"functions_s.html",
+"union_d6_engine_1_1_math_1_1_mat3.html#a2264994961b930c5ba4374c808154528"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -6,7 +6,6 @@ var class_d6_engine_1_1_rigidbody2_d =
     [ "GetRigidbodyType", "class_d6_engine_1_1_rigidbody2_d.html#ae63447f0689d21660afa52843d0bdde2", null ],
     [ "GetRigidbodyTypeRTTR", "class_d6_engine_1_1_rigidbody2_d.html#a1bda40c5020c6afa9eeb970135064363", null ],
     [ "GetVelocity", "class_d6_engine_1_1_rigidbody2_d.html#a606e3198ea3925190eacdf79d1d174a3", null ],
-    [ "MovePosition", "class_d6_engine_1_1_rigidbody2_d.html#aca4545e6a48be5b08317015851d06e5e", null ],
     [ "SetGameObject", "class_d6_engine_1_1_rigidbody2_d.html#a043b3904ac11058592c50fce8ae0d319", null ],
     [ "SetRigidbodyTypeRTTR", "class_d6_engine_1_1_rigidbody2_d.html#aedc870a27bdffb8094f65a102801b9e1", null ],
     [ "SetVelocity", "class_d6_engine_1_1_rigidbody2_d.html#a4705508564ef11cd3ca9970bbb88d08c", null ]

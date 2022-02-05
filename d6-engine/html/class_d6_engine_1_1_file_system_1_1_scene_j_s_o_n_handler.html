@@ -32,7 +32,7 @@
                         </td>
                         <td id="projectalign" style="padding-left: 0.5em;">
                             <div id="projectname">D6 Engine
-                                &#160;<span id="projectnumber">v0.1/7</span>
+                                &#160;<span id="projectnumber">v0.1/8</span>
                             </div>
                             <div id="projectbrief">CSD2400 Game Engine</div>
                         </td>
@@ -111,9 +111,12 @@ $(document).ready(function(){initNavTree('class_d6_engine_1_1_file_system_1_1_sc
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a60f538712b3bf25c1164f670840984fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_scene_j_s_o_n_handler.html#a60f538712b3bf25c1164f670840984fa">BindScene</a> (<a class="el" href="struct_d6_engine_1_1_scene_management_1_1_scene.html">SceneManagement::Scene</a> *scene)</td></tr>
-<tr class="memdesc:a60f538712b3bf25c1164f670840984fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the scene object for the handler to write data to.  <a href="class_d6_engine_1_1_file_system_1_1_scene_j_s_o_n_handler.html#a60f538712b3bf25c1164f670840984fa">More...</a><br /></td></tr>
-<tr class="separator:a60f538712b3bf25c1164f670840984fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07e9dfff9ef7f2a4de6c76a76595b82d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_scene_j_s_o_n_handler.html#a07e9dfff9ef7f2a4de6c76a76595b82d">BindPrefab</a> (std::vector&lt; <a class="el" href="struct_d6_engine_1_1_scene_management_1_1_scene_object.html">SceneManagement::SceneObject</a> &gt; *objectVector)</td></tr>
+<tr class="memdesc:a07e9dfff9ef7f2a4de6c76a76595b82d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the prefab object for the handler to write data to.  <a href="class_d6_engine_1_1_file_system_1_1_scene_j_s_o_n_handler.html#a07e9dfff9ef7f2a4de6c76a76595b82d">More...</a><br /></td></tr>
+<tr class="separator:a07e9dfff9ef7f2a4de6c76a76595b82d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6b335a97c94a531a51e39a71f3d9474"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d6_engine_1_1_file_system_1_1_scene_j_s_o_n_handler.html#ab6b335a97c94a531a51e39a71f3d9474">BindScene</a> (<a class="el" href="struct_d6_engine_1_1_scene_management_1_1_scene.html">SceneManagement::Scene</a> *scenePtr)</td></tr>
+<tr class="memdesc:ab6b335a97c94a531a51e39a71f3d9474"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the scene object for the handler to write data to.  <a href="class_d6_engine_1_1_file_system_1_1_scene_j_s_o_n_handler.html#ab6b335a97c94a531a51e39a71f3d9474">More...</a><br /></td></tr>
+<tr class="separator:ab6b335a97c94a531a51e39a71f3d9474"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6802f8eb2851644f3d2785b3c17810a6"><td class="memItemLeft" align="right" valign="top"><a id="a6802f8eb2851644f3d2785b3c17810a6" name="a6802f8eb2851644f3d2785b3c17810a6"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>Null</b> () const</td></tr>
 <tr class="separator:a6802f8eb2851644f3d2785b3c17810a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -159,8 +162,34 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>EndArray</b> (rapidjs
 <p >This class inherits RapidJSON's SAX (Simple API for XML) reader class to walk through the JSON file values and construct a Scene struct based on its contents. The functions here are only meant to be used by RapidJSON (with the exception of BindScene).</p>
 <p >For more information on the RapidJSON reader, visit <a href="https://rapidjson.org/md_doc_sax.html#Reader">https://rapidjson.org/md_doc_sax.html#Reader</a>. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a60f538712b3bf25c1164f670840984fa" name="a60f538712b3bf25c1164f670840984fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60f538712b3bf25c1164f670840984fa">&#9670;&nbsp;</a></span>BindScene()</h2>
+<a id="a07e9dfff9ef7f2a4de6c76a76595b82d" name="a07e9dfff9ef7f2a4de6c76a76595b82d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07e9dfff9ef7f2a4de6c76a76595b82d">&#9670;&nbsp;</a></span>BindPrefab()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void D6Engine::FileSystem::SceneJSONHandler::BindPrefab </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="struct_d6_engine_1_1_scene_management_1_1_scene_object.html">SceneManagement::SceneObject</a> &gt; *&#160;</td>
+          <td class="paramname"><em>objectVector</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the prefab object for the handler to write data to. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">objectVector</td><td>The prefab's vector of SceneObjects. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ab6b335a97c94a531a51e39a71f3d9474" name="ab6b335a97c94a531a51e39a71f3d9474"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6b335a97c94a531a51e39a71f3d9474">&#9670;&nbsp;</a></span>BindScene()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -169,7 +198,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>EndArray</b> (rapidjs
           <td class="memname">void D6Engine::FileSystem::SceneJSONHandler::BindScene </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_d6_engine_1_1_scene_management_1_1_scene.html">SceneManagement::Scene</a> *&#160;</td>
-          <td class="paramname"><em>scene</em></td><td>)</td>
+          <td class="paramname"><em>scenePtr</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -178,7 +207,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>EndArray</b> (rapidjs
 <p>Sets the scene object for the handler to write data to. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">scene</td><td>Pointer to the scene object. </td></tr>
+    <tr><td class="paramname">scenePtr</td><td>The scene to write to. </td></tr>
   </table>
   </dd>
 </dl>
@@ -192,7 +221,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>EndArray</b> (rapidjs
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_d6_engine.html">D6Engine</a></li><li class="navelem"><a class="el" href="namespace_d6_engine_1_1_file_system.html">FileSystem</a></li><li class="navelem"><a class="el" href="class_d6_engine_1_1_file_system_1_1_scene_j_s_o_n_handler.html">SceneJSONHandler</a></li>
-    <li class="footer">Generated on Wed Dec 8 2021 00:32:11 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Sun Feb 6 2022 02:47:23 for D6 Engine by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

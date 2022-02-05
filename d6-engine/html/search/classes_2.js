@@ -9,7 +9,8 @@ var searchData=
   ['colour_6',['Colour',['../struct_d6_engine_1_1_colour.html',1,'D6Engine']]],
   ['component_7',['Component',['../class_d6_engine_1_1_component.html',1,'D6Engine']]],
   ['config_8',['Config',['../class_d6_engine_1_1_file_system_1_1_config.html',1,'D6Engine::FileSystem']]],
-  ['crashlogger_9',['CrashLogger',['../class_d6_engine_1_1_crash_logger.html',1,'D6Engine']]],
-  ['cursor_10',['Cursor',['../class_d6_engine_1_1_graphics_1_1_cursor.html',1,'D6Engine::Graphics']]],
-  ['customprettywriter_11',['CustomPrettyWriter',['../class_d6_engine_1_1_file_system_1_1_j_s_o_n_writer_1_1_custom_pretty_writer.html',1,'D6Engine::FileSystem::JSONWriter']]]
+  ['core_9',['Core',['../class_d6_engine_1_1_internal_1_1_core.html',1,'D6Engine::Internal']]],
+  ['crashlogger_10',['CrashLogger',['../class_d6_engine_1_1_crash_logger.html',1,'D6Engine']]],
+  ['cursor_11',['Cursor',['../class_d6_engine_1_1_graphics_1_1_cursor.html',1,'D6Engine::Graphics']]],
+  ['customprettywriter_12',['CustomPrettyWriter',['../class_d6_engine_1_1_file_system_1_1_j_s_o_n_writer_1_1_custom_pretty_writer.html',1,'D6Engine::FileSystem::JSONWriter']]]
 ];

@@ -3,7 +3,7 @@ var hierarchy =
     [ "D6Engine::AnimationEvent", "class_d6_engine_1_1_animation_event.html", null ],
     [ "D6Engine::Resources::AnimationClip::AnimationKeyFrame", "struct_d6_engine_1_1_resources_1_1_animation_clip_1_1_animation_key_frame.html", null ],
     [ "D6Engine::FileSystem::AnimClipJSONWriter", "class_d6_engine_1_1_file_system_1_1_anim_clip_j_s_o_n_writer.html", null ],
-    [ "D6Engine::Audio::AudioSystem", "class_d6_engine_1_1_audio_1_1_audio_system.html", null ],
+    [ "D6Engine::Internal::AudioSystem", "class_d6_engine_1_1_internal_1_1_audio_system.html", null ],
     [ "rapidjson::BaseReaderHandler", null, [
       [ "D6Engine::FileSystem::AnimClipJSONHandler", "class_d6_engine_1_1_file_system_1_1_anim_clip_j_s_o_n_handler.html", null ],
       [ "D6Engine::FileSystem::SceneJSONHandler", "class_d6_engine_1_1_file_system_1_1_scene_j_s_o_n_handler.html", null ]
@@ -17,6 +17,7 @@ var hierarchy =
     [ "D6Engine::CollisionSystem", "class_d6_engine_1_1_collision_system.html", null ],
     [ "D6Engine::Colour", "struct_d6_engine_1_1_colour.html", null ],
     [ "D6Engine::Component", "class_d6_engine_1_1_component.html", [
+      [ "D6Engine::AudioSource", "class_d6_engine_1_1_audio_source.html", null ],
       [ "D6Engine::BoxCollider2D", "class_d6_engine_1_1_box_collider2_d.html", null ],
       [ "D6Engine::CircleCollider", "class_d6_engine_1_1_circle_collider.html", null ],
       [ "D6Engine::Grid", "class_d6_engine_1_1_grid.html", null ],
@@ -52,6 +53,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "D6Engine::FileSystem::Config", "class_d6_engine_1_1_file_system_1_1_config.html", null ],
+    [ "D6Engine::Internal::Core", "class_d6_engine_1_1_internal_1_1_core.html", null ],
     [ "D6Engine::CrashLogger", "class_d6_engine_1_1_crash_logger.html", null ],
     [ "D6Engine::Graphics::Cursor", "class_d6_engine_1_1_graphics_1_1_cursor.html", null ],
     [ "D6Engine::DebugCollider", "struct_d6_engine_1_1_debug_collider.html", null ],
@@ -59,12 +61,13 @@ var hierarchy =
     [ "D6Engine::DebugDrawCollider", "class_d6_engine_1_1_debug_draw_collider.html", null ],
     [ "D6Engine::DebugTimer< Fn >", "class_d6_engine_1_1_debug_timer.html", null ],
     [ "D6Engine::DebugTimerResult", "struct_d6_engine_1_1_debug_timer_result.html", null ],
+    [ "D6Engine::EditorInterface", "class_d6_engine_1_1_editor_interface.html", null ],
     [ "D6Engine::Engine", "class_d6_engine_1_1_engine.html", null ],
     [ "D6Engine::EngineLog", "class_d6_engine_1_1_engine_log.html", null ],
     [ "D6Engine::EngineStateManager", "class_d6_engine_1_1_engine_state_manager.html", null ],
-    [ "D6Engine::EventHandler", "class_d6_engine_1_1_event_handler.html", null ],
+    [ "D6Engine::Internal::EventHandler", "class_d6_engine_1_1_internal_1_1_event_handler.html", null ],
     [ "D6Engine::UI::UIInteractable::EventListener", "struct_d6_engine_1_1_u_i_1_1_u_i_interactable_1_1_event_listener.html", null ],
-    [ "D6Engine::Graphics::FragmentShader", "struct_d6_engine_1_1_graphics_1_1_fragment_shader.html", null ],
+    [ "D6Engine::FileSystem::FileData", "class_d6_engine_1_1_file_system_1_1_file_data.html", null ],
     [ "D6Engine::GameObject", "class_d6_engine_1_1_game_object.html", null ],
     [ "D6Engine::GameObjectFactory", "class_d6_engine_1_1_game_object_factory.html", null ],
     [ "D6Engine::GameObjectManager", "class_d6_engine_1_1_game_object_manager.html", null ],
@@ -77,6 +80,7 @@ var hierarchy =
     [ "D6Engine::LevelManager", "class_d6_engine_1_1_level_manager.html", null ],
     [ "D6Engine::Graphics::Line", "class_d6_engine_1_1_graphics_1_1_line.html", null ],
     [ "D6Engine::Math::Mat3", "union_d6_engine_1_1_math_1_1_mat3.html", null ],
+    [ "D6Engine::Mathf", "class_d6_engine_1_1_mathf.html", null ],
     [ "D6Engine::FileSystem::Metadata", "class_d6_engine_1_1_file_system_1_1_metadata.html", null ],
     [ "D6Engine::Input::Mouse", "class_d6_engine_1_1_input_1_1_mouse.html", null ],
     [ "D6Engine::Input::MouseInput", "struct_d6_engine_1_1_input_1_1_mouse_input.html", null ],
@@ -88,7 +92,7 @@ var hierarchy =
     [ "D6Engine::Graphics::OGLFramebuffer", "class_d6_engine_1_1_graphics_1_1_o_g_l_framebuffer.html", null ],
     [ "D6Engine::Graphics::OGLVertexArray", "class_d6_engine_1_1_graphics_1_1_o_g_l_vertex_array.html", null ],
     [ "D6Engine::PhysicsSystem", "class_d6_engine_1_1_physics_system.html", null ],
-    [ "D6Engine::PrefabManager", "class_d6_engine_1_1_prefab_manager.html", null ],
+    [ "D6Engine::FileSystem::PrefabJSONWriter", "class_d6_engine_1_1_file_system_1_1_prefab_j_s_o_n_writer.html", null ],
     [ "rapidjson::PrettyWriter", null, [
       [ "D6Engine::FileSystem::JSONWriter::CustomPrettyWriter", "class_d6_engine_1_1_file_system_1_1_j_s_o_n_writer_1_1_custom_pretty_writer.html", null ]
     ] ],
@@ -104,7 +108,7 @@ var hierarchy =
       [ "D6Engine::Resources::AnimationClip", "struct_d6_engine_1_1_resources_1_1_animation_clip.html", null ]
     ] ],
     [ "D6Engine::Resources::Resource< FMOD::Sound * >", "struct_d6_engine_1_1_resources_1_1_resource.html", [
-      [ "D6Engine::Audio::AudioResource", "class_d6_engine_1_1_audio_1_1_audio_resource.html", null ]
+      [ "D6Engine::Resources::AudioClip", "class_d6_engine_1_1_resources_1_1_audio_clip.html", null ]
     ] ],
     [ "D6Engine::Resources::Resource< Font * >", "struct_d6_engine_1_1_resources_1_1_resource.html", [
       [ "D6Engine::Resources::Font", "class_d6_engine_1_1_resources_1_1_font.html", null ]
@@ -121,18 +125,18 @@ var hierarchy =
     [ "D6Engine::Resources::Resource< Texture * >", "struct_d6_engine_1_1_resources_1_1_resource.html", [
       [ "D6Engine::Graphics::Texture", "class_d6_engine_1_1_graphics_1_1_texture.html", null ]
     ] ],
-    [ "D6Engine::Manager::ResourceManager", "class_d6_engine_1_1_manager_1_1_resource_manager.html", null ],
+    [ "D6Engine::ResourceManager", "class_d6_engine_1_1_resource_manager.html", null ],
     [ "D6Engine::SceneManagement::Scene", "struct_d6_engine_1_1_scene_management_1_1_scene.html", null ],
     [ "D6Engine::FileSystem::SceneJSONWriter", "class_d6_engine_1_1_file_system_1_1_scene_j_s_o_n_writer.html", null ],
     [ "D6Engine::SceneManagement::SceneManager", "class_d6_engine_1_1_scene_management_1_1_scene_manager.html", null ],
     [ "D6Engine::SceneManagement::SceneObject", "struct_d6_engine_1_1_scene_management_1_1_scene_object.html", null ],
     [ "D6Engine::Screen", "class_d6_engine_1_1_screen.html", null ],
+    [ "D6Engine::Internal::Splash", "class_d6_engine_1_1_internal_1_1_splash.html", null ],
     [ "D6Engine::Graphics::TextRenderer::TextInfo", "struct_d6_engine_1_1_graphics_1_1_text_renderer_1_1_text_info.html", null ],
     [ "D6Engine::Graphics::TextRenderer", "class_d6_engine_1_1_graphics_1_1_text_renderer.html", null ],
     [ "D6Engine::Time", "class_d6_engine_1_1_time.html", null ],
     [ "D6Engine::UUID", "class_d6_engine_1_1_u_u_i_d.html", null ],
     [ "D6Engine::Math::Vec2", "union_d6_engine_1_1_math_1_1_vec2.html", null ],
     [ "D6Engine::Math::Vec3", "union_d6_engine_1_1_math_1_1_vec3.html", null ],
-    [ "D6Engine::Graphics::VertexInfo", "struct_d6_engine_1_1_graphics_1_1_vertex_info.html", null ],
-    [ "D6Engine::Graphics::VertexShader", "struct_d6_engine_1_1_graphics_1_1_vertex_shader.html", null ]
+    [ "D6Engine::Graphics::VertexInfo", "struct_d6_engine_1_1_graphics_1_1_vertex_info.html", null ]
 ];
